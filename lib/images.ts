@@ -49,6 +49,10 @@ export const images: Record<string, Img> = {
     src: "/images/blog/pier-bowl-vs-talega.jpg",
     alt: "Aerial view of a San Clemente golf course with the Pacific Ocean beyond",
   },
+  "post:talega-hoa-dues-mello-roos-what-they-cover": {
+    src: "/images/blog/talega-hoa-dues-mello-roos-what-they-cover.jpg",
+    alt: "Entrance to the Talega Swim & Athletic Club with a stone archway, tile roof and iron gates",
+  },
   "post:shorecliffs-beach-club-neighborhood-guide": {
     src: "/images/neighborhoods/shorecliffs-ocean-view-homes.jpg",
     alt: "Aerial view of ocean-view homes and a private community in Shorecliffs, San Clemente",
@@ -61,6 +65,10 @@ export const images: Record<string, Img> = {
 
 // Extra photos shown in a strip on a neighborhood page, keyed by neighborhood slug.
 export const galleries: Record<string, Img[]> = {
+  talega: [
+    { src: "/images/neighborhoods/talega-hillside-homes.jpg", alt: "Aerial view of two-story homes with solar panels and open hillside behind in Talega, San Clemente" },
+    { src: "/images/neighborhoods/talega-swim-athletic-club.jpg", alt: "Entrance to the Talega Swim & Athletic Club with a stone archway and tile roof" },
+  ],
   shorecliffs: [
     { src: "/images/neighborhoods/shorecliffs-coastline.jpg", alt: "Aerial view of coastal homes above the shoreline and beach in Shorecliffs, San Clemente" },
     { src: "/images/neighborhoods/shorecliffs-ocean-deck.jpg", alt: "Deck with outdoor seating and a pool overlooking the Pacific Ocean and beach in Shorecliffs" },
