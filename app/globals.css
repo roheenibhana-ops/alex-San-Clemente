@@ -498,4 +498,4 @@ a.card-link .link-arrow { display: inline-block; margin-top: .75rem; }
 .awards-copy li span { color: var(--ink-2); }
 .award-badge { width: 84px; height: auto; flex: none; border-radius: 6px; box-shadow: var(--shadow); }
 @media (max-width: 760px) { .awards { grid-template-columns: 1fr; } }
-.section .seen-on-img { display: block; width: 100%; max-width: 860px; height: auto; margin: 1.25rem auto 0; mix-blend-mode: multiply; background: transparent; }
+.section .seen-on-img { display: block; width: 100%; max-width: 860px; height: auto; margin: 1.25rem auto 0; }
