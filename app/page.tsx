@@ -26,6 +26,13 @@ function Icon({ name }: { name: string }) {
   );
 }
 
+const lifestyleLinks: Record<string, string> = {
+  "Beach-town soul": "/lifestyle/beaches",
+  "Trails & open space": "/lifestyle/parks-trails",
+  "Spanish Colonial charm": "/neighborhoods/downtown-pier-bowl",
+  "Easy OC access": "/blog/moving-to-san-clemente-what-to-know",
+};
+
 export default function Home() {
   return (
     <>
@@ -138,11 +145,12 @@ export default function Home() {
           <div className="grid4">
             {lifestyle.map((l, i) => (
               <Reveal key={l.title} delay={i * 90}>
-                <div className="card">
+                <Link href={lifestyleLinks[l.title] ?? "/lifestyle"} className="card card-link">
                   <div className="ico"><Icon name={l.icon} /></div>
                   <h3>{l.title}</h3>
                   <p>{l.body}</p>
-                </div>
+                  <span className="link-arrow">Read more →</span>
+                </Link>
               </Reveal>
             ))}
           </div>
