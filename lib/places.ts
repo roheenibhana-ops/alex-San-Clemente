@@ -4,9 +4,12 @@ export type Place = { name: string; note: string };
 export type Section = {
   h: string;
   text?: string;
+  paras?: string[];
+  list?: string[];
   table?: { caption: string; head: string[]; rows: string[][] };
   places?: Place[];
 };
+export type Faq = { q: string; a: string };
 export type Guide = {
   slug: string;
   title: string;

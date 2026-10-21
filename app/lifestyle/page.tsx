@@ -5,6 +5,10 @@ import Footer from "@/components/Footer";
 import Reveal from "@/components/Reveal";
 import CardImage from "@/components/CardImage";
 import { guides } from "@/lib/places";
+import { lifestyleHubExtra } from "@/lib/extras";
+import GuideSection from "@/components/GuideSection";
+import Inline from "@/components/Inline";
+import JsonLd from "@/components/JsonLd";
 import { beaches, outdoors, eats, schoolLinks, events, gettingAround } from "@/lib/lifestyle";
 
 export const metadata: Metadata = {
@@ -171,6 +175,21 @@ export default function Lifestyle() {
           </div>
         </section>
 
+        {lifestyleHubExtra.sections.map((sec) => (
+          <section key={sec.h} className="section prose">
+            <Reveal>
+              <GuideSection s={sec} />
+              <h2>Lifestyle questions</h2>
+              {lifestyleHubExtra.faqs.map((f) => (
+                <details className="faq" key={f.q}>
+                  <summary>{f.q}</summary>
+                  <p><Inline text={f.a} /></p>
+                </details>
+              ))}
+            </Reveal>
+          </section>
+        ))}
+
         <section className="value">
           <Reveal>
             <h2>Ready to make San Clemente home?</h2>
@@ -180,6 +199,13 @@ export default function Lifestyle() {
         </section>
       </main>
       <Footer />
+      <JsonLd
+        data={{
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: lifestyleHubExtra.faqs.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a.replace(/\[([^\]]+)\]\([^)]+\)/g, "$1") } })),
+        }}
+      />
     </>
   );
 }

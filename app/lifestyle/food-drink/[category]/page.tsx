@@ -9,6 +9,9 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 import JsonLd from "@/components/JsonLd";
 import { foodCategories, getFoodCategory, featuredPlaces } from "@/lib/food";
 import { mapsUrl } from "@/lib/places";
+import { foodExtras } from "@/lib/extras";
+import GuideSection from "@/components/GuideSection";
+import Inline from "@/components/Inline";
 import { SITE_URL } from "@/lib/site";
 
 export const dynamicParams = false;
@@ -35,6 +38,8 @@ export default async function FoodCategoryPage({ params }: { params: Promise<{ c
   if (!c) notFound();
   const featured = new Map(featuredPlaces.filter((p) => p.category === c.slug).map((p) => [p.name, p.slug]));
   const others = foodCategories.filter((x) => x.slug !== c.slug);
+  const extra = foodExtras[c.slug];
+  const allFaqs = [...c.faqs, ...(extra?.faqs ?? [])];
 
   return (
     <>
@@ -73,6 +78,14 @@ export default async function FoodCategoryPage({ params }: { params: Promise<{ c
           </Reveal>
         </section>
 
+        {extra?.sections.map((sec, i) => (
+          <section key={sec.h} className={`section prose ${i % 2 ? "tint" : ""}`}>
+            <Reveal>
+              <GuideSection s={sec} />
+            </Reveal>
+          </section>
+        ))}
+
         <section className="section tint prose">
           <Reveal>
             <h2>Local tips</h2>
@@ -89,10 +102,10 @@ export default async function FoodCategoryPage({ params }: { params: Promise<{ c
               <li><Link href="/lifestyle/food-drink">All food and drink picks</Link></li>
             </ul>
             <h2>Questions</h2>
-            {c.faqs.map((f) => (
+            {allFaqs.map((f) => (
               <details className="faq" key={f.q}>
                 <summary>{f.q}</summary>
-                <p>{f.a}</p>
+                <p><Inline text={f.a} /></p>
               </details>
             ))}
           </Reveal>
@@ -126,7 +139,7 @@ export default async function FoodCategoryPage({ params }: { params: Promise<{ c
         data={{
           "@context": "https://schema.org",
           "@type": "FAQPage",
-          mainEntity: c.faqs.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })),
+          mainEntity: allFaqs.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a.replace(/\[([^\]]+)\]\([^)]+\)/g, "$1") } })),
         }}
       />
       <JsonLd

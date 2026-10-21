@@ -9,10 +9,11 @@ import AlertBanner from "@/components/AlertBanner";
 import AuthorCard from "@/components/AuthorCard";
 import CardImage from "@/components/CardImage";
 import Inline from "@/components/Inline";
-import DataTable from "@/components/DataTable";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import JsonLd from "@/components/JsonLd";
-import { guides, getGuide, mapsUrl } from "@/lib/places";
+import { guides, getGuide } from "@/lib/places";
+import { guideExtras } from "@/lib/extras";
+import GuideSection from "@/components/GuideSection";
 import { SITE_URL } from "@/lib/site";
 
 export const dynamicParams = false;
@@ -38,6 +39,9 @@ export default async function GuidePage({ params }: { params: Promise<{ guide: s
   const g = getGuide(guide);
   if (!g) notFound();
   const others = guides.filter((x) => x.slug !== g.slug);
+  const extra = guideExtras[g.slug];
+  const allSections = [...g.sections, ...(extra?.sections ?? [])];
+  const allFaqs = extra?.faqs ?? [];
 
   return (
     <>
@@ -57,26 +61,25 @@ export default async function GuidePage({ params }: { params: Promise<{ guide: s
           </Reveal>
         </section>
 
-        {g.sections.map((s, i) => (
+        {allSections.map((s, i) => (
           <section key={s.h} className={`section prose ${i % 2 ? "tint" : ""}`}>
             <Reveal>
-              <h2>{s.h}</h2>
-              {s.text && <p>{s.text}</p>}
-              {s.table && <DataTable caption={s.table.caption} head={s.table.head} rows={s.table.rows} />}
-              {s.places && (
-                <div className="place-grid">
-                  {s.places.map((p) => (
-                    <div className="place" key={p.name}>
-                      <h3>{p.name}</h3>
-                      <p>{p.note}</p>
-                      <a className="link-arrow" href={mapsUrl(p.name)} target="_blank" rel="noopener noreferrer">View on map →</a>
-                    </div>
-                  ))}
-                </div>
-              )}
+              <GuideSection s={s} />
             </Reveal>
           </section>
         ))}
+
+        <section className="section prose">
+          <Reveal>
+            <h2>{g.title}: frequently asked questions</h2>
+            {allFaqs.map((f) => (
+              <details className="faq" key={f.q}>
+                <summary>{f.q}</summary>
+                <p><Inline text={f.a} /></p>
+              </details>
+            ))}
+          </Reveal>
+        </section>
 
         <section className="section narrow">
           <Reveal>
@@ -131,6 +134,15 @@ export default async function GuidePage({ params }: { params: Promise<{ guide: s
         </section>
       </main>
       <Footer />
+      {allFaqs.length > 0 && (
+        <JsonLd
+          data={{
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: allFaqs.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a.replace(/\[([^\]]+)\]\([^)]+\)/g, "$1") } })),
+          }}
+        />
+      )}
       <JsonLd
         data={{
           "@context": "https://schema.org",

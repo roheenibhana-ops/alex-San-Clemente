@@ -8,6 +8,9 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 import JsonLd from "@/components/JsonLd";
 import { cityMarket, marketSource } from "@/lib/market";
 import DataTable from "@/components/DataTable";
+import { homeValueExtra } from "@/lib/extras";
+import GuideSection from "@/components/GuideSection";
+import Inline from "@/components/Inline";
 
 export const metadata: Metadata = {
   title: "Free San Clemente Home Value | What's My House Worth?",
@@ -74,13 +77,21 @@ export default function HomeValue() {
           </Reveal>
         </section>
 
+        {homeValueExtra.sections.map((sec, i) => (
+          <section key={sec.h} className={`section prose ${i % 2 ? "tint" : ""}`}>
+            <Reveal>
+              <GuideSection s={sec} />
+            </Reveal>
+          </section>
+        ))}
+
         <section className="section narrow">
           <Reveal>
             <h2>Valuation FAQ</h2>
-            {faqs.map((f) => (
+            {[...faqs, ...homeValueExtra.faqs].map((f) => (
               <details className="faq" key={f.q}>
                 <summary>{f.q}</summary>
-                <p>{f.a}</p>
+                <p><Inline text={f.a} /></p>
               </details>
             ))}
             <p><Link className="link-arrow" href="/neighborhoods">Browse neighborhood guides →</Link></p>
@@ -92,7 +103,7 @@ export default function HomeValue() {
         data={{
           "@context": "https://schema.org",
           "@type": "FAQPage",
-          mainEntity: faqs.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })),
+          mainEntity: [...faqs, ...homeValueExtra.faqs].map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })),
         }}
       />
     </>

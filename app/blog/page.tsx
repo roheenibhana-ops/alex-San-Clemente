@@ -6,6 +6,7 @@ import Reveal from "@/components/Reveal";
 import CardImage from "@/components/CardImage";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import { posts } from "@/lib/posts";
+import DataTable from "@/components/DataTable";
 
 export const metadata: Metadata = {
   title: "San Clemente Real Estate Blog | Market Updates & Guides",
@@ -44,6 +45,33 @@ export default function Blog() {
               </Reveal>
             ))}
           </div>
+        </section>
+        <section className="section tint prose">
+          <Reveal>
+            <h2>What you&apos;ll find on this blog</h2>
+            <p>
+              Every post is written for people who are thinking about buying, selling, or simply understanding San Clemente. We focus on
+              single-family homes, real numbers with their sources, and plain English, then link you to the neighborhood and lifestyle
+              guides that go deeper.
+            </p>
+            <DataTable
+              caption="Start with the topic that fits you"
+              head={["If you're...", "Start here", "What it covers"]}
+              rows={[
+                ["Watching prices", "[Market update, October 2026](/blog/san-clemente-housing-market-update-october-2026)", "Median price, inventory, time to sell, and what it means"],
+                ["Comparing coastal cities", "[San Clemente vs. Dana Point vs. San Juan Capistrano](/blog/san-clemente-vs-dana-point-vs-san-juan-capistrano)", "How coastal Orange County markets behave side by side"],
+                ["Planning a move", "[Moving to San Clemente](/blog/moving-to-san-clemente-what-to-know)", "Weather, commuting, costs, and a relocation checklist"],
+                ["Ready to buy", "[Buying a single-family home](/blog/buying-a-single-family-home-in-san-clemente)", "Budget, offers, inspections, and closing, step by step"],
+                ["Choosing an area", "[Pier Bowl vs. Talega](/blog/pier-bowl-vs-talega)", "Two very different ways to live in San Clemente"],
+                ["Love the outdoors", "[Beach trail guide](/blog/san-clemente-beach-trail-guide) and [how to pick a beach](/blog/how-to-choose-a-san-clemente-beach)", "Hours, safety, parking, and where to go"],
+              ]}
+            />
+            <p>
+              New to the area? Browse the <Link href="/neighborhoods">neighborhood guides</Link>, the <Link href="/lifestyle">local guides</Link>,
+              or request a <Link href="/home-value">free home valuation</Link>. Have a question you&apos;d like answered in a future post?{" "}
+              <Link href="/#contact">Ask Alex</Link>.
+            </p>
+          </Reveal>
         </section>
       </main>
       <Footer />
