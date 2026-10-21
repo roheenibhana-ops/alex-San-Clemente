@@ -28,6 +28,11 @@ Alt text must describe what is visible. Do not name a place unless we are sure o
 | forster-highlands-neighborhood-park-sign.jpg | "Forster Highlands Neighborhood Park" sign with playground | Forster Ranch photo strip |
 | hilltop-ocean-view-homes-aerial.jpg | Hilltop homes with the Pacific stretching below (neighborhood unconfirmed) | Rancho San Clemente (card + hero) |
 | clubhouse-pool-tennis-courts-aerial.jpg | Community clubhouse, lap pool and two tennis courts among hillside homes (community unconfirmed) | Sea Pointe Estates post |
+| sunset-oceanfront-condos-aerial.jpg | Sunset over the ocean beside oceanfront buildings with red tile roofs | "How to choose a beach" post |
+| pier-aerial-blue-ocean.jpg | Aerial of the pier stretching into deep blue water | Beach Trail post |
+| coastal-condo-building-terrace.jpg | Terracotta-colored condo building with balconies, street and palms | Peer cities post |
+| single-story-tile-roof-home-palms-aerial.jpg | Single-story tile-roof home with lawn and palms on a corner lot | Inline in "Buying" post |
+| hillside-park-playground-aerial.jpg | Park with two playgrounds, picnic tables and lawn, aerial | Inline in "Pier Bowl vs. Talega" post |
 | presidential-heights-i-sign.jpg | "Presidential Heights I, A Private Community" stone sign (area unconfirmed) | Not used yet (stashed) |
 | alex-yu-doorway-portrait.jpg | Alex in a doorway, black sweater | About page, home About, author cards (cropped) |
 | alex-yu-blazer-headshot.jpg | Older blue-blazer headshot | Parked, not used |

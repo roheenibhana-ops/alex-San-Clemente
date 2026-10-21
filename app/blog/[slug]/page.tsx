@@ -72,6 +72,14 @@ function Render({ b }: { b: Block }) {
       );
     case "cta": return <p className="inline-cta"><Inline text={b.text} /> <Link className="btn btn-sm" href={b.href}>{b.label}</Link></p>;
     case "ctaCard": return <CtaCard text={b.text} />;
+    case "img":
+      return (
+        <figure className="post-img">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src={b.src} alt={b.alt} loading="lazy" width={1600} height={1000} />
+          {b.caption && <figcaption>{b.caption}</figcaption>}
+        </figure>
+      );
     case "table": return <DataTable caption={b.caption} head={b.head} rows={b.rows} source={b.source} />;
   }
 }

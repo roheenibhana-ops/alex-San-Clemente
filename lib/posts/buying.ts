@@ -92,6 +92,7 @@ export const post: Post = {
     },
     { t: "p", text: "Read the guides to each: [Downtown & Pier Bowl](/neighborhoods/downtown-pier-bowl), [Sea Summit](/neighborhoods/sea-summit), [Forster Ranch](/neighborhoods/forster-ranch), [Shorecliffs](/neighborhoods/shorecliffs), [Talega](/neighborhoods/talega), and [Rancho San Clemente](/neighborhoods/rancho-san-clemente). You can also compare them all on the [neighborhoods page](/neighborhoods)." },
     { t: "h2", text: "Step 4: Tour smart" },
+    { t: "img", src: "/images/blog/inline-single-story-home.jpg", alt: "Single-story home with a tile roof, lawn and palm trees on a corner lot beside a landscaped slope" },
     { t: "p", text: "You tour smart by visiting at different times of day, taking notes, and working through the checklist below. Photos are flattering and floor plans lie by omission. Touring is where you learn how a home actually feels. Visit at different times of day if you can, and take notes." },
     {
       t: "table",

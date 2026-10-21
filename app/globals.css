@@ -521,3 +521,6 @@ a.card-link .link-arrow { display: inline-block; margin-top: .75rem; }
 .page-hero + .section { padding-top: clamp(1.5rem, 3vw, 2.5rem); }
 .post-grid { align-items: stretch; }
 .post-grid > .post-card { height: auto; }
+.post-img { margin: 1.75rem 0; }
+.post-img img { width: 100%; height: auto; aspect-ratio: 16 / 10; object-fit: cover; border-radius: var(--radius); box-shadow: var(--shadow); display: block; }
+.post-img figcaption { font-size: .85rem; color: var(--ink-2); margin-top: .5rem; }

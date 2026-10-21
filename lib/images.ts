@@ -69,6 +69,18 @@ export const images: Record<string, Img> = {
     src: "/images/blog/sea-pointe-estates-gated-community-san-clemente.jpg",
     alt: "Aerial view of a community clubhouse, pool and tennis courts among hillside homes",
   },
+  "post:how-to-choose-a-san-clemente-beach": {
+    src: "/images/blog/how-to-choose-a-san-clemente-beach.jpg",
+    alt: "Sunset over the Pacific Ocean beside oceanfront buildings with red tile roofs and palm trees in San Clemente",
+  },
+  "post:san-clemente-beach-trail-guide": {
+    src: "/images/blog/san-clemente-beach-trail-guide.jpg",
+    alt: "Aerial view of the San Clemente Pier stretching into blue water beside the beach and palm trees",
+  },
+  "post:san-clemente-vs-dana-point-vs-san-juan-capistrano": {
+    src: "/images/blog/san-clemente-vs-dana-point-vs-san-juan-capistrano.jpg",
+    alt: "Terracotta-colored coastal condominium building with balconies and palm trees on a San Clemente street",
+  },
   "post:shorecliffs-beach-club-neighborhood-guide": {
     src: "/images/neighborhoods/shorecliffs-ocean-view-homes.jpg",
     alt: "Aerial view of ocean-view homes and a private community in Shorecliffs, San Clemente",
