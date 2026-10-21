@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Reveal from "@/components/Reveal";
+import { imageFor } from "@/lib/images";
 import CtaCard from "@/components/CtaCard";
 import AlertBanner from "@/components/AlertBanner";
 import AuthorCard from "@/components/AuthorCard";
@@ -47,7 +48,11 @@ export default async function GuidePage({ params }: { params: Promise<{ guide: s
     <>
       <Header />
       <main>
-        <section className="page-hero">
+        <section className={`page-hero ${imageFor(`guide:${g.slug}`) ? "has-img" : ""}`}>
+          {imageFor(`guide:${g.slug}`) && (
+            // eslint-disable-next-line @next/next/no-img-element
+            <img className="page-hero-img" src={imageFor(`guide:${g.slug}`)!.src} alt={imageFor(`guide:${g.slug}`)!.alt} width={1600} height={1000} fetchPriority="high" />
+          )}
           <Reveal>
             <Breadcrumbs
               trail={[

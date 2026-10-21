@@ -507,3 +507,10 @@ a.card-link .link-arrow { display: inline-block; margin-top: .75rem; }
 .gallery img { width: 100%; height: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: var(--radius); box-shadow: var(--shadow); }
 @media (max-width: 760px) { .gallery { grid-template-columns: 1fr; } }
 .gallery img:only-child { max-width: 640px; margin-inline: auto; }
+
+/* Image heroes on guide and food pages */
+.page-hero.has-img { position: relative; overflow: hidden; background: #0b2433; padding-bottom: clamp(5rem, 11vw, 8rem); }
+.page-hero.has-img > .page-hero-img { position: absolute; inset: 0; width: 100%; height: 100%; max-width: none; margin: 0; object-fit: cover; }
+.page-hero.has-img::after { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, rgba(247,243,236,.95) 0%, rgba(247,243,236,.86) 50%, rgba(247,243,236,.2) 100%); z-index: 1; }
+.page-hero.has-img > :not(.page-hero-img) { position: relative; z-index: 2; }
+@media (max-width: 760px) { .page-hero.has-img::after { background: linear-gradient(180deg, rgba(247,243,236,.9) 0%, rgba(247,243,236,.8) 60%, rgba(247,243,236,.5) 100%); } }

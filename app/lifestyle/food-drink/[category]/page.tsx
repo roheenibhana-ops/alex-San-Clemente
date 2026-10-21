@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Reveal from "@/components/Reveal";
+import { imageFor } from "@/lib/images";
 import CardImage from "@/components/CardImage";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import JsonLd from "@/components/JsonLd";
@@ -45,7 +46,11 @@ export default async function FoodCategoryPage({ params }: { params: Promise<{ c
     <>
       <Header />
       <main>
-        <section className="page-hero">
+        <section className={`page-hero ${imageFor(`food:${c.slug}`) ? "has-img" : ""}`}>
+          {imageFor(`food:${c.slug}`) && (
+            // eslint-disable-next-line @next/next/no-img-element
+            <img className="page-hero-img" src={imageFor(`food:${c.slug}`)!.src} alt={imageFor(`food:${c.slug}`)!.alt} width={1600} height={1000} fetchPriority="high" />
+          )}
           <Reveal>
             <Breadcrumbs
               trail={[
