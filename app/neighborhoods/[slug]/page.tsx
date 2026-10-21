@@ -51,8 +51,8 @@ export default async function HoodPage({ params }: { params: Promise<{ slug: str
     talega: ["talega-hoa-dues-mello-roos-what-they-cover", "sea-summit-azure-aqua-sapphire-indigo-compared", "pier-bowl-vs-talega"],
     "downtown-pier-bowl": ["pier-bowl-vs-talega", "san-clemente-beach-trail-guide", "how-to-choose-a-san-clemente-beach"],
     "forster-ranch": ["moving-to-san-clemente-what-to-know", "pier-bowl-vs-talega", "buying-a-single-family-home-in-san-clemente"],
-    shorecliffs: ["moving-to-san-clemente-what-to-know", "buying-a-single-family-home-in-san-clemente", "san-clemente-housing-market-update-october-2026"],
-    "rancho-san-clemente": ["moving-to-san-clemente-what-to-know", "buying-a-single-family-home-in-san-clemente", "san-clemente-housing-market-update-october-2026"],
+    shorecliffs: ["shorecliffs-beach-club-neighborhood-guide", "moving-to-san-clemente-what-to-know", "buying-a-single-family-home-in-san-clemente", "san-clemente-housing-market-update-october-2026"],
+    "rancho-san-clemente": ["sea-pointe-estates-gated-community-san-clemente", "moving-to-san-clemente-what-to-know", "buying-a-single-family-home-in-san-clemente", "san-clemente-housing-market-update-october-2026"],
   };
   const related = (relatedMap[h.slug] ?? []).map((sl) => posts.find((p) => p.slug === sl)).filter(Boolean) as typeof posts;
   const allFaqs = [...h.faqs, ...(d?.extraFaqs ?? [])];

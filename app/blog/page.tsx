@@ -65,6 +65,8 @@ export default function Blog() {
                 ["Choosing an area", "[Pier Bowl vs. Talega](/blog/pier-bowl-vs-talega)", "Two very different ways to live in San Clemente"],
                 ["Eyeing Sea Summit", "[Azure, Aqua, Sapphire and Indigo compared](/blog/sea-summit-azure-aqua-sapphire-indigo-compared)", "How the four tracts differ, plus HOA and Mello-Roos"],
                 ["Weighing Talega costs", "[Talega HOA dues and Mello-Roos](/blog/talega-hoa-dues-mello-roos-what-they-cover)", "What the layers of cost pay for and what to ask"],
+                ["Curious about Shorecliffs", "[The 504-home neighborhood with its own beach club](/blog/shorecliffs-beach-club-neighborhood-guide)", "History, club membership, and the golf club mix-up"],
+                ["Considering a gated community", "[Sea Pointe Estates](/blog/sea-pointe-estates-gated-community-san-clemente)", "Guard gate, amenities, HOA dues, and what to verify"],
                 ["Love the outdoors", "[Beach trail guide](/blog/san-clemente-beach-trail-guide) and [how to pick a beach](/blog/how-to-choose-a-san-clemente-beach)", "Hours, safety, parking, and where to go"],
               ]}
             />
