@@ -35,6 +35,7 @@ export const post: Post = {
       source: { label: "San Clemente, California (Wikipedia)", href: "https://en.wikipedia.org/wiki/San_Clemente,_California" },
     },
     { t: "p", text: "You'll see slightly different length figures in different sources, and some count the extra distance out to the end of the pier. As a rule of thumb, plan on roughly two and a half miles one way, and a little over five if you walk it as an out-and-back." },
+    { t: "ctaCard", text: "Dreaming of a home near the trail? Browse listings and compare the neighborhoods closest to the coast." },
     { t: "h2", text: "Walking the trail, stop by stop" },
     { t: "p", text: "The trail runs along the coast, so it's easy to think of it as a line with several landmarks. Here's what you'll find at each one, based on city and local sources." },
     { t: "h3", text: "North Beach" },
@@ -91,6 +92,7 @@ export const post: Post = {
       "After a few weeks, they know where the crossings are, which water fountains and restrooms they can rely on, and which stretches get busiest. They develop a routine of running early on weekdays and walking on weekends.",
       "For them, the trail turned into the anchor of their week. It's also what shaped their housing search: they started looking at neighborhoods closer to the Pier Bowl so they could start their run from the front door.",
     ] },
+    { t: "ctaCard", text: "Want to live within walking distance of the sand? Alex knows the streets." },
     { t: "h2", text: "What to bring" },
     {
       t: "table",

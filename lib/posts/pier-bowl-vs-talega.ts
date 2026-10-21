@@ -54,6 +54,7 @@ export const post: Post = {
         ["Sunset views on many streets", "Some homes near the tracks hear passing trains"],
       ],
     },
+    { t: "ctaCard", text: "Want current listings in both areas plus recent sales to compare? Start here." },
     { t: "h2", text: "Talega: a town within the town" },
     { t: "p", text: "Talega is a large master-planned community in the northeast part of San Clemente, with construction beginning in 1999. According to public descriptions, it covers about 3,510 acres under its specific plan, includes more than 30 neighborhoods, and was planned for roughly 3,500 residential units. It sits about 3 miles from the coast and 2 miles east of I-5, and its architecture is predominantly Spanish-Tuscan." },
     { t: "h3", text: "What daily life looks like" },
@@ -116,6 +117,7 @@ export const post: Post = {
       ],
     },
     { t: "p", text: "That worksheet often changes the picture. A home that looks more affordable at the listing price can cost more per month once dues and assessments are included, while an older coastal home with a lower monthly carrying cost might need repairs in the first few years. The goal isn't to find the cheapest option; it's to know what you're signing up for." },
+    { t: "ctaCard", text: "Not sure which fits? Alex will walk you through both areas with real recent sales." },
     { t: "h2", text: "Long-term considerations" },
     { t: "p", text: "Most buyers think about how long they'll stay, even if they don't plan to sell for years. A few factors are worth weighing in both areas." },
     { t: "ul", items: [

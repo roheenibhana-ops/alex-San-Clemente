@@ -87,6 +87,7 @@ export const post: Post = {
       "**Understand your net.** Estimate commission, closing costs, and your mortgage payoff so there are no surprises.",
     ] },
     { t: "cta", text: "Want an honest read on what your home could sell for?", href: "/home-value", label: "Request a free valuation" },
+    { t: "ctaCard", text: "Leaning toward San Clemente? Browse current listings, compare neighborhoods, or talk it through with Alex." },
     { t: "h2", text: "Pace versus price: what the pairing tells you" },
     { t: "p", text: "The most useful way to read this table isn't one column at a time but in pairs. Speed and sale-to-list together describe how much leverage each side holds." },
     {
@@ -136,6 +137,7 @@ export const post: Post = {
       "**If you travel often:** train access can matter more than a few extra minutes on the freeway.",
       "**If you work from home:** you may care more about daily walkability than commute routes. Our [moving guide](/blog/moving-to-san-clemente-what-to-know) covers that tradeoff.",
     ] },
+    { t: "ctaCard", text: "Want a current listing search and recent sales side by side for the cities you're considering?" },
     { t: "h2", text: "What the fine print on a listing can teach you" },
     { t: "p", text: "Comparing cities on statistics is useful, but the best education comes from reading real listings side by side. Pull up three or four active listings in each city at a similar price and look at what they emphasize. Do they highlight walkability and the beach, or lot size and amenities? How long have they been on the market, and have they reduced the price? Those details show you what sellers believe buyers value in each place." },
     { t: "p", text: "Pay attention to what's missing, too. If a listing doesn't mention HOA dues or special assessments, ask. If photos avoid the street view, visit. If a property says 'ocean view', confirm what that means from the living room rather than from a rooftop. Our [neighborhood guides](/neighborhoods) include the questions to ask for each area of San Clemente, and the [Pier Bowl vs. Talega comparison](/blog/pier-bowl-vs-talega) shows how two very different parts of one city can feel." },

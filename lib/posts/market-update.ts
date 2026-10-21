@@ -55,6 +55,7 @@ export const post: Post = {
         ["Price-cut share", "43%", "Listings that reduced their price", "High share means many sellers start too high"],
       ],
     },
+    { t: "ctaCard", text: "Want to see how these numbers play out on your street? Get recent sales, a listing search, and a straight read from Alex." },
     { t: "h2", text: "What changed compared with last year" },
     {
       t: "table",
@@ -154,6 +155,7 @@ export const post: Post = {
       ],
     },
     { t: "p", text: "For live listings and recent sales in each area, Redfin's neighborhood pages are a handy reference: see [Talega](https://www.redfin.com/neighborhood/65361/CA/San-Clemente/Talega), [Forster Ranch](https://www.redfin.com/neighborhood/111203/CA/San-Clemente/Forster-Ranch), and [Pier Bowl](https://www.redfin.com/neighborhood/287300/CA/San-Clemente/Pier-Bowl). Treat third-party medians as directional, since small sample sizes make them unstable." },
+    { t: "ctaCard", text: "Want a current San Clemente listing search and a cost comparison at your budget?" },
     { t: "h2", text: "What to watch over the next few months" },
     {
       t: "table",

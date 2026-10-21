@@ -7,6 +7,7 @@ export type Block =
   | { t: "callout"; title: string; text: string }
   | { t: "story"; title: string; paragraphs: string[] }
   | { t: "cta"; text: string; href: string; label: string }
+  | { t: "ctaCard"; text: string }
   | { t: "table"; caption: string; head: string[]; rows: string[][]; source?: { label: string; href: string } };
 
 export type Post = {

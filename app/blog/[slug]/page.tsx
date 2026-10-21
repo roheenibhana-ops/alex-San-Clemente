@@ -5,13 +5,16 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Reveal from "@/components/Reveal";
 import CardImage from "@/components/CardImage";
-import { imageFor } from "@/lib/images";
 import DataTable from "@/components/DataTable";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import JsonLd from "@/components/JsonLd";
+import Inline from "@/components/Inline";
+import GoogleBadge from "@/components/GoogleBadge";
+import { imageFor } from "@/lib/images";
 import { posts, getPost } from "@/lib/posts";
 import type { Block } from "@/lib/posts/types";
-import Inline from "@/components/Inline";
+import { hoods } from "@/lib/neighborhoods";
+import { guides } from "@/lib/places";
 import { SITE_URL } from "@/lib/site";
 import { agent } from "@/lib/content";
 
@@ -48,6 +51,19 @@ function words(blocks: Block[]) {
   }, 0);
 }
 
+function CtaCard({ text }: { text: string }) {
+  return (
+    <div className="cta-card">
+      <p><Inline text={text} /></p>
+      <div className="cta-card-buttons">
+        <a className="btn" href={agent.listingsUrl} target="_blank" rel="noopener noreferrer">Browse San Clemente Listings</a>
+        <Link className="btn btn-blue" href="/neighborhoods">Compare Neighborhoods</Link>
+        <Link className="btn btn-outline" href="/#contact">Talk to Alex Yu</Link>
+      </div>
+    </div>
+  );
+}
+
 function Render({ b }: { b: Block }) {
   switch (b.t) {
     case "p": return <p><Inline text={b.text} /></p>;
@@ -65,6 +81,7 @@ function Render({ b }: { b: Block }) {
         </aside>
       );
     case "cta": return <p className="inline-cta"><Inline text={b.text} /> <Link className="btn btn-sm" href={b.href}>{b.label}</Link></p>;
+    case "ctaCard": return <CtaCard text={b.text} />;
     case "table": return <DataTable caption={b.caption} head={b.head} rows={b.rows} source={b.source} />;
   }
 }
@@ -74,7 +91,8 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
   const p = getPost(slug);
   if (!p) notFound();
   const mins = Math.max(2, Math.round((words(p.blocks) + p.faqs.length * 60) / 220));
-  const more = posts.filter((x) => x.slug !== p.slug).slice(0, 2);
+  const more = posts.filter((x) => x.slug !== p.slug).slice(0, 4);
+  const h2s = p.blocks.filter((b): b is Extract<Block, { t: "h2" }> => b.t === "h2");
 
   return (
     <>
@@ -94,68 +112,116 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
             <img src={imageFor(`post:${p.slug}`)!.src} alt={imageFor(`post:${p.slug}`)!.alt} width={1600} height={1000} fetchPriority="high" />
           </figure>
         )}
-        <article className="section prose post">
-          <aside className="takeaways">
-            <strong>Key takeaways</strong>
-            <ul>{p.takeaways.map((t) => <li key={t}><Inline text={t} /></li>)}</ul>
-          </aside>
-          <nav className="post-toc" aria-label="In this article">
-            <strong>In this article</strong>
-            <ol>
-              {p.blocks.filter((b) => b.t === "h2").map((b) => (
-                <li key={(b as { text: string }).text}><a href={`#${anchor((b as { text: string }).text)}`}>{(b as { text: string }).text}</a></li>
-              ))}
-              <li><a href="#faq">Frequently asked questions</a></li>
-            </ol>
-          </nav>
-          {p.blocks.map((b, i) => (
-            <Render key={i} b={b} />
-          ))}
-          <h2 id="faq">Frequently asked questions</h2>
-          {p.faqs.map((f) => (
-            <details className="faq" key={f.q}>
-              <summary>{f.q}</summary>
-              <p><Inline text={f.a} /></p>
-            </details>
-          ))}
-          {p.links.length > 0 && (
-            <>
-              <h2>Further reading</h2>
+
+        <div className="post-wrap">
+          <article className="prose post">
+            <aside className="takeaways">
+              <strong>Key takeaways</strong>
+              <ul>{p.takeaways.map((t) => <li key={t}><Inline text={t} /></li>)}</ul>
+            </aside>
+
+            <nav className="guide-toc" aria-label="In this guide">
+              <strong>In This Guide</strong>
               <ul>
-                {p.links.map((l) => (
-                  <li key={l.href}>
-                    {l.href.startsWith("/") ? (
-                      <Link href={l.href}>{l.label}</Link>
-                    ) : (
-                      <a href={l.href} target="_blank" rel="noopener noreferrer">{l.label}</a>
-                    )}
-                  </li>
+                {h2s.map((b) => (
+                  <li key={b.text}><a href={`#${anchor(b.text)}`}>{b.text}</a></li>
+                ))}
+                <li><a href="#faq">FAQ</a></li>
+              </ul>
+            </nav>
+
+            {p.blocks.map((b, i) => (
+              <Render key={i} b={b} />
+            ))}
+
+            <h2 id="faq">Frequently asked questions</h2>
+            {p.faqs.map((f) => (
+              <details className="faq" key={f.q}>
+                <summary>{f.q}</summary>
+                <p><Inline text={f.a} /></p>
+              </details>
+            ))}
+
+            <CtaCard text="Want a current San Clemente listing search, recent sales for your street, and a full carrying-cost comparison at your budget?" />
+
+            <div className="alert-banner">
+              <p>
+                <strong>Want instant updates?</strong> <Link href="/#contact">Ask Alex to set up a free listing alert</Link> so you hear
+                about new <strong>San Clemente</strong> homes as they hit the market.
+              </p>
+            </div>
+
+            <section className="author-card" aria-label="About the author">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src="/alex-yu.jpg" alt="Alex Yu" width={640} height={800} loading="lazy" />
+              <div>
+                <h3>{agent.name}</h3>
+                <p className="author-role">Real estate advisor</p>
+                <p>
+                  My approach is simple: <strong>educate first, advise second</strong>. I&apos;ll give you an honest, block-by-block
+                  read on San Clemente so you can make the best-informed decision, whether you&apos;re
+                  buying, selling, or just exploring.
+                </p>
+                <p><Link className="link-arrow" href="/#contact">Connect with Alex →</Link></p>
+              </div>
+            </section>
+
+            {p.links.length > 0 && (
+              <>
+                <h2>Further reading</h2>
+                <ul>
+                  {p.links.map((l) => (
+                    <li key={l.href}>
+                      {l.href.startsWith("/") ? (
+                        <Link href={l.href}>{l.label}</Link>
+                      ) : (
+                        <a href={l.href} target="_blank" rel="noopener noreferrer">{l.label}</a>
+                      )}
+                    </li>
+                  ))}
+                </ul>
+              </>
+            )}
+            <p className="fine">Figures are from the cited sources and change over time. Confirm current details with Alex or the MLS before making decisions.</p>
+          </article>
+
+          <aside className="post-side" aria-label="Featured communities and guides">
+            <div className="side-card">
+              <h3 className="side-title">Featured communities</h3>
+              <ul className="side-list">
+                {hoods.map((h) => (
+                  <li key={h.slug}><Link href={`/neighborhoods/${h.slug}`}>{h.name}</Link></li>
                 ))}
               </ul>
-            </>
-          )}
-          <p className="fine">Figures are from the cited sources and change over time. Confirm current details with Alex or the MLS before making decisions.</p>
-        </article>
+            </div>
+            <div className="side-card">
+              <h3 className="side-title">Local guides</h3>
+              <ul className="side-list">
+                {guides.map((g) => (
+                  <li key={g.slug}><Link href={`/lifestyle/${g.slug}`}>{g.title}</Link></li>
+                ))}
+              </ul>
+            </div>
+            <div className="side-card side-cta">
+              <GoogleBadge />
+              <p>Thinking about a move? Get a straight answer on pricing and neighborhoods.</p>
+              <Link className="btn btn-sm" href="/home-value">Free home valuation</Link>
+              <Link className="btn btn-sm btn-outline" href="/#contact">Talk to Alex</Link>
+            </div>
+          </aside>
+        </div>
+
         <section className="section tint">
           <Reveal>
-            <h2>Keep reading</h2>
-            <div className="post-grid">
+            <h2>More San Clemente Guides</h2>
+            <div className="more-guides">
               {more.map((m) => (
-                <Link key={m.slug} href={`/blog/${m.slug}`} className="post-card">
+                <Link key={m.slug} href={`/blog/${m.slug}`} className="more-card">
                   <CardImage k={`post:${m.slug}`} />
-                  <span className="tile-tag">{m.category}</span>
-                  <h3>{m.title}</h3>
-                  <p>{m.excerpt}</p>
+                  <span>{m.title} →</span>
                 </Link>
               ))}
             </div>
-          </Reveal>
-        </section>
-        <section className="value">
-          <Reveal>
-            <h2>Want numbers for your street?</h2>
-            <p>Ask Alex for a free valuation or a look at recent nearby sales.</p>
-            <Link className="btn btn-light" href="/#contact">Talk to Alex</Link>
           </Reveal>
         </section>
       </main>
@@ -178,7 +244,7 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
           author: { "@type": "Person", name: agent.name },
           publisher: { "@type": "Organization", name: agent.team },
           mainEntityOfPage: `${SITE_URL}/blog/${p.slug}`,
-          image: `${SITE_URL}/san-clemente-beach-homes.jpg`,
+          image: `${SITE_URL}/og.jpg`,
         }}
       />
     </>

@@ -34,6 +34,7 @@ export const post: Post = {
         ["Try a locals' spot for surf and volleyball", "Lasuen (Lost Winds)", "Reached by a long stairwell and trail"],
       ],
     },
+    { t: "ctaCard", text: "Want a home near your favorite beach? Browse current listings and compare neighborhoods." },
     { t: "h2", text: "Beach by beach" },
     { t: "h3", text: "North Beach" },
     { t: "p", text: "North Beach is the northern anchor of the beach trail. The city lists ADA access, metered parking shared with the train station area, and restrooms. It's a handy starting point if you're arriving by train, and a gentler introduction to the coast than some of the busier spots farther south." },
@@ -84,6 +85,7 @@ export const post: Post = {
       "They choose Calafia Beach Park instead, arrive early, and use the larger metered lot. They set up near the restrooms and showers, walk the tide pools in the morning, and wander toward the trail in the afternoon.",
       "What worked wasn't a secret spot; it was matching the beach to the group. More room, easy facilities, and an early start made the difference.",
     ] },
+    { t: "ctaCard", text: "Tell Alex which beach you love and he'll point you to the closest streets." },
     { t: "h2", text: "A surf-minded guide" },
     { t: "p", text: "San Clemente is a serious surf town, but every spot has its own rules and character. If you surf, or you're curious, keep these in mind." },
     {

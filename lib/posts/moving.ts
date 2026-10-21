@@ -68,6 +68,7 @@ export const post: Post = {
       ],
     },
     { t: "callout", title: "The honest tradeoff", text: "Most of what people love about San Clemente, the beaches, the walkability, the small-town feel, is also what draws crowds and keeps prices high. Visit at the busiest time of year before you decide, so the reality matches the daydream." },
+    { t: "ctaCard", text: "Considering a move to San Clemente? Browse current listings, compare neighborhoods, or ask Alex about the area." },
     { t: "h2", text: "Weather and what to wear" },
     { t: "p", text: "San Clemente has a Mediterranean climate: mild, dry summers and cool, mostly dry winters. According to Wikipedia, August is the warmest month with an average high near 79°F, and December the coolest with an average high near 64°F. Locals dress in layers. A light jacket in the morning, shorts by afternoon, and a sweatshirt again at sunset is a common rhythm." },
     { t: "p", text: "Coastal marine layer, the low cloud that rolls in off the ocean, can make mornings gray even when inland areas are sunny. Neighborhoods farther from the water often see more sun and warmer afternoons. If sunshine is a priority, spend time in the specific area you're considering on a few different mornings." },
@@ -91,6 +92,7 @@ export const post: Post = {
     { t: "h2", text: "Getting around" },
     { t: "p", text: "Most residents drive, but San Clemente has more options than many Southern California cities. The Amtrak Pacific Surfliner and Metrolink both serve the city, with the San Clemente and San Clemente Pier stations. Local buses run through the Orange County Transportation Authority, and the city has offered a free trolley service since 2016 per public sources, so check the city's current schedule." },
     { t: "p", text: "Within the Pier Bowl and Downtown, many errands can be done on foot or by bike, and the beach trail is a pleasant way to cover a few miles. For the rest of town, plan on a car. If you commute, drive your real route at rush hour before you commit, because the 5 is the lifeline for most commuters." },
+    { t: "ctaCard", text: "Ready to see homes near the beaches, trails, and Downtown you just read about?" },
     { t: "h2", text: "What to do for fun" },
     { t: "p", text: "Between the ocean, the trails, and Downtown, there's plenty to do. Our local guides cover the details:" },
     { t: "ul", items: [
