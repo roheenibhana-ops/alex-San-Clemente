@@ -93,7 +93,7 @@ export const guideExtras: Record<string, Extra> = {
       {
         h: "Living near parks and trails",
         paras: [
-          "If daily time outdoors is the goal, the right neighborhood depends on the kind of outdoors. [Sea Summit](/neighborhoods/sea-summit) puts a cliffside trail nearby, [Talega](/neighborhoods/talega) has parks and a golf club in the community, and [Shorecliffs](/neighborhoods/shorecliffs) is built around a public course. [Compare the neighborhoods](/neighborhoods) to see what's closest to what you love.",
+          "If daily time outdoors is the goal, the right neighborhood depends on the kind of outdoors. [Sea Summit](/neighborhoods/sea-summit) puts a cliffside trail nearby, [Talega](/neighborhoods/talega) has parks and a golf club in the community, and [Shorecliffs](/neighborhoods/shorecliffs) has its own private resident beach club. [Compare the neighborhoods](/neighborhoods) to see what's closest to what you love.",
         ],
       },
     ],
@@ -374,7 +374,7 @@ export const hubExtra: Extra = {
           ["Walking to the pier, beach, and dinner", "[Downtown & Pier Bowl](/neighborhoods/downtown-pier-bowl)", "The most walkable part of town"],
           ["Newer construction near a trail", "[Sea Summit](/neighborhoods/sea-summit)", "A master-planned community with Spanish-style homes"],
           ["More space, a short drive from the coast", "[Forster Ranch](/neighborhoods/forster-ranch)", "A hillside planned community"],
-          ["Golf and open green space", "[Shorecliffs](/neighborhoods/shorecliffs)", "Built around a public course"],
+          ["A resident beach club and ocean-view lots", "[Shorecliffs](/neighborhoods/shorecliffs)", "A 504-home neighborhood developed from 1960"],
           ["Parks, shopping, and amenities close by", "[Talega](/neighborhoods/talega)", "A large master-planned community of 30+ neighborhoods"],
           ["Elevation and views", "[Rancho San Clemente](/neighborhoods/rancho-san-clemente)", "An elevated hillside setting"],
         ],

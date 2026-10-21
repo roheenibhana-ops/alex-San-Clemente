@@ -24,7 +24,7 @@ export const outdoors = [
   },
   {
     name: "Neighborhood parks",
-    body: "Community parks and sports fields are woven through areas like Forster Ranch, Shorecliffs, and Talega.",
+    body: "Community parks and sports fields are woven through areas like Forster Ranch and Talega.",
   },
   {
     name: "Hills and canyon trails",

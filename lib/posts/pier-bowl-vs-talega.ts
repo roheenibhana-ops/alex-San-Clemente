@@ -192,7 +192,7 @@ export const post: Post = {
     { t: "p", text: "For background on both places, [Wikipedia's San Clemente entry](https://en.wikipedia.org/wiki/San_Clemente,_California) and its [Talega page](https://en.wikipedia.org/wiki/Talega,_San_Clemente,_California) are useful starting points, though always confirm current details with the city or your agent." },
 
     { t: "h2", text: "Golf and recreation" },
-    { t: "p", text: "If golf is part of your life, Talega has the edge inside the community, with a golf club as part of the plan. San Clemente also has other options worth knowing about: the public Shorecliffs Golf Club, which reopened after a major renovation in 2024, and a municipal course the city lists on its [golf page](https://www.sanclemente.gov/191). Our [Shorecliffs guide](/neighborhoods/shorecliffs) covers living near that course." },
+    { t: "p", text: "If golf is part of your life, Talega has the edge inside the community, with a golf club as part of the plan. San Clemente also has other options worth knowing about: the public Shorecliffs Golf Club, which reopened after a major renovation in 2024, and a municipal course the city lists on its [golf page](https://www.sanclemente.gov/191). Note that the public golf club shares its name with the separate [Shorecliffs neighborhood](/neighborhoods/shorecliffs), a 504-home area with its own private beach club." },
     { t: "p", text: "Beyond golf, recreation near the Pier Bowl tends to be water-focused: surfing, paddling, beach volleyball, and long walks. Inland, tennis courts, ballfields, and sports parks are more common, and the city's [classes and programs](https://www.sanclemente.gov/192) are open to residents across town. Whichever mix you prefer, it helps to try a few activities on a visit so you know whether the area really supports the way you spend your free time." },
 
     { t: "cta", text: "See the latest citywide numbers before you tour.", href: "/blog/san-clemente-housing-market-update-october-2026", label: "Read the market update" },
@@ -203,7 +203,7 @@ export const post: Post = {
     { t: "ul", items: [
       "**[Sea Summit](/neighborhoods/sea-summit):** newer construction on the former Marblehead Coastal property, with trail access nearby",
       "**[Forster Ranch](/neighborhoods/forster-ranch):** a hillside planned community set back from the sand",
-      "**[Shorecliffs](/neighborhoods/shorecliffs):** homes around a public golf course that reopened in 2024 after renovation",
+      "**[Shorecliffs](/neighborhoods/shorecliffs):** a 504-home neighborhood developed from 1960, with a private resident beach club",
       "**[Rancho San Clemente](/neighborhoods/rancho-san-clemente):** an elevated hillside community where views and orientation matter",
     ] },
     { t: "p", text: "Compare all six on our [neighborhoods page](/neighborhoods)." },

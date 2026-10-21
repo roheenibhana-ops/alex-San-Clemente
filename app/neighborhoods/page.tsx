@@ -65,7 +65,7 @@ export default function NeighborhoodsHub() {
                 ["Downtown & Pier Bowl", "Coastal, walkable", "To walk to the pier and restaurants", "Vintage cottages, Spanish-style, newer coastal"],
                 ["Sea Summit", "Coastal bluff, master-planned", "Newer construction near trails", "Modern single-family homes"],
                 ["Forster Ranch", "Hillside, master-planned", "More space, a short drive to the beach", "Planned single-family streets"],
-                ["Shorecliffs", "Around a golf course", "Open green space and golf nearby", "Single-family with course settings"],
+                ["Shorecliffs", "Established, with a private resident beach club", "A close-knit neighborhood and ocean-view lots", "Single-family homes, originally single-level on terraced lots"],
                 ["Talega", "Inland, master-planned", "Parks, golf, and shopping close by", "Spanish-Tuscan tract single-family"],
                 ["Rancho San Clemente", "Elevated hillside", "Views and a residential feel", "Spanish-style single-family"],
               ]}

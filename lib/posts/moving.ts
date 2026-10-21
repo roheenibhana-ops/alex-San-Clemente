@@ -83,7 +83,7 @@ export const post: Post = {
         ["To walk to the beach, pier, and restaurants", "Downtown & Pier Bowl", "The most walkable part of town, with vintage and newer coastal homes"],
         ["Newer construction near trails", "Sea Summit", "A master-planned community on the former Marblehead Coastal property"],
         ["More space on a hillside", "Forster Ranch", "A planned hillside community set back from the sand"],
-        ["Open green space and golf", "Shorecliffs", "Homes around a public course that was renovated in 2024"],
+        ["A resident beach club and ocean-view lots", "Shorecliffs", "A 504-home neighborhood developed from 1960"],
         ["Parks, shopping, and amenities close by", "Talega", "A large master-planned community of 30+ neighborhoods"],
         ["Elevation and views", "Rancho San Clemente", "A hillside community where orientation matters"],
       ],

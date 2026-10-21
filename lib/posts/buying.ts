@@ -84,7 +84,7 @@ export const post: Post = {
         ["Downtown & Pier Bowl", "Coastal, walkable", "To walk to the pier, beach, and restaurants"],
         ["Sea Summit", "Coastal bluff, master-planned", "Newer construction near trails"],
         ["Forster Ranch", "Hillside, master-planned", "More space, a short drive to the beach"],
-        ["Shorecliffs", "Around a golf course", "Open green space and golf nearby"],
+        ["Shorecliffs", "Established, coastal side of the I-5", "A private resident beach club and ocean-view lots"],
         ["Talega", "Inland, master-planned", "Parks, golf, and shopping close by"],
         ["Rancho San Clemente", "Elevated hillside", "Views and a residential feel"],
       ],
