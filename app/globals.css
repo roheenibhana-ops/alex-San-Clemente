@@ -169,7 +169,7 @@ a { color: inherit; }
 .footer-logo { height: 56px; width: auto; margin: 0 auto 1rem; filter: invert(1); mix-blend-mode: screen; opacity: .9; }
 @media (max-width: 860px) { .brand img { height: 46px; } }
 
-.page-hero { padding: clamp(7.5rem, 14vw, 9.5rem) max(clamp(1.25rem, 6vw, 6rem), calc((100% - 1300px) / 2 + clamp(1.25rem, 6vw, 6rem))) clamp(2rem, 4vw, 3rem); background: linear-gradient(180deg, var(--foam), var(--sand)); max-width: none; }
+.page-hero { padding: clamp(7.5rem, 14vw, 9.5rem) clamp(1.25rem, 6vw, 6rem) clamp(2rem, 4vw, 3rem); background: linear-gradient(180deg, var(--foam), var(--sand)); max-width: none; }
 .page-hero > * { max-width: 900px; margin-inline: 0; }
 .page-hero h1 { font-size: clamp(2.4rem, 6vw, 4.4rem); }
 .sub { color: var(--ink-2); max-width: 44rem; margin-bottom: 1rem; }
@@ -514,3 +514,8 @@ a.card-link .link-arrow { display: inline-block; margin-top: .75rem; }
 .page-hero.has-img::after { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, rgba(247,243,236,.95) 0%, rgba(247,243,236,.86) 50%, rgba(247,243,236,.2) 100%); z-index: 1; }
 .page-hero.has-img > :not(.page-hero-img) { position: relative; z-index: 2; }
 @media (max-width: 760px) { .page-hero.has-img::after { background: linear-gradient(180deg, rgba(247,243,236,.9) 0%, rgba(247,243,236,.8) 60%, rgba(247,243,236,.5) 100%); } }
+
+/* Wavy bottom edge on every page hero, matching the neighborhood heroes */
+.page-hero { position: relative; overflow: hidden; padding-bottom: clamp(5rem, 9vw, 7rem); }
+.page-hero::before { content: ""; position: absolute; left: 0; right: 0; bottom: -1px; height: clamp(70px, 11vw, 130px); background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 220' preserveAspectRatio='none'%3E%3Cpath fill='%2310708a' fill-opacity='.16' d='M0 120c120-50 240-50 360 0s240 50 360 0 240-50 360 0 240 50 360 0V220H0Z'/%3E%3Cpath fill='%2310708a' fill-opacity='.24' d='M0 150c120-40 240-40 360 0s240 40 360 0 240-40 360 0 240 40 360 0V220H0Z'/%3E%3Cpath fill='%23f7f3ec' d='M0 180c120-30 240-30 360 0s240 30 360 0 240-30 360 0 240 30 360 0V220H0Z'/%3E%3C/svg%3E") center bottom / 100% 100% no-repeat; z-index: 3; pointer-events: none; }
+.page-hero + .section { padding-top: clamp(1.5rem, 3vw, 2.5rem); }
