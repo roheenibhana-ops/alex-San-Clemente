@@ -30,7 +30,7 @@ export const lifestyle = [
   },
   {
     title: "Trails & open space",
-    body: "Hundreds of acres of coastal trails, parks, and a beach trail that runs the length of town.",
+    body: "Coastal trails, neighborhood parks, and a beach trail that follows the shoreline.",
     icon: "trail",
   },
   {

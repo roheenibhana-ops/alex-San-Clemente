@@ -1,14 +1,15 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Link from "next/link";
 import { agent } from "@/lib/content";
 
 const links = [
-  ["Lifestyle", "#lifestyle"],
-  ["Neighborhoods", "#neighborhoods"],
-  ["Services", "#services"],
-  ["About", "#about"],
-  ["FAQ", "#faq"],
+  ["Lifestyle", "/lifestyle"],
+  ["Neighborhoods", "/#neighborhoods"],
+  ["Services", "/#services"],
+  ["About", "/#about"],
+  ["FAQ", "/#faq"],
 ];
 
 export default function Header() {
@@ -24,19 +25,19 @@ export default function Header() {
 
   return (
     <header className={`header ${scrolled ? "scrolled" : ""}`}>
-      <a href="#top" className="brand" aria-label="Alex Yu Team, San Clemente home">
+      <Link href="/" className="brand" aria-label="Alex Yu Team, San Clemente home">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img src="/alex-yu-team-logo.png" alt="Alex Yu Team, Changing Lives for Good" height={46} />
-      </a>
+      </Link>
       <nav className={`nav ${open ? "open" : ""}`} aria-label="Primary">
         {links.map(([label, href]) => (
-          <a key={href} href={href} onClick={() => setOpen(false)}>
+          <Link key={href} href={href} onClick={() => setOpen(false)}>
             {label}
-          </a>
+          </Link>
         ))}
-        <a href="#contact" className="btn btn-sm" onClick={() => setOpen(false)}>
+        <Link href="/#contact" className="btn btn-sm" onClick={() => setOpen(false)}>
           Talk to Alex
-        </a>
+        </Link>
       </nav>
       <button
         className="menu-btn"

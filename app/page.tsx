@@ -2,6 +2,7 @@ import Header from "@/components/Header";
 import Reveal from "@/components/Reveal";
 import Neighborhoods from "@/components/Neighborhoods";
 import ContactForm from "@/components/ContactForm";
+import Footer from "@/components/Footer";
 import { agent, market, stats, lifestyle, services, faqs } from "@/lib/content";
 
 function Icon({ name }: { name: string }) {
@@ -193,14 +194,7 @@ export default function Home() {
         </section>
       </main>
 
-      <footer className="footer">
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img className="footer-logo" src="/alex-yu-team-logo.png" alt="Alex Yu Team" height={56} loading="lazy" />
-        <p>
-          {agent.team} · {agent.brokerage} · CA DRE #{agent.dre}
-        </p>
-        <p className="fine">Equal Housing Opportunity. © {new Date().getFullYear()} {agent.team}. All rights reserved.</p>
-      </footer>
+      <Footer />
     </>
   );
 }
