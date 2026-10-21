@@ -4,6 +4,8 @@ import { notFound } from "next/navigation";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Reveal from "@/components/Reveal";
+import CardImage from "@/components/CardImage";
+import { imageFor } from "@/lib/images";
 import DataTable from "@/components/DataTable";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import JsonLd from "@/components/JsonLd";
@@ -86,6 +88,12 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
             <p className="meta">By {agent.name} · {fmt(p.date)} · {mins} min read</p>
           </Reveal>
         </section>
+        {imageFor(`post:${p.slug}`) && (
+          <figure className="post-hero">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src={imageFor(`post:${p.slug}`)!.src} alt={imageFor(`post:${p.slug}`)!.alt} width={1600} height={1000} fetchPriority="high" />
+          </figure>
+        )}
         <article className="section prose post">
           <aside className="takeaways">
             <strong>Key takeaways</strong>
@@ -134,6 +142,7 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
             <div className="post-grid">
               {more.map((m) => (
                 <Link key={m.slug} href={`/blog/${m.slug}`} className="post-card">
+                  <CardImage k={`post:${m.slug}`} />
                   <span className="tile-tag">{m.category}</span>
                   <h3>{m.title}</h3>
                   <p>{m.excerpt}</p>

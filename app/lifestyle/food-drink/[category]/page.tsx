@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Reveal from "@/components/Reveal";
+import CardImage from "@/components/CardImage";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import JsonLd from "@/components/JsonLd";
 import { foodCategories, getFoodCategory, featuredPlaces } from "@/lib/food";
@@ -103,6 +104,7 @@ export default async function FoodCategoryPage({ params }: { params: Promise<{ c
             <div className="post-grid">
               {others.map((o) => (
                 <Link key={o.slug} href={`/lifestyle/food-drink/${o.slug}`} className="post-card">
+                  <CardImage k={`food:${o.slug}`} />
                   <span className="tile-tag">{o.eyebrow}</span>
                   <h3>{o.title}</h3>
                 </Link>

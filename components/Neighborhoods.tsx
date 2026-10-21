@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { hoods } from "@/lib/neighborhoods";
+import { imageFor } from "@/lib/images";
 
 export default function Neighborhoods() {
   const [active, setActive] = useState(hoods[0].slug);
@@ -24,7 +25,11 @@ export default function Neighborhoods() {
         ))}
       </div>
       <article key={current.slug} className="hood-card" style={{ ["--h" as string]: current.hue }} role="tabpanel">
-        <div className="hood-art" aria-hidden>
+        <div className="hood-art" aria-hidden={!imageFor(`hood:${current.slug}`)}>
+          {imageFor(`hood:${current.slug}`) ? (
+            // eslint-disable-next-line @next/next/no-img-element
+            <img className="hood-art-img" src={imageFor(`hood:${current.slug}`)!.src} alt={imageFor(`hood:${current.slug}`)!.alt} width={1600} height={1000} loading="lazy" />
+          ) : (
           <svg viewBox="0 0 400 260" preserveAspectRatio="xMidYMid slice">
             <defs>
               <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
@@ -38,6 +43,7 @@ export default function Neighborhoods() {
             <path d="M0 200 Q120 170 220 200 T400 190 V260 H0Z" fill="hsl(var(--h) 60% 32%)" opacity=".8" />
             <path d="M0 232 Q100 214 200 232 T400 226 V260 H0Z" fill="hsl(var(--h) 65% 20%)" />
           </svg>
+          )}
           <span className="hood-tag">{current.tag}</span>
         </div>
         <div className="hood-body">

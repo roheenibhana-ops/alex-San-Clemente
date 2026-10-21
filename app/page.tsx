@@ -3,6 +3,7 @@ import Reveal from "@/components/Reveal";
 import Neighborhoods from "@/components/Neighborhoods";
 import ContactForm from "@/components/ContactForm";
 import Footer from "@/components/Footer";
+import CardImage from "@/components/CardImage";
 import { reviews, reviewsLink } from "@/lib/reviews";
 import { guides } from "@/lib/places";
 import Link from "next/link";
@@ -143,6 +144,7 @@ export default function Home() {
           <div className="guide-links">
             {guides.map((g) => (
               <Link key={g.slug} href={`/lifestyle/${g.slug}`} className="post-card">
+                <CardImage k={`guide:${g.slug}`} />
                 <span className="tile-tag">{g.eyebrow}</span>
                 <h3>{g.title}</h3>
               </Link>

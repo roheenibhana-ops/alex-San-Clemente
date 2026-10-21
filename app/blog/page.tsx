@@ -3,6 +3,7 @@ import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Reveal from "@/components/Reveal";
+import CardImage from "@/components/CardImage";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import { posts } from "@/lib/posts";
 
@@ -34,6 +35,7 @@ export default function Blog() {
             {posts.map((p, i) => (
               <Reveal key={p.slug} delay={i * 70}>
                 <Link href={`/blog/${p.slug}`} className="post-card">
+                  <CardImage k={`post:${p.slug}`} />
                   <span className="tile-tag">{p.category}</span>
                   <h2>{p.title}</h2>
                   <p>{p.excerpt}</p>

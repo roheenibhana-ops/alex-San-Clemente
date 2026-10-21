@@ -3,6 +3,7 @@ import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Reveal from "@/components/Reveal";
+import CardImage from "@/components/CardImage";
 import DataTable from "@/components/DataTable";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import JsonLd from "@/components/JsonLd";
@@ -39,6 +40,7 @@ export default function NeighborhoodsHub() {
             {hoods.map((h, i) => (
               <Reveal key={h.slug} delay={i * 70}>
                 <Link href={`/neighborhoods/${h.slug}`} className="hood-tile" style={{ ["--h" as string]: h.hue }}>
+                  <CardImage k={`hood:${h.slug}`} />
                   <span className="tile-tag">{h.tag}</span>
                   <h2>{h.name}</h2>
                   <p>{h.short}</p>

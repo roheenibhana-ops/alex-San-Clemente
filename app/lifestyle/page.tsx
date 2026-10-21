@@ -3,6 +3,7 @@ import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Reveal from "@/components/Reveal";
+import CardImage from "@/components/CardImage";
 import { guides } from "@/lib/places";
 import { beaches, outdoors, eats, schoolLinks, events, gettingAround } from "@/lib/lifestyle";
 
@@ -37,6 +38,7 @@ export default function Lifestyle() {
             {guides.map((g, i) => (
               <Reveal key={g.slug} delay={i * 70}>
                 <Link href={`/lifestyle/${g.slug}`} className="post-card">
+                  <CardImage k={`guide:${g.slug}`} />
                   <span className="tile-tag">{g.eyebrow}</span>
                   <h3>{g.title}</h3>
                   <p>{g.description}</p>

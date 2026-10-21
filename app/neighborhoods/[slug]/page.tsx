@@ -4,6 +4,8 @@ import { notFound } from "next/navigation";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Reveal from "@/components/Reveal";
+import CardImage from "@/components/CardImage";
+import { imageFor } from "@/lib/images";
 import DataTable from "@/components/DataTable";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import JsonLd from "@/components/JsonLd";
@@ -40,7 +42,11 @@ export default async function HoodPage({ params }: { params: Promise<{ slug: str
     <>
       <Header />
       <main>
-        <section className="hood-hero" style={{ ["--h" as string]: h.hue }}>
+        <section className={`hood-hero ${imageFor(`hood:${h.slug}`) ? "has-img" : ""}`} style={{ ["--h" as string]: h.hue }}>
+          {imageFor(`hood:${h.slug}`) && (
+            // eslint-disable-next-line @next/next/no-img-element
+            <img className="hood-hero-img" src={imageFor(`hood:${h.slug}`)!.src} alt={imageFor(`hood:${h.slug}`)!.alt} width={1600} height={1000} fetchPriority="high" />
+          )}
           <div className="hood-hero-inner">
             <Breadcrumbs
               trail={[
@@ -160,6 +166,7 @@ export default async function HoodPage({ params }: { params: Promise<{ slug: str
             <div className="post-grid">
               {guides.map((g) => (
                 <Link key={g.slug} href={`/lifestyle/${g.slug}`} className="post-card">
+                  <CardImage k={`guide:${g.slug}`} />
                   <span className="tile-tag">{g.eyebrow}</span>
                   <h3>{g.title}</h3>
                 </Link>
@@ -186,6 +193,7 @@ export default async function HoodPage({ params }: { params: Promise<{ slug: str
             <div className="hood-grid">
               {others.map((o) => (
                 <Link key={o.slug} href={`/neighborhoods/${o.slug}`} className="hood-tile" style={{ ["--h" as string]: o.hue }}>
+                  <CardImage k={`hood:${o.slug}`} />
                   <span className="tile-tag">{o.tag}</span>
                   <h3>{o.name}</h3>
                   <p>{o.short}</p>

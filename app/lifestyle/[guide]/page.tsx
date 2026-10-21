@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Reveal from "@/components/Reveal";
+import CardImage from "@/components/CardImage";
 import Inline from "@/components/Inline";
 import DataTable from "@/components/DataTable";
 import Breadcrumbs from "@/components/Breadcrumbs";
@@ -92,6 +93,7 @@ export default async function GuidePage({ params }: { params: Promise<{ guide: s
             <div className="post-grid">
               {others.map((o) => (
                 <Link key={o.slug} href={`/lifestyle/${o.slug}`} className="post-card">
+                  <CardImage k={`guide:${o.slug}`} />
                   <span className="tile-tag">{o.eyebrow}</span>
                   <h3>{o.title}</h3>
                 </Link>
