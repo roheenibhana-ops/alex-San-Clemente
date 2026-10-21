@@ -33,7 +33,7 @@ export const endorsement = {
   body: "Shark Tank star and real estate mogul Barbara Corcoran personally endorses Alex, one of the most recognized names in American real estate.",
   quote: "\"Educate first, advise second\" is how Alex works: an honest, block-by-block read on the neighborhood so you can make the best-informed decision for your family.",
   profileHref: "https://www.barbaracorcoran.com/broker/alex-yu/",
-  photo: "",
+  photo: "/images/alex-barbara-corcoran.jpg",
   videoTitle: "Barbara Corcoran endorses the Alex Yu Team",
   vimeoId: "1089112723",
   vimeoHash: "807ed663a2",
