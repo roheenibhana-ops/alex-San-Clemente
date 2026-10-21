@@ -58,7 +58,6 @@ export default function About() {
         <ul className="cred-row" aria-label="Recognition">
           {credentials.map((c) => <li key={c}>{c}</li>)}
         </ul>
-
         <section className="section narrow prose">
           <Reveal>
             <h2>Born and raised in Orange County. Still here.</h2>
@@ -79,7 +78,27 @@ export default function About() {
           </Reveal>
         </section>
 
-        <section className="section tint" aria-labelledby="bg-h">
+
+        <section className="section recog tint" aria-labelledby="recog-h">
+          <Reveal>
+            <p className="eyebrow">Recognized and endorsed</p>
+            <h2 id="recog-h">Endorsed by those you trust</h2>
+          </Reveal>
+          <Reveal>
+            <div className="video-wrap video-center">
+              <iframe
+                src={`https://player.vimeo.com/video/${endorsement.vimeoId}?h=${endorsement.vimeoHash}&dnt=1&title=0&byline=0&portrait=0`}
+                title={endorsement.videoTitle}
+                loading="lazy"
+                allow="fullscreen; picture-in-picture"
+                allowFullScreen
+              />
+            </div>
+          </Reveal>
+          <p className="seen-on"><span>As seen streaming on</span> {seenOn.map((n) => <strong key={n}>{n}</strong>)}</p>
+        </section>
+
+        <section className="section" aria-labelledby="bg-h">
           <Reveal>
             <p className="eyebrow">Background</p>
             <h2 id="bg-h">Who is behind the Alex Yu Team?</h2>
@@ -90,6 +109,27 @@ export default function About() {
                 <div className="card"><h3>{c.title}</h3><p>{c.body}</p></div>
               </Reveal>
             ))}
+          </div>
+        </section>
+
+
+        <section className="section tint" aria-labelledby="corcoran-h">
+          <div className="recog-split">
+            {endorsement.photos.length > 0 && (
+              <div className="recog-photos">
+                {endorsement.photos.map((src) => (
+                  // eslint-disable-next-line @next/next/no-img-element
+                  <img key={src} src={src} alt="Alex Yu with Barbara Corcoran" loading="lazy" />
+                ))}
+              </div>
+            )}
+            <div>
+              <h2 id="corcoran-h">{endorsement.heading}</h2>
+              <p>{endorsement.body}</p>
+              <p>{endorsement.quote}</p>
+              <p><a className="link-arrow" href={endorsement.profileHref} target="_blank" rel="noopener noreferrer">See Alex on Barbara Corcoran&apos;s Top Agents directory →</a></p>
+              <a className="btn" href="#contact">Talk to Alex</a>
+            </div>
           </div>
         </section>
 
@@ -109,6 +149,7 @@ export default function About() {
           <p className="fine">Program terms and conditions apply. Ask Alex for details.</p>
         </section>
 
+
         <section className="section tint" aria-labelledby="how-h">
           <Reveal>
             <p className="eyebrow">How I work</p>
@@ -123,47 +164,15 @@ export default function About() {
           </div>
         </section>
 
-        <section className="section recog" aria-labelledby="recog-h">
-          <Reveal>
-            <p className="eyebrow">Recognized and endorsed</p>
-            <h2 id="recog-h">Endorsed by those you trust</h2>
-          </Reveal>
-          <Reveal>
-            <div className="video-wrap video-center">
-              <iframe
-                src={`https://player.vimeo.com/video/${endorsement.vimeoId}?h=${endorsement.vimeoHash}&dnt=1&title=0&byline=0&portrait=0`}
-                title={endorsement.videoTitle}
-                loading="lazy"
-                allow="fullscreen; picture-in-picture"
-                allowFullScreen
-              />
-            </div>
-          </Reveal>
-          <p className="seen-on"><span>As seen streaming on</span> {seenOn.map((n) => <strong key={n}>{n}</strong>)}</p>
-          <div className="recog-split">
-            {endorsement.photos.length > 0 && (
-              <div className="recog-photos">
-                {endorsement.photos.map((src) => (
-                  // eslint-disable-next-line @next/next/no-img-element
-                  <img key={src} src={src} alt="Alex Yu with Barbara Corcoran" loading="lazy" />
-                ))}
-              </div>
-            )}
-            <div>
-              <h3>{endorsement.heading}</h3>
-              <p>{endorsement.body}</p>
-              <p>{endorsement.quote}</p>
-              <p><a className="link-arrow" href={endorsement.profileHref} target="_blank" rel="noopener noreferrer">See Alex on Barbara Corcoran&apos;s Top Agents directory →</a></p>
-              <a className="btn" href="#contact">Talk to Alex</a>
-            </div>
-          </div>
+
+        <section className="section" aria-labelledby="awards-h">
           <div className="awards">
             {serhantPhoto && (
               // eslint-disable-next-line @next/next/no-img-element
               <img className="awards-photo" src={serhantPhoto} alt="Alex Yu with Ryan Serhant" loading="lazy" />
             )}
             <div className="awards-copy">
-              <h3>Recognized by the industry</h3>
+              <h2 id="awards-h">Recognized by the industry</h2>
               <p>
                 Over 600 transactions and more than $550M in sales have earned the Alex Yu Team recognition from some of the biggest
                 names in real estate.
@@ -182,7 +191,8 @@ export default function About() {
           </div>
         </section>
 
-        <section className="section narrow prose" aria-labelledby="give-h">
+
+        <section className="section narrow prose tint" aria-labelledby="give-h">
           <Reveal>
             <h2 id="give-h">Giving back</h2>
             <p>
@@ -192,7 +202,7 @@ export default function About() {
           </Reveal>
         </section>
 
-        <section className="section tint" aria-labelledby="where-h">
+        <section className="section" aria-labelledby="where-h">
           <Reveal>
             <p className="eyebrow">Where I work</p>
             <h2 id="where-h">San Clemente neighborhoods Alex serves</h2>
