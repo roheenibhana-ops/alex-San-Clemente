@@ -50,17 +50,17 @@ export default async function PlacePage({ params }: { params: Promise<{ slug: st
         </section>
         <section className="section prose">
           <Reveal>
-            <h2>Why does Alex like {p.name}?</h2>
+            <h2>Why Alex likes {p.name}</h2>
             {p.whyAlexLikesIt.map((t) => <p key={t}>{t}</p>)}
             {p.whatToOrder.length > 0 && (
               <>
-                <h2>What should you order at {p.name}?</h2>
+                <h2>What to order at {p.name}</h2>
                 <ul>{p.whatToOrder.map((t) => <li key={t}>{t}</li>)}</ul>
               </>
             )}
             {p.parking && (
               <>
-                <h2>Where do you park and when should you go?</h2>
+                <h2>Parking and timing</h2>
                 <p>{p.parking}</p>
               </>
             )}

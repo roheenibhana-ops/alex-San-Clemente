@@ -36,10 +36,10 @@ export const post: Post = {
       ],
       source: { label: "San Clemente, California (Wikipedia)", href: "https://en.wikipedia.org/wiki/San_Clemente,_California" },
     },
-    { t: "h2", text: "What does it mean that San Clemente is a planned town?" },
+    { t: "h2", text: "A town with a plan" },
     { t: "p", text: "San Clemente is a planned town because Ole Hanson, a former Seattle mayor, founded it in the 1920s with a vision of a Spanish Colonial Revival village by the sea. San Clemente was founded in the 1920s by Ole Hanson, a former Seattle mayor, who envisioned a Spanish Colonial Revival village by the sea. That vision shows up in the red-tile roofs, white stucco, and arched details around Downtown, and in the town's nickname, the \"Spanish Village by the Sea.\" The pier opened in 1928, and Casa Romantica, built in 1927 for Hanson, now serves as a cultural center." },
     { t: "p", text: "The result is a place with a recognizable identity. Unlike some coastal cities that feel like a collection of subdivisions, San Clemente has a center of gravity: Avenida Del Mar and the Pier Bowl. Newer communities like Talega and Sea Summit were added later, with their own character, but the old core still defines the town's reputation." },
-    { t: "h2", text: "What is there to love about living in San Clemente?" },
+    { t: "h2", text: "Things to love" },
     { t: "p", text: "People love the walkable Downtown and pier, the beaches and surf, the trails and open space, the train and freeway access, and community events like the Ocean Festival and weekly farmers market." },
     {
       t: "table",
@@ -54,7 +54,7 @@ export const post: Post = {
       ],
     },
     { t: "cta", text: "Planning a move? Tell Alex your timeline and he'll build a simple plan.", href: "/#contact", label: "Start my plan" },
-    { t: "h2", text: "What should you plan for when moving to San Clemente?" },
+    { t: "h2", text: "Things to plan for" },
     { t: "p", text: "Plan for traffic on the 5, gray coastal mornings, beach parking, cost, peak-season crowds, and train noise near the tracks. No place is perfect, and a good move means going in with eyes open. Here are the realities residents mention most often." },
     {
       t: "table",
@@ -75,7 +75,7 @@ export const post: Post = {
     { t: "p", text: "San Clemente has a Mediterranean climate: mild, dry summers and cool, mostly dry winters. According to Wikipedia, August is the warmest month with an average high near 79°F, and December the coolest with an average high near 64°F. Locals dress in layers. A light jacket in the morning, shorts by afternoon, and a sweatshirt again at sunset is a common rhythm." },
     { t: "p", text: "Coastal marine layer, the low cloud that rolls in off the ocean, can make mornings gray even when inland areas are sunny. Neighborhoods farther from the water often see more sun and warmer afternoons. If sunshine is a priority, spend time in the specific area you're considering on a few different mornings." },
     { t: "cta", text: "Want a shortlist of neighborhoods that fit how you live? Ask Alex.", href: "/#contact", label: "Get my shortlist" },
-    { t: "h2", text: "How do you choose a San Clemente neighborhood?" },
+    { t: "h2", text: "Choosing a neighborhood by how you live" },
     { t: "p", text: "Choose a neighborhood by matching your top priority, whether walkability, newer construction, space, or views, to the area that fits it. San Clemente isn't one experience. Where you live changes your day more than almost any other choice. Here's a quick map to our neighborhood guides:" },
     {
       t: "table",
@@ -91,11 +91,11 @@ export const post: Post = {
       ],
     },
     { t: "p", text: "Read the full guides: [Downtown & Pier Bowl](/neighborhoods/downtown-pier-bowl), [Sea Summit](/neighborhoods/sea-summit), [Forster Ranch](/neighborhoods/forster-ranch), [Shorecliffs](/neighborhoods/shorecliffs), [Talega](/neighborhoods/talega), and [Rancho San Clemente](/neighborhoods/rancho-san-clemente). Or see them [side by side](/neighborhoods)." },
-    { t: "h2", text: "How do you get around San Clemente and commute?" },
+    { t: "h2", text: "Getting around and commuting" },
     { t: "p", text: "Most residents drive, but San Clemente has more options than many Southern California cities. The Amtrak Pacific Surfliner and Metrolink both serve the city, with the San Clemente and San Clemente Pier stations. Local buses run through the Orange County Transportation Authority, and the city has offered a free trolley service since 2016 per public sources, so check the city's current schedule." },
     { t: "p", text: "Within the Pier Bowl and Downtown, many errands can be done on foot or by bike, and the beach trail is a pleasant way to cover a few miles. For the rest of town, plan on a car. If you commute, drive your real route at rush hour before you commit, because the 5 is the lifeline for most commuters." },
     { t: "ctaCard", text: "Ready to see homes near the beaches, trails, and Downtown you just read about?" },
-    { t: "h2", text: "What is there to do for fun in San Clemente?" },
+    { t: "h2", text: "What to do for fun" },
     { t: "p", text: "Between the ocean, the trails, and Downtown, there's plenty to do. Our local guides cover the details:" },
     { t: "ul", items: [
       "[Beaches](/lifestyle/beaches): North Beach, the pier, T-Street, Calafia, State Beach, and Trestles",
@@ -126,7 +126,7 @@ export const post: Post = {
     },
     { t: "p", text: "For independent, neutral guidance on mortgages and closing costs, the [Consumer Financial Protection Bureau's Owning a Home resources](https://www.consumerfinance.gov/owning-a-home/) are a good starting point. To see where prices are heading, read our latest [market update](/blog/san-clemente-housing-market-update-october-2026)." },
     { t: "cta", text: "Moving from out of town? Alex can set up video tours and a remote-friendly process.", href: "/#contact", label: "Plan a video tour" },
-    { t: "h2", text: "What does a relocation timeline look like?" },
+    { t: "h2", text: "A simple relocation timeline" },
     { t: "p", text: "A relocation timeline runs from 3 to 6 months out, when you set your budget, to moving month, with a second visit and the escrow steps in between." },
     {
       t: "table",
@@ -141,7 +141,7 @@ export const post: Post = {
       ],
     },
     { t: "p", text: "Timelines vary, and some buyers move much faster. The point is to leave room for a second visit, because the second visit is when the real picture emerges." },
-    { t: "h2", text: "What is a year in San Clemente like?" },
+    { t: "h2", text: "A year in San Clemente" },
     { t: "p", text: "A year in San Clemente runs from a cool winter and pleasant spring to a warm, busy summer and a calm fall. Knowing the town's rhythm helps you decide when to visit and what to expect once you live here. This isn't a precise calendar, and details change, but it captures the general flow." },
     {
       t: "table",
@@ -155,7 +155,7 @@ export const post: Post = {
       ],
     },
     { t: "p", text: "If you can, visit during the season you'd least expect to love. If you can handle a crowded July weekend and a gray May morning, you'll be happy the rest of the year." },
-    { t: "h2", text: "What should you do in your first month in San Clemente?" },
+    { t: "h2", text: "Your first month in town" },
     { t: "p", text: "In your first month, walk your neighborhood, find your everyday spots, learn the beach rules, meet your neighbors, and explore a new trail or park each week. The first weeks after a move set the tone. A few simple steps make San Clemente feel like home faster." },
     { t: "ol", items: [
       "**Walk your neighborhood at different times.** Notice parking, noise, and how busy the streets are on a weekday and a weekend.",
@@ -164,7 +164,7 @@ export const post: Post = {
       "**Meet your neighbors.** Neighborhoods with an HOA often have community events and a management office that can answer questions.",
       "**Explore one new trail or park a week.** There's a lot of open space, from the beach trail to neighborhood parks.",
     ] },
-    { t: "h2", text: "What mistakes do relocating buyers make?" },
+    { t: "h2", text: "Mistakes relocating buyers make" },
     { t: "p", text: "Relocating buyers most often make one sunny visit, ignore total monthly cost, underestimate the commute, overlook condition, fall for one view, or skip neighborhood research. After seeing many moves, certain patterns come up again and again. Avoiding these puts you ahead of most people." },
     {
       t: "table",
@@ -184,14 +184,14 @@ export const post: Post = {
     { t: "p", text: "San Clemente can work well if you work from home, as long as you plan for a dedicated office, reliable internet, and a commute test for any hybrid days. Plenty of people choose San Clemente because they can work remotely and want the coast as their backdrop. If that's you, think beyond the house itself. A dedicated office or a flexible room matters more than most buyers expect, and so does reliable internet, so ask the seller or agent which providers serve the address and what speeds are available." },
     { t: "p", text: "Also think about your daily break. A walk on the beach trail at lunch, a coffee on Avenida Del Mar, or a quick trip to a neighborhood park can make a remote day feel very different. Areas close to the coast make that easy; inland planned communities trade that for space and amenities. Neither is wrong, but it's worth deciding what your ideal workday looks like before you choose where to live." },
     { t: "p", text: "Finally, consider how often you'll need to be somewhere in person. A hybrid schedule with two or three office days a week makes the commute on the 5 matter again, so test it at the hours you'd actually drive." },
-    { t: "h2", text: "What paperwork do you need after moving to San Clemente?" },
+    { t: "h2", text: "Settling in: the practical paperwork" },
     { t: "p", text: "After moving, update your address, schedule utilities, and check the California DMV's requirements for your license and registration. Once the boxes are unpacked, a handful of administrative tasks make everything smoother. None are glamorous, but doing them in your first few weeks saves headaches later. Start with the essentials and work outward, and keep a folder with confirmations for each." },
     { t: "p", text: "Update your address with the post office, your bank, your employer, and any subscriptions. Schedule utility start dates before you move so power, water, trash, and internet are ready when you arrive. If you're coming from another state, look up the current requirements for updating your driver's license and vehicle registration on the [California DMV's website](https://www.dmv.ca.gov/), since deadlines and documents can change." },
     { t: "p", text: "Then look at the local side: find your nearest grocery store, pharmacy, and urgent care, and bookmark the [City of San Clemente](https://www.sanclemente.gov/) website for services, parks, and events. A short walk around your new neighborhood on the first weekend, with a coffee in hand, tells you more about daily life than any checklist." },
-    { t: "h2", text: "Can you live in San Clemente without a car?" },
+    { t: "h2", text: "Getting around without a car" },
     { t: "p", text: "Most residents drive, but San Clemente makes it easier than many Southern California cities to do without a car some of the time. Two train services stop in town: the Amtrak Pacific Surfliner, which you can explore at [pacificsurfliner.com](https://www.pacificsurfliner.com/), and Metrolink commuter trains, with schedules at [metrolinktrains.com](https://www.metrolinktrains.com/). Local buses run through the [Orange County Transportation Authority](https://octa.net/), and the city has offered a free trolley service since 2016 per public sources, so check current routes with the city." },
     { t: "p", text: "Within the Pier Bowl and Downtown, you can walk to coffee, dinner, and the beach, and the [beach trail](/blog/san-clemente-beach-trail-guide) connects several of the best spots without touching a road. If a car-light life appeals to you, start your search in [Downtown and the Pier Bowl](/neighborhoods/downtown-pier-bowl). If you want a larger home on a planned street, areas like [Talega](/neighborhoods/talega) and [Forster Ranch](/neighborhoods/forster-ranch) trade walkability for space." },
-    { t: "h2", text: "What risks should you know about before you buy in San Clemente?" },
+    { t: "h2", text: "Preparedness: knowing the risks before you buy" },
     { t: "p", text: "Every part of California has natural hazards, and a smart move includes understanding them. This isn't a reason to hesitate; it's the same diligence you'd do anywhere. Earthquakes affect all of Southern California, so it's worth reading the [USGS Earthquake Hazards Program](https://www.usgs.gov/programs/earthquake-hazards) to understand the basics and asking about the age and retrofit status of any home you tour." },
     { t: "p", text: "Fire and flood matter in some areas more than others. The state publishes [fire hazard severity zone maps](https://osfm.fire.ca.gov/) that show where wildfire risk is higher, and the [FEMA Flood Map Service Center](https://msc.fema.gov/) lets you look up a specific address. Coastal and hillside homes can also face erosion, drainage, and slope questions, and the [California Coastal Commission](https://www.coastal.ca.gov/) explains coastal permitting if you plan to remodel." },
     { t: "ul", items: [
@@ -202,11 +202,11 @@ export const post: Post = {
     ] },
     { t: "p", text: "None of this should dim your enthusiasm. It's simply part of buying responsibly in a place with this much natural beauty. Our [buying guide](/blog/buying-a-single-family-home-in-san-clemente) goes deeper on inspections and disclosures." },
 
-    { t: "h2", text: "How do you find your community in San Clemente?" },
+    { t: "h2", text: "Finding your community" },
     { t: "p", text: "You find your community by following local news, checking the city's calendar, and sticking with one regular activity. A town this size rewards people who show up. Local news is a good first step, and the [San Clemente Times](https://www.sanclementetimes.com/) covers city decisions, events, and neighborhood stories in a way that helps newcomers get oriented. The city's own calendar at [sanclemente.gov](https://www.sanclemente.gov/) lists classes, programs, and events, and our [local tips guide](/lifestyle/local-tips) rounds up recurring favorites like the Ocean Festival and the farmers market." },
     { t: "p", text: "Pick one regular activity and stick with it for a month. A morning walk on the beach trail, a weekly class, or a standing coffee at the same cafe is often enough to start recognizing faces. Many people say the town feels smaller, in a good way, after a few weeks of repetition, and your favorite spots from our [food and drink guide](/lifestyle/food-drink) can become that anchor." },
 
-    { t: "h2", text: "What should you check before you commit to San Clemente?" },
+    { t: "h2", text: "A local checklist before you commit" },
     { t: "p", text: "Before you commit, visit twice, drive your commute at rush hour, confirm HOA dues, check the view in person, and get pre-approved." },
     { t: "ul", items: [
       "Visit twice: a weekday morning and a summer weekend",
@@ -223,7 +223,7 @@ export const post: Post = {
       "By the time they make an offer, they know the real cost of ownership and what a typical week looks like. That preparation, rather than any one statistic, is what gave them confidence.",
     ] },
     { t: "cta", text: "Tell Alex what you're looking for and get a plan for your budget and timeline.", href: "/#contact", label: "Talk to Alex" },
-    { t: "h2", text: "What official San Clemente resources are worth bookmarking?" },
+    { t: "h2", text: "Official resources worth bookmarking" },
     { t: "p", text: "Worth bookmarking are the [City of San Clemente](https://www.sanclemente.gov/), the [San Clemente Times](https://www.sanclementetimes.com/), the [Casa Romantica Cultural Center](https://www.casaromantica.org/), and [San Clemente on Wikipedia](https://en.wikipedia.org/wiki/San_Clemente,_California)." },
     { t: "ul", items: [
       "[City of San Clemente](https://www.sanclemente.gov/): services, parks, events, and city information",

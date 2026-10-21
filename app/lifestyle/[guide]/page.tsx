@@ -89,7 +89,7 @@ export default async function GuidePage({ params }: { params: Promise<{ guide: s
 
         <section className="section prose">
           <Reveal>
-            <h2>Which official sources back this guide?</h2>
+            <h2>Official sources and further reading</h2>
             <ul>
               {g.links.map((l) => (
                 <li key={l.href}><a href={l.href} target="_blank" rel="noopener noreferrer">{l.label}</a></li>
@@ -101,7 +101,7 @@ export default async function GuidePage({ params }: { params: Promise<{ guide: s
 
         <section className="section tint">
           <Reveal>
-            <h2>Which other local guides should you read?</h2>
+            <h2>More local guides</h2>
             <div className="post-grid">
               {others.map((o) => (
                 <Link key={o.slug} href={`/lifestyle/${o.slug}`} className="post-card">
@@ -127,7 +127,7 @@ export default async function GuidePage({ params }: { params: Promise<{ guide: s
 
         <section className="value">
           <Reveal>
-            <h2>Thinking about living in San Clemente?</h2>
+            <h2>Thinking about living here?</h2>
             <p>Alex can point you to the neighborhoods closest to the beaches, trails, and spots you&apos;ll actually use.</p>
             <Link className="btn btn-light" href="/#contact">Talk to Alex</Link>
           </Reveal>

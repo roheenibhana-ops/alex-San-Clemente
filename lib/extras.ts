@@ -7,7 +7,7 @@ export const guideExtras: Record<string, Extra> = {
   beaches: {
     sections: [
       {
-        h: "How do you choose a beach in 30 seconds?",
+        h: "How to choose in 30 seconds",
         text: "Not sure where to head? Match the day you want to the beach that fits it.",
         table: {
           caption: "Pick a beach by the kind of day you want",
@@ -23,7 +23,7 @@ export const guideExtras: Record<string, Extra> = {
         },
       },
       {
-        h: "What is a good parking game plan?",
+        h: "A parking game plan",
         paras: [
           "Parking is the thing that most often decides how a San Clemente beach day goes. Summer weekends fill lots early, so a little planning pays off.",
         ],
@@ -36,14 +36,14 @@ export const guideExtras: Record<string, Extra> = {
         ],
       },
       {
-        h: "What safety and etiquette rules apply?",
+        h: "Safety and etiquette",
         paras: [
           "The Pacific is beautiful and powerful. Look before you go in, respect posted warnings, and give surfers room. The railroad runs beside several beaches, so cross only at marked crossings. For a longer list, see [how to pick your beach](/blog/how-to-choose-a-san-clemente-beach) and our [local tips](/lifestyle/local-tips).",
           "Check tide predictions on the [NOAA Tides & Currents site](https://tidesandcurrents.noaa.gov/) and the city's [beach camera and surf conditions page](https://www.sanclemente.gov/322) before you head out, especially if you want tide pools or plan to walk along the base of the bluffs.",
         ],
       },
       {
-        h: "What is it like living near the beaches?",
+        h: "Living near the beaches",
         paras: [
           "If the coast is why you're here, the neighborhoods closest to the sand are [Downtown and the Pier Bowl](/neighborhoods/downtown-pier-bowl), where you can walk to the pier and the trail. Inland areas such as [Forster Ranch](/neighborhoods/forster-ranch) and [Talega](/neighborhoods/talega) offer more space with a short drive to the coast. [Compare all six neighborhoods](/neighborhoods) to see which fits.",
         ],
@@ -60,7 +60,7 @@ export const guideExtras: Record<string, Extra> = {
   "parks-trails": {
     sections: [
       {
-        h: "Which trail fits which mood?",
+        h: "Which trail for which mood",
         table: {
           caption: "Choosing a trail",
           head: ["You want...", "Try", "What to expect"],
@@ -73,14 +73,14 @@ export const guideExtras: Record<string, Extra> = {
         },
       },
       {
-        h: "Where can you play sports in San Clemente parks?",
+        h: "Parks for sports and play",
         paras: [
           "San Clemente's park system includes a large sports park, neighborhood parks, and school-adjacent fields. The city's park inventory lists Vista Hermosa Sports Park at about 77 acres, with ballfields, tennis courts, and a skate area, and smaller parks such as Bonito Canyon Park, Pico Park, Verde Park, Vista Bahia Park, Vista Del Sol Park, and Linda Lane Park. Talega has its own city parks, including Talega Park, Liberty Park, and Tierra Grande Park.",
           "For amenities, hours, and reservations, use the [City of San Clemente's parks page](https://www.sanclemente.gov/186/Beaches-Parks-Recreation). It's also where to look for classes and programs.",
         ],
       },
       {
-        h: "What practical tips help?",
+        h: "Practical tips",
         list: [
           "**Mind the tracks.** The beach trail runs beside an active railroad, and trains can reach about 50 mph. Cross only at marked crossings.",
           "**Check hours.** The beach trail is open about 4 a.m. to midnight, with the T-Street to Calafia stretch about 6 a.m. to 10 p.m.",
@@ -91,7 +91,7 @@ export const guideExtras: Record<string, Extra> = {
         paras: ["For the full walk-through of the shoreline route, see our [beach trail guide](/blog/san-clemente-beach-trail-guide)."],
       },
       {
-        h: "What is it like living near parks and trails?",
+        h: "Living near parks and trails",
         paras: [
           "If daily time outdoors is the goal, the right neighborhood depends on the kind of outdoors. [Sea Summit](/neighborhoods/sea-summit) puts a cliffside trail nearby, [Talega](/neighborhoods/talega) has parks and a golf club in the community, and [Shorecliffs](/neighborhoods/shorecliffs) has its own private resident beach club. [Compare the neighborhoods](/neighborhoods) to see what's closest to what you love.",
         ],
@@ -107,7 +107,7 @@ export const guideExtras: Record<string, Extra> = {
   "food-drink": {
     sections: [
       {
-        h: "What does a day of eating and drinking look like?",
+        h: "A day of eating and drinking",
         text: "Here's one way to string the pick-ups together into a full day around the pier and Downtown.",
         table: {
           caption: "A sample San Clemente eating day",
@@ -121,7 +121,7 @@ export const guideExtras: Record<string, Extra> = {
         },
       },
       {
-        h: "What are the tips for eating near the pier?",
+        h: "Tips for eating near the pier",
         list: [
           "**Reserve ahead** for weekends and summer evenings where reservations are offered.",
           "**Park once.** Leave the car and walk between Downtown, the pier, and dinner.",
@@ -131,7 +131,7 @@ export const guideExtras: Record<string, Extra> = {
         ],
       },
       {
-        h: "Where should you live to be near the places you love?",
+        h: "Live near the places you love",
         paras: [
           "Many of these places cluster around Downtown and the Pier Bowl. If walking to coffee and dinner sounds like your ideal week, read the [Downtown and Pier Bowl guide](/neighborhoods/downtown-pier-bowl). If you'd rather have more space and drive to eat, [Talega](/neighborhoods/talega) and [Forster Ranch](/neighborhoods/forster-ranch) are worth a look.",
         ],
@@ -147,7 +147,7 @@ export const guideExtras: Record<string, Extra> = {
   "local-tips": {
     sections: [
       {
-        h: "What does the year in San Clemente look like?",
+        h: "The year in San Clemente",
         table: {
           caption: "A seasonal rhythm",
           head: ["Season", "What to expect"],
@@ -160,14 +160,14 @@ export const guideExtras: Record<string, Extra> = {
         },
       },
       {
-        h: "Can you get around San Clemente without a car?",
+        h: "Getting around without a car",
         paras: [
           "San Clemente is easier to navigate without a car than most Southern California cities. The Amtrak Pacific Surfliner and Metrolink both serve the city with stations in town; check [Pacific Surfliner](https://www.pacificsurfliner.com/) and [Metrolink](https://www.metrolinktrains.com/) for schedules. Local buses run through the [Orange County Transportation Authority](https://octa.net/), and the city has offered a free trolley service since 2016 per public sources, so confirm current routes with the city.",
           "Downtown and the Pier Bowl are the most walkable areas, and the beach trail links several of the best spots. See our [Downtown and Pier Bowl guide](/neighborhoods/downtown-pier-bowl) for what that looks like day to day.",
         ],
       },
       {
-        h: "What tips help visitors and newcomers?",
+        h: "Tips for visitors and newcomers",
         list: [
           "**Visit twice.** Once on a weekday morning and once on a summer weekend, so you see both sides of town.",
           "**Dress in layers.** Coastal mornings and evenings can be cool even on warm days.",
@@ -197,7 +197,7 @@ export const foodExtras: Record<string, Extra> = {
   coffee: {
     sections: [
       {
-        h: "Where should you go for your situation?",
+        h: "Where to go by situation",
         table: {
           caption: "Pick your coffee stop",
           head: ["If you want...", "Try", "Why"],
@@ -210,14 +210,14 @@ export const foodExtras: Record<string, Extra> = {
         },
       },
       {
-        h: "How do you make a morning of it?",
+        h: "Make a morning of it",
         paras: [
           "Grab a coffee near the pier, then follow the [beach trail](/blog/san-clemente-beach-trail-guide) toward T-Street or Calafia, with the ocean beside you. If you'd rather wander, Downtown's shops and Casa Romantica are a short walk from several of these cafes. Casa Romantica is a 1927 bluff-top cultural center, so confirm hours at [casaromantica.org](https://www.casaromantica.org/).",
           "Living within walking distance of your morning coffee is a big part of the appeal of the [Downtown and Pier Bowl](/neighborhoods/downtown-pier-bowl). If that sounds like your ideal week, it's worth a look.",
         ],
       },
       {
-        h: "What should you know before you go?",
+        h: "Before you go",
         list: [
           "**Check hours and menus.** They change, so confirm directly with the place.",
           "**Plan parking.** Downtown and the pier fill up on weekends and summer evenings, so park once and walk.",
@@ -236,7 +236,7 @@ export const foodExtras: Record<string, Extra> = {
   brunch: {
     sections: [
       {
-        h: "Where should you go for your craving?",
+        h: "Where to go by craving",
         table: {
           caption: "Pick your breakfast spot",
           head: ["If you want...", "Try", "Why"],
@@ -249,14 +249,14 @@ export const foodExtras: Record<string, Extra> = {
         },
       },
       {
-        h: "How do you plan your weekend morning?",
+        h: "Plan your weekend morning",
         paras: [
           "Weekend brunch can mean a wait, so go early or pick a weekday. Parking near Downtown can be tight, so give yourself a few extra minutes, and consider walking from nearby streets. After brunch, the [beach trail](/blog/san-clemente-beach-trail-guide) is a natural next stop, and our [local tips guide](/lifestyle/local-tips) covers parking and crowds.",
           "If starting your weekends with a short walk to breakfast is the goal, read the [Downtown and Pier Bowl guide](/neighborhoods/downtown-pier-bowl), and compare other areas on the [neighborhoods page](/neighborhoods).",
         ],
       },
       {
-        h: "What should you know before you go?",
+        h: "Before you go",
         list: [
           "**Check hours and menus.** They change, so confirm directly with the place.",
           "**Plan parking.** Downtown and the pier fill up on weekends and summer evenings, so park once and walk.",
@@ -275,7 +275,7 @@ export const foodExtras: Record<string, Extra> = {
   dinner: {
     sections: [
       {
-        h: "Where should you go for your occasion?",
+        h: "Where to go by occasion",
         table: {
           caption: "Pick your dinner",
           head: ["For...", "Try", "Why"],
@@ -290,14 +290,14 @@ export const foodExtras: Record<string, Extra> = {
         },
       },
       {
-        h: "How do you plan the evening?",
+        h: "Plan the evening",
         paras: [
           "Reserve ahead for weekends and summer evenings, park once, and walk. A common local plan is dinner in Downtown, then a stroll to the pier for the last of the light. See the [seafood and sunset picks](/lifestyle/food-drink/seafood-sunset) if you'd like the sunset to be part of dinner.",
           "Dinner out is one of the best arguments for living in the [Pier Bowl or Downtown](/neighborhoods/downtown-pier-bowl), where many of these places are within walking distance. For a more space-focused alternative, compare [Talega](/neighborhoods/talega) and [Forster Ranch](/neighborhoods/forster-ranch).",
         ],
       },
       {
-        h: "What should you know before you go?",
+        h: "Before you go",
         list: [
           "**Check hours and menus.** They change, so confirm directly with the place.",
           "**Plan parking.** Downtown and the pier fill up on weekends and summer evenings, so park once and walk.",
@@ -316,7 +316,7 @@ export const foodExtras: Record<string, Extra> = {
   "seafood-sunset": {
     sections: [
       {
-        h: "Where should you go for your plan?",
+        h: "Where to go by plan",
         table: {
           caption: "Pick your seafood or sunset spot",
           head: ["If you want...", "Try", "Why"],
@@ -329,20 +329,20 @@ export const foodExtras: Record<string, Extra> = {
         },
       },
       {
-        h: "When is the best time for sunset?",
+        h: "Timing your sunset",
         paras: [
           "Sunset over the Pacific is the headline event in San Clemente, so check the sunset time for your day and plan to arrive early, since the best seats and parking fill up. Bring a layer, because the pier can be breezy after the sun goes down, and consider a short walk on the [beach trail](/blog/san-clemente-beach-trail-guide) beforehand.",
           "If you don't want a restaurant, simply walking to the end of the pier or sitting on the sand at Calafia is a classic way to end the day. Our [beaches guide](/lifestyle/beaches) covers access and parking, and [how to pick your beach](/blog/how-to-choose-a-san-clemente-beach) helps you match a beach to your plan.",
         ],
       },
       {
-        h: "What is it like living near the water?",
+        h: "Living near the water",
         paras: [
           "If sunsets and seafood are part of your ideal evening, the [Downtown and Pier Bowl](/neighborhoods/downtown-pier-bowl) area puts you steps from the pier. Compare it with the other five [neighborhoods](/neighborhoods) to see what fits.",
         ],
       },
       {
-        h: "What should you know before you go?",
+        h: "Before you go",
         list: [
           "**Check hours and menus.** They change, so confirm directly with the place.",
           "**Plan parking.** Downtown and the pier fill up on weekends and summer evenings, so park once and walk.",
@@ -381,14 +381,14 @@ export const hubExtra: Extra = {
       },
     },
     {
-      h: "What does each neighborhood guide cover?",
+      h: "What each guide covers",
       paras: [
         "Every neighborhood guide follows the same structure so you can compare areas side by side: an at-a-glance table, what daily life feels like, the homes, how to get around, a pre-offer checklist, and a comparison with the other areas. Each one also links to live listings and the local guides that matter for that part of town.",
         "Because neighborhood-level prices swing with only a handful of sales a month, the guides pair citywide market data with a direct way to request recent sales for the streets you like. Read our latest [market update](/blog/san-clemente-housing-market-update-october-2026), then ask for numbers on your exact street.",
       ],
     },
     {
-      h: "Where can you go deeper on each neighborhood?",
+      h: "Go deeper on each neighborhood",
       list: [
         "[Pier Bowl vs. Talega](/blog/pier-bowl-vs-talega): a head-to-head of two very different ways to live here",
         "[Moving to San Clemente](/blog/moving-to-san-clemente-what-to-know): an honest checklist before you commit",
@@ -425,7 +425,7 @@ export const homeValueExtra: Extra = {
       },
     },
     {
-      h: "How do you prepare for a valuation?",
+      h: "How to prepare for a valuation",
       list: [
         "**Gather basics:** the address, year built, square footage, and any recent upgrades.",
         "**Note what's changed:** remodels, new roofs, solar, or other improvements.",
@@ -434,7 +434,7 @@ export const homeValueExtra: Extra = {
       ],
     },
     {
-      h: "What happens after you request a valuation?",
+      h: "What happens next",
       paras: [
         "Alex reviews recent sales near your home and compares them with your property's location, condition, lot, and view. You'll get a clear read on value and what could move it. If you decide to sell, you can start with a pricing strategy and a plan; if you're just curious, there's no obligation. If you're also exploring a purchase, compare [neighborhoods](/neighborhoods) or read our [buying guide](/blog/buying-a-single-family-home-in-san-clemente).",
       ],
@@ -451,7 +451,7 @@ export const homeValueExtra: Extra = {
 export const lifestyleHubExtra: Extra = {
   sections: [
     {
-      h: "How should you use this San Clemente lifestyle guide?",
+      h: "How to use this guide",
       paras: [
         "San Clemente is easy to love and easier to enjoy when you know a few local details. This section of the site collects those details: where the beaches are and how to park, which trails fit which mood, where locals eat, and the insider notes that make a day smoother. Each guide links to maps, official sources, and the neighborhoods closest to what you're reading about.",
         "If you're visiting, start with the [beaches](/lifestyle/beaches) and [food and drink](/lifestyle/food-drink) guides. If you're thinking of moving, pair these with our [neighborhood guides](/neighborhoods) and our honest [moving checklist](/blog/moving-to-san-clemente-what-to-know).",

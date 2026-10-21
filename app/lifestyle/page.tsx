@@ -37,7 +37,7 @@ export default function Lifestyle() {
         <section className="section">
           <Reveal>
             <p className="eyebrow">Local guides</p>
-            <h2>Where can you read more about San Clemente life?</h2>
+            <h2>San Clemente local guides</h2>
           </Reveal>
           <div className="post-grid">
             {guides.map((g, i) => (
@@ -70,7 +70,7 @@ export default function Lifestyle() {
         <section id="beaches" className="section tint">
           <Reveal>
             <p className="eyebrow">Beaches &amp; surf</p>
-            <h2>What are the best beaches and surf spots in San Clemente?</h2>
+            <h2>San Clemente beaches &amp; surf spots</h2>
           </Reveal>
           <div className="grid2">
             {beaches.map((b, i) => (
@@ -87,7 +87,7 @@ export default function Lifestyle() {
         <section id="outdoors" className="section">
           <Reveal>
             <p className="eyebrow">Parks &amp; trails</p>
-            <h2>What parks, trails and outdoor activities are in San Clemente?</h2>
+            <h2>San Clemente parks, trails &amp; outdoor activities</h2>
           </Reveal>
           <div className="grid4">
             {outdoors.map((o, i) => (
@@ -104,7 +104,7 @@ export default function Lifestyle() {
         <section id="eats" className="section tint">
           <Reveal>
             <p className="eyebrow">Eats &amp; drinks</p>
-            <h2>Where do locals eat in San Clemente?</h2>
+            <h2>Where locals eat in San Clemente</h2>
             <p className="sub">
               Want Alex&apos;s current favorites for any of these? <Link className="link-arrow" href="/#contact">Ask him →</Link>
             </p>
@@ -138,7 +138,7 @@ export default function Lifestyle() {
         <section id="schools" className="section">
           <Reveal>
             <p className="eyebrow">Schools</p>
-            <h2>Where do you find San Clemente school information?</h2>
+            <h2>San Clemente schools &amp; education resources</h2>
             <p className="sub">
               San Clemente is served by the Capistrano Unified School District. Enrollment boundaries and programs can change,
               so please confirm the school assignment for any address directly with the district. For official information, use
@@ -157,7 +157,7 @@ export default function Lifestyle() {
         <section id="events" className="section tint">
           <Reveal>
             <p className="eyebrow">Community</p>
-            <h2>What events and traditions does San Clemente have?</h2>
+            <h2>San Clemente events &amp; local traditions</h2>
           </Reveal>
           <div className="grid4">
             {events.map((e, i) => (
@@ -192,7 +192,7 @@ export default function Lifestyle() {
           <section key={sec.h} className="section prose">
             <Reveal>
               <GuideSection s={sec} />
-              <h2>San Clemente lifestyle questions, answered</h2>
+              <h2>San Clemente lifestyle FAQ</h2>
               {lifestyleHubExtra.faqs.map((f) => (
                 <details className="faq" key={f.q}>
                   <summary>{f.q}</summary>

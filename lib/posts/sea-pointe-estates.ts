@@ -37,7 +37,7 @@ export const post: Post = {
       ],
     },
     { t: "p", text: "Notice that the amenity list varies a little from listing to listing. One MLS-style summary lists a clubhouse, fitness center, pool, sauna, spa and tennis courts. Another mentions an outdoor cooking area and dog park. A tot lot shows up in one place and a putting green and bocce court in another. That is not unusual. Agents write listing copy at different times from different sources. The safe approach is to treat the shortest consistent list as the baseline, which is a clubhouse, pool, spa and tennis, and confirm the rest." },
-    { t: "h2", text: "How big are the homes in Sea Pointe Estates?" },
+    { t: "h2", text: "The homes: size, lots and age" },
     { t: "p", text: "The homes are large: the ones we reviewed in recent listings ranged from about 3,295 to 6,145 square feet, mostly with four or five bedrooms. Lot sizes in the listings we saw ran from roughly 12,000 to 15,200 square feet, with one at about 14,300 square feet. Build years we saw ran from around 1989 to 2007, which is consistent with construction beginning in the early 1980s and continuing in phases." },
     {
       t: "table",
@@ -73,7 +73,7 @@ export const post: Post = {
     { t: "h2", text: "Does Sea Pointe Estates have Mello-Roos?" },
     { t: "p", text: "It is not clear, because listings do not state Mello-Roos status consistently, so confirm it for each home. One listing shows property taxes of zero, and another source indicated no Mello-Roos for one home. A displayed zero is not proof. Listing fields are sometimes left blank. Whether a Mello-Roos district applies to a specific parcel is something that should be confirmed with the county tax records and the title company, not inferred from a listing. For a refresher on what the tax is, see our [Talega cost guide](/blog/talega-hoa-dues-mello-roos-what-they-cover), which explains how it differs from HOA dues, and the [Orange County Treasurer-Tax Collector](https://www.octreasurer.gov/) for tax records." },
     { t: "callout", title: "Our rule of thumb", text: "A listing is a starting point. HOA dues, Mello-Roos and tax details should come from the preliminary title report, the HOA documents and county records, not from listing text." },
-    { t: "h2", text: "What is a day like in a guard-gated community?" },
+    { t: "h2", text: "A day in a guard-gated community" },
     { t: "p", text: "A day in a guard-gated community with a clubhouse tends to mix amenities inside the gate, such as a swim or a tennis game, with errands and beach time outside it. Mornings might mean a swim or a tennis game before work. Afternoons might mean a walk on the community paths, where listings mention scenic ocean-view walking paths. Weekends might mean events at the clubhouse, if the HOA hosts them." },
     { t: "p", text: "For things outside the gate, Check the drive from the specific address to the beach, the Beach Trail and downtown at the hours you would use it. Our [Beach Trail guide](/blog/san-clemente-beach-trail-guide) and [guide to choosing a beach](/blog/how-to-choose-a-san-clemente-beach) will help you plan." },
     {
@@ -87,7 +87,7 @@ export const post: Post = {
         ["Weekend", "Clubhouse events, if offered", "Pier, trail or a day at the beach"],
       ],
     },
-    { t: "h2", text: "How does Sea Pointe Estates compare with other communities?" },
+    { t: "h2", text: "How Sea Pointe Estates compares" },
     { t: "p", text: "Sea Pointe Estates stands out for combining a staffed gate with large lots, while Sea Summit, Talega and Shorecliffs each offer a different mix of amenities and cost structure." },
     {
       t: "table",
@@ -114,7 +114,7 @@ export const post: Post = {
       "Compare the total monthly cost with a non-gated option.",
     ] },
     { t: "p", text: "Ask your agent for recent comparable sales, not just current asking prices. Asking prices describe optimism, and sold prices describe the market. In a spread as wide as this one, the sold data is the more useful guide." },
-    { t: "h2", text: "What does a $3M-plus home really cost to own?" },
+    { t: "h2", text: "Budgeting for a $3M-plus home: beyond the price" },
     { t: "p", text: "A $3M-plus home in Sea Pointe Estates costs more than the purchase price: a likely jumbo loan, property tax, HOA dues, insurance and maintenance all add to the monthly budget. At the price points seen in Sea Pointe Estates, the purchase price is only the beginning of the budget. Most buyers at this level use a jumbo loan, which can come with different down payment expectations, reserve requirements and documentation than a conforming loan. Rates and terms change often, so talk to a lender early and get a written pre-approval before you tour seriously. A pre-approval also tells you what monthly payment you are really signing up for once taxes, insurance and the HOA are added." },
     { t: "p", text: "California property tax is generally based on the purchase price at roughly one percent, plus any voter-approved local charges and special assessments, so a home at $3M can carry a tax bill that is substantial before any Mello-Roos question comes into play. The [Orange County Assessor](https://www.ocassessor.gov/) and the [Treasurer-Tax Collector](https://www.octreasurer.gov/) publish parcel information, and your title company will provide a preliminary report that lists what is attached to the property. Use all three." },
     {
@@ -131,7 +131,7 @@ export const post: Post = {
       ],
     },
     { t: "p", text: "Insurance deserves a separate call. Quotes for larger homes vary widely between carriers, and coverage availability in California has been a topic for many owners. The [California Department of Insurance](https://www.insurance.ca.gov/) publishes consumer guidance. Get quotes before you remove contingencies, not after." },
-    { t: "h2", text: "How do you read a Sea Pointe listing like an insider?" },
+    { t: "h2", text: "Reading the listing like an insider" },
     { t: "p", text: "Read a Sea Pointe listing by comparing the square footage, lot size and year built across listings, then asking where each number comes from. Because so much about this community comes from listing text, it helps to know what to look for. Agents sometimes pull the figures from public records and sometimes from plans or appraisals, and they may not match." },
     { t: "ul", items: [
       "**Square footage:** ask whether it is from public records, an appraisal or builder plans, and whether any additions or studios are counted. One listing we saw mentions a studio of about 600 square feet in addition to the main living area.",
@@ -140,7 +140,7 @@ export const post: Post = {
       "**Amenities:** treat any amenity not in the HOA documents as unconfirmed.",
       "**Days on market:** a coming-soon status, as one listing showed, is different from a home that has sat for months.",
     ] },
-    { t: "h2", text: "How should you negotiate on a home at this price?" },
+    { t: "h2", text: "Offers and negotiation at this level" },
     { t: "p", text: "Negotiate with data about that specific home: its listing history, recent sold comparables, and your inspection and HOA review. Higher-priced homes often move on a different timeline from entry-level ones. There are fewer buyers who can afford them, so a well-priced and well-presented home can still sell quickly, while an overpriced one can sit. Your strategy should depend on how that specific home has behaved, so ask for its history: when it first listed, any price changes and how many showings it has had." },
     { t: "p", text: "Request recent sold comparables from within the community and from similar nearby areas, and discuss adjustments for view, lot, condition and any upgrades. Build your offer around data and your inspection and HOA review, not around hype. If you are also thinking about selling a current home, our [home value tool](/home-value) is a good starting point, and our [buying guide](/blog/buying-a-single-family-home-in-san-clemente) walks through the process step by step." },
     { t: "story", title: "Illustrative scenario: the paperwork that changed the offer", paragraphs: [
@@ -149,11 +149,11 @@ export const post: Post = {
       "The takeaway is simple: read the minutes, early.",
     ] },
     { t: "ctaCard", text: "Want help reading HOA documents and comparing sold prices before you make an offer? Alex does this on every purchase." },
-    { t: "h2", text: "Who is a gated community like this right for?" },
+    { t: "h2", text: "Who tends to like a community like this" },
     { t: "p", text: "A guard-gated community with a clubhouse suits buyers who value a controlled entrance, shared recreation close to home and larger lots. We do not make assumptions about who should live where, but we can describe the trade-offs honestly. It can feel less spontaneous than a walkable neighborhood, since most errands involve a car and the gate adds a small step to every arrival and departure." },
     { t: "p", text: "It also asks you to live within a set of rules. Architectural review, exterior colors, landscaping, parking, short-term rentals and home businesses are the sort of topics HOA rules commonly cover. If you have plans such as a detached studio, an ADU, solar or a new pool, read the rules before you fall for a house, and ask the board how recent requests of that kind have gone. The [California Department of Real Estate](https://www.dre.ca.gov/) publishes consumer information on common interest developments if you want the general background." },
     { t: "p", text: "Finally, think about resale. Gated, amenity-rich communities can appeal to a narrower slice of buyers than a standard neighborhood, but the buyers who want them often want them badly. Ask your agent how long comparable homes have taken to sell and what discounts, if any, were negotiated from asking. A sold price that differs from asking tells you far more than the list price ever will, and recent sales in the community are the best guide to whether today's asking prices are realistic." },
-    { t: "h2", text: "Is Sea Pointe Estates right for you?" },
+    { t: "h2", text: "A closing thought on Sea Pointe Estates" },
     { t: "p", text: "Sea Pointe Estates is an appealing option for buyers who want privacy, space and an organized community with a clubhouse, pool and courts. It also asks more of the buyer in diligence: the HOA is a real cost, listing details vary, and the price range is broad. Do the paperwork, walk the lot and talk to the association, and you will find out quickly whether it is the right fit. If you would like help doing that, [send Alex a note](/#contact) and we will start with the documents." },
   ],
   faqs: [

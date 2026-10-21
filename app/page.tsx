@@ -81,7 +81,7 @@ export default function Home() {
                 <GoogleG size={44} />
                 <div>
                   <p className="eyebrow">Trusted by clients</p>
-                  <h2>What do clients say about Alex Yu? Rated {reviewStats.rating} on Google</h2>
+                  <h2>Alex Yu reviews: rated {reviewStats.rating} on Google</h2>
                   <p className="stars-big" aria-hidden>★★★★★</p>
                   <p className="sub">{reviewStats.count} {reviewStats.label}</p>
                 </div>
@@ -149,7 +149,7 @@ export default function Home() {
         <section id="neighborhoods" className="section tint">
           <Reveal>
             <p className="eyebrow">Neighborhood guide</p>
-            <h2>Which San Clemente neighborhood fits your life?</h2>
+            <h2>San Clemente neighborhoods: find the block that fits your life</h2>
           </Reveal>
           <Reveal delay={100}>
             <Neighborhoods />
@@ -159,7 +159,7 @@ export default function Home() {
         <section className="section">
           <Reveal>
             <p className="eyebrow">Live like a local</p>
-            <h2>What is there to explore in San Clemente?</h2>
+            <h2>Explore San Clemente: beaches, trails, food &amp; local guides</h2>
           </Reveal>
           <div className="guide-links">
             {guides.map((g) => (
@@ -183,7 +183,7 @@ export default function Home() {
         <section id="services" className="section">
           <Reveal>
             <p className="eyebrow">How Alex helps</p>
-            <h2>How does Alex Yu help San Clemente buyers and sellers?</h2>
+            <h2>How Alex Yu helps San Clemente buyers and sellers</h2>
           </Reveal>
           <div className="grid3">
             {services.map((s, i) => (
@@ -210,7 +210,7 @@ export default function Home() {
             </Reveal>
             <Reveal delay={120}>
               <p className="eyebrow">Meet your agent</p>
-              <h2>Who is {agent.name}, your San Clemente real estate agent?</h2>
+              <h2>Meet {agent.name}, your San Clemente real estate agent</h2>
               <p>
                 Alex leads the {agent.team} at {agent.brokerage}, serving homeowners and buyers across Orange County. With
                 over a decade in the market and 600+ transactions, the approach is simple: give you an honest, block-by-block
@@ -241,7 +241,7 @@ export default function Home() {
         <section id="contact" className="section contact">
           <Reveal>
             <p className="eyebrow">Let&apos;s talk</p>
-            <h2>Ready to start your San Clemente move?</h2>
+            <h2>Start your San Clemente move</h2>
             <p>Tell Alex a little about your plans. No pressure, no obligation.</p>
             <ul className="contact-list">
               <li><a href={agent.phoneHref}>{agent.phone}</a></li>

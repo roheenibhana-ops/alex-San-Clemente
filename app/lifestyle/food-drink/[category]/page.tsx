@@ -62,7 +62,7 @@ export default async function FoodCategoryPage({ params }: { params: Promise<{ c
 
         <section className="section prose">
           <Reveal>
-            <h2>{c.title}: what are the top picks?</h2>
+            <h2>{c.title}: the list</h2>
             <div className="place-grid">
               {c.picks.map((p) => (
                 <div className="place" key={p.name}>
@@ -88,7 +88,7 @@ export default async function FoodCategoryPage({ params }: { params: Promise<{ c
 
         <section className="section tint prose">
           <Reveal>
-            <h2>What are the local tips?</h2>
+            <h2>Local tips</h2>
             <ul>{c.tips.map((t) => <li key={t}>{t}</li>)}</ul>
             <p className="fine">Hours, menus, and reservations change. Confirm with the restaurant before you go.</p>
           </Reveal>
@@ -96,12 +96,12 @@ export default async function FoodCategoryPage({ params }: { params: Promise<{ c
 
         <section className="section prose">
           <Reveal>
-            <h2>What pairs well with this guide?</h2>
+            <h2>Pair it with</h2>
             <ul>
               {c.pairWith.map((l) => <li key={l.href}><Link href={l.href}>{l.label}</Link></li>)}
               <li><Link href="/lifestyle/food-drink">All food and drink picks</Link></li>
             </ul>
-            <h2>Your questions answered</h2>
+            <h2>Questions</h2>
             {allFaqs.map((f) => (
               <details className="faq" key={f.q}>
                 <summary>{f.q}</summary>
@@ -113,7 +113,7 @@ export default async function FoodCategoryPage({ params }: { params: Promise<{ c
 
         <section className="section tint">
           <Reveal>
-            <h2>Where else can you eat in San Clemente?</h2>
+            <h2>More places to eat</h2>
             <div className="post-grid">
               {others.map((o) => (
                 <Link key={o.slug} href={`/lifestyle/food-drink/${o.slug}`} className="post-card">
