@@ -8,6 +8,8 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 import { featuredPlaces, getFeaturedPlace, getFoodCategory } from "@/lib/food";
 import { getHood } from "@/lib/neighborhoods";
 import { mapsUrl } from "@/lib/places";
+import JsonLd from "@/components/JsonLd";
+import { SITE_URL } from "@/lib/site";
 
 export const dynamicParams = false;
 
@@ -83,6 +85,16 @@ export default async function PlacePage({ params }: { params: Promise<{ slug: st
         </section>
       </main>
       <Footer />
+      <JsonLd
+        data={{
+          "@context": "https://schema.org",
+          "@type": "WebPage",
+          name: `${p.name} in San Clemente`,
+          url: `${SITE_URL}/lifestyle/places/${p.slug}`,
+          description: p.tagline,
+          about: { "@type": "Thing", name: p.name },
+        }}
+      />
     </>
   );
 }

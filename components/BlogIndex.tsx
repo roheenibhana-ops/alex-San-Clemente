@@ -6,6 +6,8 @@ import CardImage from "@/components/CardImage";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import { posts as allPosts } from "@/lib/posts";
 import DataTable from "@/components/DataTable";
+import JsonLd from "@/components/JsonLd";
+import { SITE_URL } from "@/lib/site";
 
 const fmt = (iso: string) =>
   new Date(iso + "T12:00:00Z").toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric", timeZone: "UTC" });
@@ -92,6 +94,15 @@ export default function BlogIndex({ page }: { page: number }) {
         )}
       </main>
       <Footer />
+      <JsonLd
+        data={{
+          "@context": "https://schema.org",
+          "@type": "Blog",
+          name: "San Clemente Real Estate Blog",
+          url: `${SITE_URL}${href(page)}`,
+          blogPost: posts.map((p) => ({ "@type": "BlogPosting", headline: p.title, url: `${SITE_URL}/blog/${p.slug}`, datePublished: p.date })),
+        }}
+      />
     </>
   );
 }

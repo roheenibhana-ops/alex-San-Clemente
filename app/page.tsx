@@ -8,6 +8,8 @@ import { reviews, reviewsLink, reviewStats } from "@/lib/reviews";
 import GoogleBadge, { GoogleG } from "@/components/GoogleBadge";
 import { guides } from "@/lib/places";
 import Link from "next/link";
+import JsonLd from "@/components/JsonLd";
+import { SITE_URL } from "@/lib/site";
 import { agent, market, stats, lifestyle, services, faqs } from "@/lib/content";
 
 export const metadata = { alternates: { canonical: "/" } };
@@ -256,6 +258,22 @@ export default function Home() {
       </main>
 
       <Footer />
+      <JsonLd
+        data={{
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          name: `${agent.name} | San Clemente Homes for Sale`,
+          url: SITE_URL,
+          publisher: { "@type": "Organization", name: agent.team },
+        }}
+      />
+      <JsonLd
+        data={{
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: faqs.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a.replace(/\[([^\]]+)\]\([^)]+\)/g, "$1") } })),
+        }}
+      />
     </>
   );
 }
