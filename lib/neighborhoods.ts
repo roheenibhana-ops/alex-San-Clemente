@@ -96,7 +96,7 @@ export const hoods: Hood[] = [
       ["Built as", "Four neighborhoods: Azure, Indigo, Aqua, Sapphire"],
       ["Size", "About 309 homes, per development announcements"],
       ["Trail access", "Sea Summit Trail runs along the cliffs"],
-      ["Typical home style", "Newer single-family homes with modern layouts"],
+      ["Typical home style", "Newer single-family homes, many in a Spanish-style design with tile roofs"],
       ["Ocean views", "Vary lot by lot, from partial to wide-open"],
     ],
     feels: [
@@ -104,11 +104,11 @@ export const hoods: Hood[] = [
       "Views are the big variable. Two homes a street apart can have very different outlooks, so the right move is to stand in the actual house at the time of day you'll use it.",
     ],
     homes: [
-      "Mostly newer single-family construction, which usually means open floor plans, modern kitchens, and fewer surprises than a 1950s bungalow.",
+      "Mostly newer single-family construction in a Spanish-style design, with tile roofs, stucco, and arched details that echo the rest of town. That usually means open floor plans, modern kitchens, and fewer surprises than a 1950s bungalow.",
       "Ask about HOA dues and any special assessments up front. Newer master-planned communities often have them, and they belong in your monthly cost calculation.",
     ],
     love: [
-      "Newer construction and modern layouts",
+      "Newer construction with Spanish-style design and modern layouts",
       "Cliffside trail access right nearby",
       "A planned community with consistent design",
       "Ocean views on many lots",

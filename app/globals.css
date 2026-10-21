@@ -273,7 +273,7 @@ a { color: inherit; }
 
 /* ===== photo slots ===== */
 .hood-tile, .post-card { overflow: hidden; }
-.card-img { display: block; width: calc(100% + 3.5rem); max-width: none; margin: -1.75rem -1.75rem .6rem; aspect-ratio: 16 / 10; object-fit: cover; transition: transform .5s ease; }
+.card-img { display: block; height: auto; width: calc(100% + 3.5rem); max-width: none; margin: -1.75rem -1.75rem .6rem; aspect-ratio: 16 / 10; object-fit: cover; transition: transform .5s ease; }
 .hood-tile:hover .card-img, .post-card:hover .card-img { transform: scale(1.04); }
 .hood-art-img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
 .hood-hero.has-img { background: #0b2433; }
@@ -364,7 +364,7 @@ a { color: inherit; }
 .more-guides { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1rem; }
 .more-card { display: flex; flex-direction: column; justify-content: flex-end; gap: .5rem; background: #f1f7fc; border: 1px solid rgba(10,108,140,.15); border-radius: 16px; padding: 1.4rem 1.5rem; text-decoration: none; color: var(--ocean); font-weight: 700; font-size: 1.05rem; line-height: 1.35; overflow: hidden; transition: transform .2s, box-shadow .2s; }
 .more-card:hover { transform: translateY(-4px); box-shadow: var(--shadow); }
-.more-card .card-img { width: calc(100% + 3rem); margin: -1.4rem -1.5rem .4rem; }
+.more-card .card-img { height: auto; width: calc(100% + 3rem); margin: -1.4rem -1.5rem .4rem; }
 .prose a.btn-outline, .post a.btn-outline { color: var(--ocean-d); }
 .prose a.btn-outline:hover, .post a.btn-outline:hover { color: #fff; }
 .cta-card p { color: var(--ocean-d); font-weight: 700; font-size: 1.15rem; line-height: 1.5; margin: 0 0 1.1rem; }

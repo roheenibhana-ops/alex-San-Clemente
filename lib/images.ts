@@ -4,6 +4,10 @@
 export type Img = { src: string; alt: string };
 
 export const images: Record<string, Img> = {
+  "hood:sea-summit": {
+    src: "/images/neighborhoods/sea-summit.jpg",
+    alt: "Spanish-style homes with red tile roofs in Sea Summit, San Clemente, with the Pacific Ocean on the horizon",
+  },
   // "hood:talega": { src: "/images/neighborhoods/talega.jpg", alt: "..." },
 };
 
