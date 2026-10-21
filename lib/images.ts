@@ -32,8 +32,11 @@ export const images: Record<string, Img> = {
     src: "/images/blog/buying-a-single-family-home-in-san-clemente.jpg",
     alt: "Two-story single-family home with a tile roof and landscaped entry in San Clemente",
   },
+  "post:shorecliffs-beach-club-neighborhood-guide": {
+    src: "/images/neighborhoods/shorecliffs-ocean-view-homes.jpg",
+    alt: "Aerial view of ocean-view homes and a private community in Shorecliffs, San Clemente",
+  },
   // "hood:talega": { src: "/images/neighborhoods/talega.jpg", alt: "..." },
-
 };
 
 // Extra photos shown in a strip on a neighborhood page, keyed by neighborhood slug.
@@ -41,7 +44,6 @@ export const galleries: Record<string, Img[]> = {
   shorecliffs: [
     { src: "/images/neighborhoods/shorecliffs-coastline.jpg", alt: "Aerial view of coastal homes above the shoreline and beach in Shorecliffs, San Clemente" },
     { src: "/images/neighborhoods/shorecliffs-ocean-deck.jpg", alt: "Deck with outdoor seating and a pool overlooking the Pacific Ocean and beach in Shorecliffs" },
-    { src: "/images/neighborhoods/shorecliffs-ocean-view-homes.jpg", alt: "Aerial view of ocean-view homes in Shorecliffs, San Clemente" },
   ],
 };
 
