@@ -116,6 +116,7 @@ export default async function GuidePage({ params }: { params: Promise<{ guide: s
                 </Link>
               ))}
               <Link href="/neighborhoods" className="post-card">
+                <CardImage k="hood:talega" />
                 <span className="tile-tag">Neighborhoods</span>
                 <h3>Compare San Clemente neighborhoods</h3>
               </Link>

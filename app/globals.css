@@ -519,3 +519,5 @@ a.card-link .link-arrow { display: inline-block; margin-top: .75rem; }
 .page-hero { position: relative; overflow: hidden; padding-bottom: clamp(5rem, 9vw, 7rem); }
 .page-hero::before { content: ""; position: absolute; left: 0; right: 0; bottom: -1px; height: clamp(70px, 11vw, 130px); background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 220' preserveAspectRatio='none'%3E%3Cpath fill='%2310708a' fill-opacity='.16' d='M0 120c120-50 240-50 360 0s240 50 360 0 240-50 360 0 240 50 360 0V220H0Z'/%3E%3Cpath fill='%2310708a' fill-opacity='.24' d='M0 150c120-40 240-40 360 0s240 40 360 0 240-40 360 0 240 40 360 0V220H0Z'/%3E%3Cpath fill='%23f7f3ec' d='M0 180c120-30 240-30 360 0s240 30 360 0 240-30 360 0 240 30 360 0V220H0Z'/%3E%3C/svg%3E") center bottom / 100% 100% no-repeat; z-index: 3; pointer-events: none; }
 .page-hero + .section { padding-top: clamp(1.5rem, 3vw, 2.5rem); }
+.post-grid { align-items: stretch; }
+.post-grid > .post-card { height: auto; }
