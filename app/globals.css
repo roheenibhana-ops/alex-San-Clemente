@@ -432,3 +432,9 @@ a { color: inherit; }
 }
 @media (max-width: 700px) { .data-table.cols-2 td[data-label]::before { display: none; } }
 .inline-cta > span { flex: 1 1 300px; }
+
+.pager { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: .5rem; margin-top: 2.5rem; }
+.pager a, .pager span { min-width: 2.75rem; min-height: 2.75rem; padding: 0 1rem; display: inline-flex; align-items: center; justify-content: center; border-radius: 999px; background: #fff; box-shadow: var(--shadow); color: var(--ink); text-decoration: none; font-weight: 600; }
+.pager a:hover { transform: translateY(-2px); }
+.pager .cur { background: var(--ink); color: #fff; }
+.pager .off { opacity: .4; box-shadow: none; }
