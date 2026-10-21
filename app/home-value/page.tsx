@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { imageFor } from "@/lib/images";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Reveal from "@/components/Reveal";
@@ -37,7 +38,11 @@ export default function HomeValue() {
     <>
       <Header />
       <main>
-        <section className="page-hero">
+        <section className={`page-hero ${imageFor("page:home-value") ? "has-img" : ""}`}>
+          {imageFor("page:home-value") && (
+            // eslint-disable-next-line @next/next/no-img-element
+            <img className="page-hero-img" src={imageFor("page:home-value")!.src} alt={imageFor("page:home-value")!.alt} width={1600} height={1000} fetchPriority="high" />
+          )}
           <Reveal>
             <Breadcrumbs trail={[{ label: "Home value", href: "/home-value" }]} />
             <p className="eyebrow">Free home valuation</p>

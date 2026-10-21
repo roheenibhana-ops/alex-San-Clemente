@@ -89,6 +89,18 @@ export const images: Record<string, Img> = {
     src: "/images/blog/san-clemente-housing-market-update-october-2026.jpg",
     alt: "Aerial view of tile-roof homes along curving streets with hills behind at dusk in San Clemente",
   },
+  "page:lifestyle": {
+    src: "/images/pages/lifestyle.jpg",
+    alt: "Aerial view of the San Clemente Pier, beach and shoreline",
+  },
+  "page:blog": {
+    src: "/images/pages/blog.jpg",
+    alt: "Tile-roof homes on a quiet San Clemente street at golden hour",
+  },
+  "page:home-value": {
+    src: "/images/pages/home-value.jpg",
+    alt: "Single-story tile-roof home with a lawn and palm trees on a corner lot in San Clemente",
+  },
   "post:shorecliffs-beach-club-neighborhood-guide": {
     src: "/images/neighborhoods/shorecliffs-ocean-view-homes.jpg",
     alt: "Aerial view of ocean-view homes and a private community in Shorecliffs, San Clemente",

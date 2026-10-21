@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { imageFor } from "@/lib/images";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Reveal from "@/components/Reveal";
@@ -23,7 +24,11 @@ export default function BlogIndex({ page }: { page: number }) {
     <>
       <Header />
       <main>
-        <section className="page-hero">
+        <section className={`page-hero ${imageFor("page:blog") ? "has-img" : ""}`}>
+          {imageFor("page:blog") && (
+            // eslint-disable-next-line @next/next/no-img-element
+            <img className="page-hero-img" src={imageFor("page:blog")!.src} alt={imageFor("page:blog")!.alt} width={1600} height={1000} fetchPriority="high" />
+          )}
           <Reveal>
             <Breadcrumbs trail={page === 1 ? [{ label: "Blog", href: "/blog" }] : [{ label: "Blog", href: "/blog" }, { label: `Page ${page}`, href: href(page) }]} />
             <p className="eyebrow">The San Clemente blog</p>

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { imageFor } from "@/lib/images";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Reveal from "@/components/Reveal";
@@ -60,7 +61,11 @@ export default function Lifestyle() {
     <>
       <Header />
       <main>
-        <section className="page-hero">
+        <section className={`page-hero ${imageFor("page:lifestyle") ? "has-img" : ""}`}>
+          {imageFor("page:lifestyle") && (
+            // eslint-disable-next-line @next/next/no-img-element
+            <img className="page-hero-img" src={imageFor("page:lifestyle")!.src} alt={imageFor("page:lifestyle")!.alt} width={1600} height={1000} fetchPriority="high" />
+          )}
           <Reveal>
             <p className="eyebrow">Lifestyle guide</p>
             <h1>Living in San Clemente, CA</h1>
