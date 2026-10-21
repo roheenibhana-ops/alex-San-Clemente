@@ -439,3 +439,21 @@ a { color: inherit; }
 .pager .cur { background: var(--ink); color: #fff; }
 .pager .off { opacity: .4; box-shadow: none; }
 .page-hero + .section { padding-top: clamp(2.5rem, 5vw, 4rem); }
+
+/* Card grids: last row stretches to fill instead of leaving empty cells */
+.grid2, .grid4, .hood-grid, .post-grid, .place-grid, .guide-links, .reviews, .reviews-band .reviews, .more-guides, .day-grid { display: flex; flex-wrap: wrap; }
+.grid2 > *, .grid4 > *, .hood-grid > *, .post-grid > *, .place-grid > *, .guide-links > *, .reviews > *, .more-guides > *, .day-grid > * { flex: 1 1 var(--b, 300px); min-width: 0; }
+.grid2 { --b: 300px; gap: 1.25rem; }
+.grid4 { --b: 230px; gap: 1.25rem; }
+.hood-grid { --b: 290px; gap: 1.25rem; }
+.post-grid { --b: 300px; gap: 1.25rem; }
+.place-grid { --b: 250px; gap: 1rem; }
+.guide-links { --b: 240px; gap: 1rem; }
+.reviews, .reviews-band .reviews { --b: 290px; gap: 1.25rem; }
+.more-guides { --b: 260px; gap: 1rem; }
+.day-grid { --b: 240px; gap: 1rem; }
+/* Even counts that would leave one orphan on desktop: 4 becomes 2x2, 7 becomes 4+3 */
+@media (min-width: 900px) {
+  .post-grid:has(> :nth-child(4):last-child), .hood-grid:has(> :nth-child(4):last-child), .place-grid:has(> :nth-child(4):last-child), .grid2:has(> :nth-child(4):last-child), .more-guides:has(> :nth-child(4):last-child), .guide-links:has(> :nth-child(4):last-child) { --b: 44%; }
+  .place-grid:has(> :nth-child(7):last-child), .grid4:has(> :nth-child(7):last-child) { --b: 22%; }
+}
