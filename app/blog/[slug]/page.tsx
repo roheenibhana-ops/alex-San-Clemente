@@ -175,7 +175,7 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
               </ul>
             </div>
             <div className="side-card side-cta">
-              <GoogleBadge />
+              <GoogleBadge size="side" />
               <p>Thinking about a move? Get a straight answer on pricing and neighborhoods.</p>
               <Link className="btn btn-sm" href="/home-value">Free home valuation</Link>
               <Link className="btn btn-sm btn-outline" href="/#contact">Talk to Alex</Link>

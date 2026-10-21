@@ -11,10 +11,10 @@ export function GoogleG({ size = 22 }: { size?: number }) {
   );
 }
 
-export default function GoogleBadge({ size = "md" }: { size?: "md" | "lg" }) {
+export default function GoogleBadge({ size = "md" }: { size?: "md" | "lg" | "side" }) {
   return (
     <a className={`g-badge g-${size}`} href={reviewsLink} target="_blank" rel="noopener noreferrer" aria-label={`${reviewStats.rating} stars, ${reviewStats.count} ${reviewStats.label}. Read on Google`}>
-      <GoogleG size={size === "lg" ? 34 : 22} />
+      <GoogleG size={size === "lg" ? 34 : size === "side" ? 20 : 22} />
       <span className="g-stars" aria-hidden>★★★★★</span>
       <span className="g-text">
         <strong>{reviewStats.rating}</strong> · {reviewStats.count} {reviewStats.label}

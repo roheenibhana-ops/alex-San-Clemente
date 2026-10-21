@@ -372,3 +372,7 @@ a { color: inherit; }
 .alert-banner a { color: #c8321a; font-weight: 700; }
 .author-card p { color: var(--ink-2); }
 .author-card .link-arrow { color: var(--ocean); }
+
+.g-side { display: grid; grid-template-columns: auto 1fr; align-items: center; gap: .1rem .6rem; border-radius: 14px; padding: .7rem 1rem; width: 100%; background: #fff; box-shadow: none; }
+.g-side .g-stars { font-size: .95rem; }
+.g-side .g-text { grid-column: 1 / -1; font-size: .85rem; line-height: 1.35; white-space: normal; }
