@@ -169,7 +169,7 @@ a { color: inherit; }
 .footer-logo { height: 56px; width: auto; margin: 0 auto 1rem; filter: invert(1); mix-blend-mode: screen; opacity: .9; }
 @media (max-width: 860px) { .brand img { height: 46px; } }
 
-.page-hero { padding: clamp(8rem, 16vw, 11rem) clamp(1.25rem, 6vw, 6rem) clamp(3rem, 7vw, 5rem); background: linear-gradient(180deg, var(--foam), var(--sand)); max-width: none; }
+.page-hero { padding: clamp(7.5rem, 14vw, 9.5rem) max(clamp(1.25rem, 6vw, 6rem), calc((100% - 1300px) / 2 + clamp(1.25rem, 6vw, 6rem))) clamp(2rem, 4vw, 3rem); background: linear-gradient(180deg, var(--foam), var(--sand)); max-width: none; }
 .page-hero > * { max-width: 900px; margin-inline: 0; }
 .page-hero h1 { font-size: clamp(2.4rem, 6vw, 4.4rem); }
 .sub { color: var(--ink-2); max-width: 44rem; margin-bottom: 1rem; }
@@ -438,3 +438,4 @@ a { color: inherit; }
 .pager a:hover { transform: translateY(-2px); }
 .pager .cur { background: var(--ink); color: #fff; }
 .pager .off { opacity: .4; box-shadow: none; }
+.page-hero + .section { padding-top: clamp(2.5rem, 5vw, 4rem); }

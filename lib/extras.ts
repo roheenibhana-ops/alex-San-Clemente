@@ -388,7 +388,7 @@ export const hubExtra: Extra = {
       ],
     },
     {
-      h: "Go deeper",
+      h: "Neighborhood Guides and Local Resources",
       list: [
         "[Pier Bowl vs. Talega](/blog/pier-bowl-vs-talega): a head-to-head of two very different ways to live here",
         "[Moving to San Clemente](/blog/moving-to-san-clemente-what-to-know): an honest checklist before you commit",
@@ -451,7 +451,7 @@ export const homeValueExtra: Extra = {
 export const lifestyleHubExtra: Extra = {
   sections: [
     {
-      h: "How to use this guide",
+      h: "How to Use This San Clemente Lifestyle Guide",
       paras: [
         "San Clemente is easy to love and easier to enjoy when you know a few local details. This section of the site collects those details: where the beaches are and how to park, which trails fit which mood, where locals eat, and the insider notes that make a day smoother. Each guide links to maps, official sources, and the neighborhoods closest to what you're reading about.",
         "If you're visiting, start with the [beaches](/lifestyle/beaches) and [food and drink](/lifestyle/food-drink) guides. If you're thinking of moving, pair these with our [neighborhood guides](/neighborhoods) and our honest [moving checklist](/blog/moving-to-san-clemente-what-to-know).",

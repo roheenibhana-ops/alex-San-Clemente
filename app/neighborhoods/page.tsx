@@ -57,7 +57,7 @@ export default function NeighborhoodsHub() {
         <section className="section tint">
           <Reveal>
             <p className="eyebrow">Side by side</p>
-            <h2>Quick comparison</h2>
+            <h2>San Clemente Neighborhoods Compared Side by Side</h2>
             <DataTable
               caption="San Clemente neighborhoods at a glance"
               head={["Neighborhood", "Setting", "Best if you want", "Typical homes"]}
@@ -104,7 +104,7 @@ export default function NeighborhoodsHub() {
 
         <section className="section prose">
           <Reveal>
-            <h2>Neighborhood questions</h2>
+            <h2>San Clemente Neighborhood FAQ</h2>
             {hubExtra.faqs.map((f) => (
               <details className="faq" key={f.q}>
                 <summary>{f.q}</summary>

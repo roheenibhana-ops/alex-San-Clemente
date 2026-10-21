@@ -81,7 +81,7 @@ export default function Home() {
                 <GoogleG size={44} />
                 <div>
                   <p className="eyebrow">Trusted by clients</p>
-                  <h2>Rated {reviewStats.rating} on Google</h2>
+                  <h2>Alex Yu Reviews: Rated {reviewStats.rating} on Google</h2>
                   <p className="stars-big" aria-hidden>★★★★★</p>
                   <p className="sub">{reviewStats.count} {reviewStats.label}</p>
                 </div>
@@ -113,7 +113,7 @@ export default function Home() {
         <section id="market" className="section market">
           <Reveal>
             <p className="eyebrow">Market snapshot</p>
-            <h2>A single-family market, around $2M</h2>
+            <h2>San Clemente Single-Family Homes: A Market Around $2M</h2>
           </Reveal>
           <div className="grid2">
             {market.map((m, i) => (
@@ -131,7 +131,7 @@ export default function Home() {
         <section id="lifestyle" className="section">
           <Reveal>
             <p className="eyebrow">Why San Clemente</p>
-            <h2>The Spanish Village by the Sea</h2>
+            <h2>Living in San Clemente: The Spanish Village by the Sea</h2>
           </Reveal>
           <div className="grid4">
             {lifestyle.map((l, i) => (
@@ -149,7 +149,7 @@ export default function Home() {
         <section id="neighborhoods" className="section tint">
           <Reveal>
             <p className="eyebrow">Neighborhood guide</p>
-            <h2>Find the block that fits your life</h2>
+            <h2>San Clemente Neighborhoods: Find the Block That Fits Your Life</h2>
           </Reveal>
           <Reveal delay={100}>
             <Neighborhoods />
@@ -159,7 +159,7 @@ export default function Home() {
         <section className="section">
           <Reveal>
             <p className="eyebrow">Live like a local</p>
-            <h2>Explore San Clemente</h2>
+            <h2>Explore San Clemente: Beaches, Trails, Food &amp; Local Guides</h2>
           </Reveal>
           <div className="guide-links">
             {guides.map((g) => (
@@ -183,7 +183,7 @@ export default function Home() {
         <section id="services" className="section">
           <Reveal>
             <p className="eyebrow">How Alex helps</p>
-            <h2>Educate first, advise second</h2>
+            <h2>How Alex Yu Helps San Clemente Buyers and Sellers</h2>
           </Reveal>
           <div className="grid3">
             {services.map((s, i) => (
@@ -210,7 +210,7 @@ export default function Home() {
             </Reveal>
             <Reveal delay={120}>
               <p className="eyebrow">Meet your agent</p>
-              <h2>{agent.name}</h2>
+              <h2>Meet {agent.name}, San Clemente Real Estate Agent</h2>
               <p>
                 Alex leads the {agent.team} at {agent.brokerage}, serving homeowners and buyers across Orange County. With
                 over a decade in the market and 600+ transactions, the approach is simple: give you an honest, block-by-block
