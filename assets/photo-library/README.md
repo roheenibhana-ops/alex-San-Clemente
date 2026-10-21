@@ -33,6 +33,10 @@ Alt text must describe what is visible. Do not name a place unless we are sure o
 | coastal-condo-building-terrace.jpg | Terracotta-colored condo building with balconies, street and palms | Peer cities post |
 | single-story-tile-roof-home-palms-aerial.jpg | Single-story tile-roof home with lawn and palms on a corner lot | Inline in "Buying" post |
 | hillside-park-playground-aerial.jpg | Park with two playgrounds, picnic tables and lawn, aerial | Inline in "Pier Bowl vs. Talega" post |
+| neighborhood-streets-hillside-dusk-aerial.jpg | Tile-roof homes along curving streets with hills behind at dusk | Housing market update post (hero) |
+| single-story-tile-roof-homes-golden-hour.jpg | Tile-roof homes on a street corner at golden hour | Inline in "Moving to San Clemente" post |
+| coastal-condo-buildings-pools-aerial.jpg | Terracotta-roof coastal buildings with pools and palms, hills behind (location unconfirmed) | Inline in "Pier Bowl vs. Talega" post |
+| beachwalk-del-gado-road-sign.jpg | "Beachwalk, 100-121 Del Gado Road" townhome community sign | Not used yet (stashed) |
 | presidential-heights-i-sign.jpg | "Presidential Heights I, A Private Community" stone sign (area unconfirmed) | Not used yet (stashed) |
 | alex-yu-doorway-portrait.jpg | Alex in a doorway, black sweater | About page, home About, author cards (cropped) |
 | alex-yu-blazer-headshot.jpg | Older blue-blazer headshot | Parked, not used |

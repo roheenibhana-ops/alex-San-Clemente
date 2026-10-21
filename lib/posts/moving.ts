@@ -76,6 +76,7 @@ export const post: Post = {
     { t: "p", text: "Coastal marine layer, the low cloud that rolls in off the ocean, can make mornings gray even when inland areas are sunny. Neighborhoods farther from the water often see more sun and warmer afternoons. If sunshine is a priority, spend time in the specific area you're considering on a few different mornings." },
     { t: "cta", text: "Want a shortlist of neighborhoods that fit how you live? Ask Alex.", href: "/#contact", label: "Get my shortlist" },
     { t: "h2", text: "Choosing a neighborhood by how you live" },
+    { t: "img", src: "/images/blog/inline-golden-hour-homes.jpg", alt: "Single-story and two-story tile-roof homes on a quiet San Clemente street at golden hour" },
     { t: "p", text: "Choose a neighborhood by matching your top priority, whether walkability, newer construction, space, or views, to the area that fits it. San Clemente isn't one experience. Where you live changes your day more than almost any other choice. Here's a quick map to our neighborhood guides:" },
     {
       t: "table",

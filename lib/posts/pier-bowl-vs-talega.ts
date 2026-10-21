@@ -38,6 +38,7 @@ export const post: Post = {
       source: { label: "Talega and San Clemente (Wikipedia)", href: "https://en.wikipedia.org/wiki/Talega,_San_Clemente,_California" },
     },
     { t: "h2", text: "The Pier Bowl and Downtown: a village by the sea" },
+    { t: "img", src: "/images/blog/inline-coastal-condos.jpg", alt: "Aerial view of Spanish-style coastal buildings with terracotta roofs, palm trees and pools, with hills behind in San Clemente" },
     { t: "p", text: "Living in the Pier Bowl and Downtown means a walkable coastal village setting near the pier, the beach trail, and Avenida Del Mar. The Pier Bowl is the low-lying area around the San Clemente Pier, which opened in 1928, with Downtown and Avenida Del Mar climbing the hillside above it. This is the part of town that gave San Clemente its \"Spanish Village by the Sea\" reputation, shaped by founder Ole Hanson's vision of red-tile roofs and white stucco." },
     { t: "h3", text: "What daily life looks like" },
     { t: "p", text: "Mornings start with coffee and a walk on the beach trail. Midday you might grab lunch on Avenida Del Mar. In the evening, the pier fills with people watching the sunset, and you can walk to dinner. For many residents, the appeal is that the car stays in the driveway for a surprising portion of the week." },

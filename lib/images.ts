@@ -85,6 +85,10 @@ export const images: Record<string, Img> = {
     src: "/images/neighborhoods/hub-sunset-coast.jpg",
     alt: "Sunset over the Pacific Ocean beside oceanfront buildings with red tile roofs and palm trees in San Clemente",
   },
+  "post:san-clemente-housing-market-update-october-2026": {
+    src: "/images/blog/san-clemente-housing-market-update-october-2026.jpg",
+    alt: "Aerial view of tile-roof homes along curving streets with hills behind at dusk in San Clemente",
+  },
   "post:shorecliffs-beach-club-neighborhood-guide": {
     src: "/images/neighborhoods/shorecliffs-ocean-view-homes.jpg",
     alt: "Aerial view of ocean-view homes and a private community in Shorecliffs, San Clemente",
