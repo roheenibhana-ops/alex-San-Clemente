@@ -44,10 +44,7 @@ export const images: Record<string, Img> = {
     src: "/images/lifestyle/local-tips.jpg",
     alt: "Train passing the San Clemente station sign beside palm trees and the tracks",
   },
-  "post:san-clemente-housing-market-update-october-2026": {
-    src: "/images/blog/san-clemente-housing-market-update-october-2026.jpg",
-    alt: "Presidential Heights I private community entrance sign with a stone base in San Clemente",
-  },
+
   "post:pier-bowl-vs-talega": {
     src: "/images/blog/pier-bowl-vs-talega.jpg",
     alt: "Aerial view of a San Clemente golf course with the Pacific Ocean beyond",
