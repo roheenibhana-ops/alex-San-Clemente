@@ -23,7 +23,7 @@ export const stats = [
 export const recognition = [
   { title: "RealTrends", body: "Ranked among the nation's top-producing medium teams.", img: "" },
   { title: "Diamond Award", body: "Awarded to the Alex Yu Team for production, with four years in the First Team Hall of Fame.", img: "" },
-  { title: "Serhant PRO Coach", body: "PRO Coach with SERHANT. Sell It.", img: "" },
+  { title: "Serhant PRO Coach", body: "PRO Coach with SERHANT. Sell It.", img: "/images/alex-ryan-serhant.jpg" },
 ];
 
 export const seenOn = ["ABC News", "FOX News Channel", "CNN", "NBC Universal"];

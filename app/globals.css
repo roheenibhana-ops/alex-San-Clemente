@@ -472,7 +472,7 @@ a.card-link .link-arrow { display: inline-block; margin-top: .75rem; }
 .recog-split:has(> img) { grid-template-columns: 1fr 1.2fr; }
 .recog-split img { width: 100%; height: auto; border-radius: var(--radius); }
 .recog-cards { margin-top: 1rem; }
-.recog-img { width: 150px; height: auto; border-radius: 4px; margin-bottom: 1rem; }
+.recog-img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; object-position: top; border-radius: 8px; margin-bottom: 1rem; }
 .about-stats { list-style: none; padding: 0; margin: 1.5rem 0; display: flex; flex-wrap: wrap; gap: 1rem; }
 .about-stats li { background: #fff; border-radius: var(--radius); box-shadow: var(--shadow); padding: 1rem 1.25rem; min-width: 8.5rem; flex: 1 1 8.5rem; }
 .about-stats strong { display: block; font-family: var(--font-serif), serif; font-size: 2rem; color: var(--ocean-d); line-height: 1.1; }
