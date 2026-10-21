@@ -22,7 +22,7 @@ export const stats = [
 // Taken from Alex's main site (findyourhomeorangecounty.com). Alex to confirm wording and any required disclosures before launch.
 export const recognition = [
   { title: "RealTrends Medium Teams", body: "Ranked among the nation's top-producing medium teams in the 2026 RealTrends Medium Teams ranking (RealTrends Verified).", img: "" },
-  { title: "Diamond Award", body: "Awarded to the Alex Yu Team for production, with four years in the First Team Hall of Fame.", img: "" },
+  { title: "Diamond Award", body: "Awarded to the Alex Yu Team for production, with four years in the First Team Hall of Fame.", img: "/images/first-team-hall-of-fame-diamond.jpg", graphic: true },
   { title: "Serhant PRO Coach", body: "PRO Coach with SERHANT. Sell It.", img: "/images/alex-ryan-serhant.jpg" },
 ];
 

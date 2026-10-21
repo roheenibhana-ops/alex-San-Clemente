@@ -126,7 +126,7 @@ export default function Home() {
                 <div className="card">
                   {r.img && (
                     // eslint-disable-next-line @next/next/no-img-element
-                    <img className="recog-img" src={r.img} alt={r.title} loading="lazy" />
+                    <img className={`recog-img${"graphic" in r && r.graphic ? " graphic" : ""}`} src={r.img} alt={r.title} loading="lazy" />
                   )}
                   <h3>{r.title}</h3>
                   <p>{r.body}</p>
