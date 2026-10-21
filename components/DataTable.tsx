@@ -15,7 +15,7 @@ export default function DataTable({
   return (
     <figure className="table-figure">
       <div className="table-wrap" tabIndex={0}>
-        <table className="data-table">
+        <table className={`data-table cols-${head.length}`}>
           <caption>{caption}</caption>
           <thead>
             <tr>
@@ -28,7 +28,7 @@ export default function DataTable({
             {rows.map((r) => (
               <tr key={r[0]}>
                 {r.map((c, i) =>
-                  i === 0 ? <th key={i} scope="row"><Inline text={c} /></th> : <td key={i}><Inline text={c} /></td>,
+                  i === 0 ? <th key={i} scope="row"><Inline text={c} /></th> : <td key={i} data-label={head[i]}><Inline text={c} /></td>,
                 )}
               </tr>
             ))}

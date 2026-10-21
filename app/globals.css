@@ -401,3 +401,33 @@ a { color: inherit; }
 .card.service { display: flex; flex-direction: column; }
 .card.service p { flex: 1; }
 .card.service .link-arrow { margin-top: 1rem; }
+
+/* mobile polish: comfortable tap targets and readable labels */
+.link-arrow { display: inline-block; padding: .6rem 0; }
+.tile-tag { font-size: .75rem; }
+@media (max-width: 860px) { .eyebrow { font-size: .78rem; } }
+
+/* Google badge: tidy stacked layout on small phones so it doesn't wrap into a fat pill */
+@media (max-width: 480px) {
+  .g-badge.g-md { display: grid; grid-template-columns: auto 1fr; align-items: center; gap: .1rem .55rem; border-radius: 16px; padding: .6rem .9rem; max-width: 100%; }
+  .g-badge.g-md .g-text { grid-column: 1 / -1; font-size: .85rem; line-height: 1.3; }
+}
+
+/* Tables on phones: 2-column tables wrap; wider tables stack each row into a readable card */
+@media (max-width: 700px) {
+  .data-table { min-width: 0; font-size: .92rem; }
+  .data-table th, .data-table td { padding: .7rem .9rem; }
+  .data-table caption { padding: .9rem 1rem; font-size: 1.05rem; }
+  .data-table.cols-3, .data-table.cols-4, .data-table.cols-5, .data-table.cols-6 { display: block; }
+  .data-table.cols-3 thead, .data-table.cols-4 thead, .data-table.cols-5 thead, .data-table.cols-6 thead { position: absolute; left: -9999px; }
+  .data-table.cols-3 tbody, .data-table.cols-4 tbody, .data-table.cols-5 tbody, .data-table.cols-6 tbody { display: block; }
+  .data-table.cols-3 caption, .data-table.cols-4 caption, .data-table.cols-5 caption, .data-table.cols-6 caption { display: block; }
+  .data-table.cols-3 tr, .data-table.cols-4 tr, .data-table.cols-5 tr, .data-table.cols-6 tr { display: block; border-top: 1px solid rgba(11,36,51,.1); padding: .55rem 0 .7rem; }
+  .data-table.cols-3 tbody tr:nth-child(even), .data-table.cols-4 tbody tr:nth-child(even), .data-table.cols-5 tbody tr:nth-child(even), .data-table.cols-6 tbody tr:nth-child(even) { background: rgba(207,232,228,.28); }
+  .data-table.cols-3 th, .data-table.cols-4 th, .data-table.cols-5 th, .data-table.cols-6 th,
+  .data-table.cols-3 td, .data-table.cols-4 td, .data-table.cols-5 td, .data-table.cols-6 td { display: block; border: 0; padding: .2rem 1rem; }
+  .data-table.cols-3 tbody th, .data-table.cols-4 tbody th, .data-table.cols-5 tbody th, .data-table.cols-6 tbody th { font-size: 1.02rem; padding-top: .35rem; }
+  .data-table td[data-label]::before { content: attr(data-label); display: block; font-size: .68rem; font-weight: 700; letter-spacing: .09em; text-transform: uppercase; color: var(--ocean); margin-bottom: .05rem; }
+  .data-table td[data-label=""]::before { display: none; }
+}
+@media (max-width: 700px) { .data-table.cols-2 td[data-label]::before { display: none; } }

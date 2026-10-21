@@ -50,7 +50,7 @@ export default function Neighborhoods() {
           <h3>{current.name}</h3>
           <p>{current.short}</p>
           <Link href={`/neighborhoods/${current.slug}`} className="link-arrow">
-            Read the {current.name} guide →
+            Read the full guide →
           </Link>
         </div>
       </article>
