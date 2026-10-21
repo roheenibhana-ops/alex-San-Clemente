@@ -22,7 +22,7 @@ export default function About() {
     <>
       <Header />
       <main>
-        <section className="page-hero">
+        <section className="page-hero about-page-hero">
           <Reveal>
             <Breadcrumbs trail={[{ label: "About Alex Yu", href: "/about" }]} />
             <div className="about about-hero">
