@@ -131,9 +131,11 @@ export default function Home() {
         <section id="about" className="section tint">
           <div className="about">
             <Reveal>
-              <div className="portrait" aria-label="Photo of Alex Yu coming soon">
-                <span>Alex Yu</span>
-              </div>
+              <figure className="portrait">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img src="/alex-yu.jpg" alt="Alex Yu, San Clemente realtor" width={640} height={800} loading="lazy" />
+                <figcaption>Alex Yu</figcaption>
+              </figure>
             </Reveal>
             <Reveal delay={120}>
               <p className="eyebrow">Meet your agent</p>
