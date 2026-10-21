@@ -8,7 +8,7 @@ const sans = Inter({ subsets: ["latin"], variable: "--font-sans", display: "swap
 export const metadata: Metadata = {
   title: "San Clemente Homes for Sale | Single-Family Homes | Alex Yu Team",
   description:
-    "Search single-family homes for sale in San Clemente, CA. Median price around $2M. Neighborhood guides, free home valuation, and local expertise from Alex Yu, First Team Real Estate.",
+    "Search single-family homes for sale in San Clemente, CA. Median price around $2M. Free home valuation and local expertise from Alex Yu, First Team Real Estate.",
   openGraph: {
     title: "San Clemente Homes for Sale | Alex Yu Team",
     description: "Single-family beach homes and neighborhood expertise in San Clemente, CA.",
