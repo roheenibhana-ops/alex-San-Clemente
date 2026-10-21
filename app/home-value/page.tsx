@@ -51,7 +51,7 @@ export default function HomeValue() {
 
         <section className="section contact">
           <Reveal>
-            <h2>Request your valuation</h2>
+            <h2>How do you request a free home valuation?</h2>
             <p className="sub">Takes about a minute. No obligation.</p>
             <ol className="steps">
               {steps.map(([t, d], i) => (
@@ -66,7 +66,7 @@ export default function HomeValue() {
 
         <section className="section tint prose">
           <Reveal>
-            <h2>Where the San Clemente market stands</h2>
+            <h2>Where does the San Clemente market stand?</h2>
             <p>A snapshot of the single-family market, so you know the backdrop for your valuation.</p>
             <DataTable
               caption="San Clemente single-family market, September 2026"
@@ -87,7 +87,7 @@ export default function HomeValue() {
 
         <section className="section narrow">
           <Reveal>
-            <h2>Valuation FAQ</h2>
+            <h2>Home valuation questions, answered</h2>
             {[...faqs, ...homeValueExtra.faqs].map((f) => (
               <details className="faq" key={f.q}>
                 <summary>{f.q}</summary>

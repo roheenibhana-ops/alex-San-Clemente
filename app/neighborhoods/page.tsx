@@ -57,7 +57,7 @@ export default function NeighborhoodsHub() {
         <section className="section tint">
           <Reveal>
             <p className="eyebrow">Side by side</p>
-            <h2>San Clemente Neighborhoods Compared Side by Side</h2>
+            <h2>How do San Clemente neighborhoods compare side by side?</h2>
             <DataTable
               caption="San Clemente neighborhoods at a glance"
               head={["Neighborhood", "Setting", "Best if you want", "Typical homes"]}
@@ -76,7 +76,7 @@ export default function NeighborhoodsHub() {
         <section className="section">
           <Reveal>
             <p className="eyebrow">Market snapshot</p>
-            <h2>San Clemente single-family market</h2>
+            <h2>What is the San Clemente single-family market like?</h2>
             <p className="sub">Citywide figures, the most reliable data available. For a specific neighborhood or street, Alex can pull fresh MLS sales for you.</p>
             <DataTable
               caption="Single-family market, September 2026"
@@ -104,7 +104,7 @@ export default function NeighborhoodsHub() {
 
         <section className="section prose">
           <Reveal>
-            <h2>San Clemente Neighborhood FAQ</h2>
+            <h2>San Clemente neighborhood questions, answered</h2>
             {hubExtra.faqs.map((f) => (
               <details className="faq" key={f.q}>
                 <summary>{f.q}</summary>
@@ -116,7 +116,7 @@ export default function NeighborhoodsHub() {
 
         <section className="value">
           <Reveal>
-            <h2>Not sure which one fits?</h2>
+            <h2>Not sure which San Clemente neighborhood fits?</h2>
             <p>Tell Alex how you live and he&apos;ll point you to the streets worth touring.</p>
             <Link className="btn btn-light" href="/#contact">Talk to Alex</Link>
           </Reveal>

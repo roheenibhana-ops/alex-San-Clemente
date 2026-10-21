@@ -124,7 +124,7 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
               <Render key={i} b={b} />
             ))}
 
-            <h2 id="faq">Frequently asked questions</h2>
+            <h2 id="faq">Frequently asked questions about this topic</h2>
             {p.faqs.map((f) => (
               <details className="faq" key={f.q}>
                 <summary>{f.q}</summary>

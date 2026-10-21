@@ -60,7 +60,7 @@ export default function BlogIndex({ page }: { page: number }) {
         {page === 1 && (
         <section className="section tint prose">
           <Reveal>
-            <h2>What you&apos;ll find on this blog</h2>
+            <h2>What can you learn from this San Clemente blog?</h2>
             <p>
               Every post is written for people who are thinking about buying, selling, or simply understanding San Clemente. We focus on
               single-family homes, real numbers with their sources, and plain English, then link you to the neighborhood and lifestyle

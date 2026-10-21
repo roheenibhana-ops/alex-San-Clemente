@@ -40,7 +40,7 @@ export const guides: Guide[] = [
       "San Clemente has a beach for almost every mood, from a pier-side scene you can walk to from Downtown to a long trail down to Trestles. Here's how each one works, including the parking and access details people usually learn the hard way.",
     sections: [
       {
-        h: "Beach-by-beach at a glance",
+        h: "What is each San Clemente beach like?",
         text: "Details come from the city, state, and local sources and can change, so confirm parking and rules before you go.",
         table: {
           caption: "San Clemente beaches: access, parking, and amenities",
@@ -57,7 +57,7 @@ export const guides: Guide[] = [
         },
       },
       {
-        h: "Which beach for which day",
+        h: "Which beach should you pick for your day?",
         places: [
           { name: "San Clemente Pier", note: "Dinner, sunset, people-watching, and a walk to the end of the pier." },
           { name: "T-Street", note: "A local-favorite surf spot with easy access from the nearby streets." },
@@ -84,7 +84,7 @@ export const guides: Guide[] = [
       "Between the coastal trail, the cliffside Sea Summit Trail, and a long list of neighborhood parks, you can spend most days outdoors without going far. Here's where to find what.",
     sections: [
       {
-        h: "Trails",
+        h: "What are the best trails in San Clemente?",
         table: {
           caption: "San Clemente trails",
           head: ["Trail", "What it is", "Good to know"],
@@ -96,7 +96,7 @@ export const guides: Guide[] = [
         },
       },
       {
-        h: "Parks and what's in them",
+        h: "Which San Clemente parks have what you need?",
         text: "A selection from the city's park system. For the full list, hours, and reservations, use the city's parks page.",
         table: {
           caption: "San Clemente parks",
@@ -112,7 +112,7 @@ export const guides: Guide[] = [
         },
       },
       {
-        h: "Golf",
+        h: "Where can you golf in San Clemente?",
         places: [
           { name: "Shorecliffs Golf Club", note: "Public 18-hole course that opened in 1964; renovated course and clubhouse reopened in 2024." },
           { name: "San Clemente Municipal Golf Course", note: "City-run public course; see the city's golf page for details." },
@@ -137,7 +137,7 @@ export const guides: Guide[] = [
       "From a pier-deck sunset dinner to a no-fuss morning coffee, here are the places that come up again and again when locals talk about where to eat. Hours and menus change, so check before you go. Want a shorter list? Jump to [coffee](/lifestyle/food-drink/coffee), [brunch](/lifestyle/food-drink/brunch), [dinner](/lifestyle/food-drink/dinner), or [seafood and sunset](/lifestyle/food-drink/seafood-sunset).",
     sections: [
       {
-        h: "Brunch & breakfast",
+        h: "Where should you go for brunch in San Clemente?",
         places: [
           { name: "Antoine's Café", note: "A long-running brunch favorite with generous portions." },
           { name: "West Toast Cafe", note: "Known for toast and coffee." },
@@ -146,7 +146,7 @@ export const guides: Guide[] = [
         ],
       },
       {
-        h: "Coffee",
+        h: "Where is the best coffee in San Clemente?",
         places: [
           { name: "Sur Coffee", note: "A Downtown anchor with an artsy feel." },
           { name: "Kuli Coffee", note: "Walkable from Avenida Del Mar." },
@@ -157,7 +157,7 @@ export const guides: Guide[] = [
         ],
       },
       {
-        h: "Dinner & date night",
+        h: "Where should you go for dinner and date night in San Clemente?",
         places: [
           { name: "Nick's San Clemente", note: "Appears on nearly every local list; the prime rib dip gets mentions." },
           { name: "South of Nick's", note: "Elevated Mexican in the Pier Bowl area." },
@@ -168,7 +168,7 @@ export const guides: Guide[] = [
         ],
       },
       {
-        h: "Seafood & sunset",
+        h: "Where can you eat seafood at sunset in San Clemente?",
         places: [
           { name: "Fisherman's Restaurant & Bar", note: "On the pier deck; people go for the setting and the sunset." },
           { name: "Seasurf Fish", note: "Casual seafood near the beach." },
@@ -192,7 +192,7 @@ export const guides: Guide[] = [
       "The small stuff that makes a day easier, and the things you only learn by living here. Rules and hours change, so treat this as a starting point.",
     sections: [
       {
-        h: "Know before you go",
+        h: "What should you know before you go in San Clemente?",
         table: {
           caption: "San Clemente local tips",
           head: ["Topic", "What to know"],

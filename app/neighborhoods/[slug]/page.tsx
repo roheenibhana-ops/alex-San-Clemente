@@ -105,14 +105,14 @@ export default async function HoodPage({ params }: { params: Promise<{ slug: str
 
         <section id="overview" className="section prose">
           <Reveal>
-            <h2>Living in {h.name}</h2>
+            <h2>What is it like living in {h.name}?</h2>
             {h.intro.map((t) => <p key={t}>{t}</p>)}
           </Reveal>
         </section>
 
         <section id="glance" className="section tint">
           <Reveal>
-            <h2>{h.name} at a glance</h2>
+            <h2>What are the key facts about {h.name}?</h2>
             <DataTable
               caption={`${h.name} quick facts`}
               head={["Detail", "What to know"]}
@@ -125,7 +125,7 @@ export default async function HoodPage({ params }: { params: Promise<{ slug: str
 
         <section id="feel" className="section prose">
           <Reveal>
-            <h2>What it actually feels like</h2>
+            <h2>What does {h.name} actually feel like?</h2>
             {h.feels.map((t) => <p key={t}>{t}</p>)}
             <div className="proscons">
               <div>
@@ -144,7 +144,7 @@ export default async function HoodPage({ params }: { params: Promise<{ slug: str
         {d && (
           <section id="day" className="section tint prose">
             <Reveal>
-              <h2>A day in {h.name}</h2>
+              <h2>What does a day in {h.name} look like?</h2>
               <div className="day-grid">
                 {d.dayIn.map((x) => (
                   <div className="day-card" key={x.label}>
@@ -170,7 +170,7 @@ export default async function HoodPage({ params }: { params: Promise<{ slug: str
 
         <section id="homes" className="section prose">
           <Reveal>
-            <h2>Single-family homes in {h.name}</h2>
+            <h2>What are the single-family homes in {h.name} like?</h2>
             {h.homes.map((t) => <p key={t}>{t}</p>)}
             {h.priceNote && <p className="callout">{h.priceNote}</p>}
             <InlineCta text={`Want recent ${h.name} sales and a pricing read? Alex will pull them for you.`} href="/#contact" label="Get recent sales" />
@@ -181,7 +181,7 @@ export default async function HoodPage({ params }: { params: Promise<{ slug: str
           <>
             <section id="getting" className="section tint prose">
               <Reveal>
-                <h2>Getting around {h.name}</h2>
+                <h2>How do you get around {h.name}?</h2>
                 {d.getting.map((t) => <p key={t}><Inline text={t} /></p>)}
                 <DataTable caption={`Things to do near ${h.name}`} head={["Place", "Why go"]} rows={d.doNearby} />
                 <InlineCta text={`Wondering how the drive or walk works from a specific ${h.name} street? Ask Alex.`} href="/#contact" label="Ask Alex" />
@@ -190,7 +190,7 @@ export default async function HoodPage({ params }: { params: Promise<{ slug: str
 
             <section id="before-you-buy" className="section prose">
               <Reveal>
-                <h2>Before you buy in {h.name}</h2>
+                <h2>What should you check before you buy in {h.name}?</h2>
                 <p>Every home is different, but these are the questions worth asking on any tour here. Bring the list, and ask Alex to help you chase down the answers.</p>
                 <DataTable caption={`Pre-offer checklist for ${h.name}`} head={["Check", "Why it matters"]} rows={d.checks} />
                 <InlineCta text={`Want Alex to chase down the HOA, tax, and permit answers on a ${h.name} home you like?`} href="/#contact" label="Get the answers" />
@@ -199,7 +199,7 @@ export default async function HoodPage({ params }: { params: Promise<{ slug: str
 
             <section id="compare" className="section tint prose">
               <Reveal>
-                <h2>How {h.name} compares</h2>
+                <h2>How does {h.name} compare with other San Clemente neighborhoods?</h2>
                 <DataTable
                   caption={`${h.name} compared with other San Clemente areas`}
                   head={["Compared with", "The difference"]}
@@ -214,7 +214,7 @@ export default async function HoodPage({ params }: { params: Promise<{ slug: str
 
         <section id="market" className="section">
           <Reveal>
-            <h2>San Clemente market context</h2>
+            <h2>What is the San Clemente market doing right now?</h2>
             <p className="sub">
               Neighborhood medians swing month to month because there are only a few sales at a time, so here&apos;s the
               citywide single-family picture, plus a way to get exact {h.name} numbers.
@@ -243,7 +243,7 @@ export default async function HoodPage({ params }: { params: Promise<{ slug: str
 
         <section className="section tint">
           <Reveal>
-            <h2>Nearby and worth a look</h2>
+            <h2>What is nearby and worth a look?</h2>
             <ul className="linklist">
               {h.nearby.map((n) => (
                 <li key={n.href + n.label}>
@@ -274,7 +274,7 @@ export default async function HoodPage({ params }: { params: Promise<{ slug: str
 
         <section className="section">
           <Reveal>
-            <h2>Local guides to pair with {h.name}</h2>
+            <h2>Which local guides pair well with {h.name}?</h2>
             <div className="post-grid">
               {guides.map((g) => (
                 <Link key={g.slug} href={`/lifestyle/${g.slug}`} className="post-card">
@@ -289,7 +289,7 @@ export default async function HoodPage({ params }: { params: Promise<{ slug: str
 
         <section id="faq" className="section narrow">
           <Reveal>
-            <h2>{h.name} FAQ</h2>
+            <h2>{h.name} FAQ: Your Questions Answered</h2>
             {allFaqs.map((f) => (
               <details className="faq" key={f.q}>
                 <summary>{f.q}</summary>
@@ -301,7 +301,7 @@ export default async function HoodPage({ params }: { params: Promise<{ slug: str
 
         <section className="section tint">
           <Reveal>
-            <h2>Explore other neighborhoods</h2>
+            <h2>What are the other San Clemente neighborhoods?</h2>
             <div className="hood-grid">
               {others.map((o) => (
                 <Link key={o.slug} href={`/neighborhoods/${o.slug}`} className="hood-tile" style={{ ["--h" as string]: o.hue }}>
@@ -334,7 +334,7 @@ export default async function HoodPage({ params }: { params: Promise<{ slug: str
 
         <section className="value">
           <Reveal>
-            <h2>Thinking about {h.name}?</h2>
+            <h2>Thinking about buying in {h.name}?</h2>
             <p>Alex will pull the recent sales, point out the streets worth touring, and give you an honest read.</p>
             <Link className="btn btn-light" href="/#contact">Talk to Alex</Link>
           </Reveal>

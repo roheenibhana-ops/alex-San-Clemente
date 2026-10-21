@@ -20,14 +20,14 @@ export const post: Post = {
     { t: "p", text: "Ask ten Talega homeowners what they pay each month and you may get ten different answers. That isn't because anyone is mistaken. Talega is a big master-planned community, built in phases with dozens of neighborhoods, and its costs are layered. A home's price tells you only part of the story; the HOA, the neighborhood association, and a special tax called Mello-Roos make up the rest." },
     { t: "p", text: "This guide explains how those pieces fit together, what public sources say each one pays for, and the questions to ask before you make an offer. It's written for buyers comparing Talega with other parts of San Clemente, and for anyone who has looked at a listing and wondered what the dues actually cover." },
     { t: "p", text: "A note on sources: most of what's published about Talega's fees comes from local brokerage guides, and many of those pages carry no date. We've quoted figures where they're specific and flagged where sources disagree. Nothing here replaces the documents for a specific address: the seller's disclosures, the HOA's budget and CC&Rs, and the title report." },
-    { t: "h2", text: "A quick refresher on Talega" },
+    { t: "h2", text: "What is Talega in San Clemente?" },
     { t: "p", text: "Talega is a large master-planned community in the northeast part of San Clemente, with construction beginning in 1999. According to public descriptions, it covers about 3,510 acres under its specific plan, was planned for roughly 3,500 residential units, and sits about 3 miles from the coast and about 2 miles east of the I-5. Its architecture is predominantly Spanish-Tuscan. For the full picture, see our [Talega neighborhood guide](/neighborhoods/talega)." },
     { t: "p", text: "Sources disagree on how many individual neighborhoods it contains. Wikipedia describes more than 30, while one local blog says over 40. Named neighborhoods include Santalana and San Rafael, among many others. That variety is exactly why costs differ from one Talega address to the next." },
-    { t: "h2", text: "How Talega came to be" },
+    { t: "h2", text: "How did Talega come to be?" },
     { t: "p", text: "Understanding why the costs are layered starts with how the community was built. Talega is a planned community whose construction began in 1999, covering roughly 3,510 acres in its specific plan and designed for about 3,500 residential units. Public descriptions note that most homes are tract houses, with no full-custom homes, plus some apartments and condos, in a predominantly Spanish-Tuscan style. A village center nearby includes everyday retailers such as Ralphs, Target and Walmart." },
     { t: "p", text: "Large planned communities like this are typically built in phases by different builders, each creating its own neighborhoods with its own product, lot sizes and, often, its own association. That's the origin of the layers. The master association keeps the shared amenities and common areas consistent, while individual tracts can add gates, shared landscaping or building maintenance. And because infrastructure had to be built before or alongside the homes, special-tax districts such as Mello-Roos were used to help pay for it." },
 
-    { t: "h2", text: "The layers of cost" },
+    { t: "h2", text: "What are the layers of cost in Talega?" },
     { t: "p", text: "The simplest way to understand Talega's monthly costs is to think in layers. Not every home has every layer, which is why it's so important to ask about the specific address." },
     {
       t: "table",
@@ -42,7 +42,7 @@ export const post: Post = {
       ],
     },
     { t: "p", text: "Put those together and you get your true monthly and annual cost of ownership. Two homes with the same list price can differ by hundreds of dollars a month depending on which layers apply and how large each is." },
-    { t: "h2", text: "What the master HOA dues pay for" },
+    { t: "h2", text: "What do Talega HOA dues pay for?" },
     { t: "p", text: "A local brokerage guide reports that the current master assessment is about $267 per month, and that some sections carry added gate or sub-association charges that push total monthly costs into the low-to-mid $300s. The same guide says dues fund common-area operations and reserves. The article carries no date, so use these as ballpark figures and get the current number from the association." },
     { t: "p", text: "In return, that guide and other local sources describe a long list of amenities that are part of what the master association maintains." },
     {
@@ -63,11 +63,11 @@ export const post: Post = {
     { t: "p", text: "Counts and lengths vary by source, which is normal when pages were written at different times for marketing. If a particular amenity matters to your decision, such as a lap pool, a tennis court or a specific trail, visit it and ask the association what's current." },
     { t: "h3", text: "Reading the dues in context" },
     { t: "p", text: "It helps to compare what you'd pay in Talega with what you'd spend to get similar amenities elsewhere. A home near the Pier Bowl typically has no master HOA, but you're paying for your own upkeep and you don't get a community pool or tennis courts at your door. That's not better or worse, it's a different tradeoff, and our [Pier Bowl vs. Talega comparison](/blog/pier-bowl-vs-talega) walks through it in detail." },
-    { t: "h2", text: "Reading Talega's neighborhood names" },
+    { t: "h2", text: "How do you read Talega's neighborhood names?" },
     { t: "p", text: "When you search Talega listings, you'll see neighborhood names like Santalana and San Rafael, and HOA-maintained parks such as Altea, Pacifica Summit, Portofino, Sansol/Mirador and Lucia, according to Wikipedia's list, which may be dated. Those names are more than branding. Each usually corresponds to a tract with its own builder, home styles and, often, its own association and amenities." },
     { t: "p", text: "A practical way to use that: when you find a home you like, note its tract name, then ask three things. Which associations apply? What does each cover? And what Mello-Roos district is it in? That takes the mystery out of the monthly number and makes it easy to compare homes across tracts." },
 
-    { t: "h2", text: "Neighborhood HOAs, gates and sub-associations" },
+    { t: "h2", text: "Do Talega neighborhoods have their own HOAs and gates?" },
     { t: "p", text: "Many Talega neighborhoods sit inside the master association and add their own layer. Local sources note that some properties have two layers of dues: a neighborhood HOA plus the master association fee. That second layer might fund gated access, shared landscaping or common features specific to that tract." },
     { t: "p", text: "One example is Talega Gallery, a 55-plus community with its own association. A senior-living listing site puts its dues in a much higher range, roughly $397 to $612 per month, and reports that they include landscaping, trash and sewer services. If you're looking at an age-qualified community, ask exactly what's included and what the age rules are. For everyone else, the lesson is simple: the name of the neighborhood can tell you which extra layers are likely, so ask for the sub-association's budget." },
     { t: "ul", items: [
@@ -77,7 +77,7 @@ export const post: Post = {
       "**Ask how and when dues are due.** The same guide says assessments are due on the first of the month and become delinquent after 15 days, with late charges, interest and lien rights possible.",
     ] },
     { t: "ctaCard", text: "Want the real monthly cost of a specific Talega home, with HOA layers and Mello-Roos included? Alex can pull the numbers." },
-    { t: "h2", text: "Mello-Roos, explained plainly" },
+    { t: "h2", text: "What is Mello-Roos in Talega?" },
     { t: "p", text: "Mello-Roos is the part of Talega's costs that surprises people most, because it doesn't show up in the HOA budget. It's a special tax that California communities can use to pay for infrastructure and facilities that serve new development. You can read more about how the program works on [Wikipedia's Mello-Roos page](https://en.wikipedia.org/wiki/Mello-Roos) and the [California Debt and Investment Advisory Commission](https://www.treasurer.ca.gov/cdiac/) site." },
     { t: "p", text: "A local guide notes that Talega has three community facilities districts, and that rates vary by neighborhood. The tax appears on your property tax bill, separately from your HOA dues, and it can last for decades. That means two homes next door to each other may be in different districts and carry different amounts." },
     {
@@ -94,7 +94,7 @@ export const post: Post = {
       ],
     },
     { t: "p", text: "Your best sources for verification are the seller's disclosure package, your title company and the county. The [Orange County Treasurer-Tax Collector](https://www.octreasurer.gov/) publishes property tax information, and your agent can request the special tax detail for the parcel. Don't rely on a listing's summary, because special taxes are easy to overlook in a quick read." },
-    { t: "h2", text: "What the numbers look like over a year" },
+    { t: "h2", text: "What do Talega's costs add up to over a year?" },
     { t: "p", text: "Monthly numbers hide how much a fee adds up over time. Using only the figures local sources cite, here's the same cost expressed annually. This is simple arithmetic on the reported ranges, not a quote for any home, so replace each line with the real figure for the address you're considering." },
     {
       t: "table",
@@ -110,7 +110,7 @@ export const post: Post = {
     },
     { t: "p", text: "Mello-Roos sits on top of those figures, and because it's billed with the property tax bill, it's easy to miss when you're only reading the listing. The cleanest approach is to ask the seller or your agent for the most recent property tax bill and read every line. The [Orange County Treasurer-Tax Collector](https://www.octreasurer.gov/) can help you understand how bills are structured." },
 
-    { t: "h2", text: "The rules that come with the amenities" },
+    { t: "h2", text: "What rules come with Talega's amenities?" },
     { t: "p", text: "A planned community gives you shared amenities and a consistent look, and in exchange there are rules. The same local guide notes that architectural guidelines apply to patio covers, decks, landscaping and exterior color changes, and that unauthorized changes can be ordered corrected or removed and may lead to fines." },
     { t: "p", text: "That doesn't mean you can't make changes. It means you should plan them with the architectural review process in mind, and read the CC&Rs before you buy if a particular project matters, such as an addition, a pool, a new fence or a different paint color." },
     { t: "ul", items: [
@@ -124,7 +124,7 @@ export const post: Post = {
       "At first glance, the gated home looks like the better deal on price. Once the buyer asks for the sub-association budget and the Mello-Roos amounts, the monthly totals tell a different story: the second home costs noticeably more each month, and its Mello-Roos runs for many more years.",
       "The buyer still likes the gated home for its privacy and layout, but now chooses with the full picture, and negotiates with real numbers in hand. What helped wasn't a rule of thumb; it was asking for the paperwork before making an offer.",
     ] },
-    { t: "h2", text: "Resale and the long term" },
+    { t: "h2", text: "How do HOA and Mello-Roos affect resale in Talega?" },
     { t: "p", text: "A cost that looks manageable today can matter more when you sell. Future buyers will ask the same questions you're asking now, and a long remaining Mello-Roos term or a low reserve fund can influence what they're willing to pay. Conversely, a well-run association with healthy reserves and a clear budget is an asset when you sell." },
     { t: "ul", items: [
       "**Ask about the reserve study.** It shows how the association plans to pay for big repairs, and whether it's on track.",
@@ -134,7 +134,7 @@ export const post: Post = {
       "**Think about your hold period.** A longer stay spreads costs over more years of enjoying the amenities.",
     ] },
 
-    { t: "h2", text: "Putting the numbers together" },
+    { t: "h2", text: "How do you put the Talega numbers together?" },
     { t: "p", text: "The best way to compare Talega homes, or to compare Talega with somewhere else, is to build a simple total monthly cost for each. Use the actual numbers from your lender, the HOA documents and the tax records, and add them up the same way every time." },
     {
       t: "table",
@@ -153,7 +153,7 @@ export const post: Post = {
     },
     { t: "p", text: "For neutral guidance on loans and closing costs, the [Consumer Financial Protection Bureau's Owning a Home tools](https://www.consumerfinance.gov/owning-a-home/) are an excellent starting point. And for the latest on citywide prices, see our [market update](/blog/san-clemente-housing-market-update-october-2026)." },
     { t: "cta", text: "Not sure whether Talega's costs fit your budget? Compare it with the other five neighborhoods.", href: "/neighborhoods", label: "Compare neighborhoods" },
-    { t: "h2", text: "Questions to ask the seller's agent" },
+    { t: "h2", text: "What should you ask the seller's agent about Talega costs?" },
     { t: "p", text: "When you find a Talega home you like, a short list of questions gets you to the real numbers quickly. Send these to the listing agent before you tour, or bring them to the showing." },
     { t: "ol", items: [
       "Which associations apply to this address, and what are the current monthly dues for each?",
@@ -165,10 +165,10 @@ export const post: Post = {
     ] },
     { t: "p", text: "A responsive listing agent will have most of these on hand. If answers are slow or vague, that tells you something too, and your own agent can request the documents through escrow." },
 
-    { t: "h2", text: "How Talega's costs compare with other San Clemente areas" },
+    { t: "h2", text: "How do Talega's costs compare with other San Clemente areas?" },
     { t: "p", text: "Talega's layered fees are typical of a large, amenity-rich planned community, and they're one reason it can offer more space and amenities for the money than coastal blocks. Other areas have different structures. [Sea Summit](/blog/sea-summit-azure-aqua-sapphire-indigo-compared), a newer coastal community, has its own HOA and Mello-Roos, with recent listings showing dues around $330 to $340 per month. [Forster Ranch](/neighborhoods/forster-ranch) and [Rancho San Clemente](/neighborhoods/rancho-san-clemente) vary by tract. And the [Downtown and Pier Bowl](/neighborhoods/downtown-pier-bowl) generally trade shared amenities for walkability and older homes with their own maintenance needs." },
     { t: "p", text: "The point isn't that one structure is better. It's that the price is only the first number. Compare the monthly totals, and then decide which mix of amenities, space, and location fits how you live." },
-    { t: "h2", text: "Beyond the dues: living in Talega" },
+    { t: "h2", text: "What is it like living in Talega beyond the dues?" },
     { t: "p", text: "If you're weighing the lifestyle as well as the cost, our [Talega guide](/neighborhoods/talega) covers a day in the neighborhood, getting around and what to check before you buy. Our [parks and trails guide](/lifestyle/parks-trails) lists the parks near Talega, and the [moving guide](/blog/moving-to-san-clemente-what-to-know) covers weather, commuting and settling in. For official information, visit the [City of San Clemente](https://www.sanclemente.gov/), and for background on the community, see the [Talega Wikipedia page](https://en.wikipedia.org/wiki/Talega,_San_Clemente,_California)." },
   ],
   faqs: [
