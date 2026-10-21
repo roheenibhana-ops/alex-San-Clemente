@@ -101,6 +101,18 @@ export const images: Record<string, Img> = {
     src: "/images/pages/home-value.jpg",
     alt: "Single-story tile-roof home with a lawn and palm trees on a corner lot in San Clemente",
   },
+  "food:coffee": {
+    src: "/images/food/coffee.jpg",
+    alt: "Cups of latte with heart-shaped latte art on saucers on a wooden table beside potted plants",
+  },
+  "food:brunch": {
+    src: "/images/food/brunch.jpg",
+    alt: "Brunch table spread with waffles topped with berries, avocado toast with fried eggs, orange juice and coffee",
+  },
+  "food:dinner": {
+    src: "/images/food/dinner.jpg",
+    alt: "Long dinner table set with white plates, napkins, glassware and lit candles",
+  },
   "post:shorecliffs-beach-club-neighborhood-guide": {
     src: "/images/neighborhoods/shorecliffs-ocean-view-homes.jpg",
     alt: "Aerial view of ocean-view homes and a private community in Shorecliffs, San Clemente",
