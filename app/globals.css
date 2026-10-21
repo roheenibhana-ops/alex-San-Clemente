@@ -489,3 +489,12 @@ a.card-link .link-arrow { display: inline-block; margin-top: .75rem; }
 .about-hero .portrait { max-width: 420px; }
 .fine-light { font-size: .85rem; color: rgba(255,255,255,.75); margin-top: 1.5rem; }
 .page-hero .about-hero > * { max-width: none; }
+.awards { display: grid; grid-template-columns: 1fr 1.2fr; gap: 2.5rem; align-items: center; max-width: 960px; margin: 0 auto; }
+.awards-photo { width: 100%; height: auto; border-radius: var(--radius); box-shadow: var(--shadow); }
+.awards-copy h3 { margin-bottom: .6rem; }
+.awards-copy ul { list-style: none; padding: 0; margin: 1.25rem 0 0; display: grid; gap: 1.25rem; }
+.awards-copy li { display: flex; gap: 1rem; align-items: flex-start; }
+.awards-copy li strong { display: block; font-family: var(--font-serif), serif; font-size: 1.2rem; color: var(--ink); }
+.awards-copy li span { color: var(--ink-2); }
+.award-badge { width: 84px; height: auto; flex: none; border-radius: 6px; box-shadow: var(--shadow); }
+@media (max-width: 760px) { .awards { grid-template-columns: 1fr; } }

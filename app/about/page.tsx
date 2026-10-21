@@ -17,6 +17,7 @@ export const metadata: Metadata = {
 };
 
 export default function About() {
+  const serhantPhoto = recognition.find((r) => r.title.startsWith("Serhant"))?.img;
   return (
     <>
       <Header />
@@ -156,19 +157,28 @@ export default function About() {
               <a className="btn" href="#contact">Talk to Alex</a>
             </div>
           </div>
-          <div className="grid3 recog-cards">
-            {recognition.map((r, i) => (
-              <Reveal key={r.title} delay={i * 80}>
-                <div className="card">
-                  {r.img && (
-                    // eslint-disable-next-line @next/next/no-img-element
-                    <img className={`recog-img${"graphic" in r && r.graphic ? " graphic" : ""}`} src={r.img} alt={r.title} loading="lazy" />
-                  )}
-                  <h3>{r.title}</h3>
-                  <p>{r.body}</p>
-                </div>
-              </Reveal>
-            ))}
+          <div className="awards">
+            {serhantPhoto && (
+              // eslint-disable-next-line @next/next/no-img-element
+              <img className="awards-photo" src={serhantPhoto} alt="Alex Yu with Ryan Serhant" loading="lazy" />
+            )}
+            <div className="awards-copy">
+              <h3>Recognized by the industry</h3>
+              <p>
+                Over 600 transactions and more than $550M in sales have earned the Alex Yu Team recognition from some of the biggest
+                names in real estate.
+              </p>
+              <ul>
+                {recognition.map((r) => (
+                  <li key={r.title}>
+                    <div>
+                      <strong>{r.title}</strong>
+                      <span>{r.body}</span>
+                    </div>
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
         </section>
 
