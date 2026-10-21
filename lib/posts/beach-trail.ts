@@ -38,6 +38,7 @@ export const post: Post = {
     { t: "p", text: "You'll see slightly different length figures in different sources, and some count the extra distance out to the end of the pier. As a rule of thumb, plan on roughly two and a half miles one way, and a little over five if you walk it as an out-and-back." },
     { t: "ctaCard", text: "Dreaming of a home near the trail? Browse listings and compare the neighborhoods closest to the coast." },
     { t: "h2", text: "Walking the trail, stop by stop" },
+    { t: "img", src: "/images/blog/trail-pier-sign.jpg", alt: "Pier welcome sign beside the ocean with surfers in the water" },
     { t: "p", text: "Along the trail you'll see North Beach, the San Clemente Pier, T-Street, and Calafia Beach Park. The trail runs along the coast, so it's easy to think of it as a line with several landmarks. Here's what you'll find at each one, based on city and local sources." },
     { t: "h3", text: "North Beach" },
     { t: "p", text: "The northern end of the trail starts near North Beach, where there's ADA access, metered parking shared with the train station area, and restrooms. It's a convenient place to begin if you're arriving by train, since the station is nearby." },
@@ -75,6 +76,7 @@ export const post: Post = {
     },
     { t: "p", text: "If you're new to the area, take your first walk slowly and learn where the crossings and overpasses are. It becomes second nature quickly." },
     { t: "h2", text: "The best time to walk the Beach Trail" },
+    { t: "img", src: "/images/blog/trail-sunset.jpg", alt: "Sunset over the Pacific beside oceanfront buildings with red tile roofs" },
     { t: "p", text: "Early morning is the best time for cooler air, quiet, and easier parking, while late afternoon suits sunset walks and photos. The trail is open most of the day and night, but the experience changes dramatically with the time. Here's how locals think about it." },
     {
       t: "table",
@@ -211,6 +213,7 @@ export const post: Post = {
     { t: "p", text: "In town, Casa Romantica and Avenida Del Mar reward a slow wander, and neighborhood parks offer space to relax. Our [parks and trails guide](/lifestyle/parks-trails) lists what's at each, and the [beaches guide](/lifestyle/beaches) covers access and parking. Together they'll keep you busy for weeks, and many people find that exploring one new spot at a time is the best way to learn the town." },
     { t: "cta", text: "Planning where to eat along the way? See our local favorites.", href: "/lifestyle/food-drink", label: "Browse food and drink" },
     { t: "h2", text: "Getting there by train" },
+    { t: "img", src: "/images/blog/trail-train.jpg", alt: "Train passing the San Clemente station sign beside palm trees and the tracks" },
     { t: "p", text: "Yes, San Clemente's two stations, San Clemente and San Clemente Pier, are served by Amtrak's Pacific Surfliner and Metrolink. One of the nicest things about the trail is how well it works without a car. San Clemente has two stations, San Clemente and San Clemente Pier, served by Amtrak's Pacific Surfliner and Metrolink, so you can ride in, walk the shoreline, and ride home. Check schedules and fares on the [Pacific Surfliner](https://www.pacificsurfliner.com/) and [Metrolink](https://www.metrolinktrains.com/) sites, and remember that train service can change on holidays and weekends." },
     { t: "p", text: "A simple car-free plan is to arrive at the San Clemente Pier station, walk to the pier for coffee, then follow the trail toward T-Street and Calafia and turn back whenever you've had enough. If you'd rather pair the trip with transit across town, local buses through the [Orange County Transportation Authority](https://octa.net/) connect parts of the city. For more on rail and parking, see our [local tips guide](/lifestyle/local-tips)." },
     { t: "h2", text: "A little history behind the walk" },

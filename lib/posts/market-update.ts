@@ -105,6 +105,7 @@ export const post: Post = {
       ],
     },
     { t: "h2", text: "What does this mean if you're buying?" },
+    { t: "img", src: "/images/blog/market-home.jpg", alt: "Two-story home with a tile roof and landscaped entry in San Clemente" },
     { t: "p", text: "For buyers, this market rewards preparation: roughly four in ten listings have cut their price and homes are taking a couple of months to sell, so prepared buyers have some leverage, especially on homes that have been sitting. A median above $2M can feel intimidating, but the data also contains good news for prepared buyers. Roughly four in ten listings have cut their price, and homes are taking a couple of months to sell. Here's how to use that." },
     { t: "h3", text: "A buyer playbook" },
     { t: "ol", items: [
@@ -143,6 +144,7 @@ export const post: Post = {
     { t: "p", text: "Be careful about over-reading city comparisons. Each city has a different mix of homes, price points, and buyer pools. They're useful for context, but your decision should rest on the specific home and neighborhood in front of you." },
     { t: "cta", text: "Not sure which part of town fits? Compare all six neighborhoods side by side.", href: "/neighborhoods", label: "Compare neighborhoods" },
     { t: "h2", text: "A neighborhood lens on the same numbers" },
+    { t: "img", src: "/images/blog/market-hillside.jpg", alt: "Aerial view of homes along a curving street with rolling hills behind" },
     { t: "p", text: "The numbers differ by neighborhood because each area's prices are driven by different factors, such as view, lot, size, and HOA costs. A citywide median blends very different parts of town. Here's how to think about it by area, using the neighborhood guides on this site:" },
     {
       t: "table",

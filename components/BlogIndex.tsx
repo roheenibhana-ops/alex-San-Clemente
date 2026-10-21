@@ -23,12 +23,12 @@ export default function BlogIndex({ page }: { page: number }) {
     <>
       <Header />
       <main>
-        <section className="page-hero">
+        <section className={`page-hero ${page > 1 ? "compact" : ""}`}>
           <Reveal>
             <Breadcrumbs trail={page === 1 ? [{ label: "Blog", href: "/blog" }] : [{ label: "Blog", href: "/blog" }, { label: `Page ${page}`, href: href(page) }]} />
-            <p className="eyebrow">The San Clemente blog</p>
+            {page === 1 && <p className="eyebrow">The San Clemente blog</p>}
             <h1>{page === 1 ? "San Clemente Real Estate Blog" : `San Clemente Real Estate Blog, Page ${page}`}</h1>
-            <p className="lede">Market updates, neighborhood comparisons, and buying guides. Real numbers, plain English.</p>
+            {page === 1 && <p className="lede">Market updates, neighborhood comparisons, and buying guides. Real numbers, plain English.</p>}
           </Reveal>
         </section>
         <section className="section">

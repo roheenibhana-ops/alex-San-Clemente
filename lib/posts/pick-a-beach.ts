@@ -37,6 +37,7 @@ export const post: Post = {
     },
     { t: "ctaCard", text: "Want a home near your favorite beach? Browse current listings and compare neighborhoods." },
     { t: "h2", text: "Beach by beach" },
+    { t: "img", src: "/images/blog/beach-pier-aerial.jpg", alt: "Aerial view of the San Clemente Pier, beach and shoreline" },
     { t: "p", text: "Each beach has its own personality, from North Beach as a train-friendly start and the pier for sunset to T-Street for surf, Calafia for room, the state beach for camping, and Trestles for a mile-plus walk." },
     { t: "h3", text: "North Beach" },
     { t: "p", text: "North Beach is the northern anchor of the beach trail. The city lists ADA access, metered parking shared with the train station area, and restrooms. It's a handy starting point if you're arriving by train, and a gentler introduction to the coast than some of the busier spots farther south." },
@@ -144,6 +145,7 @@ export const post: Post = {
     { t: "h2", text: "Are dogs and bikes allowed at San Clemente beaches?" },
     { t: "p", text: "Rules about dogs, bicycles, fires, and amenities differ from beach to beach and can change. Dogs may be restricted on the sand in some areas but allowed on the trail on a leash, and fire rings, where available, may have their own rules and hours. The safest approach is to check posted signs and official sources before you go, and to be prepared to adjust if a rule is different from what you expected." },
     { t: "h2", text: "Planning around events and crowds" },
+    { t: "img", src: "/images/blog/beach-pier-restaurants.jpg", alt: "Aerial view of the pier restaurants with blue umbrella decks over the sand and surf" },
     { t: "p", text: "Arrive early and consider the train, especially around events like the annual Ocean Festival at the pier each July and on holiday weekends. Some of the busiest days at the pier and beaches come during events and holiday weekends. The annual Ocean Festival at the pier each July is one of the biggest, with races, lifeguard competitions, and a display of woodies, according to a 2026 listing. Plan to arrive early, expect heavier traffic and limited parking, and consider the train if you want to avoid driving." },
     { t: "p", text: "If you prefer quieter days, weekday mornings and off-season weekdays are your friend. Locals often say the best beach days are the ones when you can hear the waves more than the crowd. For events and local happenings, see our [local tips guide](/lifestyle/local-tips) and the [City of San Clemente's calendar](https://www.sanclemente.gov/)." },
     { t: "h2", text: "A simple packing and planning checklist" },
@@ -162,6 +164,7 @@ export const post: Post = {
     { t: "p", text: "If you're a photographer or just someone who likes good light, try each beach at different times. The pier looks different at dawn than at dusk, T-Street has a different mood when the surf is up, and Calafia's open sand is at its best in the low light of late afternoon. You don't need a plan to enjoy it, but a little attention to timing makes a normal day feel special." },
     { t: "p", text: "If you're considering buying here, spend a few mornings and evenings at the beaches closest to the homes you like. How a place feels at 7 a.m. on a Tuesday, and at 5 p.m. on a Saturday, tells you more than any listing description ever will." },
     { t: "h2", text: "Reading the tide and surf forecast" },
+    { t: "img", src: "/images/blog/beach-pier-blue.jpg", alt: "Aerial view of the pier stretching into deep blue water" },
     { t: "p", text: "Check the tide and the swell before you go. Two numbers change your beach day more than almost anything else: the tide and the swell. Tide determines how much sand you have, whether tide pools are exposed, and how safe it is to walk along the base of bluffs. Swell and wind determine whether the water is gentle or powerful, and whether a surf spot is worth the trip. A couple of minutes with a forecast can save a wasted drive." },
     { t: "p", text: "For tide predictions, the [NOAA Tides & Currents site](https://tidesandcurrents.noaa.gov/) is the standard reference, and the city's [beach camera and surf conditions page](https://www.sanclemente.gov/322) shows what the coast looks like right now. If you're heading to Trestles, remember that the walk in and out matters as much as the conditions, so budget extra time and water." },
     { t: "ul", items: [

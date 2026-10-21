@@ -21,6 +21,7 @@ export const post: Post = {
     { t: "p", text: "From a distance they look alike: Spanish-style architecture, tile roofs, stucco, arches. Up close they differ in the things that matter most when you buy: how the homes sit relative to the preserve and park, how big they are, how they're clustered, and what you pay each month beyond the mortgage. This guide breaks down what public sources say about each tract, flags where those sources disagree, and gives you a checklist for verifying the details on any specific home." },
     { t: "p", text: "A quick honesty note before we start. Details on a community like this come from builder pages, brokerage guides and older forum posts, and they don't always agree. Home counts, square footage ranges and fee figures differ between sources, and some information dates from the original sales period. We've called out the conflicts instead of picking a number, and every figure here should be confirmed for the specific address with the seller's disclosures, the HOA and the title documents." },
     { t: "h2", text: "What is Sea Summit in San Clemente?" },
+    { t: "img", src: "/images/blog/summit-glance.jpg", alt: "Spanish-style homes with red tile roofs in Sea Summit with the ocean beyond" },
     { t: "p", text: "Sea Summit is a master-planned coastal community on the former Marblehead Coastal property, built as four neighborhoods: Azure, Aqua, Sapphire and Indigo." },
     {
       t: "table",
@@ -108,6 +109,7 @@ export const post: Post = {
     },
     { t: "ctaCard", text: "Want current Sea Summit listings and recent sales by tract? Alex can pull them and compare the four side by side." },
     { t: "h2", text: "The shared amenities" },
+    { t: "img", src: "/images/blog/summit-amenities.jpg", alt: "Aerial view of a community clubhouse, pool and tennis courts among hillside homes" },
     { t: "p", text: "Sea Summit residents share a clubhouse, a resort-style pool, a spa, a fitness center, barbecues and an outdoor fireplace, along with about four miles of walking trails, according to a local brokerage guide. One of the biggest differences between Sea Summit and an older coastal home is what's on the property beyond your lot. Those amenities are a large part of what your monthly dues support." },
     {
       t: "table",
@@ -194,6 +196,7 @@ export const post: Post = {
     { t: "p", text: "A good rule is to treat a newer home like any other major purchase: verify, inspect and compare. Our [buying guide](/blog/buying-a-single-family-home-in-san-clemente) walks through the full process, including a deeper inspection list for coastal and hillside properties." },
 
     { t: "h2", text: "Living here: trails, parks and the outdoors" },
+    { t: "img", src: "/images/blog/summit-park.jpg", alt: "Neighborhood park with mature trees, a walking path and a playground" },
     { t: "p", text: "The outdoors is built into Sea Summit's design. The walking trails and native preserve give you somewhere to go without getting in the car, and beyond the community the Sea Summit Trail runs along the cliffs with trailheads near Pico Park and North El Camino Real. Some local guides suggest January to March for spotting migrating gray whales from elevated viewpoints. For the broader picture of trails, see our [parks and trails guide](/lifestyle/parks-trails), and for beaches nearby, our [beaches guide](/lifestyle/beaches)." },
     { t: "p", text: "For official information about the community and the city, the [City of San Clemente](https://www.sanclemente.gov/) is the starting point, and [San Clemente's Wikipedia page](https://en.wikipedia.org/wiki/San_Clemente,_California) gives useful background on the town's history and character." },
   ],
