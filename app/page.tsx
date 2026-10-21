@@ -22,18 +22,27 @@ export default function Home() {
       <Header />
       <main id="top">
         <section className="hero">
-          <div className="sun" aria-hidden />
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            className="hero-img"
+            src="/san-clemente-beach-homes.jpg"
+            alt="Aerial view of oceanfront single-family homes along the beach in San Clemente, California"
+            width={1274}
+            height={673}
+            fetchPriority="high"
+          />
+          <div className="hero-scrim" aria-hidden />
           <div className="hero-inner">
-            <p className="eyebrow">San Clemente, California</p>
+            <p className="eyebrow">San Clemente, California · Alex Yu Team</p>
             <h1>
-              Coastal living,
-              <br />
-              <em>beautifully</em> done.
+              San Clemente <em>Homes for Sale</em>
+              <span className="h1-sub">Single-family beach homes &amp; neighborhood experts</span>
             </h1>
             <p className="lede">
-              Single-family homes on the Orange County coast, with Spanish Colonial charm, world-class surf, and small-town warmth. {agent.name} helps buyers and sellers find the right house.
+              Browse single-family homes in San Clemente, CA, from walkable Downtown cottages to Talega estates. Median price
+              around $2M. {agent.name} helps buyers and sellers win on the Orange County coast.
             </p>
-            <div className="cta-row">
+          <div className="cta-row">
               <a className="btn" href="#contact">See what my house is worth</a>
               <a className="btn btn-ghost" href="#neighborhoods">Explore neighborhoods</a>
             </div>
