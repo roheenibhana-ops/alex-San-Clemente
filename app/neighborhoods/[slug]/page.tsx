@@ -14,6 +14,8 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 import JsonLd from "@/components/JsonLd";
 import { hoods, getHood } from "@/lib/neighborhoods";
 import { guides } from "@/lib/places";
+import { deep } from "@/lib/neighborhoodDeep";
+import Inline from "@/components/Inline";
 import { cityMarket, marketSource } from "@/lib/market";
 import { SITE_URL } from "@/lib/site";
 
@@ -40,6 +42,8 @@ export default async function HoodPage({ params }: { params: Promise<{ slug: str
   const h = getHood(slug);
   if (!h) notFound();
   const others = hoods.filter((x) => x.slug !== h.slug).slice(0, 3);
+  const d = deep[h.slug];
+  const allFaqs = [...h.faqs, ...(d?.extraFaqs ?? [])];
 
   return (
     <>
@@ -78,7 +82,11 @@ export default async function HoodPage({ params }: { params: Promise<{ slug: str
           <a href="#overview">Overview</a>
           <a href="#glance">At a glance</a>
           <a href="#feel">What it feels like</a>
+          {d && <a href="#day">A day here</a>}
           <a href="#homes">The homes</a>
+          {d && <a href="#getting">Getting around</a>}
+          {d && <a href="#before-you-buy">Before you buy</a>}
+          {d && <a href="#compare">Compare</a>}
           <a href="#market">Market</a>
           <a href="#faq">FAQ</a>
         </nav>
@@ -119,13 +127,65 @@ export default async function HoodPage({ params }: { params: Promise<{ slug: str
           </Reveal>
         </section>
 
-        <section id="homes" className="section tint prose">
+        {d && (
+          <section id="day" className="section tint prose">
+            <Reveal>
+              <h2>A day in {h.name}</h2>
+              <div className="day-grid">
+                {d.dayIn.map((x) => (
+                  <div className="day-card" key={x.label}>
+                    <h3>{x.label}</h3>
+                    <p><Inline text={x.text} /></p>
+                  </div>
+                ))}
+              </div>
+              <div className="fit-list">
+                <h3>A good fit if you...</h3>
+                <ul>{d.fit.map((t) => <li key={t}>{t}</li>)}</ul>
+              </div>
+            </Reveal>
+          </section>
+        )}
+
+        <section id="homes" className="section prose">
           <Reveal>
             <h2>Single-family homes in {h.name}</h2>
             {h.homes.map((t) => <p key={t}>{t}</p>)}
             {h.priceNote && <p className="callout">{h.priceNote}</p>}
           </Reveal>
         </section>
+
+        {d && (
+          <>
+            <section id="getting" className="section tint prose">
+              <Reveal>
+                <h2>Getting around {h.name}</h2>
+                {d.getting.map((t) => <p key={t}><Inline text={t} /></p>)}
+                <DataTable caption={`Things to do near ${h.name}`} head={["Place", "Why go"]} rows={d.doNearby} />
+              </Reveal>
+            </section>
+
+            <section id="before-you-buy" className="section prose">
+              <Reveal>
+                <h2>Before you buy in {h.name}</h2>
+                <p>Every home is different, but these are the questions worth asking on any tour here. Bring the list, and ask Alex to help you chase down the answers.</p>
+                <DataTable caption={`Pre-offer checklist for ${h.name}`} head={["Check", "Why it matters"]} rows={d.checks} />
+              </Reveal>
+            </section>
+
+            <section id="compare" className="section tint prose">
+              <Reveal>
+                <h2>How {h.name} compares</h2>
+                <DataTable
+                  caption={`${h.name} compared with other San Clemente areas`}
+                  head={["Compared with", "The difference"]}
+                  rows={d.compare.map((c) => [`[${hoods.find((x) => x.slug === c.slug)?.name ?? c.slug}](/neighborhoods/${c.slug})`, c.text])}
+                />
+                <p><Link className="link-arrow" href="/neighborhoods">Compare all six neighborhoods →</Link></p>
+              </Reveal>
+            </section>
+          </>
+        )}
 
         <section id="market" className="section">
           <Reveal>
@@ -187,10 +247,10 @@ export default async function HoodPage({ params }: { params: Promise<{ slug: str
         <section id="faq" className="section narrow">
           <Reveal>
             <h2>{h.name} FAQ</h2>
-            {h.faqs.map((f) => (
+            {allFaqs.map((f) => (
               <details className="faq" key={f.q}>
                 <summary>{f.q}</summary>
-                <p>{f.a}</p>
+                <p><Inline text={f.a} /></p>
               </details>
             ))}
           </Reveal>
@@ -242,10 +302,10 @@ export default async function HoodPage({ params }: { params: Promise<{ slug: str
         data={{
           "@context": "https://schema.org",
           "@type": "FAQPage",
-          mainEntity: h.faqs.map((f) => ({
+          mainEntity: allFaqs.map((f) => ({
             "@type": "Question",
             name: f.q,
-            acceptedAnswer: { "@type": "Answer", text: f.a },
+            acceptedAnswer: { "@type": "Answer", text: f.a.replace(/\[([^\]]+)\]\([^)]+\)/g, "$1") },
           })),
         }}
       />
