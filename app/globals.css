@@ -498,3 +498,5 @@ a.card-link .link-arrow { display: inline-block; margin-top: .75rem; }
 .awards-copy li span { color: var(--ink-2); }
 .award-badge { width: 84px; height: auto; flex: none; border-radius: 6px; box-shadow: var(--shadow); }
 @media (max-width: 760px) { .awards { grid-template-columns: 1fr; } }
+.seen-on-img { display: block; width: 100%; max-width: 760px; height: auto; margin: 1.75rem auto 0; }
+@media (max-width: 560px) { .seen-on-img { max-width: 100%; } }

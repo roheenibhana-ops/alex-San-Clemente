@@ -95,7 +95,8 @@ export default function About() {
               />
             </div>
           </Reveal>
-          <p className="seen-on"><span>As seen streaming on</span> {seenOn.map((n) => <strong key={n}>{n}</strong>)}</p>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img className="seen-on-img" src="/images/as-seen-on.png" alt={`As seen streaming on ${seenOn.join(", ")}`} width={1520} height={181} loading="lazy" />
         </section>
 
         <section className="section" aria-labelledby="bg-h">
