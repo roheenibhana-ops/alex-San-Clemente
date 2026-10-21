@@ -24,12 +24,9 @@ export default function Header() {
 
   return (
     <header className={`header ${scrolled ? "scrolled" : ""}`}>
-      <a href="#top" className="brand" aria-label="San Clemente home">
-        <span className="brand-mark" aria-hidden />
-        <span>
-          San Clemente
-          <small>with {agent.name}</small>
-        </span>
+      <a href="#top" className="brand" aria-label="Alex Yu Team, San Clemente home">
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img src="/alex-yu-team-logo.png" alt="Alex Yu Team, Changing Lives for Good" height={46} />
       </a>
       <nav className={`nav ${open ? "open" : ""}`} aria-label="Primary">
         {links.map(([label, href]) => (
