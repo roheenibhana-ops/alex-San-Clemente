@@ -131,7 +131,7 @@ export const guides: Guide[] = [
       "Where to eat in San Clemente: brunch, coffee, tacos, seafood, and date-night dinners near the pier and Downtown, with map links for each.",
     eyebrow: "Eats & drinks",
     intro:
-      "From a pier-deck sunset dinner to a no-fuss morning coffee, here are the places that come up again and again when locals talk about where to eat. Hours and menus change, so check before you go.",
+      "From a pier-deck sunset dinner to a no-fuss morning coffee, here are the places that come up again and again when locals talk about where to eat. Hours and menus change, so check before you go. Want a shorter list? Jump to [coffee](/lifestyle/food-drink/coffee), [brunch](/lifestyle/food-drink/brunch), [dinner](/lifestyle/food-drink/dinner), or [seafood and sunset](/lifestyle/food-drink/seafood-sunset).",
     sections: [
       {
         h: "Brunch & breakfast",

@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Reveal from "@/components/Reveal";
+import Inline from "@/components/Inline";
 import DataTable from "@/components/DataTable";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import JsonLd from "@/components/JsonLd";
@@ -48,7 +49,7 @@ export default async function GuidePage({ params }: { params: Promise<{ guide: s
             />
             <p className="eyebrow">{g.eyebrow}</p>
             <h1>{g.title}</h1>
-            <p className="lede">{g.intro}</p>
+            <p className="lede"><Inline text={g.intro} /></p>
           </Reveal>
         </section>
 
