@@ -461,3 +461,24 @@ a { color: inherit; }
 a.card-link { display: block; text-decoration: none; color: inherit; }
 a.card-link h3 { color: var(--ink); }
 a.card-link .link-arrow { display: inline-block; margin-top: .75rem; }
+
+.video-wrap { position: relative; aspect-ratio: 16 / 9; background: #0b2330; border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow); }
+.video-wrap iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+.video-center { max-width: 860px; margin: 2rem auto 1.5rem; }
+.seen-on { display: flex; flex-wrap: wrap; justify-content: center; align-items: baseline; gap: .5rem 1.5rem; text-align: center; margin: 1.5rem 0 3rem; }
+.seen-on span { text-transform: uppercase; letter-spacing: .12em; font-size: .8rem; color: var(--ink-2); }
+.seen-on strong { font-family: var(--font-serif), serif; font-size: 1.15rem; color: var(--ink); }
+.recog-split { display: grid; grid-template-columns: 1fr; gap: 1.5rem; max-width: 900px; margin: 0 auto 3rem; align-items: center; }
+.recog-split:has(> img) { grid-template-columns: 1fr 1.2fr; }
+.recog-split img { width: 100%; height: auto; border-radius: var(--radius); }
+.recog-cards { margin-top: 1rem; }
+.recog-img { width: 150px; height: auto; border-radius: 4px; margin-bottom: 1rem; }
+.about-stats { list-style: none; padding: 0; margin: 1.5rem 0; display: flex; flex-wrap: wrap; gap: 1rem; }
+.about-stats li { background: #fff; border-radius: var(--radius); box-shadow: var(--shadow); padding: 1rem 1.25rem; min-width: 8.5rem; flex: 1 1 8.5rem; }
+.about-stats strong { display: block; font-family: var(--font-serif), serif; font-size: 2rem; color: var(--ocean-d); line-height: 1.1; }
+.about-stats span { font-size: .85rem; color: var(--ink-2); }
+.fine { text-align: center; font-size: .85rem; color: var(--ink-2); margin-top: 1.25rem; }
+.giving { max-width: 720px; margin: 2.5rem auto 0; text-align: center; }
+@media (max-width: 760px) { .recog-split:has(> img) { grid-template-columns: 1fr; } }
+.cred-row { list-style: none; display: flex; flex-wrap: wrap; justify-content: center; gap: .6rem; padding: 0 1.25rem 3rem; margin: -1.5rem auto 0; max-width: 1100px; }
+.cred-row li { background: #fff; border-radius: 999px; box-shadow: var(--shadow); padding: .55rem 1.1rem; font-weight: 600; font-size: .9rem; color: var(--ocean-d); }

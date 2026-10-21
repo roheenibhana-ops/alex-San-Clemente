@@ -19,6 +19,45 @@ export const stats = [
   { value: "10+", label: "Years in OC" },
 ];
 
+// Taken from Alex's main site (findyourhomeorangecounty.com). Alex to confirm wording and any required disclosures before launch.
+export const recognition = [
+  { title: "RealTrends", body: "Ranked among the nation's top-producing medium teams.", img: "" },
+  { title: "Diamond Award", body: "Awarded to the Alex Yu Team for production, with four years in the First Team Hall of Fame.", img: "" },
+  { title: "Serhant PRO Coach", body: "PRO Coach with SERHANT. Sell It.", img: "" },
+];
+
+export const seenOn = ["ABC News", "FOX News Channel", "CNN", "NBC Universal"];
+
+export const endorsement = {
+  heading: "Personally endorsed by Barbara Corcoran",
+  body: "Shark Tank star and real estate mogul Barbara Corcoran personally endorses Alex, one of the most recognized names in American real estate.",
+  quote: "\"Educate first, advise second\" is how Alex works: an honest, block-by-block read on the neighborhood so you can make the best-informed decision for your family.",
+  profileHref: "https://www.barbaracorcoran.com/broker/alex-yu/",
+  photo: "",
+  videoTitle: "Barbara Corcoran endorses the Alex Yu Team",
+  vimeoId: "1089112723",
+  vimeoHash: "807ed663a2",
+};
+
+export const background = [
+  { title: "Local roots", body: "A licensed Orange County broker for over a decade, with a Chapman University education and a degree in real estate and finance." },
+  { title: "Banking experience", body: "Before building his own team, Alex supported JPMorgan Chase in a real estate advisory role as a bank-owned property manager." },
+  { title: "A team that delivers", body: "Alex leads a dynamic group of agents specializing in Orange County residential, backed by innovative strategies and modern technology." },
+];
+
+export const programs = [
+  { title: "Platinum Home Seller Program", body: "A seller program designed to guarantee the sale of your home, with a buy-before-you-sell option so you're never stuck between two homes." },
+  { title: "Platinum Home Buyer Program", body: "Access to off-market \"secret\" home inventory, plus a promise: love your home, or the team will list it for free." },
+];
+
+export const howIWork = [
+  { title: "Block-by-block clarity", body: "Honest neighborhood-level insight, not a generic city overview. You see what living on a specific street is really like before you commit." },
+  { title: "Numbers first", body: "Pricing, comps and trends laid out plainly so every decision is backed by data you understand, not pressure." },
+  { title: "Advice you can act on", body: "Once you're informed, I give a straight recommendation and a clear plan, from first conversation through closing." },
+];
+
+export const credentials = ["Top 1% of producers nationwide", "4 years in the First Team Hall of Fame", "Endorsed by Barbara Corcoran"];
+
 export const market = [
   { value: "~$2M", label: "Median home price", note: "Where most San Clemente buyers are shopping" },
   { value: "70%", label: "Single-family share of inventory", note: "Houses lead the market, not condos" },

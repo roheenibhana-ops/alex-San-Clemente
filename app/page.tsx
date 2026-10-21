@@ -10,7 +10,7 @@ import { guides } from "@/lib/places";
 import Link from "next/link";
 import JsonLd from "@/components/JsonLd";
 import { SITE_URL } from "@/lib/site";
-import { agent, market, stats, lifestyle, services, faqs } from "@/lib/content";
+import { agent, market, stats, lifestyle, services, faqs, recognition, endorsement, credentials, seenOn, background, programs, howIWork } from "@/lib/content";
 
 export const metadata = { alternates: { canonical: "/" } };
 
@@ -81,6 +81,55 @@ export default function Home() {
               </div>
             </Reveal>
           ))}
+        </section>
+        <ul className="cred-row" aria-label="Recognition">
+          {credentials.map((c) => <li key={c}>{c}</li>)}
+        </ul>
+
+        <section className="section recog" aria-labelledby="recog-h">
+          <Reveal>
+            <p className="eyebrow">Recognized and endorsed</p>
+            <h2 id="recog-h">Endorsed by those you trust</h2>
+          </Reveal>
+          <Reveal>
+            <div className="video-wrap video-center">
+              <iframe
+                src={`https://player.vimeo.com/video/${endorsement.vimeoId}?h=${endorsement.vimeoHash}&dnt=1&title=0&byline=0&portrait=0`}
+                title={endorsement.videoTitle}
+                loading="lazy"
+                allow="fullscreen; picture-in-picture"
+                allowFullScreen
+              />
+            </div>
+          </Reveal>
+          <p className="seen-on"><span>As seen streaming on</span> {seenOn.map((n) => <strong key={n}>{n}</strong>)}</p>
+          <div className="recog-split">
+            {endorsement.photo && (
+              // eslint-disable-next-line @next/next/no-img-element
+              <img src={endorsement.photo} alt="Alex Yu with Barbara Corcoran" loading="lazy" />
+            )}
+            <div>
+              <h3>{endorsement.heading}</h3>
+              <p>{endorsement.body}</p>
+              <p>{endorsement.quote}</p>
+              <p><a className="link-arrow" href={endorsement.profileHref} target="_blank" rel="noopener noreferrer">See Alex on Barbara Corcoran&apos;s Top Agents directory →</a></p>
+              <a className="btn" href="#contact">Talk to Alex</a>
+            </div>
+          </div>
+          <div className="grid3 recog-cards">
+            {recognition.map((r, i) => (
+              <Reveal key={r.title} delay={i * 80}>
+                <div className="card">
+                  {r.img && (
+                    // eslint-disable-next-line @next/next/no-img-element
+                    <img className="recog-img" src={r.img} alt={r.title} loading="lazy" />
+                  )}
+                  <h3>{r.title}</h3>
+                  <p>{r.body}</p>
+                </div>
+              </Reveal>
+            ))}
+          </div>
         </section>
 
         {reviews.length > 0 && (
@@ -222,14 +271,73 @@ export default function Home() {
               <p className="eyebrow">Meet your agent</p>
               <h2>Meet {agent.name}, your San Clemente real estate agent</h2>
               <p>
-                Alex leads the {agent.team} at {agent.brokerage}, serving homeowners and buyers across Orange County. With
-                over a decade in the market and 600+ transactions, the approach is simple: give you an honest, block-by-block
-                read of the market so every decision is an informed one.
+                I&apos;ve been an Orange County resident my entire life, and I work with buyers and sellers across the county,
+                including San Clemente. My approach is simple: educate first, advise second. With over $550M in local sales and a
+                personal endorsement from Shark Tank&apos;s Barbara Corcoran, I&apos;m here to give you an honest, block-by-block read
+                on the neighborhood so you can make the best-informed decision for your family.
               </p>
+              <p>
+                In this part of the coast the right answer changes block by block. Before we talk about offers, pricing or timing, I
+                want you to understand the neighborhood, what is driving values there and what trade-offs come with each option.
+                Then I&apos;ll tell you what I&apos;d do in your position.
+              </p>
+              <ul className="about-stats">
+                <li><strong>10+</strong><span>Years of experience</span></li>
+                <li><strong>600+</strong><span>Transactions closed</span></li>
+                <li><strong>510+</strong><span>Five-star reviews</span></li>
+              </ul>
               <a className="link-arrow" href={agent.mainSite} target="_blank" rel="noopener noreferrer">
                 Visit Alex&apos;s main site →
               </a>
             </Reveal>
+          </div>
+        </section>
+
+        <section className="section" aria-labelledby="bg-h">
+          <Reveal>
+            <p className="eyebrow">Background</p>
+            <h2 id="bg-h">Who is behind the Alex Yu Team?</h2>
+          </Reveal>
+          <div className="grid3">
+            {background.map((c, i) => (
+              <Reveal key={c.title} delay={i * 80}>
+                <div className="card"><h3>{c.title}</h3><p>{c.body}</p></div>
+              </Reveal>
+            ))}
+          </div>
+        </section>
+
+        <section className="section tint" aria-labelledby="how-h">
+          <Reveal>
+            <p className="eyebrow">How I work</p>
+            <h2 id="how-h">Educate first, advise second</h2>
+          </Reveal>
+          <div className="grid3">
+            {howIWork.map((c, i) => (
+              <Reveal key={c.title} delay={i * 80}>
+                <div className="card"><h3>{c.title}</h3><p>{c.body}</p></div>
+              </Reveal>
+            ))}
+          </div>
+        </section>
+
+        <section className="section" aria-labelledby="prog-h">
+          <Reveal>
+            <p className="eyebrow">Programs built around you</p>
+            <h2 id="prog-h">Signature programs for buyers and sellers</h2>
+            <p className="sub">The Alex Yu Team pioneered two signature programs to take the risk out of buying and selling.</p>
+          </Reveal>
+          <div className="grid2">
+            {programs.map((c, i) => (
+              <Reveal key={c.title} delay={i * 80}>
+                <div className="card"><h3>{c.title}</h3><p>{c.body}</p></div>
+              </Reveal>
+            ))}
+          </div>
+          <p className="fine">Program terms and conditions apply. Ask Alex for details.</p>
+          <div className="giving">
+            <h3>Giving back</h3>
+            <p>Alex and his team donate a portion of their profit to local charities that combat animal abuse and support victims of domestic violence.</p>
           </div>
         </section>
 
