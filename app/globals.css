@@ -485,3 +485,7 @@ a.card-link .link-arrow { display: inline-block; margin-top: .75rem; }
 .recog-photos { display: grid; grid-template-columns: 1fr 1fr; gap: .75rem; }
 .recog-photos img { width: 100%; height: 100%; aspect-ratio: 4 / 5; object-fit: cover; border-radius: var(--radius); box-shadow: var(--shadow); }
 .recog-img.graphic { aspect-ratio: 4 / 5; object-fit: contain; max-width: 260px; margin-inline: auto; display: block; }
+.about-hero { align-items: center; margin-top: 1.5rem; }
+.about-hero .portrait { max-width: 420px; }
+.fine-light { font-size: .85rem; color: rgba(255,255,255,.75); margin-top: 1.5rem; }
+.page-hero .about-hero > * { max-width: none; }

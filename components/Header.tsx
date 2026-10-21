@@ -9,7 +9,7 @@ const links = [
   ["Lifestyle", "/lifestyle"],
   ["Blog", "/blog"],
   ["Home value", "/home-value"],
-  ["About", "/#about"],
+  ["About", "/about"],
 ];
 
 export default function Header() {
