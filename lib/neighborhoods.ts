@@ -127,7 +127,7 @@ export const hoods: Hood[] = [
       { q: "Do all Sea Summit homes have ocean views?", a: "No. Views range from partial to wide open depending on the lot, so confirm the view in person." },
       { q: "Are there HOA fees?", a: "Master-planned communities like this typically have an HOA. Ask for the current dues and any assessments before you make an offer." },
     ],
-    sources: [wiki, city, { label: "Sea Summit at Marblehead overview", href: "https://talkirvine.com/threads/sea-summit-at-marblehead-san-clemente.12772" }],
+    sources: [wiki, city, { label: "Canyon View Park and Sea Summit (Fun Orange County Parks)", href: "https://funorangecountyparks.com/canyon-view-park-sea-summit-san-clemente.html" }],
   },
   {
     slug: "forster-ranch",
@@ -332,7 +332,7 @@ export const hoods: Hood[] = [
     ],
     nearby: [
       { label: "Rancho San Clemente on Redfin (live data)", href: "https://www.redfin.com/neighborhood/119949/CA/San-Clemente/Rancho-San-Clemente", note: "Current listings and recent sales" },
-      { label: "San Clemente history (City)", href: "https://san-clemente.org/about-us/city-information/history", note: "How the town was planned and built" },
+      { label: "About San Clemente (City)", href: "https://www.sanclemente.gov/315", note: "City background and services" },
     ],
     faqs: [
       { q: "What is Rancho San Clemente known for?", a: "Its hillside setting and views, along with Spanish-style architecture that matches the rest of San Clemente." },

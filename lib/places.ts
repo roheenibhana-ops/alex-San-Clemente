@@ -210,7 +210,7 @@ export const guides: Guide[] = [
     ],
     links: [
       { label: "City of San Clemente calendar", href: "https://www.sanclemente.gov/" },
-      { label: "Ocean Festival 2026 (OCTA)", href: "https://octa.net/getting-around/rail/metrolink/metrolink-weekends/promotions/ocean-festival-2026" },
+      { label: "San Clemente Ocean Festival (official site)", href: "https://www.oceanfestival.org/" },
       { label: "Casa Romantica Cultural Center", href: "https://www.casaromantica.org/" },
       { label: "Community events guide", href: "https://www.malakaisparks.com/must-know-community-events-in-san-clemente/" },
     ],

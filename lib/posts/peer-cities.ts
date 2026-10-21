@@ -125,6 +125,19 @@ export const post: Post = {
     { t: "h2", text: "Beyond the market data: lifestyle differences" },
     { t: "p", text: "The numbers only tell part of the story. Day-to-day, these cities feel different. San Clemente's beach trail, pier, and Downtown give it a small-town rhythm, and you can explore that in our guides to [beaches](/lifestyle/beaches), [parks and trails](/lifestyle/parks-trails), and [local food and drink](/lifestyle/food-drink). For practical tips on living here, see our guide to [moving to San Clemente](/blog/moving-to-san-clemente-what-to-know)." },
     { t: "p", text: "If you want the official picture of the city, the [City of San Clemente](https://www.sanclemente.gov/) website is a good starting point, and [Wikipedia's San Clemente entry](https://en.wikipedia.org/wiki/San_Clemente,_California) offers background on history, climate, and transportation." },
+    { t: "h2", text: "Getting around the region" },
+    { t: "p", text: "Where you live on this stretch of coast shapes how you move through the region, and transportation options differ from town to town. San Clemente is served by the Amtrak Pacific Surfliner and by Metrolink, with stations in town, which makes trips north toward Orange County and Los Angeles or south toward San Diego possible without driving. You can check routes and schedules on the [Pacific Surfliner](https://www.pacificsurfliner.com/) and [Metrolink](https://www.metrolinktrains.com/) sites." },
+    { t: "p", text: "For local buses, the [Orange County Transportation Authority](https://octa.net/) publishes routes and timetables. Even if you plan to drive most days, it's worth knowing the rail and bus options, since they can make a long commute or an event day far easier. The I-5 is the main artery for all of these cities, so test your own drive at the hours you'd actually travel before you decide where to buy." },
+    { t: "ul", items: [
+      "**If you commute north:** compare door-to-door times at rush hour from each city, not just distance.",
+      "**If you travel often:** train access can matter more than a few extra minutes on the freeway.",
+      "**If you work from home:** you may care more about daily walkability than commute routes. Our [moving guide](/blog/moving-to-san-clemente-what-to-know) covers that tradeoff.",
+    ] },
+    { t: "h2", text: "What the fine print on a listing can teach you" },
+    { t: "p", text: "Comparing cities on statistics is useful, but the best education comes from reading real listings side by side. Pull up three or four active listings in each city at a similar price and look at what they emphasize. Do they highlight walkability and the beach, or lot size and amenities? How long have they been on the market, and have they reduced the price? Those details show you what sellers believe buyers value in each place." },
+    { t: "p", text: "Pay attention to what's missing, too. If a listing doesn't mention HOA dues or special assessments, ask. If photos avoid the street view, visit. If a property says 'ocean view', confirm what that means from the living room rather than from a rooftop. Our [neighborhood guides](/neighborhoods) include the questions to ask for each area of San Clemente, and the [Pier Bowl vs. Talega comparison](/blog/pier-bowl-vs-talega) shows how two very different parts of one city can feel." },
+    { t: "p", text: "Finally, use the [free valuation](/home-value) tool if you own a home elsewhere and are thinking of trading up to the coast. Knowing your starting equity turns a daydream into a plan, and it helps you decide which of these markets your budget fits most comfortably." },
+
     { t: "h2", text: "Seven questions to ask yourself before choosing a city" },
     { t: "p", text: "Data narrows the field, but a decision this big comes down to how you want to live. These questions tend to clarify things quickly." },
     {

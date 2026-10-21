@@ -175,6 +175,31 @@ export const post: Post = {
       "They start with a [valuation of their current home](/home-value) to understand their likely net proceeds, then talk to a lender about options for bridging the timing. They negotiate a flexible closing date on the purchase and a short rent-back after closing on their sale.",
       "The key moves were planning early and building flexibility into both contracts. The market data helped them price their sale realistically and understand how competitive the purchase would be.",
     ] },
+    { t: "h2", text: "Understanding hazard and condition disclosures" },
+    { t: "p", text: "Disclosures are where a good buyer does real homework. California requires sellers to share a good deal of information about a property, and your job is to read it closely and follow up on anything that raises a question. Think of it as the home's biography, and make sure you've read all the chapters before you commit." },
+    { t: "p", text: "Natural hazard information deserves special attention. For general background, the [USGS Earthquake Hazards Program](https://www.usgs.gov/programs/earthquake-hazards) explains seismic risk in plain language, the state's [fire hazard severity zone maps](https://osfm.fire.ca.gov/) show where wildfire risk is higher, and the [FEMA Flood Map Service Center](https://msc.fema.gov/) lets you check a specific address. Your agent and title company will also provide the formal disclosures that apply to the property." },
+    { t: "ul", items: [
+      "**Read every page.** Highlight anything you don't understand and ask your agent to explain it.",
+      "**Compare disclosures with the inspection.** If the two don't match, ask why.",
+      "**Check permits.** Unpermitted work can create problems for insurance, resale, and safety.",
+      "**Ask about the neighborhood.** Planned developments, HOA rules, and special taxes should be disclosed, but ask directly.",
+      "**Price in the unknowns.** If a repair is likely, get an estimate so you can negotiate with real numbers.",
+    ] },
+    { t: "h2", text: "Choosing an agent and what to expect from one" },
+    { t: "p", text: "Your agent is your guide, negotiator, and checkpoint, so the relationship matters. In California, real estate licensees are overseen by the [Department of Real Estate](https://www.dre.ca.gov/), where you can verify a license, and many agents belong to the [California Association of Realtors](https://www.car.org/), which publishes the standard contract forms used in most transactions. Verifying credentials takes two minutes and is worth doing." },
+    { t: "p", text: "Beyond credentials, look for local knowledge and communication. A good agent will pull comparable sales without being asked, tell you plainly when a house isn't worth its price, and explain the paperwork in terms you understand. They should be as comfortable talking about the tradeoffs between the [Pier Bowl](/neighborhoods/downtown-pier-bowl) and [Talega](/neighborhoods/talega) as they are about contingencies and timelines." },
+    { t: "ul", items: [
+      "**Ask how they'll communicate.** Frequency and channel matter more than you'd think.",
+      "**Ask about recent local sales.** An agent should know your target streets.",
+      "**Ask how they handle multiple offers.** Their approach shows how they negotiate.",
+      "**Read reviews.** Real client experiences, like those on the [home page](/#reviews), tell you how an agent works under pressure.",
+    ] },
+    { t: "p", text: "When you're ready to talk through your own situation, you can reach out through the [contact form](/#contact), or start by requesting a [valuation](/home-value) if you're also selling." },
+
+    { t: "h2", text: "Buying from out of town" },
+    { t: "p", text: "Plenty of San Clemente buyers don't live here yet. If that's you, the process works, but it rewards extra planning. Ask your agent for live video tours and detailed neighborhood briefings, and still try to visit in person at least once before you make an offer, ideally on both a weekday morning and a weekend afternoon. Sights and sounds that don't show up on camera, from train noise to beach crowds, can change how you feel about a street." },
+    { t: "p", text: "Line up your documents ahead of time, including identification, proof of funds, and your pre-approval, so you can act quickly when the right home appears. Ask how signatures will be handled remotely, and who will attend inspections on your behalf. Our [moving guide](/blog/moving-to-san-clemente-what-to-know) covers the practical side of relocating, and the [neighborhood comparison](/neighborhoods) helps you narrow the search before you fly in." },
+
     { t: "h2", text: "Common mistakes to avoid" },
     {
       t: "table",
