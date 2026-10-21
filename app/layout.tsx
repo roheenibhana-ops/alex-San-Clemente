@@ -1,11 +1,13 @@
 import type { Metadata, Viewport } from "next";
 import { Fraunces, Inter } from "next/font/google";
 import "./globals.css";
+import { SITE_URL } from "@/lib/site";
 
 const serif = Fraunces({ subsets: ["latin"], variable: "--font-serif", display: "swap" });
 const sans = Inter({ subsets: ["latin"], variable: "--font-sans", display: "swap" });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(SITE_URL),
   title: "San Clemente Homes for Sale | Single-Family Homes | Alex Yu Team",
   description:
     "Search single-family homes for sale in San Clemente, CA. Median price around $2M. Free home valuation and local expertise from Alex Yu, First Team Real Estate.",

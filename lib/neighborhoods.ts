@@ -1,0 +1,348 @@
+import type { Source } from "./market";
+
+export type Hood = {
+  slug: string;
+  name: string;
+  short: string; // card blurb
+  tag: string;
+  hue: number;
+  metaTitle: string;
+  metaDescription: string;
+  intro: string[];
+  glance: [string, string][];
+  feels: string[];
+  homes: string[];
+  love: string[];
+  tradeoffs: string[];
+  nearby: { label: string; href: string; note: string }[];
+  faqs: { q: string; a: string }[];
+  priceNote?: string;
+  liveData?: Source;
+  sources: Source[];
+};
+
+const wiki: Source = { label: "San Clemente, California (Wikipedia)", href: "https://en.wikipedia.org/wiki/San_Clemente,_California" };
+const city: Source = { label: "City of San Clemente", href: "https://www.sanclemente.gov/" };
+
+export const hoods: Hood[] = [
+  {
+    slug: "downtown-pier-bowl",
+    name: "Downtown & Pier Bowl",
+    short: "Spanish Colonial storefronts, the pier, and sand a short walk from the front door.",
+    tag: "Walk to the beach",
+    hue: 196,
+    metaTitle: "Downtown & Pier Bowl San Clemente Homes for Sale",
+    metaDescription:
+      "Explore Downtown and Pier Bowl San Clemente: walkable Avenida Del Mar, the pier, ocean-view homes, and what living there is like. Local guide by Alex Yu.",
+    intro: [
+      "If you picture San Clemente as a Spanish village by the sea, this is the postcard. Avenida Del Mar runs through Downtown with red-tile rooflines and white stucco storefronts, and the Pier Bowl sits just below it, where the pier meets the sand.",
+      "It's the part of town where you can leave the car in the driveway for a surprising amount of your week: coffee, dinner, the farmers market, then a barefoot walk to the water.",
+    ],
+    glance: [
+      ["Setting", "Coastal, hillside, and walkable"],
+      ["Signature spots", "San Clemente Pier, Avenida Del Mar, Casa Romantica"],
+      ["Pier history", "Opened 1928, rebuilt in 1939 and 1983"],
+      ["Beach trail", "2.6 miles from North Beach to Calafia"],
+      ["Getting around", "San Clemente and San Clemente Pier train stations; I-5 nearby"],
+      ["Typical home style", "Spanish Colonial Revival cottages, older bungalows, and newer coastal builds"],
+    ],
+    feels: [
+      "Mornings here smell like coffee and salt. By late afternoon the Pier Bowl fills with surfers drying off, walkers heading for sunset, and people lining up for tacos.",
+      "Homes sit tight together on small lots, and the streets climb the hillside, so many properties trade yard space for a view. If you want an ocean peek from your kitchen window, this is where that search usually starts.",
+    ],
+    homes: [
+      "Single-family homes make up roughly 70% of San Clemente's inventory, and Downtown and the Pier Bowl are where the character homes are: vintage cottages, remodeled Spanish-style houses, and modern builds that borrow the same look.",
+      "Expect small to mid-size lots, parking that's more limited than inland, and big differences in price from one block to the next depending on view and distance from the sand.",
+    ],
+    love: [
+      "Walk to the pier, the beach, restaurants, and the Sunday farmers market",
+      "Real architectural character along Avenida Del Mar",
+      "Train stations in town for easy trips up or down the coast",
+      "Sunset views that don't need a plane ticket",
+    ],
+    tradeoffs: [
+      "Summer weekends bring crowds, and beach parking gets tight",
+      "Smaller lots and older homes can mean more maintenance",
+      "Views and proximity to the water drive big price swings between streets",
+    ],
+    nearby: [
+      { label: "Casa Romantica Cultural Center", href: "https://www.casaromantica.org/", note: "A 1927 bluff-top home built for founder Ole Hanson, now an arts center" },
+      { label: "Downtown San Clemente events and info", href: "https://www.sanclemente.gov/", note: "City calendar, beach cams, and surf conditions" },
+      { label: "San Clemente Times", href: "https://www.sanclementetimes.com/", note: "Local news and community happenings" },
+    ],
+    faqs: [
+      { q: "Is Downtown San Clemente walkable?", a: "Yes. Downtown and the Pier Bowl are the most walkable parts of town, with shops, restaurants, the pier, and the beach trail within a short walk of many homes." },
+      { q: "What kinds of homes are in the Pier Bowl and Downtown?", a: "A mix of older Spanish Colonial Revival cottages, remodeled bungalows, and newer coastal homes, along with some condos and townhomes. Alex focuses on single-family homes." },
+      { q: "How do I find current prices here?", a: "Neighborhood medians swing a lot because there are relatively few sales. Ask Alex for an MLS-based pull of recent Downtown and Pier Bowl sales." },
+    ],
+    liveData: { label: "Pier Bowl on Redfin (live listings)", href: "https://www.redfin.com/neighborhood/287300/CA/San-Clemente/Pier-Bowl" },
+    sources: [wiki, city, { label: "San Clemente history and the pier (OCTA)", href: "https://octa.net/getting-around/rail/metrolink/metrolink-weekends/overview/san-clemente-pier-daycation/san-clemente-history" }],
+  },
+  {
+    slug: "sea-summit",
+    name: "Sea Summit",
+    short: "A newer, master-planned community on the former Marblehead Coastal property.",
+    tag: "Newer coastal community",
+    hue: 208,
+    metaTitle: "Sea Summit San Clemente Homes for Sale | Marblehead",
+    metaDescription:
+      "Sea Summit at Marblehead in San Clemente: newer single-family homes, ocean-view lots, trails, and what to know before you buy. A local guide from Alex Yu.",
+    intro: [
+      "Sea Summit sits on what locals know as Marblehead Coastal, one of the last big coastal parcels in Orange County to be built out. Instead of 1920s charm, you get modern floor plans, newer systems, and a planned layout.",
+      "It was developed as four neighborhoods named Azure, Indigo, Aqua, and Sapphire, with roughly 309 homes in total, based on the project's announcements.",
+    ],
+    glance: [
+      ["Setting", "Coastal bluff, master-planned"],
+      ["Built as", "Four neighborhoods: Azure, Indigo, Aqua, Sapphire"],
+      ["Size", "About 309 homes, per development announcements"],
+      ["Trail access", "Sea Summit Trail runs along the cliffs"],
+      ["Typical home style", "Newer single-family homes with modern layouts"],
+      ["Ocean views", "Vary lot by lot, from partial to wide-open"],
+    ],
+    feels: [
+      "It feels different from Downtown. Streets are planned, landscaping is fresh, and homes were built in the same era, so you'll see a consistent look rather than a mix of decades.",
+      "Views are the big variable. Two homes a street apart can have very different outlooks, so the right move is to stand in the actual house at the time of day you'll use it.",
+    ],
+    homes: [
+      "Mostly newer single-family construction, which usually means open floor plans, modern kitchens, and fewer surprises than a 1950s bungalow.",
+      "Ask about HOA dues and any special assessments up front. Newer master-planned communities often have them, and they belong in your monthly cost calculation.",
+    ],
+    love: [
+      "Newer construction and modern layouts",
+      "Cliffside trail access right nearby",
+      "A planned community with consistent design",
+      "Ocean views on many lots",
+    ],
+    tradeoffs: [
+      "HOA dues and community rules come with the territory",
+      "View quality varies a lot between lots",
+      "Less of the vintage character you find Downtown",
+    ],
+    nearby: [
+      { label: "Sea Summit Trail", href: "https://www.lotsafunmaps.com/Orange_County_CA/Sea_Summit_Trail_Pico_Park_San_Clemente.html", note: "A cliffside route with trailheads near Pico Park and North El Camino Real" },
+      { label: "City of San Clemente parks", href: "https://www.sanclemente.gov/", note: "Parks, trails, and beach access" },
+    ],
+    faqs: [
+      { q: "What is Sea Summit?", a: "A master-planned community built on the former Marblehead Coastal property, developed as four neighborhoods: Azure, Indigo, Aqua, and Sapphire." },
+      { q: "Do all Sea Summit homes have ocean views?", a: "No. Views range from partial to wide open depending on the lot, so confirm the view in person." },
+      { q: "Are there HOA fees?", a: "Master-planned communities like this typically have an HOA. Ask for the current dues and any assessments before you make an offer." },
+    ],
+    sources: [wiki, city, { label: "Sea Summit at Marblehead overview", href: "https://talkirvine.com/threads/sea-summit-at-marblehead-san-clemente.12772" }],
+  },
+  {
+    slug: "forster-ranch",
+    name: "Forster Ranch",
+    short: "A hillside, master-planned community set back from the sand, with room to spread out.",
+    tag: "Hillside, master-planned",
+    hue: 172,
+    metaTitle: "Forster Ranch San Clemente Homes for Sale & Guide",
+    metaDescription:
+      "Forster Ranch in San Clemente: hillside single-family homes, trails, parks, what it's like to live there, and how prices compare. Local guide by Alex Yu.",
+    intro: [
+      "Forster Ranch is the kind of neighborhood people mean when they say they want a yard and a view without giving up the coast. It's a master-planned hillside community on the inland side of town, with winding streets and a lot of open space.",
+      "You'll drive to the beach, but you won't drive far, and you'll usually trade a bit of walkability for more room.",
+    ],
+    glance: [
+      ["Setting", "Hillside, master-planned"],
+      ["Walkability", "Car-dependent (Redfin Walk Score about 11)"],
+      ["Population", "Roughly 13,500 residents, per Redfin"],
+      ["Typical home style", "Single-family homes on planned streets"],
+      ["Earlier price reference", "Redfin: median near $1.7M in Oct. 2025"],
+      ["Current prices", "Ask Alex for a fresh MLS pull"],
+    ],
+    feels: [
+      "Evenings here are calm and the pace is easy. Parks and open space are part of the plan, so a walk can mean a loop through the neighborhood rather than a trip to a main street.",
+      "Because it's set back from the water, you can often find more square footage and a bit more privacy than the same budget buys near the pier.",
+    ],
+    homes: [
+      "Single-family homes dominate, with planned lot sizes and consistent architecture. That makes comparing homes easier than in older, more varied areas.",
+      "Some streets pick up ocean glimpses from elevated lots. Check the view and the afternoon light in person.",
+    ],
+    love: [
+      "More space and privacy than the coastal core",
+      "Parks and open space built into the community plan",
+      "Consistent, planned streets and architecture",
+      "A short drive to the beach and Downtown",
+    ],
+    tradeoffs: [
+      "You'll drive for most errands and the beach",
+      "HOA or assessment details vary by tract, so ask early",
+      "Fewer vintage, one-of-a-kind homes than Downtown",
+    ],
+    nearby: [
+      { label: "Forster Ranch on Redfin (live data)", href: "https://www.redfin.com/neighborhood/111203/CA/San-Clemente/Forster-Ranch", note: "Current listings and recent sales" },
+      { label: "City of San Clemente parks and trails", href: "https://www.sanclemente.gov/", note: "Park locations and programs" },
+    ],
+    faqs: [
+      { q: "Is Forster Ranch walkable?", a: "Not for daily errands. Redfin's Walk Score is low, so most residents drive, though the community has parks and trails for recreation." },
+      { q: "How far is Forster Ranch from the beach?", a: "It's inland, but still a short drive to the coast. Ask Alex for door-to-sand times from specific streets." },
+      { q: "What do homes in Forster Ranch cost?", a: "Redfin showed a median near $1.7M in October 2025, but prices move, so request current MLS sales." },
+    ],
+    liveData: { label: "Forster Ranch on Redfin (live listings)", href: "https://www.redfin.com/neighborhood/111203/CA/San-Clemente/Forster-Ranch" },
+    sources: [wiki, city, { label: "Forster Ranch housing market (Redfin)", href: "https://www.redfin.com/neighborhood/111203/CA/San-Clemente/Forster-Ranch/housing-market" }],
+  },
+  {
+    slug: "shorecliffs",
+    name: "Shorecliffs",
+    short: "A golf-course neighborhood with a refreshed clubhouse and Nixon-era history.",
+    tag: "Golf-course setting",
+    hue: 160,
+    metaTitle: "Shorecliffs San Clemente Homes for Sale & Golf Club",
+    metaDescription:
+      "Shorecliffs in San Clemente: homes around Shorecliffs Golf Club, what the area is like, the 2024 clubhouse reopening, and how to buy. A local guide by Alex Yu.",
+    intro: [
+      "Shorecliffs is built around its golf course. Shorecliffs Golf Club, a public 18-hole course designed by Joe Williams, opened in 1964 and was once a favorite of President Richard Nixon, who lived nearby in San Clemente.",
+      "If a fairway outside the window sounds like your idea of a good morning, this is the neighborhood to look at first.",
+    ],
+    glance: [
+      ["Setting", "Residential, around a golf course"],
+      ["Golf", "Shorecliffs Golf Club, public 18-hole, opened 1964"],
+      ["Course designer", "Joe Williams"],
+      ["Recent upgrades", "Renovated course and new clubhouse, reopened January 2024"],
+      ["Typical home style", "Single-family homes with a golf-course setting"],
+      ["Current prices", "Ask Alex for an MLS-based pull"],
+    ],
+    feels: [
+      "The golf course gives Shorecliffs open green space that you don't get in most coastal neighborhoods, and it changes the feel of the streets around it: more openness, more sky.",
+      "The club's renovation, including a reworked par-3 fourth hole that reopened in 2024, has been a big local talking point.",
+    ],
+    homes: [
+      "Single-family homes with views that vary: some look out on the course, others on rooftops. The exact lot and orientation matter more than the neighborhood name.",
+      "Ask about any lot-specific considerations, like proximity to the course or easements, and have inspections cover drainage and slope where relevant.",
+    ],
+    love: [
+      "Open green space and course views",
+      "A public golf course in the neighborhood",
+      "Recently refreshed clubhouse and restaurant",
+      "A distinct setting that feels different from the coastal core",
+    ],
+    tradeoffs: [
+      "Lot position relative to the course can affect noise and light",
+      "Prices vary a lot by exact location",
+      "You'll drive to the beach and Downtown",
+    ],
+    nearby: [
+      { label: "Shorecliffs Golf Club reopening (San Clemente Times)", href: "https://www.picketfencemedia.com/sanclementetimes/eye-on-sc/community-celebrates-shorecliffs-golf-club-s-grand-reopening/article_18302a0d-809a-5b57-bdab-0fc63067dc7f.html", note: "Coverage of the 2024 clubhouse and course reopening" },
+      { label: "Shorecliffs Golf Club details", href: "https://www.golfn.com/courses/united-states-of-america/california/shorecliffs-golf-club", note: "Public 18-hole course designed by Joe Williams" },
+    ],
+    faqs: [
+      { q: "Is Shorecliffs Golf Club public?", a: "Yes. It's an 18-hole public course open to the public seven days a week." },
+      { q: "When did Shorecliffs Golf Club reopen?", a: "The renovated course and clubhouse reopened in January 2024, with the reworked par-3 fourth hole following in May 2024." },
+      { q: "What do homes near the golf course cost?", a: "It depends heavily on the exact lot, so ask Alex for a current MLS comparison for the street you like." },
+    ],
+    sources: [wiki, city, { label: "Shorecliffs reopening coverage", href: "https://www.picketfencemedia.com/sanclementetimes/eye-on-sc/community-celebrates-shorecliffs-golf-club-s-grand-reopening/article_18302a0d-809a-5b57-bdab-0fc63067dc7f.html" }],
+  },
+  {
+    slug: "talega",
+    name: "Talega",
+    short: "A big master-planned community with parks, trails, a golf club, and everyday shopping close by.",
+    tag: "Master-planned, resort-style",
+    hue: 150,
+    metaTitle: "Talega San Clemente Homes for Sale & Neighborhood Guide",
+    metaDescription:
+      "Talega in San Clemente: master-planned single-family homes, parks, trails, golf, HOA basics, and how it compares. A local guide with sources by Alex Yu.",
+    intro: [
+      "Talega is a different San Clemente. It's a large planned community in the northeast part of the city, built from 1999 onward, with more than 30 neighborhoods, a golf club, and its own shopping and parks.",
+      "It works like a town within the town, and that's the appeal: nearly everything you need is a short hop from the front door, and the beach is a drive away.",
+    ],
+    glance: [
+      ["Setting", "Inland, master-planned"],
+      ["Construction began", "1999"],
+      ["Planned size", "About 3,500 residential units, across 3,510 acres in the specific plan"],
+      ["Neighborhoods", "More than 30"],
+      ["Distance to coast", "About 3 miles; about 2 miles east of I-5"],
+      ["Architecture", "Predominantly Spanish-Tuscan style"],
+      ["Everyday shopping", "Includes Ralphs, Target, and Walmart"],
+      ["City parks", "Talega Park, Liberty Park, Tierra Grande Park"],
+    ],
+    feels: [
+      "The streets are planned, and the architecture has a consistent Spanish-Tuscan look. Community and city parks are spread through the area, so a walk or bike ride is easy to start.",
+      "Because it's inland, you'll drive to the beach, but you'll have more room and newer construction than you would for the same budget close to the water.",
+    ],
+    homes: [
+      "Mostly tract single-family homes (the community has no full-custom homes, per public descriptions), with more variety among the 30-plus neighborhoods than the overall look suggests.",
+      "Many master-planned communities carry HOA dues, and some include additional assessments. Always ask for the total monthly cost of ownership before you compare listings.",
+    ],
+    love: [
+      "Parks, trails, and a golf club inside the community",
+      "Newer construction than the coastal core",
+      "Shopping, groceries, and services close by",
+      "More space for the money than the beachfront blocks",
+    ],
+    tradeoffs: [
+      "About 3 miles from the coast, so beach days mean a drive",
+      "HOA dues and possible extra assessments",
+      "Commute times depend on I-5 traffic, so test your route at rush hour",
+    ],
+    nearby: [
+      { label: "Talega on Redfin (live data)", href: "https://www.redfin.com/neighborhood/65361/CA/San-Clemente/Talega", note: "Current listings and recent sales" },
+      { label: "Talega (Wikipedia)", href: "https://en.wikipedia.org/wiki/Talega,_San_Clemente,_California", note: "Background and planning details" },
+      { label: "City of San Clemente", href: "https://www.sanclemente.gov/", note: "Parks, trails, and services" },
+    ],
+    faqs: [
+      { q: "How far is Talega from the beach?", a: "About 3 miles from the coast and about 2 miles east of I-5, according to public descriptions. Expect a short drive, not a walk." },
+      { q: "What styles of home are in Talega?", a: "Mostly tract single-family homes in a Spanish-Tuscan style across more than 30 neighborhoods." },
+      { q: "Are there HOA fees in Talega?", a: "Planned communities like Talega commonly have HOA dues, and some tracts have additional assessments. Ask for the specifics on any home you're considering." },
+      { q: "What are Talega home prices?", a: "Prices vary by neighborhood, size, and lot. Ask Alex for an MLS-based pull of recent Talega sales." },
+    ],
+    liveData: { label: "Talega on Redfin (live listings)", href: "https://www.redfin.com/neighborhood/65361/CA/San-Clemente/Talega" },
+    sources: [
+      { label: "Talega (Wikipedia)", href: "https://en.wikipedia.org/wiki/Talega,_San_Clemente,_California" },
+      wiki,
+      city,
+    ],
+  },
+  {
+    slug: "rancho-san-clemente",
+    name: "Rancho San Clemente",
+    short: "An elevated, master-planned hillside community with Spanish-style homes and big-sky views.",
+    tag: "Elevated hillside",
+    hue: 30,
+    metaTitle: "Rancho San Clemente Homes for Sale | Local Guide",
+    metaDescription:
+      "Rancho San Clemente homes: hillside single-family houses, views, what it's like to live there, and how to find current prices. A local guide by Alex Yu.",
+    intro: [
+      "Rancho San Clemente climbs up the hillside in tiers, which is why views are such a big part of the conversation here. It's a master-planned community developed later than the historic core, with Spanish-style architecture that echoes the town's roots.",
+    ],
+    glance: [
+      ["Setting", "Elevated, hillside, master-planned"],
+      ["Development era", "Later than the historic core, per local descriptions"],
+      ["Typical home style", "Spanish-style single-family homes"],
+      ["Views", "Vary by elevation and orientation"],
+      ["Current prices", "Ask Alex for a fresh MLS pull"],
+    ],
+    feels: [
+      "Streets climb the hillside, so a good view often comes down to a few feet of elevation and the angle of the house. It's worth visiting at different times of day.",
+      "It's quieter and more residential than the Pier Bowl, with a drive to Downtown and the beach.",
+    ],
+    homes: [
+      "Mostly single-family homes in a Spanish-style design. Orientation, lot slope, and view are the big value drivers, so each property deserves its own comparison.",
+      "Because this is a sub-area with a smaller number of sales, neighborhood-wide averages can mislead. A street-by-street comparison is the reliable way to price a home here.",
+    ],
+    love: [
+      "Elevation and views",
+      "Spanish-style design that fits the town",
+      "A residential feel with a short drive to the coast",
+      "Hillside streets with room to breathe",
+    ],
+    tradeoffs: [
+      "Views and prices vary widely by exact lot",
+      "Hillside lots can mean slopes and stairs",
+      "You'll drive to the beach and Downtown",
+    ],
+    nearby: [
+      { label: "Rancho San Clemente on Redfin (live data)", href: "https://www.redfin.com/neighborhood/119949/CA/San-Clemente/Rancho-San-Clemente", note: "Current listings and recent sales" },
+      { label: "San Clemente history (City)", href: "https://san-clemente.org/about-us/city-information/history", note: "How the town was planned and built" },
+    ],
+    faqs: [
+      { q: "What is Rancho San Clemente known for?", a: "Its hillside setting and views, along with Spanish-style architecture that matches the rest of San Clemente." },
+      { q: "How do I price a home here?", a: "Compare recent sales on the same street or elevation band rather than relying on a neighborhood-wide median." },
+    ],
+    liveData: { label: "Rancho San Clemente on Redfin (live listings)", href: "https://www.redfin.com/neighborhood/119949/CA/San-Clemente/Rancho-San-Clemente" },
+    sources: [wiki, city],
+  },
+];
+
+export function getHood(slug: string) {
+  return hoods.find((h) => h.slug === slug);
+}

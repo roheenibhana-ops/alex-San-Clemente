@@ -5,11 +5,11 @@ import Link from "next/link";
 import { agent } from "@/lib/content";
 
 const links = [
+  ["Neighborhoods", "/neighborhoods"],
   ["Lifestyle", "/lifestyle"],
-  ["Neighborhoods", "/#neighborhoods"],
+  ["Blog", "/blog"],
   ["Services", "/#services"],
   ["About", "/#about"],
-  ["FAQ", "/#faq"],
 ];
 
 export default function Header() {

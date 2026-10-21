@@ -1,33 +1,29 @@
 "use client";
 
 import { useState } from "react";
-import { neighborhoods } from "@/lib/content";
+import Link from "next/link";
+import { hoods } from "@/lib/neighborhoods";
 
 export default function Neighborhoods() {
-  const [active, setActive] = useState(neighborhoods[0].id);
-  const current = neighborhoods.find((n) => n.id === active)!;
+  const [active, setActive] = useState(hoods[0].slug);
+  const current = hoods.find((n) => n.slug === active)!;
 
   return (
     <div className="hoods">
       <div className="hood-tabs" role="tablist" aria-label="San Clemente neighborhoods">
-        {neighborhoods.map((n) => (
+        {hoods.map((n) => (
           <button
-            key={n.id}
+            key={n.slug}
             role="tab"
-            aria-selected={n.id === active}
-            className={n.id === active ? "active" : ""}
-            onClick={() => setActive(n.id)}
+            aria-selected={n.slug === active}
+            className={n.slug === active ? "active" : ""}
+            onClick={() => setActive(n.slug)}
           >
             {n.name}
           </button>
         ))}
       </div>
-      <article
-        key={current.id}
-        className="hood-card"
-        style={{ ["--h" as string]: current.hue }}
-        role="tabpanel"
-      >
+      <article key={current.slug} className="hood-card" style={{ ["--h" as string]: current.hue }} role="tabpanel">
         <div className="hood-art" aria-hidden>
           <svg viewBox="0 0 400 260" preserveAspectRatio="xMidYMid slice">
             <defs>
@@ -46,17 +42,13 @@ export default function Neighborhoods() {
         </div>
         <div className="hood-body">
           <h3>{current.name}</h3>
-          <p>{current.body}</p>
-          <ul>
-            {current.vibe.map((v) => (
-              <li key={v}>{v}</li>
-            ))}
-          </ul>
-          <a href="#contact" className="link-arrow">
-            Ask Alex about {current.name.split(" ")[0]} →
-          </a>
+          <p>{current.short}</p>
+          <Link href={`/neighborhoods/${current.slug}`} className="link-arrow">
+            Read the {current.name} guide →
+          </Link>
         </div>
       </article>
+      <p className="hood-all"><Link href="/neighborhoods" className="link-arrow">Compare all neighborhoods →</Link></p>
     </div>
   );
 }

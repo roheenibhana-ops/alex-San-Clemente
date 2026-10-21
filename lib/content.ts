@@ -45,49 +45,6 @@ export const lifestyle = [
   },
 ];
 
-export const neighborhoods = [
-  {
-    id: "old-town",
-    name: "Downtown & Pier Bowl",
-    tag: "Walk to everything",
-    body: "Classic Spanish Colonial cottages and ocean-view hillside homes steps from the pier, Del Mar shops, restaurants, and the sand.",
-    vibe: ["Walkable", "Ocean views", "Historic character"],
-    hue: 196,
-  },
-  {
-    id: "sea-summit",
-    name: "Sea Summit & Cotton's Point",
-    tag: "Views and quiet streets",
-    body: "Elevated lots with sweeping coastline and island views, a short drive from the beach and Calafia and T-Street.",
-    vibe: ["Panoramic views", "Established", "Close to beaches"],
-    hue: 208,
-  },
-  {
-    id: "forster-ranch",
-    name: "Forster Ranch & Shorecliffs",
-    tag: "Family-friendly",
-    body: "Master-planned neighborhoods with parks, trails, and strong community feel, set above the coast with ocean glimpses.",
-    vibe: ["Parks & trails", "Family-oriented", "Community feel"],
-    hue: 172,
-  },
-  {
-    id: "talega",
-    name: "Talega",
-    tag: "Modern and resort-style",
-    body: "Newer construction, pools and clubs, a golf course, and miles of trail on the inland side of town.",
-    vibe: ["Newer homes", "Amenities", "Golf & pools"],
-    hue: 150,
-  },
-  {
-    id: "rancho",
-    name: "Rancho San Clemente",
-    tag: "Space and value",
-    body: "Larger lots and mid-century ranch-style homes in a hillside setting with mountain and ocean views.",
-    vibe: ["Larger lots", "Views", "Value"],
-    hue: 30,
-  },
-];
-
 export const services = [
   {
     title: "Buying a single-family home",
