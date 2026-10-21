@@ -53,6 +53,14 @@ export const images: Record<string, Img> = {
     src: "/images/blog/talega-hoa-dues-mello-roos-what-they-cover.jpg",
     alt: "Entrance to the Talega Swim & Athletic Club with a stone archway, tile roof and iron gates",
   },
+  "post:sea-summit-azure-aqua-sapphire-indigo-compared": {
+    src: "/images/blog/sea-summit-azure-aqua-sapphire-indigo-compared.jpg",
+    alt: "Aerial view of a community pool, spa and Spanish-style cabanas with blue umbrellas beside hillside homes",
+  },
+  "food:seafood-sunset": {
+    src: "/images/food/seafood-sunset.jpg",
+    alt: "Aerial view of the San Clemente Pier restaurants with blue umbrella decks over the sand and surf",
+  },
   "post:shorecliffs-beach-club-neighborhood-guide": {
     src: "/images/neighborhoods/shorecliffs-ocean-view-homes.jpg",
     alt: "Aerial view of ocean-view homes and a private community in Shorecliffs, San Clemente",
@@ -65,6 +73,9 @@ export const images: Record<string, Img> = {
 
 // Extra photos shown in a strip on a neighborhood page, keyed by neighborhood slug.
 export const galleries: Record<string, Img[]> = {
+  "forster-ranch": [
+    { src: "/images/neighborhoods/forster-ranch-highlands-park.jpg", alt: "Forster Highlands Neighborhood Park sign beside a playground and lawn in Forster Ranch, San Clemente" },
+  ],
   talega: [
     { src: "/images/neighborhoods/talega-hillside-homes.jpg", alt: "Aerial view of two-story homes with solar panels and open hillside behind in Talega, San Clemente" },
     { src: "/images/neighborhoods/talega-swim-athletic-club.jpg", alt: "Entrance to the Talega Swim & Athletic Club with a stone archway and tile roof" },

@@ -506,3 +506,4 @@ a.card-link .link-arrow { display: inline-block; margin-top: .75rem; }
 .gallery img { flex: 1 1 320px; min-width: 0; }
 .gallery img { width: 100%; height: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: var(--radius); box-shadow: var(--shadow); }
 @media (max-width: 760px) { .gallery { grid-template-columns: 1fr; } }
+.gallery img:only-child { max-width: 640px; margin-inline: auto; }

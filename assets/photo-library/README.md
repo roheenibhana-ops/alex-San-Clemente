@@ -23,6 +23,9 @@ Alt text must describe what is visible. Do not name a place unless we are sure o
 | golf-course-aerial-ocean.jpg | Golf course aerial with the Pacific beyond (which course unconfirmed) | "Pier Bowl vs. Talega" post |
 | talega-two-story-homes-hillside-solar.jpg | Two-story homes with solar panels and open hillside behind, aerial | Talega photo strip |
 | talega-swim-and-athletic-club-entrance.jpg | Talega Swim & Athletic Club entrance, stone arch, tile roof | Talega photo strip, Talega HOA post |
+| community-pool-casitas-aerial.jpg | Aerial of a community pool, spa, cabanas and blue umbrellas beside hillside homes (community unconfirmed) | Sea Summit tracts post |
+| pier-restaurants-beach-aerial.jpg | Aerial of the pier restaurants with blue umbrella decks over sand and surf | Seafood & Sunset roundup |
+| forster-highlands-neighborhood-park-sign.jpg | "Forster Highlands Neighborhood Park" sign with playground | Forster Ranch photo strip |
 | presidential-heights-i-sign.jpg | "Presidential Heights I, A Private Community" stone sign (area unconfirmed) | Not used yet (stashed) |
 | alex-yu-doorway-portrait.jpg | Alex in a doorway, black sweater | About page, home About, author cards (cropped) |
 | alex-yu-blazer-headshot.jpg | Older blue-blazer headshot | Parked, not used |
