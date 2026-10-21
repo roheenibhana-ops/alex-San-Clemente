@@ -367,3 +367,8 @@ a { color: inherit; }
 .more-card .card-img { width: calc(100% + 3rem); margin: -1.4rem -1.5rem .4rem; }
 .prose a.btn-outline, .post a.btn-outline { color: var(--ocean-d); }
 .prose a.btn-outline:hover, .post a.btn-outline:hover { color: #fff; }
+.cta-card p { color: var(--ocean-d); font-weight: 700; font-size: 1.15rem; line-height: 1.5; margin: 0 0 1.1rem; }
+.alert-banner p { margin: 0; color: var(--ink); font-size: 1.05rem; }
+.alert-banner a { color: #c8321a; font-weight: 700; }
+.author-card p { color: var(--ink-2); }
+.author-card .link-arrow { color: var(--ocean); }

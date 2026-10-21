@@ -10,6 +10,9 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 import JsonLd from "@/components/JsonLd";
 import Inline from "@/components/Inline";
 import GoogleBadge from "@/components/GoogleBadge";
+import CtaCard from "@/components/CtaCard";
+import AlertBanner from "@/components/AlertBanner";
+import AuthorCard from "@/components/AuthorCard";
 import { imageFor } from "@/lib/images";
 import { posts, getPost } from "@/lib/posts";
 import type { Block } from "@/lib/posts/types";
@@ -49,19 +52,6 @@ function words(blocks: Block[]) {
     if (b.t === "story") return n + b.paragraphs.join(" ").split(/\s+/).length;
     return n + 40;
   }, 0);
-}
-
-function CtaCard({ text }: { text: string }) {
-  return (
-    <div className="cta-card">
-      <p><Inline text={text} /></p>
-      <div className="cta-card-buttons">
-        <a className="btn" href={agent.listingsUrl} target="_blank" rel="noopener noreferrer">Browse San Clemente Listings</a>
-        <Link className="btn btn-blue" href="/neighborhoods">Compare Neighborhoods</Link>
-        <Link className="btn btn-outline" href="/#contact">Talk to Alex Yu</Link>
-      </div>
-    </div>
-  );
 }
 
 function Render({ b }: { b: Block }) {
@@ -144,27 +134,9 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
 
             <CtaCard text="Want a current San Clemente listing search, recent sales for your street, and a full carrying-cost comparison at your budget?" />
 
-            <div className="alert-banner">
-              <p>
-                <strong>Want instant updates?</strong> <Link href="/#contact">Ask Alex to set up a free listing alert</Link> so you hear
-                about new <strong>San Clemente</strong> homes as they hit the market.
-              </p>
-            </div>
+            <AlertBanner />
 
-            <section className="author-card" aria-label="About the author">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src="/alex-yu.jpg" alt="Alex Yu" width={640} height={800} loading="lazy" />
-              <div>
-                <h3>{agent.name}</h3>
-                <p className="author-role">Real estate advisor</p>
-                <p>
-                  My approach is simple: <strong>educate first, advise second</strong>. I&apos;ll give you an honest, block-by-block
-                  read on San Clemente so you can make the best-informed decision, whether you&apos;re
-                  buying, selling, or just exploring.
-                </p>
-                <p><Link className="link-arrow" href="/#contact">Connect with Alex →</Link></p>
-              </div>
-            </section>
+            <AuthorCard />
 
             {p.links.length > 0 && (
               <>

@@ -4,6 +4,9 @@ import { notFound } from "next/navigation";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Reveal from "@/components/Reveal";
+import CtaCard from "@/components/CtaCard";
+import AlertBanner from "@/components/AlertBanner";
+import AuthorCard from "@/components/AuthorCard";
 import CardImage from "@/components/CardImage";
 import Inline from "@/components/Inline";
 import DataTable from "@/components/DataTable";
@@ -75,6 +78,12 @@ export default async function GuidePage({ params }: { params: Promise<{ guide: s
           </section>
         ))}
 
+        <section className="section narrow">
+          <Reveal>
+            <CtaCard text="Want to live near the places you just read about? Get current listings, neighborhoods, and recent sales." />
+          </Reveal>
+        </section>
+
         <section className="section prose">
           <Reveal>
             <h2>Sources and further reading</h2>
@@ -103,6 +112,13 @@ export default async function GuidePage({ params }: { params: Promise<{ guide: s
                 <h3>Compare San Clemente neighborhoods</h3>
               </Link>
             </div>
+          </Reveal>
+        </section>
+
+        <section className="section narrow">
+          <Reveal>
+            <AlertBanner />
+            <AuthorCard />
           </Reveal>
         </section>
 

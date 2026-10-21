@@ -4,6 +4,9 @@ import { notFound } from "next/navigation";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Reveal from "@/components/Reveal";
+import CtaCard from "@/components/CtaCard";
+import AlertBanner from "@/components/AlertBanner";
+import AuthorCard from "@/components/AuthorCard";
 import CardImage from "@/components/CardImage";
 import { imageFor } from "@/lib/images";
 import DataTable from "@/components/DataTable";
@@ -146,6 +149,12 @@ export default async function HoodPage({ params }: { params: Promise<{ slug: str
           </Reveal>
         </section>
 
+        <section className="section narrow">
+          <Reveal>
+            <CtaCard text={`Want current ${h.name} listings, recent sales, and a cost comparison at your budget?`} />
+          </Reveal>
+        </section>
+
         <section className="section tint">
           <Reveal>
             <h2>Nearby and worth a look</h2>
@@ -210,6 +219,13 @@ export default async function HoodPage({ params }: { params: Promise<{ slug: str
               ))}
               . Figures change; confirm current details with Alex or the MLS before you decide.
             </p>
+          </Reveal>
+        </section>
+
+        <section className="section narrow">
+          <Reveal>
+            <AlertBanner />
+            <AuthorCard />
           </Reveal>
         </section>
 
