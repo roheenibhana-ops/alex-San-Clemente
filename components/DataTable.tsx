@@ -1,4 +1,5 @@
 import type { Source } from "@/lib/market";
+import Inline from "./Inline";
 
 export default function DataTable({
   caption,
@@ -27,7 +28,7 @@ export default function DataTable({
             {rows.map((r) => (
               <tr key={r[0]}>
                 {r.map((c, i) =>
-                  i === 0 ? <th key={i} scope="row">{c}</th> : <td key={i}>{c}</td>,
+                  i === 0 ? <th key={i} scope="row"><Inline text={c} /></th> : <td key={i}><Inline text={c} /></td>,
                 )}
               </tr>
             ))}
