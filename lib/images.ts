@@ -18,7 +18,7 @@ export const images: Record<string, Img> = {
   },
   "hood:forster-ranch": {
     src: "/images/neighborhoods/forster-ranch.jpg",
-    alt: "Aerial view of homes along a curving street with rolling hills behind, San Clemente",
+    alt: "Forster Ranch entrance monument sign surrounded by landscaping and palm trees in San Clemente",
   },
   "guide:beaches": {
     src: "/images/lifestyle/beaches.jpg",
@@ -31,6 +31,10 @@ export const images: Record<string, Img> = {
   "post:buying-a-single-family-home-in-san-clemente": {
     src: "/images/blog/buying-a-single-family-home-in-san-clemente.jpg",
     alt: "Two-story single-family home with a tile roof and landscaped entry in San Clemente",
+  },
+  "post:moving-to-san-clemente-what-to-know": {
+    src: "/images/blog/moving-to-san-clemente-what-to-know.jpg",
+    alt: "Aerial view of homes along a curving street with rolling hills behind, San Clemente",
   },
   "post:shorecliffs-beach-club-neighborhood-guide": {
     src: "/images/neighborhoods/shorecliffs-ocean-view-homes.jpg",
