@@ -36,6 +36,22 @@ export const images: Record<string, Img> = {
     src: "/images/blog/moving-to-san-clemente-what-to-know.jpg",
     alt: "Aerial view of homes along a curving street with rolling hills behind, San Clemente",
   },
+  "guide:food-drink": {
+    src: "/images/lifestyle/food-drink.jpg",
+    alt: "Oceanfront pier restaurant deck with blue umbrellas above the surf in San Clemente",
+  },
+  "guide:local-tips": {
+    src: "/images/lifestyle/local-tips.jpg",
+    alt: "Train passing the San Clemente station sign beside palm trees and the tracks",
+  },
+  "post:san-clemente-housing-market-update-october-2026": {
+    src: "/images/blog/san-clemente-housing-market-update-october-2026.jpg",
+    alt: "Presidential Heights I private community entrance sign with a stone base in San Clemente",
+  },
+  "post:pier-bowl-vs-talega": {
+    src: "/images/blog/pier-bowl-vs-talega.jpg",
+    alt: "Aerial view of a San Clemente golf course with the Pacific Ocean beyond",
+  },
   "post:shorecliffs-beach-club-neighborhood-guide": {
     src: "/images/neighborhoods/shorecliffs-ocean-view-homes.jpg",
     alt: "Aerial view of ocean-view homes and a private community in Shorecliffs, San Clemente",
