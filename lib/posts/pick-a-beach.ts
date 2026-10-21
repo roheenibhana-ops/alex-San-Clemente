@@ -20,6 +20,7 @@ export const post: Post = {
     { t: "p", text: "San Clemente's beaches each have their own personality. A few minutes of planning saves you from circling for parking, hauling gear down the wrong staircase, or showing up at a surf spot when surfing isn't allowed. This guide helps you match the beach to the day, whether you're after sunset and dinner, a quiet morning with a book, a family picnic, a surf session, or a pilgrimage to one of the most famous breaks in the world." },
     { t: "p", text: "Details come from the city, the state, and local sources, and we flag where numbers differ. We've also added illustrative scenarios (labeled as such, not real people) to show how different priorities lead to different choices, plus tips for living near the water if the beaches are what's drawing you here." },
     { t: "h2", text: "Which San Clemente beach should you pick?" },
+    { t: "p", text: "It depends on the plan: the pier for sunset and dinner, T-Street for surf close to town, Calafia for space and tide pools, Trestles for a world-famous surf break, and North Beach for a train-friendly start." },
     {
       t: "table",
       caption: "Matching the beach to the plan",
@@ -36,6 +37,7 @@ export const post: Post = {
     },
     { t: "ctaCard", text: "Want a home near your favorite beach? Browse current listings and compare neighborhoods." },
     { t: "h2", text: "What is each San Clemente beach like?" },
+    { t: "p", text: "Each beach has its own personality, from North Beach as a train-friendly start and the pier for sunset to T-Street for surf, Calafia for room, the state beach for camping, and Trestles for a mile-plus walk." },
     { t: "h3", text: "North Beach" },
     { t: "p", text: "North Beach is the northern anchor of the beach trail. The city lists ADA access, metered parking shared with the train station area, and restrooms. It's a handy starting point if you're arriving by train, and a gentler introduction to the coast than some of the busier spots farther south." },
     { t: "h3", text: "San Clemente Pier" },
@@ -53,6 +55,7 @@ export const post: Post = {
     { t: "callout", title: "Rules and fees change", text: "Parking rates, hours, surf restrictions, and access can change. Check the [City of San Clemente's beach information](https://www.sanclemente.gov/194) and, for state beaches, California State Parks before you go." },
     { t: "cta", text: "Want the full beach-by-beach breakdown with parking and access?", href: "/lifestyle/beaches", label: "Read the beaches guide" },
     { t: "h2", text: "How does parking and access compare at each beach?" },
+    { t: "p", text: "Parking and access vary widely: Calafia has roughly 150 to 190 metered spaces and T-Street about 30, while Lasuen and Trestles need a long stairwell or a walk of a mile or more." },
     {
       t: "table",
       caption: "Beach access at a glance",
@@ -68,6 +71,7 @@ export const post: Post = {
       ],
     },
     { t: "h2", text: "What parking strategy works at San Clemente beaches?" },
+    { t: "p", text: "Go early, park up the hill, or take the train." },
     {
       t: "table",
       caption: "A parking strategy that works",
@@ -87,7 +91,7 @@ export const post: Post = {
     ] },
     { t: "ctaCard", text: "Tell Alex which beach you love and he'll point you to the closest streets." },
     { t: "h2", text: "Which San Clemente beaches are best for surfing?" },
-    { t: "p", text: "San Clemente is a serious surf town, but every spot has its own rules and character. If you surf, or you're curious, keep these in mind." },
+    { t: "p", text: "T-Street is the surf spot closest to town, though it has summer surf-hour restrictions, and Trestles draws very experienced surfers. San Clemente is a serious surf town, but every spot has its own rules and character. If you surf, or you're curious, keep these in mind." },
     {
       t: "table",
       caption: "A surf-minded guide",
@@ -102,7 +106,7 @@ export const post: Post = {
     },
     { t: "p", text: "For general ocean safety, talk to lifeguards where they're on duty and pay attention to posted warnings about currents and conditions." },
     { t: "h2", text: "What are the beach safety basics?" },
-    { t: "p", text: "The Pacific is beautiful and powerful. A few habits make beach days safer for everyone." },
+    { t: "p", text: "Look before you go in, respect warnings, never turn your back on the ocean, and swim near a lifeguard. The Pacific is beautiful and powerful. A few habits make beach days safer for everyone." },
     {
       t: "table",
       caption: "Beach safety basics",
@@ -119,9 +123,10 @@ export const post: Post = {
     },
     { t: "p", text: "None of this should keep you off the sand. It's the same common sense that experienced locals use every time they go." },
     { t: "h2", text: "When are the tide pools best?" },
-    { t: "p", text: "Calafia and some other rocky stretches are popular for tide pooling, but the experience depends on the tide. Low tide exposes more rocks and pools, while high tide covers them. Check a tide chart before you go, and plan your visit around the lowest tide of the day. If you're exploring pools, tread lightly, look but don't collect, and leave animals where you found them." },
+    { t: "p", text: "Tide pools are best at the lowest tide of the day, when more rocks and pools are exposed. Calafia and some other rocky stretches are popular for tide pooling, but the experience depends on the tide. Low tide exposes more rocks and pools, while high tide covers them. Check a tide chart before you go, and plan your visit around the lowest tide of the day. If you're exploring pools, tread lightly, look but don't collect, and leave animals where you found them." },
     { t: "p", text: "Tides also affect how much beach you'll have. At high tide, some stretches can narrow quickly, so don't set up too close to the waterline and watch your belongings. If you're walking toward Trestles or along a rocky section, make sure you won't get cut off by an incoming tide." },
     { t: "h2", text: "What beach etiquette do locals appreciate?" },
+    { t: "p", text: "Locals appreciate that you give surfers room, keep music low, clean up, and follow posted rules." },
     {
       t: "table",
       caption: "Beach etiquette locals appreciate",
@@ -139,9 +144,10 @@ export const post: Post = {
     { t: "h2", text: "Are dogs and bikes allowed at San Clemente beaches?" },
     { t: "p", text: "Rules about dogs, bicycles, fires, and amenities differ from beach to beach and can change. Dogs may be restricted on the sand in some areas but allowed on the trail on a leash, and fire rings, where available, may have their own rules and hours. The safest approach is to check posted signs and official sources before you go, and to be prepared to adjust if a rule is different from what you expected." },
     { t: "h2", text: "How do you plan around events and crowds?" },
-    { t: "p", text: "Some of the busiest days at the pier and beaches come during events and holiday weekends. The annual Ocean Festival at the pier each July is one of the biggest, with races, lifeguard competitions, and a display of woodies, according to a 2026 listing. Plan to arrive early, expect heavier traffic and limited parking, and consider the train if you want to avoid driving." },
+    { t: "p", text: "Arrive early and consider the train, especially around events like the annual Ocean Festival at the pier each July and on holiday weekends. Some of the busiest days at the pier and beaches come during events and holiday weekends. The annual Ocean Festival at the pier each July is one of the biggest, with races, lifeguard competitions, and a display of woodies, according to a 2026 listing. Plan to arrive early, expect heavier traffic and limited parking, and consider the train if you want to avoid driving." },
     { t: "p", text: "If you prefer quieter days, weekday mornings and off-season weekdays are your friend. Locals often say the best beach days are the ones when you can hear the waves more than the crowd. For events and local happenings, see our [local tips guide](/lifestyle/local-tips) and the [City of San Clemente's calendar](https://www.sanclemente.gov/)." },
     { t: "h2", text: "What should you pack and plan for a beach day?" },
+    { t: "p", text: "Pack water, snacks, sunscreen, and a layer, bring coins or a parking app, and check the weather and tide chart first." },
     { t: "ol", items: [
       "Check the weather and tide chart.",
       "Decide your beach and a backup, in case parking is full.",
@@ -152,11 +158,11 @@ export const post: Post = {
       "Take photos at golden hour, but not on or near the tracks.",
     ] },
     { t: "h2", text: "When is the best light at the beach?" },
-    { t: "p", text: "San Clemente's coastline faces the open Pacific, so the headline moment of the day is sunset over the water. That's why the pier and the trail fill up in the late afternoon, and why locals plan dinners around it. Mornings are quieter and more subtle, often with soft, gray light that can burn off by late morning, followed by bright, warm afternoons." },
+    { t: "p", text: "The best light is at sunset over the water, while mornings are quieter and often soft and gray. San Clemente's coastline faces the open Pacific, so the headline moment of the day is sunset over the water. That's why the pier and the trail fill up in the late afternoon, and why locals plan dinners around it. Mornings are quieter and more subtle, often with soft, gray light that can burn off by late morning, followed by bright, warm afternoons." },
     { t: "p", text: "If you're a photographer or just someone who likes good light, try each beach at different times. The pier looks different at dawn than at dusk, T-Street has a different mood when the surf is up, and Calafia's open sand is at its best in the low light of late afternoon. You don't need a plan to enjoy it, but a little attention to timing makes a normal day feel special." },
     { t: "p", text: "If you're considering buying here, spend a few mornings and evenings at the beaches closest to the homes you like. How a place feels at 7 a.m. on a Tuesday, and at 5 p.m. on a Saturday, tells you more than any listing description ever will." },
     { t: "h2", text: "How do you read the tide and surf forecast?" },
-    { t: "p", text: "Two numbers change your beach day more than almost anything else: the tide and the swell. Tide determines how much sand you have, whether tide pools are exposed, and how safe it is to walk along the base of bluffs. Swell and wind determine whether the water is gentle or powerful, and whether a surf spot is worth the trip. A couple of minutes with a forecast can save a wasted drive." },
+    { t: "p", text: "Check the tide and the swell before you go. Two numbers change your beach day more than almost anything else: the tide and the swell. Tide determines how much sand you have, whether tide pools are exposed, and how safe it is to walk along the base of bluffs. Swell and wind determine whether the water is gentle or powerful, and whether a surf spot is worth the trip. A couple of minutes with a forecast can save a wasted drive." },
     { t: "p", text: "For tide predictions, the [NOAA Tides & Currents site](https://tidesandcurrents.noaa.gov/) is the standard reference, and the city's [beach camera and surf conditions page](https://www.sanclemente.gov/322) shows what the coast looks like right now. If you're heading to Trestles, remember that the walk in and out matters as much as the conditions, so budget extra time and water." },
     { t: "ul", items: [
       "**Low tide:** the best window for tide pools and wide beaches, and the best time to wander along the shoreline.",
@@ -165,7 +171,7 @@ export const post: Post = {
       "**Strong wind:** can chill a beach day quickly, so bring a layer.",
     ] },
     { t: "h2", text: "Can you camp overnight at the state beach?" },
-    { t: "p", text: "If a day isn't enough, San Clemente State Beach is a bluff-top park with camping, trails down to the sand, and ocean views. Sites, rules, and reservations are managed through California State Parks, and you can browse the [state park brochure](https://www.parks.ca.gov/pages/646/files/SanClementeSBFinalWebLayout011916.pdf) for a map and amenities. To book a site, use the state's reservation service at [ReserveCalifornia](https://www.reservecalifornia.com/), and expect popular dates to fill well in advance." },
+    { t: "p", text: "Yes, San Clemente State Beach is a bluff-top park with camping, managed through California State Parks. If a day isn't enough, San Clemente State Beach is a bluff-top park with camping, trails down to the sand, and ocean views. Sites, rules, and reservations are managed through California State Parks, and you can browse the [state park brochure](https://www.parks.ca.gov/pages/646/files/SanClementeSBFinalWebLayout011916.pdf) for a map and amenities. To book a site, use the state's reservation service at [ReserveCalifornia](https://www.reservecalifornia.com/), and expect popular dates to fill well in advance." },
     { t: "p", text: "South of town, the Trestles area is part of San Onofre State Beach, and you can read more about the larger park on its [Wikipedia page](https://en.wikipedia.org/wiki/San_Onofre_State_Beach). Whether you're camping or just passing through, check current fees and rules before you go, and plan your parking carefully." },
     { t: "p", text: "Planning a longer stay in the area? Our [parks and trails guide](/lifestyle/parks-trails) covers inland trails and neighborhood parks, and our [food and drink guide](/lifestyle/food-drink) is handy for dinner after a day outdoors." },
     { t: "h2", text: "How does loving the beach shape where you should live?" },
@@ -173,12 +179,12 @@ export const post: Post = {
     { t: "p", text: "Whichever direction you lean, spend a few mornings and evenings in the neighborhoods you're considering, and visit your target beach at the time you'd actually go. The [market update](/blog/san-clemente-housing-market-update-october-2026) will give you a sense of what homes cost right now, and a conversation through our [contact form](/#contact) can point you to the streets that fit." },
 
     { t: "h2", text: "How accessible and comfortable is each beach?" },
-    { t: "p", text: "Access varies a lot from beach to beach, and a little planning avoids frustration. The city lists ADA access at North Beach, while T-Street is reached by stairs and an overpass, Lasuen by a long stairwell, and Trestles by a walk of a mile or more down a trail. Calafia Beach Park, with its larger lot and facilities, is often a comfortable choice if you want easier access and room to spread out." },
+    { t: "p", text: "The city lists ADA access at North Beach, and Calafia is often the comfortable choice for easier access and room to spread out. Access varies a lot from beach to beach, and a little planning avoids frustration. The city lists ADA access at North Beach, while T-Street is reached by stairs and an overpass, Lasuen by a long stairwell, and Trestles by a walk of a mile or more down a trail. Calafia Beach Park, with its larger lot and facilities, is often a comfortable choice if you want easier access and room to spread out." },
     { t: "p", text: "If accessibility matters for you or someone in your group, call the city or check its [beach information page](https://www.sanclemente.gov/194) before you go, since facilities and conditions change. Our [local tips guide](/lifestyle/local-tips) also collects the small details, like pier hours and parking, that make a beach day smoother." },
 
     { t: "cta", text: "Prefer to walk between beaches? Our trail guide covers hours, safety, and stops.", href: "/blog/san-clemente-beach-trail-guide", label: "Read the trail guide" },
     { t: "h2", text: "What do five perfect beach days look like?" },
-    { t: "p", text: "If you're not sure where to start, here are five sample days to match different moods. Adjust them to your own preferences." },
+    { t: "p", text: "The five days are the sunset day, the tide-pool morning, the surf-watching day, the adventurer's day, and the car-free day. If you're not sure where to start, here are five sample days to match different moods. Adjust them to your own preferences." },
     {
       t: "table",
       caption: "Five perfect beach days",
@@ -193,6 +199,7 @@ export const post: Post = {
     },
     { t: "p", text: "For more on the walk that connects many of these spots, see our [beach trail guide](/blog/san-clemente-beach-trail-guide). For where to eat before or after, check the [food and drink guide](/lifestyle/food-drink)." },
     { t: "h2", text: "What should you bring to the beach?" },
+    { t: "p", text: "Bring sun protection, water and snacks, a layer, and change or a parking app." },
     {
       t: "table",
       caption: "What to bring",
@@ -206,7 +213,8 @@ export const post: Post = {
         ["Reusable bags", "Carry out your trash"],
       ],
     },
-    { t: "h2", text: "What are beach days like through the year?" },
+    { t: "h2", text: "What are San Clemente beach days like through the year?" },
+    { t: "p", text: "Summer is warm and busy, winter is cooler and quieter, and spring and fall are often calm." },
     {
       t: "table",
       caption: "Beach days through the year",
@@ -225,7 +233,7 @@ export const post: Post = {
     ] },
     { t: "cta", text: "Tell Alex your favorite beach and he'll point you to the closest streets.", href: "/#contact", label: "Talk to Alex" },
     { t: "h2", text: "What is it like living near the beaches?" },
-    { t: "p", text: "If the coast is the reason you're here, think about how close you want to be. Homes within walking distance of the beach trail and pier are in the Downtown and Pier Bowl area, where lots tend to be smaller and prices vary with view and distance from the sand. Farther from the water, [Sea Summit](/neighborhoods/sea-summit), [Forster Ranch](/neighborhoods/forster-ranch), and [Talega](/neighborhoods/talega) offer different settings, with a drive to the coast." },
+    { t: "p", text: "Living near the beaches means Downtown and the Pier Bowl for walking distance, with tradeoffs of summer crowds, limited parking, and train noise. If the coast is the reason you're here, think about how close you want to be. Homes within walking distance of the beach trail and pier are in the Downtown and Pier Bowl area, where lots tend to be smaller and prices vary with view and distance from the sand. Farther from the water, [Sea Summit](/neighborhoods/sea-summit), [Forster Ranch](/neighborhoods/forster-ranch), and [Talega](/neighborhoods/talega) offer different settings, with a drive to the coast." },
     { t: "p", text: "Tradeoffs matter. Living close to the water can mean summer crowds, limited parking, and train noise near the tracks. Living farther away can mean more space and quiet, but a drive for beach days. See the full [neighborhood comparison](/neighborhoods) for details, and our [market update](/blog/san-clemente-housing-market-update-october-2026) for the latest prices." },
     { t: "cta", text: "Want to live near your favorite beach? Tell Alex which one it is and he'll point you to the right streets.", href: "/#contact", label: "Talk to Alex" },
     { t: "p", text: "For official information, visit the [City of San Clemente](https://www.sanclemente.gov/186/Beaches-Parks-Recreation), and for local news, read the [San Clemente Times](https://www.picketfencemedia.com/sanclementetimes/sc-living/local-beaches/article_9f2ae5cb-b5ab-5762-a13d-286e8c1bd58f.html) article on local beaches." },

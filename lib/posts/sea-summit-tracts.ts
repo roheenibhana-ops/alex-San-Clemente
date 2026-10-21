@@ -21,6 +21,7 @@ export const post: Post = {
     { t: "p", text: "From a distance they look alike: Spanish-style architecture, tile roofs, stucco, arches. Up close they differ in the things that matter most when you buy: how the homes sit relative to the preserve and park, how big they are, how they're clustered, and what you pay each month beyond the mortgage. This guide breaks down what public sources say about each tract, flags where those sources disagree, and gives you a checklist for verifying the details on any specific home." },
     { t: "p", text: "A quick honesty note before we start. Details on a community like this come from builder pages, brokerage guides and older forum posts, and they don't always agree. Home counts, square footage ranges and fee figures differ between sources, and some information dates from the original sales period. We've called out the conflicts instead of picking a number, and every figure here should be confirmed for the specific address with the seller's disclosures, the HOA and the title documents." },
     { t: "h2", text: "What is Sea Summit in San Clemente?" },
+    { t: "p", text: "Sea Summit is a master-planned coastal community on the former Marblehead Coastal property, built as four neighborhoods: Azure, Aqua, Sapphire and Indigo." },
     {
       t: "table",
       caption: "Sea Summit quick facts (verify specifics for any home)",
@@ -41,11 +42,11 @@ export const post: Post = {
     },
     { t: "p", text: "If those numbers feel slippery, that's normal for new-build communities where plans were released in phases and listings span many years. The most reliable figure for any home is the one on its own disclosure package." },
     { t: "h2", text: "How did Marblehead Coastal become Sea Summit?" },
-    { t: "p", text: "The land Sea Summit sits on was known for years as Marblehead Coastal, described as one of the last large coastal parcels in Orange County. Developing it took a long time, and the result is a community of roughly 300 homes arranged into four neighborhoods, with open space preserved as part of the plan. That history explains why the community feels distinct from the rest of San Clemente: it was designed as one project, with consistent architecture, shared amenities and a deliberate relationship to the preserve and the ocean." },
+    { t: "p", text: "Marblehead Coastal became Sea Summit when that parcel was developed as a single planned community of roughly 300 homes in four neighborhoods. The land Sea Summit sits on was known for years as Marblehead Coastal, described as one of the last large coastal parcels in Orange County. Developing it took a long time, and the result is a community of roughly 300 homes arranged into four neighborhoods, with open space preserved as part of the plan. That history explains why the community feels distinct from the rest of San Clemente: it was designed as one project, with consistent architecture, shared amenities and a deliberate relationship to the preserve and the ocean." },
     { t: "p", text: "It also explains why information about Sea Summit can be inconsistent. The community was sold in phases over a number of years, plans were adjusted along the way, and older articles and forum posts describe earlier releases. When two sources disagree, assume both may be right for different phases, and check the specific home's documents." },
 
     { t: "h2", text: "What do the four Sea Summit neighborhoods have in common?" },
-    { t: "p", text: "Before the differences, the shared foundations. Every Sea Summit home sits inside the same master community with the same amenities, the same architectural character and the same type of fee structure. That consistency is part of the appeal: you're buying into a planned neighborhood where the look, landscaping and common areas are maintained to a standard." },
+    { t: "p", text: "All four neighborhoods share the same master community, amenities, architectural character and type of fee structure. Every Sea Summit home sits inside the same master community with the same amenities, the same architectural character and the same type of fee structure. That consistency is part of the appeal: you're buying into a planned neighborhood where the look, landscaping and common areas are maintained to a standard." },
     { t: "ul", items: [
       "**Spanish-style design.** Tile roofs, stucco walls and arched details echo the look San Clemente has been known for since the 1920s.",
       "**Newer construction.** Open floor plans, modern kitchens and newer systems are the norm, which usually means fewer immediate repairs than a vintage cottage.",
@@ -93,6 +94,7 @@ export const post: Post = {
       "Whether any Mello-Roos obligation changes with the size or timing of the original purchase",
     ] },
     { t: "h2", text: "How do the four Sea Summit tracts compare?" },
+    { t: "p", text: "The four tracts differ mainly in layout, setting and size: Aqua is described as the most intimate, Azure the most varied, Sapphire has direct access to the preserve and trails, and Indigo has the larger plans." },
     {
       t: "table",
       caption: "Azure, Aqua, Sapphire and Indigo at a glance (public descriptions; verify per home)",
@@ -106,7 +108,7 @@ export const post: Post = {
     },
     { t: "ctaCard", text: "Want current Sea Summit listings and recent sales by tract? Alex can pull them and compare the four side by side." },
     { t: "h2", text: "What amenities do Sea Summit residents share?" },
-    { t: "p", text: "One of the biggest differences between Sea Summit and an older coastal home is what's on the property beyond your lot. A local brokerage guide lists a clubhouse, a resort-style pool, a spa, a fitness center, barbecues and an outdoor fireplace, along with about four miles of walking trails. Those amenities are a large part of what your monthly dues support." },
+    { t: "p", text: "Sea Summit residents share a clubhouse, a resort-style pool, a spa, a fitness center, barbecues and an outdoor fireplace, along with about four miles of walking trails, according to a local brokerage guide. One of the biggest differences between Sea Summit and an older coastal home is what's on the property beyond your lot. Those amenities are a large part of what your monthly dues support." },
     {
       t: "table",
       caption: "Sea Summit amenities, per a local brokerage guide",
@@ -123,7 +125,7 @@ export const post: Post = {
     },
     { t: "p", text: "A practical tip: visit the amenities at the times you'd actually use them. A pool on a quiet weekday morning and the same pool on a summer Saturday are very different experiences, and you want to know which one you're signing up for." },
     { t: "h2", text: "What does a Sea Summit home cost beyond the price?" },
-    { t: "p", text: "A planned community comes with recurring costs that older coastal homes may not have. In Sea Summit the main ones are the HOA dues and a Mello-Roos special tax, on top of regular property taxes and insurance." },
+    { t: "p", text: "Beyond the price, a Sea Summit home carries HOA dues and a Mello-Roos special tax, on top of regular property taxes and insurance. A planned community comes with recurring costs that older coastal homes may not have." },
     { t: "h3", text: "HOA dues" },
     { t: "p", text: "A local brokerage guide reports that recent active listings have shown HOA dues of around $330 to $340 per month. That article carries no date, so treat the number as a ballpark and get the current figure from the HOA or the listing's disclosure packet. Dues typically fund common-area maintenance, amenities and reserves, but what exactly is covered, and how much is set aside for future repairs, is worth asking about directly." },
     { t: "h3", text: "Mello-Roos" },
@@ -146,7 +148,7 @@ export const post: Post = {
     { t: "p", text: "A simple way to compare homes is to add the mortgage payment, property taxes, Mello-Roos, HOA dues and insurance into one monthly number. Two homes with the same price can come out very differently once those pieces are included, and your lender can help run the scenarios. The [Consumer Financial Protection Bureau's Owning a Home tools](https://www.consumerfinance.gov/owning-a-home/) are a good neutral guide to the mortgage side." },
     { t: "cta", text: "Want a true monthly cost for a specific Sea Summit home, with HOA and Mello-Roos included?", href: "/#contact", label: "Ask Alex" },
     { t: "h2", text: "How do views and lots differ in Sea Summit?" },
-    { t: "p", text: "Ocean views are a big part of why people look at Sea Summit, but views here vary lot by lot. Forum posts from the early sales period described them as ranging from peek-a-boo to wide open, and that's still the right mental model. The tract name tells you roughly how the neighborhood is laid out, but only the exact home tells you what you'll see from the kitchen window." },
+    { t: "p", text: "Views and lots vary home by home in Sea Summit, so the exact home matters more than the tract name. Ocean views are a big part of why people look at Sea Summit, but views here vary lot by lot. Forum posts from the early sales period described them as ranging from peek-a-boo to wide open, and that's still the right mental model. The tract name tells you roughly how the neighborhood is laid out, but only the exact home tells you what you'll see from the kitchen window." },
     { t: "ol", items: [
       "**Visit at the right time.** Stand in the main living spaces at sunset and in the morning to see how light and views change.",
       "**Check from inside, not just the yard.** A view from a second-floor balcony isn't the same as a view from where you'll live day to day.",
@@ -160,6 +162,7 @@ export const post: Post = {
       "What changed their decision wasn't a statistic. It was walking each street, standing in the actual rooms, and adding up the real monthly cost for both homes.",
     ] },
     { t: "h2", text: "What should you check before offering on a Sea Summit home?" },
+    { t: "p", text: "Before offering, confirm the exact plan, square footage and lot, the HOA documents, the Mello-Roos amount and term, and the view, then compare recent sales on the same tract or street." },
     {
       t: "table",
       caption: "Sea Summit pre-offer checklist",
@@ -180,7 +183,7 @@ export const post: Post = {
     { t: "p", text: "Sea Summit sits in the newer, planned corner of San Clemente's housing landscape. If walkability to the pier and Downtown is the priority, the [Downtown and Pier Bowl](/neighborhoods/downtown-pier-bowl) put you closer to the sand and the shops, though in older homes on smaller lots. If you want a larger planned community with its own parks, a golf club and a swim and athletic club, [Talega](/neighborhoods/talega) is the closest comparison, and our [Talega HOA and Mello-Roos guide](/blog/talega-hoa-dues-mello-roos-what-they-cover) breaks down its costs. For a hillside setting with more inland space, look at [Forster Ranch](/neighborhoods/forster-ranch)." },
     { t: "p", text: "For a head-to-head on how two very different areas feel day to day, read [Pier Bowl vs. Talega](/blog/pier-bowl-vs-talega), and see our [neighborhood comparison](/neighborhoods) for all six areas. The [market update](/blog/san-clemente-housing-market-update-october-2026) covers citywide prices, and a local agent can pull recent Sea Summit sales for the exact tract you like." },
     { t: "h2", text: "What is different about buying a newer home?" },
-    { t: "p", text: "Sea Summit homes are newer than most of what you'll see in San Clemente, which changes the buying experience in a few ways. Systems tend to be more modern and floor plans more open, and you're less likely to find surprises like old plumbing or unpermitted additions. But newer doesn't mean problem-free, and some of the due diligence shifts to different questions." },
+    { t: "p", text: "Buying a newer home in Sea Summit means more modern systems and fewer surprises like old plumbing, but the due diligence shifts rather than disappears. Sea Summit homes are newer than most of what you'll see in San Clemente, which changes the buying experience in a few ways. Systems tend to be more modern and floor plans more open, and you're less likely to find surprises like old plumbing or unpermitted additions. But newer doesn't mean problem-free, and some of the due diligence shifts to different questions." },
     { t: "ul", items: [
       "**Inspect anyway.** New or newer homes can have settling, drainage or workmanship issues that an inspection will catch.",
       "**Ask about warranties.** Find out what coverage, if any, remains and how a claim would work.",

@@ -89,7 +89,7 @@ export default async function GuidePage({ params }: { params: Promise<{ guide: s
 
         <section className="section prose">
           <Reveal>
-            <h2>Where can you read more?</h2>
+            <h2>Which official sources back this guide?</h2>
             <ul>
               {g.links.map((l) => (
                 <li key={l.href}><a href={l.href} target="_blank" rel="noopener noreferrer">{l.label}</a></li>

@@ -19,7 +19,8 @@ export const post: Post = {
   blocks: [
     { t: "p", text: "Buying a house is one of the biggest financial decisions most people make, and in San Clemente the stakes are high. With a median price around $2M and about 70% of inventory made up of single-family homes, houses are the heart of this market. The good news is that the process, while detailed, is learnable. This guide walks you through it step by step, from setting your budget to getting the keys." },
     { t: "p", text: "We've written it for first-time buyers, move-up buyers, and out-of-town relocations alike. Along the way you'll find illustrative scenarios (labeled as such and not real clients), checklists, tables, and links to deeper guides on neighborhoods and lifestyle. This isn't legal or tax advice; for those, consult the appropriate professionals." },
-    { t: "h2", text: "What is the process of buying a home in San Clemente?" },
+    { t: "h2", text: "How do you buy a home in San Clemente, step by step?" },
+    { t: "p", text: "You buy a home in San Clemente in nine stages, from planning your budget and getting pre-approved through inspections, final loan approval, and closing, which is often 30 to 45 days after acceptance." },
     {
       t: "table",
       caption: "The home-buying timeline, simplified",
@@ -38,7 +39,7 @@ export const post: Post = {
     },
     { t: "p", text: "Timelines vary, especially if you pay cash, need a longer escrow, or negotiate a specific closing date. Treat the table as a map, not a guarantee." },
     { t: "h2", text: "Step 1: What is your real budget?" },
-    { t: "p", text: "Start with the monthly payment you're comfortable with, then work backward. It's tempting to anchor on the maximum a lender will approve, but the amount you're approved for isn't always the amount that feels comfortable month after month." },
+    { t: "p", text: "Your real budget is the monthly payment you're comfortable with, not the maximum a lender will approve. Start with that payment, then work backward. It's tempting to anchor on the maximum a lender will approve, but the amount you're approved for isn't always the amount that feels comfortable month after month." },
     { t: "p", text: "In a market with a median above $2M, the down payment, closing costs, and reserves are all significant. Build a clear picture of your cash on hand, how much you'll put down, and how much you'll keep as a cushion after closing." },
     { t: "h3", text: "Costs to include" },
     {
@@ -57,10 +58,10 @@ export const post: Post = {
     { t: "p", text: "For neutral, independent guidance on mortgages and closing costs, the [Consumer Financial Protection Bureau's Owning a Home tools](https://www.consumerfinance.gov/owning-a-home/) are an excellent starting point." },
     { t: "ctaCard", text: "Ready to start your search? Browse current San Clemente listings and compare neighborhoods before you tour." },
     { t: "h2", text: "Step 2: How do you get pre-approved?" },
-    { t: "p", text: "A pre-approval is a lender's written statement, based on verified income, assets, and credit, of how much they're willing to lend you. It's different from a quick pre-qualification, which is based on information you report yourself. Sellers take verified pre-approvals more seriously, and in a market where well-priced homes close near list, that credibility helps your offer stand out." },
+    { t: "p", text: "You get pre-approved by having a lender verify your income, assets, and credit and issue a written statement of how much they're willing to lend. A pre-approval is a lender's written statement, based on verified income, assets, and credit, of how much they're willing to lend you. It's different from a quick pre-qualification, which is based on information you report yourself. Sellers take verified pre-approvals more seriously, and in a market where well-priced homes close near list, that credibility helps your offer stand out." },
     { t: "p", text: "Shop lenders. Compare rates, fees, and service, and ask about different loan programs. A local lender who understands the area and works well with your agent can make closing smoother." },
     { t: "h2", text: "What does financing look like at a $2M price point?" },
-    { t: "p", text: "Loan amounts above the conforming loan limit set for the area are generally called jumbo loans. At San Clemente prices, many buyers will end up in jumbo territory unless they put down a large amount, and jumbo loans often come with different requirements: larger down payments, stronger credit expectations, and more documentation of reserves. Ask lenders early which category your loan will fall into, because it changes the rate, the paperwork, and the timeline." },
+    { t: "p", text: "At a $2M price point, many buyers will be in jumbo loan territory, which often means larger down payments, stronger credit expectations, and more documentation of reserves. Loan amounts above the conforming loan limit set for the area are generally called jumbo loans. At San Clemente prices, many buyers will end up in jumbo territory unless they put down a large amount, and jumbo loans often come with different requirements: larger down payments, stronger credit expectations, and more documentation of reserves. Ask lenders early which category your loan will fall into, because it changes the rate, the paperwork, and the timeline." },
     {
       t: "table",
       caption: "Financing at a $2M price point",
@@ -75,7 +76,7 @@ export const post: Post = {
     { t: "p", text: "A lender who understands local transactions can also anticipate issues specific to the area, such as appraisal considerations for unique coastal homes or planned-community documents. That kind of familiarity is worth asking about when you interview lenders." },
     { t: "cta", text: "Not sure which area fits? Compare all six neighborhoods before you tour.", href: "/neighborhoods", label: "Compare neighborhoods" },
     { t: "h2", text: "Step 3: Which neighborhood fits you?" },
-    { t: "p", text: "San Clemente isn't one market. Daily life in the Pier Bowl is very different from daily life in a hillside planned community. Decide how you want to live, then match the area to your priorities." },
+    { t: "p", text: "The right neighborhood is the one that matches how you want to live. San Clemente isn't one market. Daily life in the Pier Bowl is very different from daily life in a hillside planned community. Decide how you want to live, then match the area to your priorities." },
     {
       t: "table",
       caption: "Choosing a San Clemente neighborhood",
@@ -91,7 +92,7 @@ export const post: Post = {
     },
     { t: "p", text: "Read the guides to each: [Downtown & Pier Bowl](/neighborhoods/downtown-pier-bowl), [Sea Summit](/neighborhoods/sea-summit), [Forster Ranch](/neighborhoods/forster-ranch), [Shorecliffs](/neighborhoods/shorecliffs), [Talega](/neighborhoods/talega), and [Rancho San Clemente](/neighborhoods/rancho-san-clemente). You can also compare them all on the [neighborhoods page](/neighborhoods)." },
     { t: "h2", text: "Step 4: How do you tour smart?" },
-    { t: "p", text: "Photos are flattering and floor plans lie by omission. Touring is where you learn how a home actually feels. Visit at different times of day if you can, and take notes." },
+    { t: "p", text: "You tour smart by visiting at different times of day, taking notes, and working through the checklist below. Photos are flattering and floor plans lie by omission. Touring is where you learn how a home actually feels. Visit at different times of day if you can, and take notes." },
     {
       t: "table",
       caption: "Tour checklist",
@@ -114,7 +115,7 @@ export const post: Post = {
     ] },
     { t: "cta", text: "Want an offer strategy built on recent comps? Talk it through with Alex.", href: "/#contact", label: "Talk to Alex" },
     { t: "h2", text: "Step 5: How do you make a competitive offer?" },
-    { t: "p", text: "Recent data shows homes closing near 100% of list price, so well-priced homes don't leave much room for a lowball. Your agent will pull recent comparable sales so your offer reflects the market, not just the asking price." },
+    { t: "p", text: "A competitive offer is based on recent comparable sales rather than a lowball, because homes are closing near 100% of list price and well-priced homes don't leave much room. Your agent will pull recent comparable sales so your offer reflects the market, not just the asking price." },
     { t: "h3", text: "What goes into an offer" },
     {
       t: "table",
@@ -131,15 +132,15 @@ export const post: Post = {
     { t: "p", text: "In California, the standard purchase agreement published by the [California Association of Realtors](https://www.car.org/) is widely used and sets default timelines, such as an inspection contingency period that's often 17 days, though these can be negotiated. Your agent will explain the specifics." },
     { t: "callout", title: "Seller price history matters", text: "Roughly 43% of listings in the October 2026 snapshot carried a price cut. Ask how long a home has been on the market and whether it's been reduced. A longer time on market can mean negotiating room; a fresh listing priced to the market may need a quick, strong offer." },
     { t: "h2", text: "Step 6: How do you open escrow and review disclosures?" },
-    { t: "p", text: "Once your offer is accepted, the transaction moves into escrow, a neutral third party that holds funds and documents until everything is complete. You'll deposit earnest money, and the seller will deliver required disclosures." },
+    { t: "p", text: "You open escrow once your offer is accepted, and the seller then delivers required disclosures for you to review. Escrow is a neutral third party that holds funds and documents until everything is complete. You'll deposit earnest money, and the seller will deliver required disclosures." },
     { t: "p", text: "California sellers typically provide a transfer disclosure statement and a natural hazard disclosure, along with other documents. Read them carefully. They describe known conditions and whether the property sits in areas such as flood, fire, or seismic zones. Your agent and title company can help you understand what you're reading, and the [California Department of Real Estate](https://www.dre.ca.gov/) offers consumer information about the process." },
     { t: "ctaCard", text: "Want a local agent in your corner for inspections, disclosures, and negotiation?" },
     { t: "h2", text: "Step 7: What happens in inspections and appraisal?" },
-    { t: "p", text: "Inspections tell you what you're buying. A general home inspection covers the structure, roof, plumbing, electrical, heating and cooling, and more. Depending on the property, you may add specialized inspections for pests, sewer lines, chimneys, pools, or foundations." },
+    { t: "p", text: "Inspections review the home's condition, and the appraisal your lender orders confirms the home is worth at least the loan amount. Inspections tell you what you're buying. A general home inspection covers the structure, roof, plumbing, electrical, heating and cooling, and more. Depending on the property, you may add specialized inspections for pests, sewer lines, chimneys, pools, or foundations." },
     { t: "p", text: "Coastal and hillside homes deserve extra attention. Salt air can accelerate corrosion on metal fixtures and exteriors, and sloped lots raise questions about drainage and retaining walls. If a property is within the coastal zone, certain remodel or addition work may require additional permits, so ask the city early. The [California Coastal Commission](https://www.coastal.ca.gov/) provides information about coastal permitting, and the [City of San Clemente](https://www.sanclemente.gov/) can answer local questions." },
     { t: "p", text: "Your lender will also order an appraisal to confirm that the home is worth at least the loan amount. If the appraisal comes in low, you can renegotiate the price, make up the difference in cash, or, depending on your contract, walk away." },
     { t: "h2", text: "What should you inspect on coastal and hillside homes?" },
-    { t: "p", text: "A standard inspection is the baseline. San Clemente's setting adds a few items worth raising with your inspector and agent." },
+    { t: "p", text: "On coastal and hillside homes, ask your inspector to look closely at the roof, exterior metals, windows and sliders, drainage, retaining walls, sewer line, foundation, and permits. A standard inspection is the baseline. San Clemente's setting adds a few items worth raising with your inspector and agent." },
     {
       t: "table",
       caption: "Deeper inspection list for coastal and hillside homes",
@@ -157,7 +158,7 @@ export const post: Post = {
     },
     { t: "p", text: "None of these are meant to scare you off a house. They're meant to price the home accurately and avoid surprises. Almost every home has something to fix; the question is whether you know about it before you commit." },
     { t: "h2", text: "How do you negotiate after the inspection?" },
-    { t: "p", text: "Inspection results often lead to a second round of negotiation. Your agent will help you decide what to ask for, and the right approach depends on how competitive the situation is and how significant the findings are." },
+    { t: "p", text: "After the inspection, you negotiate by asking for repairs, a credit toward closing costs, or a price reduction, or by accepting the home as is. Inspection results often lead to a second round of negotiation. Your agent will help you decide what to ask for, and the right approach depends on how competitive the situation is and how significant the findings are." },
     {
       t: "table",
       caption: "Negotiating after the inspection",
@@ -170,7 +171,7 @@ export const post: Post = {
       ],
     },
     { t: "h2", text: "Step 8: How do you finish your financing?" },
-    { t: "p", text: "During escrow, the lender completes underwriting: verifying documents, reviewing the appraisal, and confirming title. Avoid big financial changes during this period. Don't change jobs, open new credit, or make large unexplained deposits without talking to your lender first. A surprise at this stage can delay or derail a loan." },
+    { t: "p", text: "You finish your financing by letting the lender complete underwriting during escrow while you keep your finances steady. During escrow, the lender completes underwriting: verifying documents, reviewing the appraisal, and confirming title. Avoid big financial changes during this period. Don't change jobs, open new credit, or make large unexplained deposits without talking to your lender first. A surprise at this stage can delay or derail a loan." },
     { t: "cta", text: "Selling a home before you buy? Start with a free valuation.", href: "/home-value", label: "Get a valuation" },
     { t: "h2", text: "Step 9: What happens at the final walkthrough and closing?" },
     { t: "p", text: "A day or two before closing, you'll do a final walkthrough to confirm the home is in the agreed condition and that any requested repairs are done. Then you'll sign the final documents, the lender funds the loan, and the deed is recorded. Once it records, the home is yours." },
@@ -182,7 +183,7 @@ export const post: Post = {
     ] },
     { t: "cta", text: "Let Alex walk you through the disclosures on any home you're considering.", href: "/#contact", label: "Ask Alex" },
     { t: "h2", text: "What do hazard and condition disclosures mean?" },
-    { t: "p", text: "Disclosures are where a good buyer does real homework. California requires sellers to share a good deal of information about a property, and your job is to read it closely and follow up on anything that raises a question. Think of it as the home's biography, and make sure you've read all the chapters before you commit." },
+    { t: "p", text: "Hazard and condition disclosures are the seller's required statements about a property's known conditions and whether it sits in areas such as flood, fire, or seismic zones. Disclosures are where a good buyer does real homework. California requires sellers to share a good deal of information about a property, and your job is to read it closely and follow up on anything that raises a question. Think of it as the home's biography, and make sure you've read all the chapters before you commit." },
     { t: "p", text: "Natural hazard information deserves special attention. For general background, the [USGS Earthquake Hazards Program](https://www.usgs.gov/programs/earthquake-hazards) explains seismic risk in plain language, the state's [fire hazard severity zone maps](https://osfm.fire.ca.gov/) show where wildfire risk is higher, and the [FEMA Flood Map Service Center](https://msc.fema.gov/) lets you check a specific address. Your agent and title company will also provide the formal disclosures that apply to the property." },
     { t: "ul", items: [
       "**Read every page.** Highlight anything you don't understand and ask your agent to explain it.",
@@ -192,7 +193,7 @@ export const post: Post = {
       "**Price in the unknowns.** If a repair is likely, get an estimate so you can negotiate with real numbers.",
     ] },
     { t: "h2", text: "How do you choose an agent, and what should you expect?" },
-    { t: "p", text: "Your agent is your guide, negotiator, and checkpoint, so the relationship matters. In California, real estate licensees are overseen by the [Department of Real Estate](https://www.dre.ca.gov/), where you can verify a license, and many agents belong to the [California Association of Realtors](https://www.car.org/), which publishes the standard contract forms used in most transactions. Verifying credentials takes two minutes and is worth doing." },
+    { t: "p", text: "Choose an agent by verifying their license and looking for local knowledge and clear communication. Your agent is your guide, negotiator, and checkpoint, so the relationship matters. In California, real estate licensees are overseen by the [Department of Real Estate](https://www.dre.ca.gov/), where you can verify a license, and many agents belong to the [California Association of Realtors](https://www.car.org/), which publishes the standard contract forms used in most transactions. Verifying credentials takes two minutes and is worth doing." },
     { t: "p", text: "Beyond credentials, look for local knowledge and communication. A good agent will pull comparable sales without being asked, tell you plainly when a house isn't worth its price, and explain the paperwork in terms you understand. They should be as comfortable talking about the tradeoffs between the [Pier Bowl](/neighborhoods/downtown-pier-bowl) and [Talega](/neighborhoods/talega) as they are about contingencies and timelines." },
     { t: "ul", items: [
       "**Ask how they'll communicate.** Frequency and channel matter more than you'd think.",
@@ -203,10 +204,11 @@ export const post: Post = {
     { t: "p", text: "When you're ready to talk through your own situation, you can reach out through the [contact form](/#contact), or start by requesting a [valuation](/home-value) if you're also selling." },
 
     { t: "h2", text: "Can you buy a San Clemente home from out of town?" },
-    { t: "p", text: "Plenty of San Clemente buyers don't live here yet. If that's you, the process works, but it rewards extra planning. Ask your agent for live video tours and detailed neighborhood briefings, and still try to visit in person at least once before you make an offer, ideally on both a weekday morning and a weekend afternoon. Sights and sounds that don't show up on camera, from train noise to beach crowds, can change how you feel about a street." },
+    { t: "p", text: "Yes, you can buy a San Clemente home from out of town, but the process rewards extra planning. Plenty of San Clemente buyers don't live here yet. Ask your agent for live video tours and detailed neighborhood briefings, and still try to visit in person at least once before you make an offer, ideally on both a weekday morning and a weekend afternoon. Sights and sounds that don't show up on camera, from train noise to beach crowds, can change how you feel about a street." },
     { t: "p", text: "Line up your documents ahead of time, including identification, proof of funds, and your pre-approval, so you can act quickly when the right home appears. Ask how signatures will be handled remotely, and who will attend inspections on your behalf. Our [moving guide](/blog/moving-to-san-clemente-what-to-know) covers the practical side of relocating, and the [neighborhood comparison](/neighborhoods) helps you narrow the search before you fly in." },
 
     { t: "h2", text: "What common mistakes should you avoid?" },
+    { t: "p", text: "Avoid skipping pre-approval, falling for one house, ignoring the full monthly cost, waiving protections casually, overlooking condition, and making financial changes during escrow." },
     {
       t: "table",
       caption: "Common mistakes to avoid",
@@ -221,9 +223,10 @@ export const post: Post = {
       ],
     },
     { t: "h2", text: "What should you do after you get the keys?" },
-    { t: "p", text: "Closing is the finish line of the transaction, but it's the starting line of ownership. In your first weeks, change the locks, locate the main water shutoff and electrical panel, and test smoke and carbon monoxide detectors. Set up utilities in your name, update your address, and keep your closing documents in a safe, organized place, since you'll need them for taxes and future sales." },
+    { t: "p", text: "After you get the keys, set up the basics of ownership and a maintenance calendar. Closing is the finish line of the transaction, but it's the starting line of ownership. In your first weeks, change the locks, locate the main water shutoff and electrical panel, and test smoke and carbon monoxide detectors. Set up utilities in your name, update your address, and keep your closing documents in a safe, organized place, since you'll need them for taxes and future sales." },
     { t: "p", text: "Create a maintenance calendar too. Roof and gutter checks, HVAC servicing, and exterior washdowns are easier to keep up with when they're scheduled, and coastal homes benefit from regular attention to metal fixtures and paint. A little routine care in year one protects the biggest purchase you've made, and it gives you a baseline for understanding how your home behaves through the seasons." },
-    { t: "h2", text: "What is your pre-offer checklist?" },
+    { t: "h2", text: "What should be on your pre-offer checklist?" },
+    { t: "p", text: "Before you make an offer, have seven things in hand, from your pre-approval letter to a written walk-away number." },
     { t: "ol", items: [
       "Pre-approval letter in hand",
       "A shortlist of neighborhoods you've actually visited",

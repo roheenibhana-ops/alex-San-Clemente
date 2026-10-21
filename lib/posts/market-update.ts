@@ -22,6 +22,7 @@ export const post: Post = {
     { t: "p", text: "This update walks through the numbers, explains what each one actually means in plain English, and then translates them into practical moves for buyers and sellers. Along the way, you'll find illustrative scenarios (clearly labeled, and not real clients) to show how the same data plays out in different situations, plus links to neighborhood and lifestyle guides if you want to go deeper on a specific part of town." },
     { t: "p", text: "A quick note on scope: San Clemente is a city of roughly 64,000 people, and only a few dozen single-family homes close in a typical month. That means every figure below is a snapshot, not a prediction. Use it to orient yourself, then get numbers for your specific street from a local agent." },
     { t: "h2", text: "What are the San Clemente housing market numbers right now?" },
+    { t: "p", text: "As of September 2026, the single-family median sale price is **$2,225,000**, with 2.9 months of supply and an expected 84 days to sell, as the table below shows." },
     {
       t: "table",
       caption: "San Clemente single-family market, September 2026 vs. last year",
@@ -32,7 +33,7 @@ export const post: Post = {
     { t: "p", text: "If you only remember three numbers from that table, make them these: a **$2.225M median**, **2.9 months of supply**, and **84 days** expected to sell. Together they describe a market that's expensive, fairly tight, and moving at a steady pace for homes priced in line with recent sales." },
     { t: "cta", text: "Want these numbers for your own street? Alex builds a free valuation from recent nearby sales.", href: "/home-value", label: "Get my free valuation" },
     { t: "h2", text: "What does each market number really mean?" },
-    { t: "p", text: "Market reports are full of jargon, and the same word can mean slightly different things depending on who's calculating it. Here's a plain-English decoder for the metrics in the table." },
+    { t: "p", text: "Each number measures one thing: the price level, how much inventory is available, how fast homes sell, how close sales close to asking, and how many sellers cut their price. Market reports are full of jargon, and the same word can mean slightly different things depending on who's calculating it. Here's a plain-English decoder for the metrics in the table." },
     { t: "h3", text: "Median sale price" },
     { t: "p", text: "The median is the middle price: half of the homes sold for more, half for less. It's more reliable than an average because a handful of very expensive sales can't skew it as much. Still, a median mixes everything together, from a modest bungalow a few blocks from the pier to a large view home on a bluff. It tells you about the market, not about your house." },
     { t: "h3", text: "Months of supply" },
@@ -57,6 +58,7 @@ export const post: Post = {
     },
     { t: "ctaCard", text: "Want to see how these numbers play out on your street? Get recent sales, a listing search, and a straight read from Alex." },
     { t: "h2", text: "What changed compared with last year?" },
+    { t: "p", text: "Compared with September 2025, the median rose about 6.7% to $2,225,000, active listings fell from 130 to 105, and expected time to sell dropped from 109 to 84 days." },
     {
       t: "table",
       caption: "What changed compared with last year (single-family)",
@@ -73,9 +75,10 @@ export const post: Post = {
     { t: "p", text: "Taken together, that's a market with modest but real momentum. It isn't the frenzy of a few years ago, and it isn't a slump. It's a market where preparation and pricing discipline separate smooth deals from stressful ones." },
     { t: "callout", title: "One important caution", text: "Monthly medians swing, especially in a city with a few dozen sales a month. June and July both ran near $1.88M, well below September's $2.225M. A single month can reflect which homes happened to close rather than a real shift in value. Look at three-to-six-month trends before drawing conclusions." },
     { t: "h2", text: "Why do monthly market figures bounce around?" },
-    { t: "p", text: "Imagine a month where several oceanview homes close in the same weeks. The median jumps. The next month, more inland homes close and it drops. Nothing about the underlying market changed; the mix did. That's why seasoned agents talk about price per square foot, comparable sales on the same street, and multi-month trends rather than headlines about one month." },
+    { t: "p", text: "Monthly figures bounce around because only a few dozen single-family homes close in a typical month, so the mix of homes that happened to close can move the median even when the market hasn't changed. Imagine a month where several oceanview homes close in the same weeks. The median jumps. The next month, more inland homes close and it drops. Nothing about the underlying market changed; the mix did. That's why seasoned agents talk about price per square foot, comparable sales on the same street, and multi-month trends rather than headlines about one month." },
     { t: "p", text: "It's also why neighborhood-level medians are even noisier. A neighborhood might see only a handful of sales in a month, so one unusual home can swing the figure. If you're evaluating a specific area, the [neighborhood guides](/neighborhoods) explain what makes each one different, and a local agent can pull recent sales on your exact street." },
     { t: "h2", text: "What mistakes do people make reading market reports?" },
+    { t: "p", text: "The most common mistakes are treating one month as a trend, assuming the median is your price, ignoring sample size, mixing sources, and confusing asking prices with sold prices." },
     {
       t: "table",
       caption: "Common mistakes when reading market reports",
@@ -102,7 +105,7 @@ export const post: Post = {
       ],
     },
     { t: "h2", text: "What does this mean if you're buying?" },
-    { t: "p", text: "A median above $2M can feel intimidating, but the data also contains good news for prepared buyers. Roughly four in ten listings have cut their price, and homes are taking a couple of months to sell. Here's how to use that." },
+    { t: "p", text: "For buyers, this market rewards preparation: roughly four in ten listings have cut their price and homes are taking a couple of months to sell, so prepared buyers have some leverage, especially on homes that have been sitting. A median above $2M can feel intimidating, but the data also contains good news for prepared buyers. Roughly four in ten listings have cut their price, and homes are taking a couple of months to sell. Here's how to use that." },
     { t: "h3", text: "A buyer playbook" },
     { t: "ol", items: [
       "**Get fully pre-approved first.** A pre-approval based on verified income and assets carries weight with sellers and tells you your real budget.",
@@ -139,8 +142,8 @@ export const post: Post = {
     { t: "p", text: "San Clemente's 84-day expected time to sell is notably shorter than several neighbors in the same October snapshot, including Dana Point and Newport Beach, which show expected times well above 150 days. San Clemente also closes at about 100% of list while some neighbors sit a few points lower. We unpack that comparison in [San Clemente vs. Dana Point vs. San Juan Capistrano](/blog/san-clemente-vs-dana-point-vs-san-juan-capistrano)." },
     { t: "p", text: "Be careful about over-reading city comparisons. Each city has a different mix of homes, price points, and buyer pools. They're useful for context, but your decision should rest on the specific home and neighborhood in front of you." },
     { t: "cta", text: "Not sure which part of town fits? Compare all six neighborhoods side by side.", href: "/neighborhoods", label: "Compare neighborhoods" },
-    { t: "h2", text: "How do the numbers look by neighborhood?" },
-    { t: "p", text: "A citywide median blends very different parts of town. Here's how to think about it by area, using the neighborhood guides on this site:" },
+    { t: "h2", text: "How do the numbers differ by neighborhood?" },
+    { t: "p", text: "The numbers differ by neighborhood because each area's prices are driven by different factors, such as view, lot, size, and HOA costs. A citywide median blends very different parts of town. Here's how to think about it by area, using the neighborhood guides on this site:" },
     {
       t: "table",
       caption: "A neighborhood lens on the citywide numbers",
@@ -157,6 +160,7 @@ export const post: Post = {
     { t: "p", text: "For live listings and recent sales in each area, Redfin's neighborhood pages are a handy reference: see [Talega](https://www.redfin.com/neighborhood/65361/CA/San-Clemente/Talega), [Forster Ranch](https://www.redfin.com/neighborhood/111203/CA/San-Clemente/Forster-Ranch), and [Pier Bowl](https://www.redfin.com/neighborhood/287300/CA/San-Clemente/Pier-Bowl). Treat third-party medians as directional, since small sample sizes make them unstable." },
     { t: "ctaCard", text: "Want a current San Clemente listing search and a cost comparison at your budget?" },
     { t: "h2", text: "What should you watch over the next few months?" },
+    { t: "p", text: "Over the next few months, watch active listings, months of supply, the share of price cuts, the sale-to-list ratio, and interest rates." },
     {
       t: "table",
       caption: "What to watch over the next few months",
@@ -171,11 +175,11 @@ export const post: Post = {
     },
     { t: "p", text: "None of these will move in a straight line. Treat them as dials to monitor, not as predictions." },
     { t: "h2", text: "Why do people choose San Clemente beyond the numbers?" },
-    { t: "p", text: "Statistics describe the market, but they don't describe why people pay a premium to live here. San Clemente keeps its small-town, Spanish Colonial character, with a pier that opened in 1928, a beach trail along the shoreline, and a walkable Downtown. If you want to understand the daily rhythm behind the data, explore our [beaches guide](/lifestyle/beaches), the [parks and trails guide](/lifestyle/parks-trails), and the [food and drink guide](/lifestyle/food-drink)." },
+    { t: "p", text: "People choose San Clemente for its small-town, Spanish Colonial character, with a pier that opened in 1928, a beach trail along the shoreline, and a walkable Downtown. Statistics describe the market, but they don't describe why people pay a premium to live here. If you want to understand the daily rhythm behind the data, explore our [beaches guide](/lifestyle/beaches), the [parks and trails guide](/lifestyle/parks-trails), and the [food and drink guide](/lifestyle/food-drink)." },
     { t: "p", text: "For official city information, visit the [City of San Clemente](https://www.sanclemente.gov/), and for historical background see [San Clemente on Wikipedia](https://en.wikipedia.org/wiki/San_Clemente,_California)." },
     { t: "cta", text: "Planning to buy? Tell Alex your budget and he'll show you what's realistic right now.", href: "/#contact", label: "Talk to Alex" },
     { t: "h2", text: "How do interest rates affect affordability?" },
-    { t: "p", text: "Price is only half of the affordability story. The other half is the interest rate on the loan, which can change a monthly payment by hundreds of dollars on a loan this size. When rates rise, the same purchase price costs more each month, which can cool demand; when they fall, buyers can stretch further, which tends to firm up prices. That's why two markets with identical median prices can feel completely different depending on the rate environment." },
+    { t: "p", text: "Interest rates change the monthly payment on the same purchase price: when rates rise, buyers can afford less, and when they fall, buyers can stretch further. Price is only half of the affordability story. The other half is the interest rate on the loan, which can change a monthly payment by hundreds of dollars on a loan this size. When rates rise, the same purchase price costs more each month, which can cool demand; when they fall, buyers can stretch further, which tends to firm up prices. That's why two markets with identical median prices can feel completely different depending on the rate environment." },
     { t: "p", text: "If you're planning a purchase, run your own scenarios instead of relying on headlines. Ask a lender for a written loan estimate at your intended down payment, then ask what the payment would be at a quarter point higher and lower. The [Consumer Financial Protection Bureau's Owning a Home tools](https://www.consumerfinance.gov/owning-a-home/) walk through how rates, points, and fees interact, and they're written for consumers rather than professionals. For sellers, remember that your buyer pool is shaped by the same math: a rate move can widen or narrow the group of people who can afford your home." },
     { t: "ul", items: [
       "**Compare lenders.** Rates and fees vary, and a small difference on a large loan adds up over years.",
@@ -184,7 +188,7 @@ export const post: Post = {
       "**Plan for large loans.** At San Clemente prices, many loans exceed conforming limits and have different requirements. Our [buying guide](/blog/buying-a-single-family-home-in-san-clemente) explains what to ask.",
     ] },
     { t: "h2", text: "How do you double-check any market number yourself?" },
-    { t: "p", text: "A healthy habit with market data is verifying it. You don't need special software; you need a few reliable places to look and the patience to compare them. Start with the source we cited, [the San Clemente market report](https://adamboehrer.com/san-clemente-housing-market/), then cross-check with other public sources, keeping in mind that definitions and date ranges differ." },
+    { t: "p", text: "You can double-check any market number by comparing it against a few other public sources and a local agent's MLS pull, keeping in mind that definitions and date ranges differ. A healthy habit with market data is verifying it. You don't need special software; you need a few reliable places to look and the patience to compare them. Start with the source we cited, [the San Clemente market report](https://adamboehrer.com/san-clemente-housing-market/), then cross-check with other public sources, keeping in mind that definitions and date ranges differ." },
     { t: "ul", items: [
       "**Statewide context:** the [California Association of Realtors market data pages](https://www.car.org/marketdata) publish statewide and county-level statistics that help you see the bigger picture.",
       "**Live listings:** neighborhood pages on Redfin, such as [Talega](https://www.redfin.com/neighborhood/65361/CA/San-Clemente/Talega), [Forster Ranch](https://www.redfin.com/neighborhood/111203/CA/San-Clemente/Forster-Ranch), and [Pier Bowl](https://www.redfin.com/neighborhood/287300/CA/San-Clemente/Pier-Bowl), show current listings and recent sales, though small samples make medians jumpy.",
@@ -194,7 +198,7 @@ export const post: Post = {
     { t: "p", text: "When two sources disagree, don't panic. Check the home types included, the dates covered, and whether the number is a median or an average. Most disagreements disappear once the definitions line up, and the rest are a reminder to treat any single figure as a range rather than a fact." },
 
     { t: "h2", text: "How do you get numbers for your exact street?" },
-    { t: "p", text: "Citywide statistics are a starting point. To get an accurate picture for your home or the one you want to buy, you need three things: recent closed sales within a few blocks, a clear view of active competing listings, and an experienced read on condition, view, and lot. That combination is what a local agent adds, and it's why a custom valuation beats an automated estimate." },
+    { t: "p", text: "You get numbers for your exact street by combining recent closed sales within a few blocks, active competing listings, and a local agent's read on condition, view, and lot. Citywide statistics are a starting point. To get an accurate picture for your home or the one you want to buy, you need three things: recent closed sales within a few blocks, a clear view of active competing listings, and an experienced read on condition, view, and lot. That combination is what a local agent adds, and it's why a custom valuation beats an automated estimate." },
     { t: "p", text: "If you're considering a move, reach out through the [contact form](/#contact) or request a [free home valuation](/home-value). There's no obligation, and you'll get a straight answer about where you stand." },
   ],
   faqs: [

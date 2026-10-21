@@ -20,6 +20,7 @@ export const post: Post = {
     { t: "p", text: "These two areas sit on opposite ends of the San Clemente experience. One puts you steps from the pier, with Spanish Colonial storefronts and the sound of the surf. The other gives you a large planned community with curving streets, parks, a golf club, and everyday shopping minutes from your front door. Many buyers start their search thinking they want one and end up choosing the other once they've spent time in both." },
     { t: "p", text: "This guide compares them honestly: setting, homes, daily life, costs, and tradeoffs. We've included a side-by-side table, a framework for deciding, and illustrative scenarios (labeled as such, not real clients) to show how different priorities lead to different choices. For complete profiles, see our full guides to [Downtown & Pier Bowl](/neighborhoods/downtown-pier-bowl) and [Talega](/neighborhoods/talega)." },
     { t: "h2", text: "How do the Pier Bowl and Talega compare side by side?" },
+    { t: "p", text: "The Pier Bowl is a coastal, walkable area with vintage and newer coastal homes, while Talega is an inland master-planned community about 3 miles from the coast with mostly tract homes in a Spanish-Tuscan style." },
     {
       t: "table",
       caption: "Pier Bowl & Downtown vs. Talega",
@@ -37,7 +38,7 @@ export const post: Post = {
       source: { label: "Talega and San Clemente (Wikipedia)", href: "https://en.wikipedia.org/wiki/Talega,_San_Clemente,_California" },
     },
     { t: "h2", text: "What is it like to live in the Pier Bowl and Downtown?" },
-    { t: "p", text: "The Pier Bowl is the low-lying area around the San Clemente Pier, which opened in 1928, with Downtown and Avenida Del Mar climbing the hillside above it. This is the part of town that gave San Clemente its \"Spanish Village by the Sea\" reputation, shaped by founder Ole Hanson's vision of red-tile roofs and white stucco." },
+    { t: "p", text: "Living in the Pier Bowl and Downtown means a walkable coastal village setting near the pier, the beach trail, and Avenida Del Mar. The Pier Bowl is the low-lying area around the San Clemente Pier, which opened in 1928, with Downtown and Avenida Del Mar climbing the hillside above it. This is the part of town that gave San Clemente its \"Spanish Village by the Sea\" reputation, shaped by founder Ole Hanson's vision of red-tile roofs and white stucco." },
     { t: "h3", text: "What daily life looks like" },
     { t: "p", text: "Mornings start with coffee and a walk on the beach trail. Midday you might grab lunch on Avenida Del Mar. In the evening, the pier fills with people watching the sunset, and you can walk to dinner. For many residents, the appeal is that the car stays in the driveway for a surprising portion of the week." },
     { t: "h3", text: "The homes" },
@@ -76,7 +77,7 @@ export const post: Post = {
     { t: "callout", title: "About those HOA dues", text: "Many master-planned communities have monthly dues, and some also carry additional special taxes or assessments. Before you compare listings, ask for the total monthly cost of ownership, including taxes, insurance, and any dues. A home with a lower price can cost more per month than a higher-priced home without dues." },
     { t: "cta", text: "Want to see both in one weekend? Alex will line up tours in each area.", href: "/#contact", label: "Book tours" },
     { t: "h2", text: "What does a Saturday look like in each area?" },
-    { t: "p", text: "Imagine a typical Saturday to see how each area feels. These are illustrations of the rhythm, not a promise of any particular experience." },
+    { t: "p", text: "A Saturday in the Pier Bowl centers on the beach trail, the pier, and Avenida Del Mar, while a Saturday in Talega centers on neighborhood paths, parks, and nearby shopping. Imagine a typical Saturday to see how each area feels. These are illustrations of the rhythm, not a promise of any particular experience." },
     {
       t: "table",
       caption: "A Saturday in each area",
@@ -102,7 +103,7 @@ export const post: Post = {
     ] },
     { t: "cta", text: "Get the real HOA, tax, and insurance picture for specific homes.", href: "/#contact", label: "Ask Alex for the numbers" },
     { t: "h2", text: "What does it cost to own in each area?" },
-    { t: "p", text: "Price is only the beginning. Two homes with identical prices can cost very different amounts each month. Use this worksheet to compare any home in either area, and fill it in with real numbers from your agent, lender, and insurance broker." },
+    { t: "p", text: "Owning in each area costs more than the price: ask about property taxes, HOA dues, insurance, maintenance, parking, and transportation, noting that HOA dues are common in Talega and usually absent for Pier Bowl single-family homes, but confirm. Price is only the beginning. Two homes with identical prices can cost very different amounts each month. Use this worksheet to compare any home in either area, and fill it in with real numbers from your agent, lender, and insurance broker." },
     {
       t: "table",
       caption: "Cost-of-ownership worksheet",
@@ -118,8 +119,8 @@ export const post: Post = {
     },
     { t: "p", text: "That worksheet often changes the picture. A home that looks more affordable at the listing price can cost more per month once dues and assessments are included, while an older coastal home with a lower monthly carrying cost might need repairs in the first few years. The goal isn't to find the cheapest option; it's to know what you're signing up for." },
     { t: "ctaCard", text: "Not sure which fits? Alex will walk you through both areas with real recent sales." },
-    { t: "h2", text: "What should you consider for the long term?" },
-    { t: "p", text: "Most buyers think about how long they'll stay, even if they don't plan to sell for years. A few factors are worth weighing in both areas." },
+    { t: "h2", text: "What should you think about for the long term?" },
+    { t: "p", text: "For the long term, weigh the home's flexibility, the rules and regulations that apply, its maintenance trajectory, how the neighborhood evolves, and your own plans. Most buyers think about how long they'll stay, even if they don't plan to sell for years. A few factors are worth weighing in both areas." },
     { t: "ul", items: [
       "**Flexibility of the home.** Can the layout adapt if your needs change? Some vintage homes have unusual floor plans; planned-community homes tend to follow more standard layouts.",
       "**Rules and regulations.** Planned communities have architectural guidelines that can limit exterior changes. Coastal-zone properties may need additional permits for certain work, as the [California Coastal Commission](https://www.coastal.ca.gov/) explains.",
@@ -129,6 +130,7 @@ export const post: Post = {
     ] },
     { t: "p", text: "No agent can promise how a particular home will perform financially. What you can do is choose a home you'll enjoy living in, buy at a price supported by recent sales, and plan for the real costs of ownership." },
     { t: "h2", text: "What are the common misconceptions about each area?" },
+    { t: "p", text: "The most common misconceptions are that the Pier Bowl is only for tourists, that Talega is far from everything, and that newer homes need no maintenance; the table below gives the reality for each." },
     {
       t: "table",
       caption: "Common misconceptions",
@@ -142,6 +144,7 @@ export const post: Post = {
       ],
     },
     { t: "h2", text: "What should you ask on your tour?" },
+    { t: "p", text: "On tour, ask about parking, systems, permits, and noise in the Pier Bowl and Downtown, and about HOA dues, special taxes, rules, and drive times in Talega." },
     {
       t: "table",
       caption: "Questions to ask on your tour",
@@ -159,6 +162,7 @@ export const post: Post = {
     },
     { t: "cta", text: "Tell Alex your answers and he'll point you to the streets worth touring.", href: "/#contact", label: "Talk to Alex" },
     { t: "h2", text: "How do you decide? Five questions to ask yourself" },
+    { t: "p", text: "You decide by answering five questions about beach use, walkability, newer systems, HOA rules, and commute; if three or more point the same direction, you have your starting area." },
     { t: "ol", items: [
       "**How often will you actually go to the beach?** Daily favors the coast; a few times a week is workable from inland.",
       "**How much do you value walkability?** If errands on foot matter, the Pier Bowl and Downtown are hard to beat.",
@@ -168,7 +172,7 @@ export const post: Post = {
     ] },
     { t: "p", text: "Write down your answers. If three or more point the same direction, you have your starting area. Then tour both anyway, since seeing the two back to back is the fastest way to confirm your instincts." },
     { t: "h2", text: "How can you tour both areas in one weekend?" },
-    { t: "p", text: "The fastest way to settle the debate is to spend one weekend in both areas on purpose. Here's an itinerary you can adapt." },
+    { t: "p", text: "You can tour both areas in one weekend by driving your commute Friday evening, spending Saturday in Talega and then at the coast, and returning to the Pier Bowl on Sunday morning. The fastest way to settle the debate is to spend one weekend in both areas on purpose. Here's an itinerary you can adapt." },
     { t: "ol", items: [
       "**Friday evening:** drive your real commute from each area at rush hour, noting the time it takes to reach the freeway.",
       "**Saturday morning:** start in Talega. Walk a neighborhood path, visit a park, and run an errand at the nearby shopping center, as if it were an ordinary day.",
@@ -179,7 +183,7 @@ export const post: Post = {
     ] },
     { t: "p", text: "At the end of the weekend, write down three things you loved and three things that bothered you about each area. The pattern usually jumps out. If you want a hand building the itinerary or lining up tours, reach out through our [contact page](/#contact), and use our [local tips guide](/lifestyle/local-tips) to avoid parking and crowd surprises." },
     { t: "h2", text: "How do you get around in each area?" },
-    { t: "p", text: "How you move through your day is one of the biggest differences between these two areas. In the Pier Bowl and Downtown, many errands can be done on foot, and the San Clemente and San Clemente Pier train stations put Amtrak's [Pacific Surfliner](https://www.pacificsurfliner.com/) and [Metrolink](https://www.metrolinktrains.com/) within reach. Parking is the tradeoff: on summer evenings and weekends, spots near the pier fill up, so plan on arriving early or walking in from farther up the hill." },
+    { t: "p", text: "In the Pier Bowl and Downtown you can walk or take the train for many trips, while in Talega you drive for most trips. How you move through your day is one of the biggest differences between these two areas. In the Pier Bowl and Downtown, many errands can be done on foot, and the San Clemente and San Clemente Pier train stations put Amtrak's [Pacific Surfliner](https://www.pacificsurfliner.com/) and [Metrolink](https://www.metrolinktrains.com/) within reach. Parking is the tradeoff: on summer evenings and weekends, spots near the pier fill up, so plan on arriving early or walking in from farther up the hill." },
     { t: "p", text: "Talega runs the other way. Streets are planned for cars, garages and driveways are standard, and shopping is close enough to run errands quickly. The coast is a short drive away, and the I-5 is about two miles west, which makes freeway timing a key question. Before you commit to either area, drive your real route at rush hour, and check [Orange County Transportation Authority](https://octa.net/) routes if you'd like to use buses." },
     { t: "h2", text: "Where are the parks, trails and outdoor life in each area?" },
     { t: "p", text: "Both areas make it easy to get outside, in very different ways. Near the Pier Bowl, the [beach trail](/blog/san-clemente-beach-trail-guide) is the headline, linking North Beach, the pier, T-Street, and Calafia with ocean views the whole way. You can also reach the cliffside Sea Summit Trail and the surf spots we cover in the [beaches guide](/lifestyle/beaches)." },
@@ -199,7 +203,7 @@ export const post: Post = {
     { t: "h2", text: "What do homes cost in each area?" },
     { t: "p", text: "San Clemente's single-family median was $2,225,000 in September 2026, but neighborhood-level medians swing a lot because there are relatively few sales in any one area each month. For the citywide picture, see our [market update](/blog/san-clemente-housing-market-update-october-2026). For live listings and recent sales, Redfin has neighborhood pages for [Talega](https://www.redfin.com/neighborhood/65361/CA/San-Clemente/Talega) and the [Pier Bowl](https://www.redfin.com/neighborhood/287300/CA/San-Clemente/Pier-Bowl). Treat third-party medians as directional, and ask Alex for recent sales on the specific street you like." },
     { t: "h2", text: "What about the other San Clemente neighborhoods?" },
-    { t: "p", text: "Pier Bowl and Talega are two of six areas we've profiled. If neither feels quite right, there are other options:" },
+    { t: "p", text: "The other four neighborhoods we've profiled are Sea Summit, Forster Ranch, Shorecliffs, and Rancho San Clemente. Pier Bowl and Talega are two of six areas we've profiled. If neither feels quite right, there are other options:" },
     { t: "ul", items: [
       "**[Sea Summit](/neighborhoods/sea-summit):** newer construction on the former Marblehead Coastal property, with trail access nearby",
       "**[Forster Ranch](/neighborhoods/forster-ranch):** a hillside planned community set back from the sand",
@@ -208,6 +212,7 @@ export const post: Post = {
     ] },
     { t: "p", text: "Compare all six on our [neighborhoods page](/neighborhoods)." },
     { t: "h2", text: "What should you do before making an offer in either area?" },
+    { t: "p", text: "Before making an offer in either area, visit at least twice, ask about HOA dues and assessments, request recent comps, check the view, time your commute, and review inspection results carefully." },
     { t: "ul", items: [
       "Visit at least twice, at different times of day and week.",
       "Ask for HOA dues, what they cover, and any special assessments.",
