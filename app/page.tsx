@@ -3,6 +3,9 @@ import Reveal from "@/components/Reveal";
 import Neighborhoods from "@/components/Neighborhoods";
 import ContactForm from "@/components/ContactForm";
 import Footer from "@/components/Footer";
+import { reviews, reviewsLink } from "@/lib/reviews";
+import { guides } from "@/lib/places";
+import Link from "next/link";
 import { agent, market, stats, lifestyle, services, faqs } from "@/lib/content";
 
 function Icon({ name }: { name: string }) {
@@ -44,7 +47,7 @@ export default function Home() {
               around $2M. {agent.name} helps buyers and sellers win on the Orange County coast.
             </p>
           <div className="cta-row">
-              <a className="btn" href="#contact">See what my house is worth</a>
+              <Link className="btn" href="/home-value">See what my house is worth</Link>
               <a className="btn btn-ghost" href="#neighborhoods">Explore neighborhoods</a>
             </div>
           </div>
@@ -112,11 +115,46 @@ export default function Home() {
           </Reveal>
         </section>
 
+        {reviews.length > 0 && (
+          <section id="reviews" className="section">
+            <Reveal>
+              <p className="eyebrow">Client reviews</p>
+              <h2>What clients say</h2>
+            </Reveal>
+            <div className="reviews">
+              {reviews.map((r) => (
+                <Reveal key={r.name + r.quote.slice(0, 12)}>
+                  <figure className="review">
+                    <blockquote>&ldquo;{r.quote}&rdquo;</blockquote>
+                    <cite>{r.name}, {r.context}</cite>
+                  </figure>
+                </Reveal>
+              ))}
+            </div>
+            {reviewsLink && <p><a className="link-arrow" href={reviewsLink} target="_blank" rel="noopener noreferrer">Read all reviews →</a></p>}
+          </section>
+        )}
+
+        <section className="section">
+          <Reveal>
+            <p className="eyebrow">Live like a local</p>
+            <h2>Explore San Clemente</h2>
+          </Reveal>
+          <div className="guide-links">
+            {guides.map((g) => (
+              <Link key={g.slug} href={`/lifestyle/${g.slug}`} className="post-card">
+                <span className="tile-tag">{g.eyebrow}</span>
+                <h3>{g.title}</h3>
+              </Link>
+            ))}
+          </div>
+        </section>
+
         <section className="value">
           <Reveal>
             <h2>What&apos;s your San Clemente home worth?</h2>
             <p>A free valuation built from your actual address and recent nearby sales, not just an algorithm.</p>
-            <a className="btn btn-light" href="#contact">Request my valuation</a>
+            <Link className="btn btn-light" href="/home-value">Request my valuation</Link>
           </Reveal>
         </section>
 

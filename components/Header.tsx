@@ -8,7 +8,7 @@ const links = [
   ["Neighborhoods", "/neighborhoods"],
   ["Lifestyle", "/lifestyle"],
   ["Blog", "/blog"],
-  ["Services", "/#services"],
+  ["Home value", "/home-value"],
   ["About", "/#about"],
 ];
 

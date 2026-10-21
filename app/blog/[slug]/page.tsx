@@ -79,7 +79,13 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
               <h2>Further reading</h2>
               <ul>
                 {p.links.map((l) => (
-                  <li key={l.href}><a href={l.href} target="_blank" rel="noopener noreferrer">{l.label}</a></li>
+                  <li key={l.href}>
+                    {l.href.startsWith("/") ? (
+                      <Link href={l.href}>{l.label}</Link>
+                    ) : (
+                      <a href={l.href} target="_blank" rel="noopener noreferrer">{l.label}</a>
+                    )}
+                  </li>
                 ))}
               </ul>
             </>

@@ -32,7 +32,7 @@ export const cityFacts = [
   ["Median household income (2023 estimate)", "$134,735"],
   ["Land and water area", "19.1 sq mi"],
   ["Average August high / December high", "about 79°F / 64°F"],
-  ["Beach trail", "2.6 miles, North Beach to Calafia"],
+  ["Beach trail", "About 2.3 to 2.6 miles, North Beach to Calafia"],
   ["Median price, local view", "around $2M; about 70% of inventory is single-family"],
 ];
 

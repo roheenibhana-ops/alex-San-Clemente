@@ -239,3 +239,19 @@ a { color: inherit; }
 @media (max-width: 860px) { .proscons { grid-template-columns: 1fr; } .toc { top: 56px; } }
 
 @media (max-width: 860px) { .hood-hero { padding-bottom: 11rem; } }
+
+.place-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin-top: 1rem; }
+.place { background: #fff; border-radius: var(--radius); padding: 1.4rem; box-shadow: var(--shadow); display: flex; flex-direction: column; gap: .4rem; }
+.place h3 { margin: 0; font-size: 1.2rem; }
+.place p { flex: 1; margin: 0; font-size: 1rem; }
+.guide-links { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1rem; margin-top: 1.5rem; }
+.reviews { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.25rem; margin-top: 1.5rem; }
+.review { background: #fff; border-radius: var(--radius); padding: 1.75rem; box-shadow: var(--shadow); }
+.review blockquote { margin: 0 0 1rem; font-family: var(--font-serif), serif; font-size: 1.2rem; line-height: 1.4; }
+.review cite { font-style: normal; font-size: .85rem; color: var(--ink-2); }
+
+.steps { list-style: none; padding: 0; display: grid; gap: 1rem; margin-top: 1.5rem; }
+.steps li { display: flex; gap: 1rem; align-items: flex-start; }
+.steps li > span { flex: 0 0 38px; height: 38px; border-radius: 50%; background: var(--coral); color: #fff; display: grid; place-items: center; font-weight: 700; }
+.steps p { margin: .2rem 0 0; color: var(--ink-2); }
+.section.prose { max-width: 1020px; }

@@ -42,7 +42,7 @@ export const hoods: Hood[] = [
       ["Setting", "Coastal, hillside, and walkable"],
       ["Signature spots", "San Clemente Pier, Avenida Del Mar, Casa Romantica"],
       ["Pier history", "Opened 1928, rebuilt in 1939 and 1983"],
-      ["Beach trail", "2.6 miles from North Beach to Calafia"],
+      ["Beach trail", "About 2.3 to 2.6 miles from North Beach to Calafia (sources differ)"],
       ["Getting around", "San Clemente and San Clemente Pier train stations; I-5 nearby"],
       ["Typical home style", "Spanish Colonial Revival cottages, older bungalows, and newer coastal builds"],
     ],

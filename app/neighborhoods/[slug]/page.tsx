@@ -8,6 +8,7 @@ import DataTable from "@/components/DataTable";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import JsonLd from "@/components/JsonLd";
 import { hoods, getHood } from "@/lib/neighborhoods";
+import { guides } from "@/lib/places";
 import { cityMarket, marketSource } from "@/lib/market";
 import { SITE_URL } from "@/lib/site";
 
@@ -150,6 +151,20 @@ export default async function HoodPage({ params }: { params: Promise<{ slug: str
                 </li>
               ))}
             </ul>
+          </Reveal>
+        </section>
+
+        <section className="section">
+          <Reveal>
+            <h2>Local guides to pair with {h.name}</h2>
+            <div className="post-grid">
+              {guides.map((g) => (
+                <Link key={g.slug} href={`/lifestyle/${g.slug}`} className="post-card">
+                  <span className="tile-tag">{g.eyebrow}</span>
+                  <h3>{g.title}</h3>
+                </Link>
+              ))}
+            </div>
           </Reveal>
         </section>
 

@@ -5,7 +5,7 @@ import { useState, type FormEvent } from "react";
 const intents = ["Buying", "Selling", "Both", "Investing", "Relocating", "Just curious"];
 const timelines = ["Immediately", "1–3 months", "3–6 months", "6–12 months", "Just exploring"];
 
-export default function ContactForm() {
+export default function ContactForm({ showAddress = false, defaultIntent = "Buying" }: { showAddress?: boolean; defaultIntent?: string }) {
   const [status, setStatus] = useState<"idle" | "sending" | "done" | "error">("idle");
   const [error, setError] = useState("");
 
@@ -58,13 +58,19 @@ export default function ContactForm() {
         </label>
         <label>
           I&apos;m
-          <select name="intent" defaultValue="Buying">
+          <select name="intent" defaultValue={defaultIntent}>
             {intents.map((i) => (
               <option key={i}>{i}</option>
             ))}
           </select>
         </label>
       </div>
+      {showAddress && (
+        <label>
+          Property address
+          <input name="address" autoComplete="street-address" placeholder="123 Avenida Del Mar, San Clemente" />
+        </label>
+      )}
       <label>
         Timeline
         <select name="timeline" defaultValue="1–3 months">

@@ -3,6 +3,7 @@ import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Reveal from "@/components/Reveal";
+import { guides } from "@/lib/places";
 import { beaches, outdoors, eats, schoolLinks, events, gettingAround } from "@/lib/lifestyle";
 
 export const metadata: Metadata = {
@@ -27,7 +28,26 @@ export default function Lifestyle() {
           </Reveal>
         </section>
 
-        <section id="beaches" className="section">
+        <section className="section">
+          <Reveal>
+            <p className="eyebrow">Local guides</p>
+            <h2>Go deeper</h2>
+          </Reveal>
+          <div className="post-grid">
+            {guides.map((g, i) => (
+              <Reveal key={g.slug} delay={i * 70}>
+                <Link href={`/lifestyle/${g.slug}`} className="post-card">
+                  <span className="tile-tag">{g.eyebrow}</span>
+                  <h3>{g.title}</h3>
+                  <p>{g.description}</p>
+                  <span className="link-arrow">Read the guide →</span>
+                </Link>
+              </Reveal>
+            ))}
+          </div>
+        </section>
+
+        <section id="beaches" className="section tint">
           <Reveal>
             <p className="eyebrow">Beaches &amp; surf</p>
             <h2>Sand, surf, and sunsets</h2>
@@ -44,7 +64,7 @@ export default function Lifestyle() {
           </div>
         </section>
 
-        <section id="outdoors" className="section tint">
+        <section id="outdoors" className="section">
           <Reveal>
             <p className="eyebrow">Parks &amp; trails</p>
             <h2>Outdoors, every day</h2>
@@ -61,7 +81,7 @@ export default function Lifestyle() {
           </div>
         </section>
 
-        <section id="eats" className="section">
+        <section id="eats" className="section tint">
           <Reveal>
             <p className="eyebrow">Eats &amp; drinks</p>
             <h2>Where locals eat</h2>
@@ -95,7 +115,7 @@ export default function Lifestyle() {
           </div>
         </section>
 
-        <section id="schools" className="section tint">
+        <section id="schools" className="section">
           <Reveal>
             <p className="eyebrow">Schools</p>
             <h2>Schools &amp; education</h2>
@@ -114,7 +134,7 @@ export default function Lifestyle() {
           </Reveal>
         </section>
 
-        <section id="events" className="section">
+        <section id="events" className="section tint">
           <Reveal>
             <p className="eyebrow">Community</p>
             <h2>Events &amp; traditions</h2>
@@ -131,7 +151,7 @@ export default function Lifestyle() {
           </div>
         </section>
 
-        <section id="getting-around" className="section tint">
+        <section id="getting-around" className="section">
           <Reveal>
             <p className="eyebrow">Getting around</p>
             <h2>Easy to get to, easy to get around</h2>

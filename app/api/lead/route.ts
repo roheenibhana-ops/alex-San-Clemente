@@ -7,6 +7,7 @@ type Lead = {
   intent?: string;
   timeline?: string;
   message?: string;
+  address?: string;
   company?: string;
 };
 
