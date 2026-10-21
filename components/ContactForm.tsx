@@ -13,7 +13,7 @@ export default function ContactForm({ showAddress = false, defaultIntent = "Buyi
     e.preventDefault();
     setStatus("sending");
     setError("");
-    const data = Object.fromEntries(new FormData(e.currentTarget));
+    const data = { ...Object.fromEntries(new FormData(e.currentTarget)), page: window.location.pathname + window.location.search };
     try {
       const res = await fetch("/api/lead", {
         method: "POST",
@@ -22,6 +22,7 @@ export default function ContactForm({ showAddress = false, defaultIntent = "Buyi
       });
       const json = await res.json();
       if (!res.ok || !json.ok) throw new Error(json.error || "Something went wrong");
+      (window as unknown as { gtag?: (...a: unknown[]) => void }).gtag?.("event", "generate_lead");
       setStatus("done");
     } catch (err) {
       setError(err instanceof Error ? err.message : "Something went wrong");
@@ -89,7 +90,7 @@ export default function ContactForm({ showAddress = false, defaultIntent = "Buyi
       </button>
       {status === "error" && <p className="form-error" role="alert">{error}</p>}
       <p className="fine">
-        By submitting, you agree to be contacted by call, text, or email. Consent is not a condition of any purchase.
+        By submitting, you agree to be contacted by call, text, or email. Consent is not a condition of any purchase. See our <a href="/privacy">Privacy Policy</a>.
       </p>
     </form>
   );

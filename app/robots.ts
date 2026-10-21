@@ -2,8 +2,9 @@ import type { MetadataRoute } from "next";
 import { SITE_URL } from "@/lib/site";
 
 export default function robots(): MetadataRoute.Robots {
+  const hidden = SITE_URL.includes("workers.dev");
   return {
-    rules: { userAgent: "*", allow: "/", disallow: "/api/" },
+    rules: hidden ? { userAgent: "*", disallow: "/" } : { userAgent: "*", allow: "/", disallow: "/api/" },
     sitemap: `${SITE_URL}/sitemap.xml`,
   };
 }

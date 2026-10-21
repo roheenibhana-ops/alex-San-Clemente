@@ -26,7 +26,7 @@ export async function generateMetadata({ params }: { params: Promise<{ guide: st
     title: g.metaTitle,
     description: g.description,
     alternates: { canonical: `/lifestyle/${g.slug}` },
-    openGraph: { title: g.metaTitle, description: g.description, type: "article", images: ["/san-clemente-beach-homes.jpg"] },
+    openGraph: { title: g.metaTitle, description: g.description, type: "article", images: ["/og.jpg"] },
   };
 }
 

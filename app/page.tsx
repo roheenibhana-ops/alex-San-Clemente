@@ -4,7 +4,8 @@ import Neighborhoods from "@/components/Neighborhoods";
 import ContactForm from "@/components/ContactForm";
 import Footer from "@/components/Footer";
 import CardImage from "@/components/CardImage";
-import { reviews, reviewsLink } from "@/lib/reviews";
+import { reviews, reviewsLink, reviewStats } from "@/lib/reviews";
+import GoogleBadge, { GoogleG } from "@/components/GoogleBadge";
 import { guides } from "@/lib/places";
 import Link from "next/link";
 import { agent, market, stats, lifestyle, services, faqs } from "@/lib/content";
@@ -51,6 +52,7 @@ export default function Home() {
               <Link className="btn" href="/home-value">See what my house is worth</Link>
               <a className="btn btn-ghost" href="#neighborhoods">Explore neighborhoods</a>
             </div>
+            <div className="hero-proof"><GoogleBadge /></div>
           </div>
           <svg className="waves" viewBox="0 0 1440 220" preserveAspectRatio="none" aria-hidden>
             <path className="w1" d="M0 120c120-50 240-50 360 0s240 50 360 0 240-50 360 0 240 50 360 0V220H0Z" />
@@ -69,6 +71,42 @@ export default function Home() {
             </Reveal>
           ))}
         </section>
+
+        {reviews.length > 0 && (
+          <section id="reviews" className="reviews-band">
+            <Reveal>
+              <div className="reviews-head">
+                <GoogleG size={44} />
+                <div>
+                  <p className="eyebrow">Trusted by clients</p>
+                  <h2>Rated {reviewStats.rating} on Google</h2>
+                  <p className="stars-big" aria-hidden>★★★★★</p>
+                  <p className="sub">{reviewStats.count} {reviewStats.label}</p>
+                </div>
+              </div>
+            </Reveal>
+            <div className="reviews">
+              {reviews.map((r, i) => (
+                <Reveal key={r.name + r.quote.slice(0, 12)} delay={i * 90}>
+                  <figure className="review">
+                    <span className="quote-mark" aria-hidden>&ldquo;</span>
+                    <p className="stars-sm" aria-hidden>★★★★★</p>
+                    <blockquote>{r.quote}</blockquote>
+                    <figcaption>
+                      <strong>{r.name}</strong>
+                      <span>{r.context} · <GoogleG size={14} /> Google review</span>
+                    </figcaption>
+                  </figure>
+                </Reveal>
+              ))}
+            </div>
+            {reviewsLink && (
+              <Reveal>
+                <p className="reviews-cta"><a className="btn btn-light" href={reviewsLink} target="_blank" rel="noopener noreferrer">Read all reviews on Google</a></p>
+              </Reveal>
+            )}
+          </section>
+        )}
 
         <section id="market" className="section market">
           <Reveal>
@@ -115,26 +153,6 @@ export default function Home() {
             <Neighborhoods />
           </Reveal>
         </section>
-
-        {reviews.length > 0 && (
-          <section id="reviews" className="section">
-            <Reveal>
-              <p className="eyebrow">Client reviews</p>
-              <h2>What clients say</h2>
-            </Reveal>
-            <div className="reviews">
-              {reviews.map((r) => (
-                <Reveal key={r.name + r.quote.slice(0, 12)}>
-                  <figure className="review">
-                    <blockquote>&ldquo;{r.quote}&rdquo;</blockquote>
-                    <cite>{r.name}, {r.context}</cite>
-                  </figure>
-                </Reveal>
-              ))}
-            </div>
-            {reviewsLink && <p><a className="link-arrow" href={reviewsLink} target="_blank" rel="noopener noreferrer">Read all reviews →</a></p>}
-          </section>
-        )}
 
         <section className="section">
           <Reveal>

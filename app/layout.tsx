@@ -2,19 +2,23 @@ import type { Metadata, Viewport } from "next";
 import { Fraunces, Inter } from "next/font/google";
 import "./globals.css";
 import { SITE_URL } from "@/lib/site";
+import Analytics from "@/components/Analytics";
 
 const serif = Fraunces({ subsets: ["latin"], variable: "--font-serif", display: "swap" });
 const sans = Inter({ subsets: ["latin"], variable: "--font-sans", display: "swap" });
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
+  // Keep the temporary workers.dev address out of search results until the real domain is set.
+  robots: SITE_URL.includes("workers.dev") ? { index: false, follow: false } : { index: true, follow: true },
+  twitter: { card: "summary_large_image", images: ["/og.jpg"] },
   title: "San Clemente Homes for Sale | Single-Family Homes | Alex Yu Team",
   description:
     "Search single-family homes for sale in San Clemente, CA. Median price around $2M. Free home valuation and local expertise from Alex Yu, First Team Real Estate.",
   openGraph: {
     title: "San Clemente Homes for Sale | Alex Yu Team",
     description: "Single-family beach homes and neighborhood expertise in San Clemente, CA.",
-    images: ["/san-clemente-beach-homes.jpg"],
+    images: [{ url: "/og.jpg", width: 1200, height: 630, alt: "San Clemente beach homes" }],
     type: "website",
   },
 };
@@ -49,6 +53,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           }}
         />
         {children}
+        <Analytics />
       </body>
     </html>
   );
