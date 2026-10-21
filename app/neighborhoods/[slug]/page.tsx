@@ -5,6 +5,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Reveal from "@/components/Reveal";
 import CtaCard from "@/components/CtaCard";
+import InlineCta from "@/components/InlineCta";
 import AlertBanner from "@/components/AlertBanner";
 import AuthorCard from "@/components/AuthorCard";
 import CardImage from "@/components/CardImage";
@@ -18,6 +19,7 @@ import { deep } from "@/lib/neighborhoodDeep";
 import Inline from "@/components/Inline";
 import { cityMarket, marketSource } from "@/lib/market";
 import { SITE_URL } from "@/lib/site";
+import { agent } from "@/lib/content";
 
 export const dynamicParams = false;
 
@@ -107,6 +109,7 @@ export default async function HoodPage({ params }: { params: Promise<{ slug: str
               rows={h.glance}
               source={h.sources[0]}
             />
+            <InlineCta text={`Curious how ${h.name} fits your plans? Talk it through with Alex.`} href="/#contact" label="Talk to Alex" />
           </Reveal>
         </section>
 
@@ -124,6 +127,7 @@ export default async function HoodPage({ params }: { params: Promise<{ slug: str
                 <ul>{h.tradeoffs.map((t) => <li key={t}>{t}</li>)}</ul>
               </div>
             </div>
+            <InlineCta text={`See ${h.name} for yourself. Alex will show you the streets worth your time.`} href="/#contact" label="Book a tour" />
           </Reveal>
         </section>
 
@@ -143,15 +147,23 @@ export default async function HoodPage({ params }: { params: Promise<{ slug: str
                 <h3>A good fit if you...</h3>
                 <ul>{d.fit.map((t) => <li key={t}>{t}</li>)}</ul>
               </div>
+              <InlineCta text={`Like the sound of a day in ${h.name}? See what is on the market right now.`} href={agent.listingsUrl} label="Browse listings" />
             </Reveal>
           </section>
         )}
+
+        <section className="section narrow">
+          <Reveal>
+            <CtaCard text={`Ready to see ${h.name} in person? Browse current listings, compare areas, or have Alex set up a tour.`} />
+          </Reveal>
+        </section>
 
         <section id="homes" className="section prose">
           <Reveal>
             <h2>Single-family homes in {h.name}</h2>
             {h.homes.map((t) => <p key={t}>{t}</p>)}
             {h.priceNote && <p className="callout">{h.priceNote}</p>}
+            <InlineCta text={`Want recent ${h.name} sales and a pricing read? Alex will pull them for you.`} href="/#contact" label="Get recent sales" />
           </Reveal>
         </section>
 
@@ -162,6 +174,7 @@ export default async function HoodPage({ params }: { params: Promise<{ slug: str
                 <h2>Getting around {h.name}</h2>
                 {d.getting.map((t) => <p key={t}><Inline text={t} /></p>)}
                 <DataTable caption={`Things to do near ${h.name}`} head={["Place", "Why go"]} rows={d.doNearby} />
+                <InlineCta text={`Wondering how the drive or walk works from a specific ${h.name} street? Ask Alex.`} href="/#contact" label="Ask Alex" />
               </Reveal>
             </section>
 
@@ -170,6 +183,7 @@ export default async function HoodPage({ params }: { params: Promise<{ slug: str
                 <h2>Before you buy in {h.name}</h2>
                 <p>Every home is different, but these are the questions worth asking on any tour here. Bring the list, and ask Alex to help you chase down the answers.</p>
                 <DataTable caption={`Pre-offer checklist for ${h.name}`} head={["Check", "Why it matters"]} rows={d.checks} />
+                <InlineCta text={`Want Alex to chase down the HOA, tax, and permit answers on a ${h.name} home you like?`} href="/#contact" label="Get the answers" />
               </Reveal>
             </section>
 
@@ -182,6 +196,7 @@ export default async function HoodPage({ params }: { params: Promise<{ slug: str
                   rows={d.compare.map((c) => [`[${hoods.find((x) => x.slug === c.slug)?.name ?? c.slug}](/neighborhoods/${c.slug})`, c.text])}
                 />
                 <p><Link className="link-arrow" href="/neighborhoods">Compare all six neighborhoods →</Link></p>
+                <InlineCta text="Still deciding between areas? Compare all six neighborhoods side by side." href="/neighborhoods" label="Compare neighborhoods" />
               </Reveal>
             </section>
           </>
@@ -206,6 +221,7 @@ export default async function HoodPage({ params }: { params: Promise<{ slug: str
                 <a className="btn btn-ghost" href={h.liveData.href} target="_blank" rel="noopener noreferrer">{h.liveData.label}</a>
               )}
             </div>
+            <InlineCta text={`Own a home in ${h.name}? Find out what it could sell for in today's market.`} href="/home-value" label="Free valuation" />
           </Reveal>
         </section>
 

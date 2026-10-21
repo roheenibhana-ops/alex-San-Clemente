@@ -431,3 +431,4 @@ a { color: inherit; }
   .data-table td[data-label=""]::before { display: none; }
 }
 @media (max-width: 700px) { .data-table.cols-2 td[data-label]::before { display: none; } }
+.inline-cta > span { flex: 1 1 300px; }
