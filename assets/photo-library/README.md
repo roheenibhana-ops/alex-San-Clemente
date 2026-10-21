@@ -21,6 +21,8 @@ Alt text must describe what is visible. Do not name a place unless we are sure o
 | pier-restaurant-deck-blue-umbrellas.jpg | Pier restaurant deck with blue umbrellas above the surf | Eats & Drinks guide |
 | train-san-clemente-station-sign.jpg | Train passing the San Clemente station sign and palms | Local Tips guide |
 | golf-course-aerial-ocean.jpg | Golf course aerial with the Pacific beyond (which course unconfirmed) | "Pier Bowl vs. Talega" post |
+| talega-two-story-homes-hillside-solar.jpg | Two-story homes with solar panels and open hillside behind, aerial | Talega photo strip |
+| talega-swim-and-athletic-club-entrance.jpg | Talega Swim & Athletic Club entrance, stone arch, tile roof | Talega photo strip, Talega HOA post |
 | presidential-heights-i-sign.jpg | "Presidential Heights I, A Private Community" stone sign (area unconfirmed) | Not used yet (stashed) |
 | alex-yu-doorway-portrait.jpg | Alex in a doorway, black sweater | About page, home About, author cards (cropped) |
 | alex-yu-blazer-headshot.jpg | Older blue-blazer headshot | Parked, not used |
