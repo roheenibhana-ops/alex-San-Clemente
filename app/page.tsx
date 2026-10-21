@@ -104,9 +104,13 @@ export default function Home() {
           </Reveal>
           <p className="seen-on"><span>As seen streaming on</span> {seenOn.map((n) => <strong key={n}>{n}</strong>)}</p>
           <div className="recog-split">
-            {endorsement.photo && (
-              // eslint-disable-next-line @next/next/no-img-element
-              <img src={endorsement.photo} alt="Alex Yu with Barbara Corcoran" loading="lazy" />
+            {endorsement.photos.length > 0 && (
+              <div className="recog-photos">
+                {endorsement.photos.map((src) => (
+                  // eslint-disable-next-line @next/next/no-img-element
+                  <img key={src} src={src} alt="Alex Yu with Barbara Corcoran" loading="lazy" />
+                ))}
+              </div>
             )}
             <div>
               <h3>{endorsement.heading}</h3>
