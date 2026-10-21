@@ -63,6 +63,8 @@ export default function Blog() {
                 ["Planning a move", "[Moving to San Clemente](/blog/moving-to-san-clemente-what-to-know)", "Weather, commuting, costs, and a relocation checklist"],
                 ["Ready to buy", "[Buying a single-family home](/blog/buying-a-single-family-home-in-san-clemente)", "Budget, offers, inspections, and closing, step by step"],
                 ["Choosing an area", "[Pier Bowl vs. Talega](/blog/pier-bowl-vs-talega)", "Two very different ways to live in San Clemente"],
+                ["Eyeing Sea Summit", "[Azure, Aqua, Sapphire and Indigo compared](/blog/sea-summit-azure-aqua-sapphire-indigo-compared)", "How the four tracts differ, plus HOA and Mello-Roos"],
+                ["Weighing Talega costs", "[Talega HOA dues and Mello-Roos](/blog/talega-hoa-dues-mello-roos-what-they-cover)", "What the layers of cost pay for and what to ask"],
                 ["Love the outdoors", "[Beach trail guide](/blog/san-clemente-beach-trail-guide) and [how to pick a beach](/blog/how-to-choose-a-san-clemente-beach)", "Hours, safety, parking, and where to go"],
               ]}
             />

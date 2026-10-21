@@ -15,6 +15,7 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 import JsonLd from "@/components/JsonLd";
 import { hoods, getHood } from "@/lib/neighborhoods";
 import { guides } from "@/lib/places";
+import { posts } from "@/lib/posts";
 import { deep } from "@/lib/neighborhoodDeep";
 import Inline from "@/components/Inline";
 import { cityMarket, marketSource } from "@/lib/market";
@@ -45,6 +46,15 @@ export default async function HoodPage({ params }: { params: Promise<{ slug: str
   if (!h) notFound();
   const others = hoods.filter((x) => x.slug !== h.slug).slice(0, 3);
   const d = deep[h.slug];
+  const relatedMap: Record<string, string[]> = {
+    "sea-summit": ["sea-summit-azure-aqua-sapphire-indigo-compared", "talega-hoa-dues-mello-roos-what-they-cover", "pier-bowl-vs-talega"],
+    talega: ["talega-hoa-dues-mello-roos-what-they-cover", "sea-summit-azure-aqua-sapphire-indigo-compared", "pier-bowl-vs-talega"],
+    "downtown-pier-bowl": ["pier-bowl-vs-talega", "san-clemente-beach-trail-guide", "how-to-choose-a-san-clemente-beach"],
+    "forster-ranch": ["moving-to-san-clemente-what-to-know", "pier-bowl-vs-talega", "buying-a-single-family-home-in-san-clemente"],
+    shorecliffs: ["moving-to-san-clemente-what-to-know", "buying-a-single-family-home-in-san-clemente", "san-clemente-housing-market-update-october-2026"],
+    "rancho-san-clemente": ["moving-to-san-clemente-what-to-know", "buying-a-single-family-home-in-san-clemente", "san-clemente-housing-market-update-october-2026"],
+  };
+  const related = (relatedMap[h.slug] ?? []).map((sl) => posts.find((p) => p.slug === sl)).filter(Boolean) as typeof posts;
   const allFaqs = [...h.faqs, ...(d?.extraFaqs ?? [])];
 
   return (
@@ -244,6 +254,23 @@ export default async function HoodPage({ params }: { params: Promise<{ slug: str
             </ul>
           </Reveal>
         </section>
+
+        {related.length > 0 && (
+          <section className="section tint">
+            <Reveal>
+              <h2>Read next about {h.name}</h2>
+              <div className="post-grid">
+                {related.map((r) => (
+                  <Link key={r.slug} href={`/blog/${r.slug}`} className="post-card">
+                    <span className="tile-tag">{r.category}</span>
+                    <h3>{r.title}</h3>
+                    <p>{r.excerpt}</p>
+                  </Link>
+                ))}
+              </div>
+            </Reveal>
+          </section>
+        )}
 
         <section className="section">
           <Reveal>
