@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   // Keep the temporary workers.dev address out of search results until the real domain is set.
   robots: SITE_URL.includes("workers.dev") ? { index: false, follow: false } : { index: true, follow: true },
   twitter: { card: "summary_large_image", images: ["/og.jpg"] },
-  title: "San Clemente Homes for Sale | Single-Family Homes | Alex Yu Team",
+  title: "San Clemente Homes for Sale | Single-Family | Alex Yu Team",
   description:
     "Search single-family homes for sale in San Clemente, CA. Median price around $2M. Free home valuation and local expertise from Alex Yu, First Team Real Estate.",
   openGraph: {

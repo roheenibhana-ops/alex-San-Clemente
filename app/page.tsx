@@ -10,6 +10,8 @@ import { guides } from "@/lib/places";
 import Link from "next/link";
 import { agent, market, stats, lifestyle, services, faqs } from "@/lib/content";
 
+export const metadata = { alternates: { canonical: "/" } };
+
 function Icon({ name }: { name: string }) {
   const p = { fill: "none", stroke: "currentColor", strokeWidth: 1.6, strokeLinecap: "round", strokeLinejoin: "round" } as const;
   return (

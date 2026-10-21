@@ -11,6 +11,7 @@ export const metadata: Metadata = {
   title: "Living in San Clemente, CA | Beaches, Trails, Eats & Schools",
   description:
     "What it's like to live in San Clemente, CA: beaches and surf, trails, local eats, school district info, events, and getting around. A local guide from Alex Yu.",
+  alternates: { canonical: "/lifestyle" },
 };
 
 export default function Lifestyle() {
