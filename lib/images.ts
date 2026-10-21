@@ -36,7 +36,10 @@ export const images: Record<string, Img> = {
     src: "/images/neighborhoods/shorecliffs-ocean-view-homes.jpg",
     alt: "Aerial view of ocean-view homes and a private community in Shorecliffs, San Clemente",
   },
-  // "hood:talega": { src: "/images/neighborhoods/talega.jpg", alt: "..." },
+  "hood:talega": {
+    src: "/images/neighborhoods/talega.jpg",
+    alt: "Aerial view of a row of two-story homes in Talega, San Clemente, with a golf course and rolling hills behind",
+  },
 };
 
 // Extra photos shown in a strip on a neighborhood page, keyed by neighborhood slug.
