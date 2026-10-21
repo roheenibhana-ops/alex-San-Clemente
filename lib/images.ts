@@ -61,6 +61,14 @@ export const images: Record<string, Img> = {
     src: "/images/food/seafood-sunset.jpg",
     alt: "Aerial view of the San Clemente Pier restaurants with blue umbrella decks over the sand and surf",
   },
+  "hood:rancho-san-clemente": {
+    src: "/images/neighborhoods/rancho-san-clemente.jpg",
+    alt: "Aerial view of hillside homes with the Pacific Ocean stretching out below under a bright sky in San Clemente",
+  },
+  "post:sea-pointe-estates-gated-community-san-clemente": {
+    src: "/images/blog/sea-pointe-estates-gated-community-san-clemente.jpg",
+    alt: "Aerial view of a community clubhouse, pool and tennis courts among hillside homes",
+  },
   "post:shorecliffs-beach-club-neighborhood-guide": {
     src: "/images/neighborhoods/shorecliffs-ocean-view-homes.jpg",
     alt: "Aerial view of ocean-view homes and a private community in Shorecliffs, San Clemente",
