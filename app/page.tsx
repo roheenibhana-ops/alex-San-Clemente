@@ -83,7 +83,7 @@ export default function Home() {
                 <GoogleG size={44} />
                 <div>
                   <p className="eyebrow">Trusted by clients</p>
-                  <h2>Alex Yu reviews: rated {reviewStats.rating} on Google</h2>
+                  <h2>Rated {reviewStats.rating} on Google</h2>
                   <p className="stars-big" aria-hidden>★★★★★</p>
                   <p className="sub">{reviewStats.count} {reviewStats.label}</p>
                 </div>
