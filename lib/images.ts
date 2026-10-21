@@ -14,7 +14,7 @@ export const images: Record<string, Img> = {
   },
   "hood:shorecliffs": {
     src: "/images/neighborhoods/shorecliffs.jpg",
-    alt: "Aerial view of coastal homes with ocean views in San Clemente",
+    alt: "Aerial view of an ocean-view home and neighboring rooftops above the Pacific in Shorecliffs, San Clemente",
   },
   "hood:forster-ranch": {
     src: "/images/neighborhoods/forster-ranch.jpg",
@@ -33,6 +33,16 @@ export const images: Record<string, Img> = {
     alt: "Two-story single-family home with a tile roof and landscaped entry in San Clemente",
   },
   // "hood:talega": { src: "/images/neighborhoods/talega.jpg", alt: "..." },
+
+};
+
+// Extra photos shown in a strip on a neighborhood page, keyed by neighborhood slug.
+export const galleries: Record<string, Img[]> = {
+  shorecliffs: [
+    { src: "/images/neighborhoods/shorecliffs-coastline.jpg", alt: "Aerial view of coastal homes above the shoreline and beach in Shorecliffs, San Clemente" },
+    { src: "/images/neighborhoods/shorecliffs-ocean-deck.jpg", alt: "Deck with outdoor seating and a pool overlooking the Pacific Ocean and beach in Shorecliffs" },
+    { src: "/images/neighborhoods/shorecliffs-ocean-view-homes.jpg", alt: "Aerial view of ocean-view homes in Shorecliffs, San Clemente" },
+  ],
 };
 
 export const imageFor = (key: string): Img | undefined => images[key];

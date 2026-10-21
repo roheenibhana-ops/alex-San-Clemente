@@ -9,7 +9,7 @@ import InlineCta from "@/components/InlineCta";
 import AlertBanner from "@/components/AlertBanner";
 import AuthorCard from "@/components/AuthorCard";
 import CardImage from "@/components/CardImage";
-import { imageFor } from "@/lib/images";
+import { imageFor, galleries } from "@/lib/images";
 import DataTable from "@/components/DataTable";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import JsonLd from "@/components/JsonLd";
@@ -140,6 +140,17 @@ export default async function HoodPage({ params }: { params: Promise<{ slug: str
             <InlineCta text={`See ${h.name} for yourself. Alex will show you the streets worth your time.`} href="/#contact" label="Book a tour" />
           </Reveal>
         </section>
+
+        {galleries[h.slug] && (
+          <section className="section gallery-band" aria-label={`${h.name} photos`}>
+            <div className="gallery">
+              {galleries[h.slug].map((g) => (
+                // eslint-disable-next-line @next/next/no-img-element
+                <img key={g.src} src={g.src} alt={g.alt} loading="lazy" />
+              ))}
+            </div>
+          </section>
+        )}
 
         {d && (
           <section id="day" className="section tint prose">
