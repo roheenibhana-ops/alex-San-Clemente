@@ -457,3 +457,7 @@ a { color: inherit; }
   .post-grid:has(> :nth-child(4):last-child), .hood-grid:has(> :nth-child(4):last-child), .place-grid:has(> :nth-child(4):last-child), .grid2:has(> :nth-child(4):last-child), .more-guides:has(> :nth-child(4):last-child), .guide-links:has(> :nth-child(4):last-child) { --b: 44%; }
   .place-grid:has(> :nth-child(7):last-child), .grid4:has(> :nth-child(7):last-child) { --b: 22%; }
 }
+
+a.card-link { display: block; text-decoration: none; color: inherit; }
+a.card-link h3 { color: var(--ink); }
+a.card-link .link-arrow { display: inline-block; margin-top: .75rem; }

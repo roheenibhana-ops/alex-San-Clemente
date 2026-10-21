@@ -18,6 +18,43 @@ export const metadata: Metadata = {
   alternates: { canonical: "/lifestyle" },
 };
 
+const cardLinks: Record<string, string> = {
+  "San Clemente Pier & Pier Bowl": "/neighborhoods/downtown-pier-bowl",
+  "T-Street": "/lifestyle/beaches",
+  "Calafia Beach Park": "/lifestyle/beaches",
+  "Trestles": "/lifestyle/beaches",
+  "San Clemente Beach Trail": "/blog/san-clemente-beach-trail-guide",
+  "Neighborhood parks": "/lifestyle/parks-trails",
+  "Hills and canyon trails": "/lifestyle/parks-trails",
+  "Coffee & breakfast": "/lifestyle/food-drink/brunch",
+  "Tacos & casual": "/lifestyle/food-drink",
+  "Sunset dinners": "/lifestyle/food-drink/seafood-sunset",
+  "Evening drinks & dessert": "/lifestyle/food-drink/dinner",
+  "Downtown farmers market": "/lifestyle/local-tips",
+  "Ocean Festival": "/lifestyle/local-tips",
+  "Fourth of July parade": "/lifestyle/local-tips",
+  "The 5 freeway": "/blog/moving-to-san-clemente-what-to-know",
+  "Train service": "/blog/moving-to-san-clemente-what-to-know",
+  "Walk and bike": "/blog/san-clemente-beach-trail-guide",
+};
+
+function InfoCard({ title, body, children }: { title: string; body: string; children?: React.ReactNode }) {
+  const href = cardLinks[title];
+  const inner = (
+    <>
+      <h3>{title}</h3>
+      <p>{body}</p>
+      {children}
+      {href && <span className="link-arrow">Read more →</span>}
+    </>
+  );
+  return href ? (
+    <Link href={href} className="card card-link">{inner}</Link>
+  ) : (
+    <div className="card">{inner}</div>
+  );
+}
+
 export default function Lifestyle() {
   return (
     <>
@@ -75,10 +112,7 @@ export default function Lifestyle() {
           <div className="grid2">
             {beaches.map((b, i) => (
               <Reveal key={b.name} delay={i * 80}>
-                <div className="card">
-                  <h3>{b.name}</h3>
-                  <p>{b.body}</p>
-                </div>
+                <InfoCard title={b.name} body={b.body} />
               </Reveal>
             ))}
           </div>
@@ -92,10 +126,7 @@ export default function Lifestyle() {
           <div className="grid4">
             {outdoors.map((o, i) => (
               <Reveal key={o.name} delay={i * 80}>
-                <div className="card">
-                  <h3>{o.name}</h3>
-                  <p>{o.body}</p>
-                </div>
+                <InfoCard title={o.name} body={o.body} />
               </Reveal>
             ))}
           </div>
@@ -112,9 +143,7 @@ export default function Lifestyle() {
           <div className="grid2">
             {eats.map((e, i) => (
               <Reveal key={e.category} delay={i * 80}>
-                <div className="card">
-                  <h3>{e.category}</h3>
-                  <p>{e.blurb}</p>
+                <InfoCard title={e.category} body={e.blurb}>
                   {e.picks.length > 0 && (
                     <ul className="picks">
                       {e.picks.map((p) => (
@@ -129,7 +158,7 @@ export default function Lifestyle() {
                       ))}
                     </ul>
                   )}
-                </div>
+                </InfoCard>
               </Reveal>
             ))}
           </div>
@@ -162,10 +191,7 @@ export default function Lifestyle() {
           <div className="grid4">
             {events.map((e, i) => (
               <Reveal key={e.name} delay={i * 80}>
-                <div className="card">
-                  <h3>{e.name}</h3>
-                  <p>{e.body}</p>
-                </div>
+                <InfoCard title={e.name} body={e.body} />
               </Reveal>
             ))}
           </div>
@@ -179,10 +205,7 @@ export default function Lifestyle() {
           <div className="grid4">
             {gettingAround.map((g, i) => (
               <Reveal key={g.name} delay={i * 80}>
-                <div className="card">
-                  <h3>{g.name}</h3>
-                  <p>{g.body}</p>
-                </div>
+                <InfoCard title={g.name} body={g.body} />
               </Reveal>
             ))}
           </div>
