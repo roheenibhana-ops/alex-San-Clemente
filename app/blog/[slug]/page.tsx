@@ -7,7 +7,9 @@ import Reveal from "@/components/Reveal";
 import DataTable from "@/components/DataTable";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import JsonLd from "@/components/JsonLd";
-import { posts, getPost, type Block } from "@/lib/posts";
+import { posts, getPost } from "@/lib/posts";
+import type { Block } from "@/lib/posts/types";
+import Inline from "@/components/Inline";
 import { SITE_URL } from "@/lib/site";
 import { agent } from "@/lib/content";
 
@@ -32,21 +34,35 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 const fmt = (iso: string) =>
   new Date(iso + "T12:00:00Z").toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric", timeZone: "UTC" });
 
+const anchor = (t: string) => t.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
+
 function words(blocks: Block[]) {
   return blocks.reduce((n, b) => {
-    if (b.t === "p" || b.t === "h2") return n + b.text.split(/\s+/).length;
-    if (b.t === "ul") return n + b.items.join(" ").split(/\s+/).length;
+    if (b.t === "p" || b.t === "h2" || b.t === "h3") return n + b.text.split(/\s+/).length;
+    if (b.t === "ul" || b.t === "ol") return n + b.items.join(" ").split(/\s+/).length;
     if (b.t === "callout") return n + b.text.split(/\s+/).length;
+    if (b.t === "story") return n + b.paragraphs.join(" ").split(/\s+/).length;
     return n + 40;
   }, 0);
 }
 
 function Render({ b }: { b: Block }) {
   switch (b.t) {
-    case "p": return <p>{b.text}</p>;
-    case "h2": return <h2>{b.text}</h2>;
-    case "ul": return <ul>{b.items.map((i) => <li key={i}>{i}</li>)}</ul>;
-    case "callout": return <aside className="callout"><strong>{b.title}</strong><p>{b.text}</p></aside>;
+    case "p": return <p><Inline text={b.text} /></p>;
+    case "h2": return <h2 id={anchor(b.text)}>{b.text}</h2>;
+    case "h3": return <h3>{b.text}</h3>;
+    case "ul": return <ul>{b.items.map((i) => <li key={i}><Inline text={i} /></li>)}</ul>;
+    case "ol": return <ol>{b.items.map((i) => <li key={i}><Inline text={i} /></li>)}</ol>;
+    case "callout": return <aside className="callout"><strong>{b.title}</strong><p><Inline text={b.text} /></p></aside>;
+    case "story":
+      return (
+        <aside className="story">
+          <span className="story-tag">Illustrative scenario, not a specific client</span>
+          <h3>{b.title}</h3>
+          {b.paragraphs.map((t) => <p key={t}><Inline text={t} /></p>)}
+        </aside>
+      );
+    case "cta": return <p className="inline-cta"><Inline text={b.text} /> <Link className="btn btn-sm" href={b.href}>{b.label}</Link></p>;
     case "table": return <DataTable caption={b.caption} head={b.head} rows={b.rows} source={b.source} />;
   }
 }
@@ -55,7 +71,7 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   const p = getPost(slug);
   if (!p) notFound();
-  const mins = Math.max(2, Math.round(words(p.blocks) / 200));
+  const mins = Math.max(2, Math.round((words(p.blocks) + p.faqs.length * 60) / 220));
   const more = posts.filter((x) => x.slug !== p.slug).slice(0, 2);
 
   return (
@@ -71,8 +87,28 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
           </Reveal>
         </section>
         <article className="section prose post">
+          <aside className="takeaways">
+            <strong>Key takeaways</strong>
+            <ul>{p.takeaways.map((t) => <li key={t}><Inline text={t} /></li>)}</ul>
+          </aside>
+          <nav className="post-toc" aria-label="In this article">
+            <strong>In this article</strong>
+            <ol>
+              {p.blocks.filter((b) => b.t === "h2").map((b) => (
+                <li key={(b as { text: string }).text}><a href={`#${anchor((b as { text: string }).text)}`}>{(b as { text: string }).text}</a></li>
+              ))}
+              <li><a href="#faq">Frequently asked questions</a></li>
+            </ol>
+          </nav>
           {p.blocks.map((b, i) => (
             <Render key={i} b={b} />
+          ))}
+          <h2 id="faq">Frequently asked questions</h2>
+          {p.faqs.map((f) => (
+            <details className="faq" key={f.q}>
+              <summary>{f.q}</summary>
+              <p><Inline text={f.a} /></p>
+            </details>
           ))}
           {p.links.length > 0 && (
             <>
@@ -115,6 +151,13 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
         </section>
       </main>
       <Footer />
+      <JsonLd
+        data={{
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: p.faqs.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a.replace(/\[([^\]]+)\]\([^)]+\)/g, "$1") } })),
+        }}
+      />
       <JsonLd
         data={{
           "@context": "https://schema.org",
