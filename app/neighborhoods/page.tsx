@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { imageFor } from "@/lib/images";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Reveal from "@/components/Reveal";
@@ -26,7 +27,11 @@ export default function NeighborhoodsHub() {
     <>
       <Header />
       <main>
-        <section className="page-hero">
+        <section className={`page-hero ${imageFor("page:neighborhoods") ? "has-img" : ""}`}>
+          {imageFor("page:neighborhoods") && (
+            // eslint-disable-next-line @next/next/no-img-element
+            <img className="page-hero-img" src={imageFor("page:neighborhoods")!.src} alt={imageFor("page:neighborhoods")!.alt} width={1600} height={1000} fetchPriority="high" />
+          )}
           <Reveal>
             <Breadcrumbs trail={[{ label: "Neighborhoods", href: "/neighborhoods" }]} />
             <p className="eyebrow">Neighborhood guide</p>

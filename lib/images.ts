@@ -1,6 +1,6 @@
 // Image slots. Add an entry when a photo is dropped into /public/images, and the matching card,
 // hero, or tab picks it up automatically. Anything without an entry keeps its gradient look.
-// Keys: "hood:<slug>", "guide:<slug>", "post:<slug>", "food:<slug>".
+// Keys: "page:<name>", "hood:<slug>", "guide:<slug>", "post:<slug>", "food:<slug>".
 export type Img = { src: string; alt: string };
 
 export const images: Record<string, Img> = {
@@ -80,6 +80,10 @@ export const images: Record<string, Img> = {
   "post:san-clemente-vs-dana-point-vs-san-juan-capistrano": {
     src: "/images/blog/san-clemente-vs-dana-point-vs-san-juan-capistrano.jpg",
     alt: "Terracotta-colored coastal condominium building with balconies and palm trees on a San Clemente street",
+  },
+  "page:neighborhoods": {
+    src: "/images/neighborhoods/hub-sunset-coast.jpg",
+    alt: "Sunset over the Pacific Ocean beside oceanfront buildings with red tile roofs and palm trees in San Clemente",
   },
   "post:shorecliffs-beach-club-neighborhood-guide": {
     src: "/images/neighborhoods/shorecliffs-ocean-view-homes.jpg",
