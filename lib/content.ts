@@ -51,18 +51,38 @@ export const services = [
   {
     title: "Buying a single-family home",
     body: "Neighborhood-by-neighborhood guidance for the homes that make up 70% of the market, plus sharp negotiation from first tour to keys.",
+    href: "/blog/buying-a-single-family-home-in-san-clemente",
+    label: "Read the buying guide",
   },
   {
     title: "Selling your house",
     body: "Pricing strategy for a roughly $2M market, polished presentation, and marketing built to reach the right coastal buyers.",
+    href: "/home-value",
+    label: "Get a free valuation",
   },
   {
-    title: "Investing",
-    body: "Rental and long-term hold analysis for the South Orange County coast, with numbers before opinions.",
+    title: "Free home valuation",
+    body: "Know your number before you decide. A valuation built from your address and recent nearby sales, not just an algorithm, with no obligation.",
+    href: "/home-value",
+    label: "Request my valuation",
+  },
+  {
+    title: "Neighborhood matching",
+    body: "Six areas, six ways to live. Alex helps match the streets to how you actually spend your week, from walkable Downtown to planned communities inland.",
+    href: "/neighborhoods",
+    label: "Compare neighborhoods",
   },
   {
     title: "Relocating to OC",
     body: "Moving in from out of town? A remote-friendly process with video tours and a local who does the legwork.",
+    href: "/blog/moving-to-san-clemente-what-to-know",
+    label: "Read the moving guide",
+  },
+  {
+    title: "Investing",
+    body: "Rental and long-term hold analysis for the South Orange County coast, with numbers before opinions.",
+    href: "/#contact",
+    label: "Talk to Alex",
   },
 ];
 

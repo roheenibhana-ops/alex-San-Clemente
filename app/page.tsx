@@ -183,13 +183,14 @@ export default function Home() {
             <p className="eyebrow">How Alex helps</p>
             <h2>Educate first, advise second</h2>
           </Reveal>
-          <div className="grid2">
+          <div className="grid3">
             {services.map((s, i) => (
               <Reveal key={s.title} delay={i * 80}>
                 <div className="card service">
                   <span className="num">0{i + 1}</span>
                   <h3>{s.title}</h3>
                   <p>{s.body}</p>
+                  <Link className="link-arrow" href={s.href}>{s.label} →</Link>
                 </div>
               </Reveal>
             ))}
