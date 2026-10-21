@@ -51,6 +51,7 @@ export const post: Post = {
         ["Community events", "Ocean Festival each July and a weekly farmers market", "[Local tips](/lifestyle/local-tips)"],
       ],
     },
+    { t: "cta", text: "Planning a move? Tell Alex your timeline and he'll build a simple plan.", href: "/#contact", label: "Start my plan" },
     { t: "h2", text: "Things to plan for" },
     { t: "p", text: "No place is perfect, and a good move means going in with eyes open. Here are the realities residents mention most often." },
     {
@@ -70,6 +71,7 @@ export const post: Post = {
     { t: "h2", text: "Weather and what to wear" },
     { t: "p", text: "San Clemente has a Mediterranean climate: mild, dry summers and cool, mostly dry winters. According to Wikipedia, August is the warmest month with an average high near 79°F, and December the coolest with an average high near 64°F. Locals dress in layers. A light jacket in the morning, shorts by afternoon, and a sweatshirt again at sunset is a common rhythm." },
     { t: "p", text: "Coastal marine layer, the low cloud that rolls in off the ocean, can make mornings gray even when inland areas are sunny. Neighborhoods farther from the water often see more sun and warmer afternoons. If sunshine is a priority, spend time in the specific area you're considering on a few different mornings." },
+    { t: "cta", text: "Want a shortlist of neighborhoods that fit how you live? Ask Alex.", href: "/#contact", label: "Get my shortlist" },
     { t: "h2", text: "Choosing a neighborhood by how you live" },
     { t: "p", text: "San Clemente isn't one experience. Where you live changes your day more than almost any other choice. Here's a quick map to our neighborhood guides:" },
     {
@@ -103,6 +105,7 @@ export const post: Post = {
       "During a longer visit, they notice a few things. Coastal mornings are gray more often than the brochures suggest. Summer weekends bring crowds and tight parking near the water. And the homes closest to the beach are smaller on smaller lots, which would mean giving up the yard they imagined.",
       "After touring both a Downtown cottage and a larger inland home, they realize they value space and a quieter street more than being steps from the pier. They choose an area a short drive from the beach and plan on going to the sand a few mornings a week. Their takeaway: visit more than once, in more than one season, before you decide.",
     ] },
+    { t: "cta", text: "See what homes are actually selling for right now.", href: "/blog/san-clemente-housing-market-update-october-2026", label: "Read the market update" },
     { t: "h2", text: "The budget conversation" },
     { t: "p", text: "San Clemente isn't inexpensive. With a median single-family price around $2M, getting the monthly number right matters. Beyond the mortgage payment, plan for:" },
     {
@@ -118,6 +121,7 @@ export const post: Post = {
       ],
     },
     { t: "p", text: "For independent, neutral guidance on mortgages and closing costs, the [Consumer Financial Protection Bureau's Owning a Home resources](https://www.consumerfinance.gov/owning-a-home/) are a good starting point. To see where prices are heading, read our latest [market update](/blog/san-clemente-housing-market-update-october-2026)." },
+    { t: "cta", text: "Moving from out of town? Alex can set up video tours and a remote-friendly process.", href: "/#contact", label: "Plan a video tour" },
     { t: "h2", text: "A simple relocation timeline" },
     {
       t: "table",

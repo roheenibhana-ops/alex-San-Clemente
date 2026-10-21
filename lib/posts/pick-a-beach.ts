@@ -50,6 +50,7 @@ export const post: Post = {
     { t: "h3", text: "Trestles" },
     { t: "p", text: "Trestles, part of San Onofre State Beach just south of town, is one of the best-known surf breaks in the world. The only way to the beach is a walk of a mile or more down a trail, so bring water and plan for the climb back. Even if you don't surf, it's a memorable place to watch the waves." },
     { t: "callout", title: "Rules and fees change", text: "Parking rates, hours, surf restrictions, and access can change. Check the [City of San Clemente's beach information](https://www.sanclemente.gov/194) and, for state beaches, California State Parks before you go." },
+    { t: "cta", text: "Want the full beach-by-beach breakdown with parking and access?", href: "/lifestyle/beaches", label: "Read the beaches guide" },
     { t: "h2", text: "Parking and access compared" },
     {
       t: "table",
@@ -173,6 +174,7 @@ export const post: Post = {
     { t: "p", text: "Access varies a lot from beach to beach, and a little planning avoids frustration. The city lists ADA access at North Beach, while T-Street is reached by stairs and an overpass, Lasuen by a long stairwell, and Trestles by a walk of a mile or more down a trail. Calafia Beach Park, with its larger lot and facilities, is often a comfortable choice if you want easier access and room to spread out." },
     { t: "p", text: "If accessibility matters for you or someone in your group, call the city or check its [beach information page](https://www.sanclemente.gov/194) before you go, since facilities and conditions change. Our [local tips guide](/lifestyle/local-tips) also collects the small details, like pier hours and parking, that make a beach day smoother." },
 
+    { t: "cta", text: "Prefer to walk between beaches? Our trail guide covers hours, safety, and stops.", href: "/blog/san-clemente-beach-trail-guide", label: "Read the trail guide" },
     { t: "h2", text: "Five perfect beach days" },
     { t: "p", text: "If you're not sure where to start, here are five sample days to match different moods. Adjust them to your own preferences." },
     {
@@ -219,6 +221,7 @@ export const post: Post = {
       "They realize that living in the Pier Bowl or Downtown would put them within walking distance of the sand and the pier, while living inland would mean driving, but would give them a larger yard. They ask which streets are closest to the beaches they care about and tour homes along the hillside.",
       "The beach they loved most ended up guiding the neighborhood they chose. If that sounds like you, our [Downtown & Pier Bowl guide](/neighborhoods/downtown-pier-bowl) is the best place to start.",
     ] },
+    { t: "cta", text: "Tell Alex your favorite beach and he'll point you to the closest streets.", href: "/#contact", label: "Talk to Alex" },
     { t: "h2", text: "Living near the beaches" },
     { t: "p", text: "If the coast is the reason you're here, think about how close you want to be. Homes within walking distance of the beach trail and pier are in the Downtown and Pier Bowl area, where lots tend to be smaller and prices vary with view and distance from the sand. Farther from the water, [Sea Summit](/neighborhoods/sea-summit), [Forster Ranch](/neighborhoods/forster-ranch), and [Talega](/neighborhoods/talega) offer different settings, with a drive to the coast." },
     { t: "p", text: "Tradeoffs matter. Living close to the water can mean summer crowds, limited parking, and train noise near the tracks. Living farther away can mean more space and quiet, but a drive for beach days. See the full [neighborhood comparison](/neighborhoods) for details, and our [market update](/blog/san-clemente-housing-market-update-october-2026) for the latest prices." },

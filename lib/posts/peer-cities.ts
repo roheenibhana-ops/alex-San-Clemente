@@ -69,6 +69,7 @@ export const post: Post = {
         ["Newport Coast", "223 days", "96.6%", "31%", "+133%", "Strongest long-term growth of the six"],
       ],
     },
+    { t: "cta", text: "Tell Alex your budget and priorities and he'll put recent sales side by side for you.", href: "/#contact", label: "Talk to Alex" },
     { t: "h2", text: "How to use this comparison if you're buying" },
     { t: "ol", items: [
       "**Choose your lifestyle first.** Walkability, harbor access, lot size, and newer versus older homes matter more than a city-level statistic.",
@@ -77,6 +78,7 @@ export const post: Post = {
       "**Visit at different times.** Beach towns feel different on a weekday morning and a summer weekend. Check parking and traffic.",
       "**Ask for local comps.** Request recent closed sales within a few blocks, not city averages.",
     ] },
+    { t: "cta", text: "Curious how your home would fare in today's market? Get a free, no-obligation valuation.", href: "/home-value", label: "Request a valuation" },
     { t: "h2", text: "How to use it if you're selling" },
     { t: "ul", items: [
       "**Price to the market, not to your hopes.** With 31% to 45% of listings in these cities taking cuts, overpricing is the most common mistake.",
@@ -125,6 +127,7 @@ export const post: Post = {
     { t: "h2", text: "Beyond the market data: lifestyle differences" },
     { t: "p", text: "The numbers only tell part of the story. Day-to-day, these cities feel different. San Clemente's beach trail, pier, and Downtown give it a small-town rhythm, and you can explore that in our guides to [beaches](/lifestyle/beaches), [parks and trails](/lifestyle/parks-trails), and [local food and drink](/lifestyle/food-drink). For practical tips on living here, see our guide to [moving to San Clemente](/blog/moving-to-san-clemente-what-to-know)." },
     { t: "p", text: "If you want the official picture of the city, the [City of San Clemente](https://www.sanclemente.gov/) website is a good starting point, and [Wikipedia's San Clemente entry](https://en.wikipedia.org/wiki/San_Clemente,_California) offers background on history, climate, and transportation." },
+    { t: "cta", text: "Leaning toward San Clemente? Explore the six neighborhoods before you tour.", href: "/neighborhoods", label: "Explore neighborhoods" },
     { t: "h2", text: "Getting around the region" },
     { t: "p", text: "Where you live on this stretch of coast shapes how you move through the region, and transportation options differ from town to town. San Clemente is served by the Amtrak Pacific Surfliner and by Metrolink, with stations in town, which makes trips north toward Orange County and Los Angeles or south toward San Diego possible without driving. You can check routes and schedules on the [Pacific Surfliner](https://www.pacificsurfliner.com/) and [Metrolink](https://www.metrolinktrains.com/) sites." },
     { t: "p", text: "For local buses, the [Orange County Transportation Authority](https://octa.net/) publishes routes and timetables. Even if you plan to drive most days, it's worth knowing the rail and bus options, since they can make a long commute or an event day far easier. The I-5 is the main artery for all of these cities, so test your own drive at the hours you'd actually travel before you decide where to buy." },
@@ -155,6 +158,7 @@ export const post: Post = {
       ],
     },
     { t: "p", text: "Write your answers down, rank them, and then see which city and which neighborhood fits the top three. Many buyers discover that the right city is obvious once they stop asking which one has the best statistics and start asking which one fits their weekly routine." },
+    { t: "cta", text: "Planning a move to the coast? Read our honest relocation guide.", href: "/blog/moving-to-san-clemente-what-to-know", label: "Read the moving guide" },
     { t: "h2", text: "Limits of this data" },
     { t: "p", text: "Good analysis includes honesty about limitations. Here are the caveats to keep in mind:" },
     {

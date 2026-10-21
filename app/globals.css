@@ -267,7 +267,8 @@ a { color: inherit; }
 .story { background: #fff; border-left: 4px solid var(--coral); border-radius: 14px; padding: 1.5rem 1.75rem; margin: 2rem 0; box-shadow: var(--shadow); }
 .story h3 { margin-top: .4rem; }
 .story-tag { font-size: .72rem; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; color: var(--coral); }
-.inline-cta { background: var(--sand-2); border-radius: 14px; padding: 1rem 1.25rem; display: flex; gap: 1rem; align-items: center; justify-content: space-between; flex-wrap: wrap; }
+.inline-cta { background: linear-gradient(135deg, #e6f3f1, #f6ecdf); border: 1px solid rgba(10,108,140,.18); border-left: 5px solid var(--coral); border-radius: 16px; padding: 1.25rem 1.5rem; margin: 2rem 0; display: flex; gap: 1rem 1.5rem; align-items: center; justify-content: space-between; flex-wrap: wrap; font-size: 1.1rem; font-weight: 600; color: var(--ink); }
+.inline-cta .btn { white-space: nowrap; }
 .post a { overflow-wrap: anywhere; }
 
 /* ===== photo slots ===== */
@@ -316,3 +317,5 @@ a { color: inherit; }
 .review figcaption strong { color: var(--ink); font-size: 1rem; }
 .review figcaption span { display: inline-flex; align-items: center; gap: .35rem; flex-wrap: wrap; }
 .reviews-cta { text-align: center; margin-top: 2rem; }
+.prose a.btn, .post a.btn { color: #fff; text-decoration: none; }
+.prose p.inline-cta { color: var(--ink); font-size: 1.1rem; }

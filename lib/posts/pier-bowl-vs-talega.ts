@@ -73,6 +73,7 @@ export const post: Post = {
       ],
     },
     { t: "callout", title: "About those HOA dues", text: "Many master-planned communities have monthly dues, and some also carry additional special taxes or assessments. Before you compare listings, ask for the total monthly cost of ownership, including taxes, insurance, and any dues. A home with a lower price can cost more per month than a higher-priced home without dues." },
+    { t: "cta", text: "Want to see both in one weekend? Alex will line up tours in each area.", href: "/#contact", label: "Book tours" },
     { t: "h2", text: "A Saturday in each" },
     { t: "p", text: "Imagine a typical Saturday to see how each area feels. These are illustrations of the rhythm, not a promise of any particular experience." },
     {
@@ -98,6 +99,7 @@ export const post: Post = {
       "During a weekend of touring, they walk the Pier Bowl, have dinner on Avenida Del Mar, and watch the sunset from the pier. They realize the thing they'd miss most isn't space, it's being able to walk to everything.",
       "They adjust their search to include smaller coastal homes and accept a smaller yard in exchange for walkability. The experience taught them that standing in a neighborhood answers questions that a floor plan can't.",
     ] },
+    { t: "cta", text: "Get the real HOA, tax, and insurance picture for specific homes.", href: "/#contact", label: "Ask Alex for the numbers" },
     { t: "h2", text: "The cost of ownership worksheet" },
     { t: "p", text: "Price is only the beginning. Two homes with identical prices can cost very different amounts each month. Use this worksheet to compare any home in either area, and fill it in with real numbers from your agent, lender, and insurance broker." },
     {
@@ -153,6 +155,7 @@ export const post: Post = {
         ["Talega", "Drive time to the beach and freeway at your hours"],
       ],
     },
+    { t: "cta", text: "Tell Alex your answers and he'll point you to the streets worth touring.", href: "/#contact", label: "Talk to Alex" },
     { t: "h2", text: "How to decide: five questions" },
     { t: "ol", items: [
       "**How often will you actually go to the beach?** Daily favors the coast; a few times a week is workable from inland.",
@@ -190,6 +193,7 @@ export const post: Post = {
     { t: "p", text: "If golf is part of your life, Talega has the edge inside the community, with a golf club as part of the plan. San Clemente also has other options worth knowing about: the public Shorecliffs Golf Club, which reopened after a major renovation in 2024, and a municipal course the city lists on its [golf page](https://www.sanclemente.gov/191). Our [Shorecliffs guide](/neighborhoods/shorecliffs) covers living near that course." },
     { t: "p", text: "Beyond golf, recreation near the Pier Bowl tends to be water-focused: surfing, paddling, beach volleyball, and long walks. Inland, tennis courts, ballfields, and sports parks are more common, and the city's [classes and programs](https://www.sanclemente.gov/192) are open to residents across town. Whichever mix you prefer, it helps to try a few activities on a visit so you know whether the area really supports the way you spend your free time." },
 
+    { t: "cta", text: "See the latest citywide numbers before you tour.", href: "/blog/san-clemente-housing-market-update-october-2026", label: "Read the market update" },
     { t: "h2", text: "Prices and market context" },
     { t: "p", text: "San Clemente's single-family median was $2,225,000 in September 2026, but neighborhood-level medians swing a lot because there are relatively few sales in any one area each month. For the citywide picture, see our [market update](/blog/san-clemente-housing-market-update-october-2026). For live listings and recent sales, Redfin has neighborhood pages for [Talega](https://www.redfin.com/neighborhood/65361/CA/San-Clemente/Talega) and the [Pier Bowl](https://www.redfin.com/neighborhood/287300/CA/San-Clemente/Pier-Bowl). Treat third-party medians as directional, and ask Alex for recent sales on the specific street you like." },
     { t: "h2", text: "What about the other neighborhoods?" },
