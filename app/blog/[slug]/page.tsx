@@ -88,7 +88,7 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
     <>
       <Header />
       <main>
-        <section className="page-hero">
+        <section className="page-hero post-top">
           <Reveal>
             <Breadcrumbs trail={[{ label: "Blog", href: "/blog" }, { label: p.title, href: `/blog/${p.slug}` }]} />
             <p className="eyebrow">{p.category}</p>
