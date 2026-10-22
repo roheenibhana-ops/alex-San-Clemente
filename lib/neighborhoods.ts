@@ -184,7 +184,7 @@ export const hoods: Hood[] = [
   },
   {
     slug: "shorecliffs",
-    liveData: { label: "San Clemente homes for sale (Alex's listing search)", href: "https://www.besthomesorangecounty.com/san-clemente/" },
+    liveData: { label: "Shorecliffs homes for sale (Alex's listing search)", href: "https://www.besthomesorangecounty.com/san-clemente/shorecliffs-homes-for-sale/" },
     name: "Shorecliffs",
     short: "A 504-home coastal-side neighborhood, developed from 1960, with its own private resident beach club.",
     tag: "Beach club neighborhood",
