@@ -77,6 +77,8 @@ export default function BlogIndex({ page }: { page: number }) {
               caption="Start with the topic that fits you"
               head={["If you're...", "Start here", "What it covers"]}
               rows={[
+                ["Planning the holidays", "[Christmas lights and holiday events](/blog/san-clemente-christmas-lights-holiday-events-2026)", "Santa's Village, light displays, Casa Romantica, and dates to check"],
+                ["Looking at Forster Ranch", "[Forster Ranch tracts compared](/blog/forster-ranch-tracts-reserves-cantomar-naples-compared)", "The Reserves, Cantomar, Naples, and what to verify"],
                 ["Planning Halloween week", "[Halloween events and trick-or-treating](/blog/san-clemente-halloween-events-2026)", "What is on, what to confirm, and local tips"],
                 ["Watching prices", "[Market update, October 2026](/blog/san-clemente-housing-market-update-october-2026)", "Median price, inventory, time to sell, and what it means"],
                 ["Comparing coastal cities", "[San Clemente vs. Dana Point vs. San Juan Capistrano](/blog/san-clemente-vs-dana-point-vs-san-juan-capistrano)", "How coastal Orange County markets behave side by side"],

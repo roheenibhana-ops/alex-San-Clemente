@@ -48,9 +48,9 @@ export default async function HoodPage({ params }: { params: Promise<{ slug: str
   const d = deep[h.slug];
   const relatedMap: Record<string, string[]> = {
     "sea-summit": ["sea-summit-azure-aqua-sapphire-indigo-compared", "talega-hoa-dues-mello-roos-what-they-cover", "pier-bowl-vs-talega"],
-    talega: ["talega-hoa-dues-mello-roos-what-they-cover", "sea-summit-azure-aqua-sapphire-indigo-compared", "pier-bowl-vs-talega"],
+    talega: ["san-clemente-christmas-lights-holiday-events-2026", "talega-hoa-dues-mello-roos-what-they-cover", "sea-summit-azure-aqua-sapphire-indigo-compared", "pier-bowl-vs-talega"],
     "downtown-pier-bowl": ["san-clemente-halloween-events-2026", "pier-bowl-vs-talega", "san-clemente-beach-trail-guide", "how-to-choose-a-san-clemente-beach"],
-    "forster-ranch": ["moving-to-san-clemente-what-to-know", "pier-bowl-vs-talega", "buying-a-single-family-home-in-san-clemente"],
+    "forster-ranch": ["forster-ranch-tracts-reserves-cantomar-naples-compared", "moving-to-san-clemente-what-to-know", "pier-bowl-vs-talega", "buying-a-single-family-home-in-san-clemente"],
     shorecliffs: ["shorecliffs-beach-club-neighborhood-guide", "moving-to-san-clemente-what-to-know", "buying-a-single-family-home-in-san-clemente", "san-clemente-housing-market-update-october-2026"],
     "rancho-san-clemente": ["sea-pointe-estates-gated-community-san-clemente", "moving-to-san-clemente-what-to-know", "buying-a-single-family-home-in-san-clemente", "san-clemente-housing-market-update-october-2026"],
   };

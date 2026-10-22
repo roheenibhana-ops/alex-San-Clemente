@@ -91,7 +91,7 @@ export const post: Post = {
         ["Elevation and views", "Rancho San Clemente", "A hillside community where orientation matters"],
       ],
     },
-    { t: "p", text: "Read the full guides: [Downtown & Pier Bowl](/neighborhoods/downtown-pier-bowl), [Sea Summit](/neighborhoods/sea-summit), [Forster Ranch](/neighborhoods/forster-ranch), [Shorecliffs](/neighborhoods/shorecliffs), [Talega](/neighborhoods/talega), and [Rancho San Clemente](/neighborhoods/rancho-san-clemente). Or see them [side by side](/neighborhoods)." },
+    { t: "p", text: "Read the full guides: [Downtown & Pier Bowl](/neighborhoods/downtown-pier-bowl), [Sea Summit](/neighborhoods/sea-summit), [Forster Ranch](/neighborhoods/forster-ranch) (and our [Forster Ranch tracts compared](/blog/forster-ranch-tracts-reserves-cantomar-naples-compared)), [Shorecliffs](/neighborhoods/shorecliffs), [Talega](/neighborhoods/talega), and [Rancho San Clemente](/neighborhoods/rancho-san-clemente). Or see them [side by side](/neighborhoods)." },
     { t: "h2", text: "Getting around and commuting" },
     { t: "p", text: "Most residents drive, but San Clemente has more options than many Southern California cities. The Amtrak Pacific Surfliner and Metrolink both serve the city, with the San Clemente and San Clemente Pier stations. Local buses run through the Orange County Transportation Authority, and the city has offered a free trolley service since 2016 per public sources, so check the city's current schedule." },
     { t: "p", text: "Within the Pier Bowl and Downtown, many errands can be done on foot or by bike, and the beach trail is a pleasant way to cover a few miles. For the rest of town, plan on a car. If you commute, drive your real route at rush hour before you commit, because the 5 is the lifeline for most commuters." },
@@ -143,7 +143,7 @@ export const post: Post = {
     },
     { t: "p", text: "Timelines vary, and some buyers move much faster. The point is to leave room for a second visit, because the second visit is when the real picture emerges." },
     { t: "h2", text: "A year in San Clemente" },
-    { t: "p", text: "A year in San Clemente runs from a cool winter and pleasant spring to a warm, busy summer and a calm fall. Knowing the town's rhythm helps you decide when to visit and what to expect once you live here. This isn't a precise calendar, and details change, but it captures the general flow. For a sense of the local events calendar, see our [Halloween events guide](/blog/san-clemente-halloween-events-2026)." },
+    { t: "p", text: "A year in San Clemente runs from a cool winter and pleasant spring to a warm, busy summer and a calm fall. Knowing the town's rhythm helps you decide when to visit and what to expect once you live here. This isn't a precise calendar, and details change, but it captures the general flow. For a sense of the local events calendar, see our [Halloween events guide](/blog/san-clemente-halloween-events-2026) and our [Christmas lights and holiday events guide](/blog/san-clemente-christmas-lights-holiday-events-2026)." },
     {
       t: "table",
       caption: "A year in San Clemente",

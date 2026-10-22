@@ -153,7 +153,7 @@ export const post: Post = {
       rows: [
         ["Downtown & Pier Bowl", "Coastal, walkable", "View and distance from the sand", "[Read the guide](/neighborhoods/downtown-pier-bowl)"],
         ["Sea Summit", "Coastal bluff, newer construction", "View quality by lot", "[Read the guide](/neighborhoods/sea-summit)"],
-        ["Forster Ranch", "Hillside planned community", "Size, lot, and elevation", "[Read the guide](/neighborhoods/forster-ranch)"],
+        ["Forster Ranch", "Hillside planned community", "Size, lot, and elevation", "[Read the guide](/neighborhoods/forster-ranch) and the [tracts compared](/blog/forster-ranch-tracts-reserves-cantomar-naples-compared)"],
         ["Shorecliffs", "Established coastal-side neighborhood", "Terrace, view orientation, and remodel level", "[Read the guide](/neighborhoods/shorecliffs)"],
         ["Talega", "Inland master-planned, 30+ neighborhoods", "Tract, size, and HOA costs", "[Read the guide](/neighborhoods/talega)"],
         ["Rancho San Clemente", "Elevated hillside", "Orientation and view", "[Read the guide](/neighborhoods/rancho-san-clemente)"],

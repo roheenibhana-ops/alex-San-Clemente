@@ -117,6 +117,14 @@ export const images: Record<string, Img> = {
     src: "/images/blog/san-clemente-halloween-events-2026.jpg",
     alt: "Aerial view of a neighborhood park with two playgrounds, picnic tables and lawn above the street in San Clemente",
   },
+  "post:san-clemente-christmas-lights-holiday-events-2026": {
+    src: "/images/blog/san-clemente-christmas-lights-holiday-events-2026.jpg",
+    alt: "Tile-roof homes on a quiet San Clemente street at golden hour",
+  },
+  "post:forster-ranch-tracts-reserves-cantomar-naples-compared": {
+    src: "/images/blog/forster-ranch-tracts-reserves-cantomar-naples-compared.jpg",
+    alt: "Forster Highlands Neighborhood Park sign beside a playground and lawn in Forster Ranch, San Clemente",
+  },
   "post:shorecliffs-beach-club-neighborhood-guide": {
     src: "/images/neighborhoods/shorecliffs-ocean-view-homes.jpg",
     alt: "Aerial view of ocean-view homes and a private community in Shorecliffs, San Clemente",
