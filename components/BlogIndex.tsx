@@ -77,6 +77,7 @@ export default function BlogIndex({ page }: { page: number }) {
               caption="Start with the topic that fits you"
               head={["If you're...", "Start here", "What it covers"]}
               rows={[
+                ["Hosting or giving back at Thanksgiving", "[Thanksgiving in San Clemente](/blog/san-clemente-thanksgiving-2026-turkey-trots-dinner-giving-back)", "Turkey trots, dinner leads and where to help"],
                 ["Planning the holidays", "[Christmas lights and holiday events](/blog/san-clemente-christmas-lights-holiday-events-2026)", "Santa's Village, light displays, Casa Romantica, and dates to check"],
                 ["Looking at Forster Ranch", "[Forster Ranch tracts compared](/blog/forster-ranch-tracts-reserves-cantomar-naples-compared)", "The Reserves, Cantomar, Naples, and what to verify"],
                 ["Planning Halloween week", "[Halloween events and trick-or-treating](/blog/san-clemente-halloween-events-2026)", "What is on, what to confirm, and local tips"],
