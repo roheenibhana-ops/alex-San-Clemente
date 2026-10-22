@@ -17,6 +17,7 @@ export const post: Post = {
     "Tract details come mostly from listing sites, so **confirm dues, Mello-Roos and rules** for each address.",
   ],
   blocks: [
+    { t: "callout", title: "In short", text: "Forster Ranch is about twenty single-family tracts, not one neighborhood. It includes four gated Reserves (Reserve South is described as 144 homes with HOA around $250 a month on one listing) and tracts such as Cantomar (about 70 homes, 2001 and 2002). Tract details come mostly from listing sites, so verify each one." },
     { t: "p", text: "Ask three people where Forster Ranch is and you will get three different answers, because Forster Ranch is not one neighborhood. It is a large planned area with a lot of smaller tracts inside it, each with its own builder, home style, lot size and, often, its own association. Treating it as one place is the most common mistake we see." },
     { t: "p", text: "This guide is a map for buyers. It covers the names you will see on listings, what public sources say about the main tracts, and what to ask before you fall for a house. It is a companion to our main [Forster Ranch neighborhood guide](/neighborhoods/forster-ranch), which covers what daily life is like." },
     { t: "p", text: "A note on sources: most tract-level facts come from real estate listing sites, which are marketing copy, not HOA records. Some sites blocked our tools, and others gave us only partial details. We list what we found, say where it is a single source, and leave out what we could not support." },

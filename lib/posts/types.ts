@@ -17,6 +17,7 @@ export type Post = {
   metaTitle: string;
   description: string;
   date: string; // ISO
+  updated?: string; // ISO, set when a post is refreshed
   category: string;
   excerpt: string;
   takeaways: string[];
