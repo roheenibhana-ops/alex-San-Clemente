@@ -52,6 +52,7 @@ export const post: Post = {
     { t: "p", text: "A bigger option inland is the **Turkey Trot on The Ranch** at Rancho Mission Viejo, run by the Santa Margarita Water District, with a 10K, 5K and kids' 1K. A search result listed it for Thanksgiving 2026 with an 8:00 a.m. 10K and 8:30 a.m. 5K. We did not open the registration page, so confirm the details." },
     { t: "cta", text: "Thinking about living near the harbor, the coast or the hills? Alex can match you to a neighborhood that fits your routine.", href: "/neighborhoods", label: "Explore the neighborhoods" },
     { t: "h2", text: "Where can you eat Thanksgiving dinner in San Clemente?" },
+    { t: "img", src: "/images/blog/inline-thanksgiving-table.jpg", alt: "Overhead view of a shared dinner table with plates of food and people eating", caption: "A shared table is the heart of the day, whether you cook, book or pick up." },
     { t: "p", text: "Options are limited, and we want to be careful here, because restaurant hours and menus change. We could not find a confirmed list of San Clemente restaurants open on Thanksgiving 2026. These are leads to check by phone, not a recommendation list." },
     {
       t: "table",

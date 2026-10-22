@@ -127,7 +127,7 @@ export const images: Record<string, Img> = {
   },
   "post:san-clemente-thanksgiving-2026-turkey-trots-dinner-giving-back": {
     src: "/images/blog/san-clemente-thanksgiving-2026-turkey-trots-dinner-giving-back.jpg",
-    alt: "Oceanfront pier restaurant deck with blue umbrellas above the surf in San Clemente",
+    alt: "Orange and white pumpkins and wheat stalks in a wicker basket, an autumn harvest display",
   },
   "post:shorecliffs-beach-club-neighborhood-guide": {
     src: "/images/neighborhoods/shorecliffs-ocean-view-homes.jpg",
