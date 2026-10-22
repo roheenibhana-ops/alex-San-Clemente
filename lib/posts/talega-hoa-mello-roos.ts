@@ -184,6 +184,7 @@ export const post: Post = {
     { q: "Can I remodel or change my exterior?", a: "Architectural guidelines apply to patio covers, decks, landscaping and exterior colors, and unauthorized changes can lead to fines. Read the CC&Rs and plan for approval." },
   ],
   links: [
+    { label: "Ladera Ranch vs. Rancho Mission Viejo vs. Talega: a South OC guide (Alex's main site)", href: "https://www.besthomesorangecounty.com/blog/ladera-ranch-vs-rancho-mission-viejo-vs-talega-south-oc-guide/" },
     { label: "San Clemente HOA living guide (The Forum Group)", href: "https://theforumgroupre.com/blog/what-to-know-about-san-clemente-hoa-and-amenity-living" },
     { label: "Talega (Wikipedia)", href: "https://en.wikipedia.org/wiki/Talega,_San_Clemente,_California" },
     { label: "Mello-Roos (Wikipedia)", href: "https://en.wikipedia.org/wiki/Mello-Roos" },

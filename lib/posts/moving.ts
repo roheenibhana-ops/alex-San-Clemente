@@ -244,6 +244,7 @@ export const post: Post = {
     { q: "How do I start the process?", a: "Get pre-approved, shortlist neighborhoods, visit twice, and talk to a local agent. You can start with the [contact form](/#contact)." },
   ],
   links: [
+    { label: "Alex's San Clemente surf-town buyer guide (main site)", href: "https://www.besthomesorangecounty.com/blog/san-clemente-real-estate-surf-town-buyer-guide/" },
     { label: "City of San Clemente", href: "https://www.sanclemente.gov/" },
     { label: "San Clemente Times", href: "https://www.sanclementetimes.com/" },
     { label: "San Clemente (Wikipedia)", href: "https://en.wikipedia.org/wiki/San_Clemente,_California" },

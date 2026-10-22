@@ -249,6 +249,7 @@ export const post: Post = {
     { q: "How do I know if a price is fair?", a: "Compare recent closed sales within a few blocks, and consider condition, lot, and view. See our latest [market update](/blog/san-clemente-housing-market-update-october-2026)." },
   ],
   links: [
+    { label: "Alex's San Clemente surf-town buyer guide (main site)", href: "https://www.besthomesorangecounty.com/blog/san-clemente-real-estate-surf-town-buyer-guide/" },
     { label: "Consumer Financial Protection Bureau: Owning a Home", href: "https://www.consumerfinance.gov/owning-a-home/" },
     { label: "California Department of Real Estate", href: "https://www.dre.ca.gov/" },
     { label: "California Coastal Commission", href: "https://www.coastal.ca.gov/" },
