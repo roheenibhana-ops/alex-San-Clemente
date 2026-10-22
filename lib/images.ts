@@ -119,7 +119,7 @@ export const images: Record<string, Img> = {
   },
   "post:san-clemente-christmas-lights-holiday-events-2026": {
     src: "/images/blog/san-clemente-christmas-lights-holiday-events-2026.jpg",
-    alt: "Tile-roof homes on a quiet San Clemente street at golden hour",
+    alt: "Lit Christmas tree decorated with shells and ornaments on a beach at sunset",
   },
   "post:forster-ranch-tracts-reserves-cantomar-naples-compared": {
     src: "/images/blog/forster-ranch-tracts-reserves-cantomar-naples-compared.jpg",

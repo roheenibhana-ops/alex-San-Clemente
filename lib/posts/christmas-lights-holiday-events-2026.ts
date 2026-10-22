@@ -40,6 +40,7 @@ export const post: Post = {
     { t: "callout", title: "Check the date", text: "We are not guessing a 2026 date. The pattern points to Saturday, December 5, but the City and the Downtown Business Association normally announce details in late fall. Check the city calendar in November, and the [Downtown Business Association](https://www.scdba.org/glitz) for the Del Mar side." },
     { t: "p", text: "If you are going, plan to park early or use the shuttle. Downtown parking fills quickly on big nights, and Avenida Del Mar is pedestrian-focused for the evening. The City also runs the [San Clemente Trolley](https://www.sanclemente.gov/198/San-Clemente-Trolley), and its 2025 listing linked the trolley map for event night. Bring a jacket, because the coast cools down fast after the sun sets." },
     { t: "h2", text: "Where can you see Christmas lights in San Clemente?" },
+    { t: "img", src: "/images/blog/inline-palm-lights.jpg", alt: "Palm trees wrapped in red, white and green lights along a street at night", caption: "Palm trees wrapped in lights are a classic Southern California holiday look." },
     { t: "p", text: "San Clemente does not have one famous street the way some cities do. Most displays are on private streets and homes, and they change from year to year. The most useful list we found is an Orange County holiday roundup that was updated in **October 2026**. For San Clemente it names three places: two Talega neighborhoods and one home." },
     {
       t: "table",
