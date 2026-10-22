@@ -11,7 +11,7 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: { params: Promise<{ n: string }> }): Promise<Metadata> {
   const { n } = await params;
   return {
-    title: `San Clemente Real Estate Blog, Page ${n}`,
+    title: `San Clemente Blog, Page ${n} | Local Guides & Real Estate`,
     description: "More San Clemente market updates, neighborhood comparisons, and buying guides from Alex Yu.",
     alternates: { canonical: `/blog/page/${n}` },
   };

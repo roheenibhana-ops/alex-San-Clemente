@@ -31,9 +31,9 @@ export default function BlogIndex({ page }: { page: number }) {
           )}
           <Reveal>
             <Breadcrumbs trail={page === 1 ? [{ label: "Blog", href: "/blog" }] : [{ label: "Blog", href: "/blog" }, { label: `Page ${page}`, href: href(page) }]} />
-            <p className="eyebrow">The San Clemente blog</p>
-            <h1>{page === 1 ? "San Clemente Real Estate Blog" : `San Clemente Real Estate Blog, Page ${page}`}</h1>
-            <p className="lede">Market updates, neighborhood comparisons, and buying guides. Real numbers, plain English.</p>
+            <p className="eyebrow">Local guides, events &amp; real estate</p>
+            <h1>{page === 1 ? "The San Clemente Blog" : `The San Clemente Blog, Page ${page}`}</h1>
+            <p className="lede">Local events, neighborhood guides, market updates and buying advice from Alex Yu. Real numbers, plain English.</p>
           </Reveal>
         </section>
         <section className="section">
@@ -67,11 +67,11 @@ export default function BlogIndex({ page }: { page: number }) {
         {page === 1 && (
         <section className="section tint prose">
           <Reveal>
-            <h2>What can you learn from this San Clemente blog?</h2>
+            <h2>What can you find on the San Clemente blog?</h2>
             <p>
-              Every post is written for people who are thinking about buying, selling, or simply understanding San Clemente. We focus on
-              single-family homes, real numbers with their sources, and plain English, then link you to the neighborhood and lifestyle
-              guides that go deeper.
+              Every post is written for people who live in, are moving to, or are thinking about buying or selling in San Clemente. You will
+              find local events and seasonal guides alongside neighborhood deep dives and market updates, with real numbers, sources
+              and plain English, linked to the neighborhood and lifestyle guides that go deeper.
             </p>
             <DataTable
               caption="Start with the topic that fits you"
@@ -107,7 +107,7 @@ export default function BlogIndex({ page }: { page: number }) {
         data={{
           "@context": "https://schema.org",
           "@type": "Blog",
-          name: "San Clemente Real Estate Blog",
+          name: "The San Clemente Blog",
           url: `${SITE_URL}${href(page)}`,
           blogPost: posts.map((p) => ({ "@type": "BlogPosting", headline: p.title, url: `${SITE_URL}/blog/${p.slug}`, datePublished: p.date })),
         }}
