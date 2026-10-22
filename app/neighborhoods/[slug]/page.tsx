@@ -17,6 +17,7 @@ import { hoods, getHood } from "@/lib/neighborhoods";
 import { guides } from "@/lib/places";
 import { posts } from "@/lib/posts";
 import { deep } from "@/lib/neighborhoodDeep";
+import { hoodParks, parksSource } from "@/lib/hoodParks";
 import Inline from "@/components/Inline";
 import { cityMarket, marketSource } from "@/lib/market";
 import { SITE_URL } from "@/lib/site";
@@ -195,6 +196,13 @@ export default async function HoodPage({ params }: { params: Promise<{ slug: str
                 <h2>Getting around {h.name}</h2>
                 {d.getting.map((t) => <p key={t}><Inline text={t} /></p>)}
                 <DataTable caption={`Things to do near ${h.name}`} head={["Place", "Why go"]} rows={d.doNearby} />
+                {hoodParks[h.slug] && (
+                  <>
+                    <h3>Which city parks are near {h.name}?</h3>
+                    <p>{hoodParks[h.slug].intro}</p>
+                    <DataTable caption={`City parks near ${h.name}`} head={["Park", "Address", "What's there"]} rows={hoodParks[h.slug].rows} source={parksSource} />
+                  </>
+                )}
                 <InlineCta text={`Wondering how the drive or walk works from a specific ${h.name} street? Ask Alex.`} href="/#contact" label="Ask Alex" />
               </Reveal>
             </section>
