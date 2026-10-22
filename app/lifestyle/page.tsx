@@ -95,7 +95,7 @@ export default function Lifestyle() {
             ))}
             {[
               { href: "/neighborhoods", img: "hood:talega", tag: "Neighborhoods", title: "Find the Right San Clemente Neighborhood", body: "Compare Downtown, Talega, Sea Summit, Forster Ranch, Shorecliffs and Rancho San Clemente, with real numbers and local notes.", cta: "Compare neighborhoods →" },
-              { href: "/blog", img: "post:buying-a-single-family-home-in-san-clemente", tag: "The blog", title: "San Clemente Real Estate Blog", body: "Market updates, subdivision deep dives like Sea Summit, Talega and Sea Pointe, and plain-English buying guides.", cta: "Read the blog →" },
+              { href: "/blog", img: "post:buying-a-single-family-home-in-san-clemente", tag: "The blog", title: "The San Clemente Blog", body: "Market updates, subdivision deep dives like Sea Summit, Talega and Sea Pointe, and plain-English buying guides.", cta: "Read the blog →" },
             ].map((c, i) => (
               <Reveal key={c.href} delay={(guides.length + i) * 70}>
                 <Link href={c.href} className="post-card">
