@@ -77,6 +77,7 @@ export default function BlogIndex({ page }: { page: number }) {
               caption="Start with the topic that fits you"
               head={["If you're...", "Start here", "What it covers"]}
               rows={[
+                ["Planning Halloween week", "[Halloween events and trick-or-treating](/blog/san-clemente-halloween-events-2026)", "What is on, what to confirm, and local tips"],
                 ["Watching prices", "[Market update, October 2026](/blog/san-clemente-housing-market-update-october-2026)", "Median price, inventory, time to sell, and what it means"],
                 ["Comparing coastal cities", "[San Clemente vs. Dana Point vs. San Juan Capistrano](/blog/san-clemente-vs-dana-point-vs-san-juan-capistrano)", "How coastal Orange County markets behave side by side"],
                 ["Planning a move", "[Moving to San Clemente](/blog/moving-to-san-clemente-what-to-know)", "Weather, commuting, costs, and a relocation checklist"],

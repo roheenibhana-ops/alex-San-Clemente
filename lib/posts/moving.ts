@@ -143,7 +143,7 @@ export const post: Post = {
     },
     { t: "p", text: "Timelines vary, and some buyers move much faster. The point is to leave room for a second visit, because the second visit is when the real picture emerges." },
     { t: "h2", text: "A year in San Clemente" },
-    { t: "p", text: "A year in San Clemente runs from a cool winter and pleasant spring to a warm, busy summer and a calm fall. Knowing the town's rhythm helps you decide when to visit and what to expect once you live here. This isn't a precise calendar, and details change, but it captures the general flow." },
+    { t: "p", text: "A year in San Clemente runs from a cool winter and pleasant spring to a warm, busy summer and a calm fall. Knowing the town's rhythm helps you decide when to visit and what to expect once you live here. This isn't a precise calendar, and details change, but it captures the general flow. For a sense of the local events calendar, see our [Halloween events guide](/blog/san-clemente-halloween-events-2026)." },
     {
       t: "table",
       caption: "A year in San Clemente",

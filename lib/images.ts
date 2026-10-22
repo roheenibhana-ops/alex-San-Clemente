@@ -113,6 +113,10 @@ export const images: Record<string, Img> = {
     src: "/images/food/dinner.jpg",
     alt: "Long dinner table set with white plates, napkins, glassware and lit candles",
   },
+  "post:san-clemente-halloween-events-2026": {
+    src: "/images/blog/san-clemente-halloween-events-2026.jpg",
+    alt: "Aerial view of a neighborhood park with two playgrounds, picnic tables and lawn above the street in San Clemente",
+  },
   "post:shorecliffs-beach-club-neighborhood-guide": {
     src: "/images/neighborhoods/shorecliffs-ocean-view-homes.jpg",
     alt: "Aerial view of ocean-view homes and a private community in Shorecliffs, San Clemente",
