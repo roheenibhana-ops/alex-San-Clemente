@@ -37,6 +37,8 @@ Alt text must describe what is visible. Do not name a place unless we are sure o
 | single-story-tile-roof-homes-golden-hour.jpg | Tile-roof homes on a street corner at golden hour | Inline in "Moving to San Clemente" post |
 | coastal-condo-buildings-pools-aerial.jpg | Terracotta-roof coastal buildings with pools and palms, hills behind (location unconfirmed) | Inline in "Pier Bowl vs. Talega" post |
 | beachwalk-del-gado-road-sign.jpg | "Beachwalk, 100-121 Del Gado Road" townhome community sign | Not used yet (stashed) |
+| big-jack-pumpkin-outlets.jpg | Giant jack-o-lantern and BIG JACK letters with hay bales and a child, at the Outlets | Halloween post (hero) |
+| halloween-skeleton-pirate-house.webp | House decorated with skeleton pirates and flags behind a white picket fence (location unconfirmed, source unknown, low-res) | Inline in Halloween post |
 | presidential-heights-i-sign.jpg | "Presidential Heights I, A Private Community" stone sign (area unconfirmed) | Not used yet (stashed) |
 | alex-yu-doorway-portrait.jpg | Alex in a doorway, black sweater | About page, home About, author cards (cropped) |
 | alex-yu-blazer-headshot.jpg | Older blue-blazer headshot | Parked, not used |

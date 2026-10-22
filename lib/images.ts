@@ -115,7 +115,7 @@ export const images: Record<string, Img> = {
   },
   "post:san-clemente-halloween-events-2026": {
     src: "/images/blog/san-clemente-halloween-events-2026.jpg",
-    alt: "Aerial view of a neighborhood park with two playgrounds, picnic tables and lawn above the street in San Clemente",
+    alt: "Giant jack-o-lantern pumpkin beside large purple BIG JACK letters and hay bales at the Outlets at San Clemente",
   },
   "post:san-clemente-christmas-lights-holiday-events-2026": {
     src: "/images/blog/san-clemente-christmas-lights-holiday-events-2026.jpg",
