@@ -8,8 +8,8 @@ export const agent = {
   phoneHref: "tel:+19497492946",
   email: "alex@alexyuteam.com",
   mainSite: "https://www.besthomesorangecounty.com/",
-  // Swap for Alex's IDX search page when available.
-  listingsUrl: "https://www.redfin.com/city/16690/CA/San-Clemente",
+  // Alex's Sierra IDX search for San Clemente (main site).
+  listingsUrl: "https://www.besthomesorangecounty.com/san-clemente/",
 };
 
 export const stats = [
