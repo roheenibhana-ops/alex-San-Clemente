@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Reveal from "@/components/Reveal";
+import GuideForm from "@/components/GuideForm";
 import CtaCard from "@/components/CtaCard";
 import InlineCta from "@/components/InlineCta";
 import AlertBanner from "@/components/AlertBanner";
@@ -256,6 +257,7 @@ export default async function HoodPage({ params }: { params: Promise<{ slug: str
 
         <section className="section narrow">
           <Reveal>
+            <GuideForm />
             <CtaCard text={`Want current ${h.name} listings, recent sales, and a cost comparison at your budget?`} />
           </Reveal>
         </section>

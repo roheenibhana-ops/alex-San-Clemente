@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Reveal from "@/components/Reveal";
+import GuideForm from "@/components/GuideForm";
 import CardImage from "@/components/CardImage";
 import DataTable from "@/components/DataTable";
 import Breadcrumbs from "@/components/Breadcrumbs";
@@ -139,6 +140,8 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
                 <p><Inline text={f.a} /></p>
               </details>
             ))}
+
+            <GuideForm />
 
             <CtaCard text="Want a current San Clemente listing search, recent sales for your street, and a full carrying-cost comparison at your budget?" />
 

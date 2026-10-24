@@ -22,7 +22,7 @@ function splitName(full: string) {
 
 function summary(l: Lead) {
   return [
-    l.intent && `I am: ${l.intent}`,
+    l.intent && (l.intent.startsWith("Guide:") ? `Downloaded: ${l.intent.slice(6).trim()}` : `I am: ${l.intent}`),
     l.timeline && `Timeline: ${l.timeline}`,
     l.address && `Property address: ${l.address}`,
     l.message && `Message: ${l.message}`,

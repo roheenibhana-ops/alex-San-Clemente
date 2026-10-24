@@ -78,3 +78,9 @@ Whenever a new post goes up:
 `PWPATH=$(npm root -g)/playwright npx tsx scripts/build-guide.mts` rebuilds `assets/guides/san-clemente-neighborhood-buyers-guide.pdf` from the site data. Run it after any monthly data refresh.
 
 Recent sales: if Alex's team provides a monthly MLS export, save it as `assets/guides/data/recent-sales.json` (format in a comment in `scripts/build-guide.mts`) and the guide adds a "What homes actually sold for" page. Check CRMLS and broker rules on showing sold data before publishing individual addresses; aggregate counts and medians are the safer minimum. Schools: we do not rate or rank schools (fair housing). The guide points to the district's My School Locator and the state School Dashboard.
+
+### The free guide form
+
+`components/GuideForm.tsx` is an inline card (no popup) on the home page, the neighborhoods hub, every neighborhood page and every blog post. It posts name and email to `/api/lead` (Follow Up Boss) with the intent "Guide: San Clemente Neighborhood Buyer's Guide", fires `generate_lead` and `guide_download` in GA4, then shows the download link. Settings live in `lib/guide.ts`. The PDF is served from `public/guides/` and `/guides/` is disallowed in `robots.txt`.
+
+When anything in the guide changes (monthly data, photos, or the brokerage on the SERHANT move date): run `PWPATH=$(npm root -g)/playwright npx tsx scripts/build-guide.mts`, regenerate the cover (`pdftoppm -r 80 -f 1 -l 1 -jpeg assets/guides/san-clemente-neighborhood-buyers-guide.pdf /tmp/cov` then copy `/tmp/cov-01.jpg` to `public/images/guide-cover.jpg`), then commit and push. Set `DRAFT=1` only for review copies.

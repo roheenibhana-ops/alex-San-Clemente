@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import Reveal from "@/components/Reveal";
+import GuideForm from "@/components/GuideForm";
 import Neighborhoods from "@/components/Neighborhoods";
 import ContactForm from "@/components/ContactForm";
 import Footer from "@/components/Footer";
@@ -164,6 +165,9 @@ export default function Home() {
           </Reveal>
           <Reveal delay={100}>
             <Neighborhoods />
+          </Reveal>
+          <Reveal delay={120}>
+            <GuideForm />
           </Reveal>
         </section>
 

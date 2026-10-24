@@ -74,7 +74,7 @@ let sales: any = null;
 try { sales = JSON.parse(readFileSync(resolve(root, "assets/guides/data/recent-sales.json"), "utf8")); } catch {}
 
 pages.push(`<div class="page cover"><div class="coverlogo"><img src="${logo}" /></div><div class="photo" style="background-image:url('${img(photos["downtown-pier-bowl"])}')"></div>
-<div class="txt"><span class="badge">DRAFT FOR ALEX'S REVIEW</span><p class="eyebrow" style="margin-top:14px">Updated ${updated}</p>
+<div class="txt">${process.env.DRAFT ? `<span class="badge">DRAFT FOR ALEX'S REVIEW</span>` : ""}<p class="eyebrow" style="margin-top:${process.env.DRAFT ? 14 : 0}px">Updated ${updated}</p>
 <h1>The San Clemente<br/>Neighborhood Buyer's Guide</h1><div class="rule"></div>
 <p class="sub">Six areas, side by side: what they are like, what to check and what to ask before you make an offer.</p>
 <p class="small">Prepared by ${esc(agent.name)} of the ${esc(agent.team)} · ${esc(agent.brokerage)} · ${site}</p></div></div>`);
@@ -153,4 +153,6 @@ const page = await browser.newPage();
 await page.goto("file://" + resolve(root, "assets/guides/san-clemente-neighborhood-buyers-guide.html"), { waitUntil: "load" });
 await page.pdf({ path: resolve(root, "assets/guides/san-clemente-neighborhood-buyers-guide.pdf"), format: "Letter", printBackground: true, preferCSSPageSize: true });
 await browser.close();
+import { copyFileSync } from "fs";
+copyFileSync(resolve(root, "assets/guides/san-clemente-neighborhood-buyers-guide.pdf"), resolve(root, "public/guides/san-clemente-neighborhood-buyers-guide.pdf"));
 console.log("built", pages.length, "pages");
