@@ -30,7 +30,8 @@ const table = (rows: string[][], head?: string[]) =>
     .map((r) => `<tr>${r.map((c, i) => (i === 0 && !head ? `<th>${md(c)}</th>` : `<td>${md(c)}</td>`)).join("")}</tr>`)
     .join("")}</tbody></table>`;
 
-const footer = `<div class="foot">${esc(agent.name)} | ${esc(agent.team)} | ${esc(agent.brokerage)} | CA DRE #${esc(agent.dre)} | ${site}</div>`;
+const logo = img("/alex-yu-team-logo.png");
+const footer = `<div class="foot"><img class="flogo" src="${logo}" />${esc(agent.name)} | ${esc(agent.team)} | ${esc(agent.brokerage)} | CA DRE #${esc(agent.dre)} | ${site}</div>`;
 
 const css = `
 @page { size: Letter; margin: 0; }
@@ -56,6 +57,9 @@ ul { margin: 4px 0 10px; padding-left: 18px; } li { margin-bottom: 3px; color: #
 .cover h1 { font-size: 34pt; color: #0b2433; }
 .cover .sub { font-size: 13pt; color: #2a4152; margin-top: 12px; }
 .badge { display: inline-block; background: #f06a4d; color: #fff; font-weight: 700; font-size: 8.5pt; padding: 4px 10px; border-radius: 99px; letter-spacing: .06em; }
+.flogo { position: absolute; right: 0; bottom: 4px; height: 0.34in; }
+.coverlogo { position: absolute; left: 0.75in; top: 0.55in; background: rgba(255,255,255,.92); border-radius: 12px; padding: 10px 16px; }
+.coverlogo img { height: 0.5in; display: block; }
 .foot { position: absolute; left: .75in; right: .75in; bottom: .35in; font-size: 7.5pt; color: #5b7080; border-top: 1px solid rgba(11,36,51,.15); padding-top: 6px; }
 .box { background: #fff; border-radius: 12px; padding: 12px 16px; border: 1px solid rgba(11,36,51,.1); margin: 8px 0 12px; }
 .small { font-size: 8pt; color: #5b7080; }
@@ -69,7 +73,7 @@ const pages: string[] = [];
 let sales: any = null;
 try { sales = JSON.parse(readFileSync(resolve(root, "assets/guides/data/recent-sales.json"), "utf8")); } catch {}
 
-pages.push(`<div class="page cover"><div class="photo" style="background-image:url('${img(photos["downtown-pier-bowl"])}')"></div>
+pages.push(`<div class="page cover"><div class="coverlogo"><img src="${logo}" /></div><div class="photo" style="background-image:url('${img(photos["downtown-pier-bowl"])}')"></div>
 <div class="txt"><span class="badge">DRAFT FOR ALEX'S REVIEW</span><p class="eyebrow" style="margin-top:14px">Updated ${updated}</p>
 <h1>The San Clemente<br/>Neighborhood Buyer's Guide</h1><div class="rule"></div>
 <p class="sub">Six areas, side by side: what they are like, what to check and what to ask before you make an offer.</p>
