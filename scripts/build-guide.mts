@@ -64,6 +64,10 @@ ul { margin: 4px 0 10px; padding-left: 18px; } li { margin-bottom: 3px; color: #
 `;
 
 const pages: string[] = [];
+// Optional monthly data from Alex's MLS export: assets/guides/data/recent-sales.json
+// { "asOf": "September 2026", "source": "CRMLS via Alex Yu Team", "areas": { "<slug>": { "closed": 12, "median": "$1,950,000", "medianDom": 35, "sales": [["Sep 12", "123 Example St", "$2,010,000", "4/3", "2,450"]] } } }
+let sales: any = null;
+try { sales = JSON.parse(readFileSync(resolve(root, "assets/guides/data/recent-sales.json"), "utf8")); } catch {}
 
 pages.push(`<div class="page cover"><div class="photo" style="background-image:url('${img(photos["downtown-pier-bowl"])}')"></div>
 <div class="txt"><span class="badge">DRAFT FOR ALEX'S REVIEW</span><p class="eyebrow" style="margin-top:14px">Updated ${updated}</p>
@@ -95,6 +99,11 @@ ${d ? `<div class="box"><strong>Before you buy here, check:</strong> ${d.checks.
 <p class="small">Full guide: ${site}/neighborhoods/${h.slug}</p>${footer}</div>`);
 }
 
+if (sales) {
+  const rows = hoods.filter((h) => sales.areas?.[h.slug]).map((h) => { const a = sales.areas[h.slug]; return [h.name, String(a.closed), a.median, String(a.medianDom) + " days"]; });
+  const detail = hoods.filter((h) => sales.areas?.[h.slug]?.sales?.length).map((h) => `<h3>${esc(h.name)}: recent closed sales</h3>${table(sales.areas[h.slug].sales.slice(0, 6), ["Closed", "Address", "Sold price", "Bed/bath", "Sq ft"])}`).join("");
+  pages.push(`<div class="page"><p class="eyebrow">Recent sales</p><h2>What homes actually sold for</h2><div class="rule"></div><p>Closed single-family sales as of ${esc(sales.asOf)}. Source: ${esc(sales.source)}. Past sales do not predict future prices; ask Alex for the comparables closest to a specific home.</p>${table(rows, ["Area", "Closed sales", "Median sold price", "Median days on market"])}${detail}${footer}</div>`);
+}
 pages.push(`<div class="page"><p class="eyebrow">Know the real cost</p><h2>The costs beyond the price</h2><div class="rule"></div>
 <p>Two homes with the same price can cost very different amounts each month. Ask for every layer in writing before you compare.</p>
 ${table(
@@ -122,6 +131,7 @@ pages.push(`<div class="page"><p class="eyebrow">Before you offer</p><h2>Your pr
 <div><h3 style="margin-top:0">Questions to ask</h3><ul>
 <li>What is the total monthly cost, with every association included?</li><li>What do the dues cover and what do they not?</li><li>What rules affect the remodel I am planning?</li><li>How long have comparable homes taken to sell, and at what discount?</li><li>What could be built nearby that would change the view?</li><li>How does the drive to work and the beach feel at the hours I would use it?</li></ul>
 <h3>Try it yourself</h3><ul><li>Visit at different times of day and on a weekend</li><li>Park, walk and listen</li><li>Look at the street in the evening</li></ul></div></div>
+<div class="box"><strong>Schools: check them yourself.</strong> Attendance boundaries change and we do not rate or rank schools. Use the district's My School Locator with the exact address (capousd.org, Capistrano Unified School District), look up official results on the California School Dashboard (caschooldashboard.org) and confirm enrollment details with the district. Alex can pull the address list for any area you are considering.</div>
 <h3>San Clemente market snapshot (${esc(marketAsOf)}, single-family)</h3>
 ${table(cityMarket.slice(0, 5).map((m) => [m.metric, m.now, m.then, m.note]), ["Measure", "Now", "A year ago", "Note"])}${footer}</div>`);
 

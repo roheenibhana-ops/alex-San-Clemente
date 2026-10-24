@@ -72,3 +72,9 @@ Whenever a new post goes up:
 - A monthly MLS export per neighborhood.
 - Real local photos (food places, events, neighborhoods).
 - Local knowledge for street-level detail: which streets sell fast, which are quiet, what buyers ask.
+
+## Buyer's Guide PDF
+
+`PWPATH=$(npm root -g)/playwright npx tsx scripts/build-guide.mts` rebuilds `assets/guides/san-clemente-neighborhood-buyers-guide.pdf` from the site data. Run it after any monthly data refresh.
+
+Recent sales: if Alex's team provides a monthly MLS export, save it as `assets/guides/data/recent-sales.json` (format in a comment in `scripts/build-guide.mts`) and the guide adds a "What homes actually sold for" page. Check CRMLS and broker rules on showing sold data before publishing individual addresses; aggregate counts and medians are the safer minimum. Schools: we do not rate or rank schools (fair housing). The guide points to the district's My School Locator and the state School Dashboard.
