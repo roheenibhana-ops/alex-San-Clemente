@@ -52,6 +52,8 @@ Whenever a new post goes up:
 
 ## Content rules
 
+- **The reader comes first, rankings second.** Useful, honest, easy to act on. Never keyword-stuff or pad.
+
 - Every number has a source, and anything unverifiable is flagged or left out.
 - No fair-housing problems: no school-quality claims, no "family-friendly", no "safe neighborhood", no describing who should or should not live somewhere.
 - Illustrative scenarios are labeled as illustrative, never presented as real testimonials.

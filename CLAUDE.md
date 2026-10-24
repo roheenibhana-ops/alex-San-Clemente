@@ -2,6 +2,9 @@
 
 Read `MAINTENANCE.md` first (schedule, checklists, cross-linking and content rules). This file is the short version for any Claude session.
 
+## Golden rule: the reader first, rankings second
+Roheeni's rule: write for the person reading, not for the search engine. Every post must be genuinely useful to a real San Clemente resident, buyer or visitor: answer their question quickly and honestly, tell them what to check or do next, and be upfront about what is unconfirmed. Never stuff keywords, pad to reach a length, bury the answer, or write something only because it might rank. If a choice helps the reader but hurts a ranking tactic, help the reader. Rankings follow from meeting the real need.
+
 ## What this is
 A Next.js static site for Alex Yu (Alex Yu Team, San Clemente real estate), deployed to Cloudflare Workers from `main`. Blog posts are data files in `lib/posts/`, registered in `lib/posts/index.ts` (newest first). Images are mapped in `lib/images.ts`. Photos we have are in `assets/photo-library/` (originals, not served); web copies go in `public/images/`.
 
