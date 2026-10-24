@@ -1,6 +1,6 @@
 # Content queue
 
-Every day: ONE lifestyle post and ONE real estate post, taken from the top of each list, skipping anything that cannot be sourced. Add new ideas at the bottom of the right list. Move finished posts to the log with the date.
+Twice a week (Monday and Thursday): ONE lifestyle post and ONE real estate post, each 2,500+ words, taken from the top of each list, skipping anything that cannot be sourced. Add new ideas at the bottom of the right list. Move finished posts to the log with the date.
 
 Lifestyle = events, food, parks, beaches, local life. Real estate = neighborhoods, costs, buying, selling, HOA, market, commuting. Every lifestyle post should link to a neighborhood or buying page; every real estate post should link to a lifestyle guide.
 
