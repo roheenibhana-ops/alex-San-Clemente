@@ -1,31 +1,42 @@
 # Content queue
 
-Two posts a day are written from this list, top to bottom, skipping anything that cannot be sourced. Add new ideas at the bottom. Move finished posts to the log with the date.
+Every day: ONE lifestyle post and ONE real estate post, taken from the top of each list, skipping anything that cannot be sourced. Add new ideas at the bottom of the right list. Move finished posts to the log with the date.
 
-## Next up (timely first)
-1. San Clemente Veterans Day 2026 events and ways to honor veterans (verify with City calendar, Camp Pendleton-area groups)
+Lifestyle = events, food, parks, beaches, local life. Real estate = neighborhoods, costs, buying, selling, HOA, market, commuting. Every lifestyle post should link to a neighborhood or buying page; every real estate post should link to a lifestyle guide.
+
+## Lifestyle queue
+1. Veterans Day 2026 events and ways to honor veterans (verify with City calendar and local groups)
 2. Miramar Food Hall guide: vendors, hours, what to order (miramarfoodhall.com is readable)
 3. New restaurants in San Clemente 2026 (Zov's, Taqueria Luna, Jimmy B's, Parlor, Broken Yolk coming, Luna Grill status)
 4. Zov's San Clemente: what to know (Avenida Del Mar)
 5. Black Friday and Small Business Saturday downtown San Clemente
-6. Día de los Muertos in San Clemente (City listing; confirm date)
+6. Dia de los Muertos in San Clemente (City listing; confirm date)
 7. San Clemente Hunger Walk and giving back this season (FAM; lovefam.org)
 8. San Clemente events in December 2026 (roundup; confirm dates first)
 9. New Year's Eve and New Year's Day in San Clemente
-10. Property taxes and insurance on a $2M San Clemente home (sources: OC Assessor, CA Dept of Insurance)
-11. Rancho San Clemente: living on the hillside (use `lib/hoodParks.ts` data and public sources)
-12. Downtown and the Pier Bowl, street by street (only what can be sourced)
-13. San Clemente parks guide: every city park with address and amenities (City Parks & Sport Fields page)
-14. San Clemente Beach Trail and Trestles hiking: trail access guide (City and State Parks sources)
-15. Commuting from San Clemente to Irvine, San Diego and LA (Metrolink/Amtrak/OCTA sources)
-16. Selling a house in San Clemente: pricing and timing (use `lib/market.ts`)
-17. HOA basics for first-time San Clemente buyers
-18. San Clemente vs. Laguna Niguel
-19. Dog-friendly San Clemente: dog park, beaches and rules (City sources)
-20. San Clemente farmers market guide (City source)
+10. San Clemente parks guide: every city park with address and amenities (City Parks & Sport Fields page)
+11. Dog-friendly San Clemente: dog park, beaches and rules (City sources)
+12. San Clemente farmers market guide (City source)
+13. San Clemente Beach Trail and Trestles hiking: access guide (City and State Parks sources)
+14. Best sunset spots in San Clemente
+15. Whale watching and winter ocean activities near San Clemente
+
+## Real estate queue
+1. Property taxes and insurance on a $2M San Clemente home (OC Assessor, CA Dept of Insurance)
+2. Rancho San Clemente: living on the hillside (use `lib/hoodParks.ts` and public sources)
+3. Downtown and the Pier Bowl, street by street (only what can be sourced)
+4. Selling a house in San Clemente: pricing and timing (use `lib/market.ts`)
+5. HOA basics for first-time San Clemente buyers
+6. San Clemente vs. Laguna Niguel
+7. Commuting from San Clemente to Irvine, San Diego and LA (Metrolink, Amtrak, OCTA sources)
+8. Buying a home with an ADU in San Clemente (City planning sources, CA ADU law)
+9. Single-story vs two-story homes in San Clemente
+10. Coastal homes: flood, bluff and insurance questions (City, Coastal Commission, CA Dept of Insurance)
+11. Mello-Roos explained for San Clemente buyers (OC Treasurer sources)
+12. What $2M buys in San Clemente by neighborhood (only with sourced figures)
 
 ## Monthly
-- Last days of the month: new market update post and refresh per `MAINTENANCE.md`.
+- Last days of the month: new market update post and refresh per `MAINTENANCE.md` (this counts as the real estate post that day).
 
 ## Log (done)
 - 2026-10-21 Sea Summit tracts; Talega HOA and Mello-Roos; Shorecliffs beach club; Sea Pointe Estates
