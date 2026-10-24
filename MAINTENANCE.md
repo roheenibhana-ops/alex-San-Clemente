@@ -13,7 +13,11 @@ How we keep lifeinsanclemente.com fresh. Anyone (a person or a Claude session) s
 | Sudden changes (big price move, new fee, city decision) | When it happens | Correct it right away |
 | New posts | About two a week | Each new post links to and from older posts, see below |
 
-## Monthly checklist (last days of the month)
+## Full-site review (3rd of every month, automated)
+
+On the 3rd of each month a scheduled run reviews the whole site against last month's data: figures, links, dates, events, photos and rules. It uses `node scripts/check-links.mjs` for links and `npx tsx scripts/audit-posts.mts` for posts, then follows the monthly checklist below. Last month's market data is not available until the month has ended, which is why the review runs early in the next month. Alex's team sends the monthly MLS export before then when possible.
+
+## Monthly checklist (run on the 3rd, using last month's data)
 
 1. **Market numbers.** Update `lib/market.ts` (`cityMarket`, `peerCities`, `marketAsOf`, `marketSource`) and the figures in `lib/content.ts` (`market`, `stats`) if they changed. Update neighborhood stats in `lib/neighborhoods.ts` and `lib/neighborhoodDeep.ts`.
 2. **Neighborhood MLS numbers.** Ask Alex's team for a monthly export from Sierra or CRMLS for each area: sold count, median sold price, median days on market, active listings, list-to-sale ratio. Public sources are thin and Redfin and other listing sites block automated access.
