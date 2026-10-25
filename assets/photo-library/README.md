@@ -50,3 +50,5 @@ Alt text must describe what is visible. Do not name a place unless we are sure o
 
 Ideas for unused or reusable photos: Presidential Heights sign for a Rancho San Clemente or neighborhood-sign post;
 pier restaurant deck for the Seafood & Sunset roundup; train photo for a "commuting from San Clemente" post.
+| surfer-competition-wave-spray.jpg | Surfer in a yellow competition jersey on a wave (event and location unlabeled) | Olympics post (hero) |
+| surf-lines-dusk-beach-surfers-walking.jpg | Lines of surf at dusk with surfers on the sand (location unlabeled, low-res) | Inline in Olympics post |

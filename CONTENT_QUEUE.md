@@ -42,4 +42,4 @@ Lifestyle = events, food, parks, beaches, local life. Real estate = neighborhood
 ## Log (done)
 - 2026-10-21 Sea Summit tracts; Talega HOA and Mello-Roos; Shorecliffs beach club; Sea Pointe Estates
 - 2026-10-22 Halloween events; Christmas lights and holiday events; Forster Ranch tracts; Thanksgiving
-- 2026-10-25 LIFESTYLE: The 2028 Olympics at Lower Trestles (san-clemente-2028-olympics-lower-trestles-surfing). Stand-in hero (pier sign and surfers); swap for a real photo. Unconfirmed in post: contingency days, spectator cap, shuttles/parking, ticket status for surfing, STR relaxation, hotel completion. Next: real estate "What is being built in San Clemente" (priority 0).
+- 2026-10-25 LIFESTYLE: The 2028 Olympics at Lower Trestles (san-clemente-2028-olympics-lower-trestles-surfing). Photos from Roheeni placed (hero surfer on wave, inline dusk surf lines; locations unlabeled so alt text is neutral). Unconfirmed in post: contingency days, spectator cap, shuttles/parking, ticket status for surfing, STR relaxation, hotel completion. Next: real estate "What is being built in San Clemente" (priority 0).

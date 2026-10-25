@@ -139,7 +139,7 @@ export const images: Record<string, Img> = {
   },
   "post:san-clemente-2028-olympics-lower-trestles-surfing": {
     src: "/images/blog/san-clemente-2028-olympics-lower-trestles-surfing.jpg",
-    alt: "San Clemente pier welcome sign beside a railing, looking out over blue ocean with surfers in the water and white wash rolling in",
+    alt: "Surfer in a yellow competition jersey carving off the top of a green wave with a plume of spray behind",
   },
 };
 
