@@ -42,6 +42,10 @@ On the 3rd of each month a scheduled run reviews the whole site against last mon
 - Keep the URL. Update the title and year, the `updated` date and the table of events.
 - Add official links (City, organizer, venue) for every event.
 
+## Calls to action
+
+Every post carries 5 or more calls to action spread through the body (short `cta` lines plus 1 or 2 `ctaCard`s), not only at the bottom. Place them at the end of a section, before an H2, relevant to what was just read, and soft in tone. Check the spread with a quick outline before publishing.
+
 ## Cross-linking rule
 
 Whenever a new post goes up:
