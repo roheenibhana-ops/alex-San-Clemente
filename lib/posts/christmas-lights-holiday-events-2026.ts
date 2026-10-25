@@ -21,6 +21,7 @@ export const post: Post = {
   blocks: [
     { t: "p", text: "Every December, San Clemente does something that's hard to fake: it feels like a small town at Christmas. The pier gets lit, Avenida Del Mar fills with people, and a few neighborhoods turn their streets into a destination. If you are new to town, or you are moving here for the holidays, a lights tour and a downtown night are a great way to feel at home." },
     { t: "p", text: "This guide covers what we could confirm, what we could only find from past years and what you should check before you go. We rely on official sources first: the [City of San Clemente's events calendar](https://www.sanclemente.gov/calendar.aspx), the [Outlets at San Clemente](https://www.outletsatsanclemente.com/events) and [Casa Romantica](https://www.casaromantica.org/). Where we use local news or a roundup, we say so. We are writing this in October, so many December dates are not published yet, and we mark every date as confirmed, listed by one source or unconfirmed. We also checked this guide against each official page on **October 24, 2026**, so check again closer to the date." },
+    { t: "cta", text: "Have questions about buying or selling here? Ask Alex directly.", href: "/#contact", label: "Talk to Alex" },
     { t: "h2", text: "What is the big holiday night in San Clemente?" },
     { t: "p", text: "It is **Puttin' on the Glitz**, part of **Santa's Village by the Sea**, hosted by the City of San Clemente and the San Clemente Downtown Business Association. Avenida Del Mar becomes the centre of the evening, and the city-hosted part takes place at the Community Center." },
     { t: "p", text: "In 2024 it was held on **Saturday, December 7**, and local coverage describes Santa arriving at 4:30 p.m. in a vintage convertible with a fire engine escort, the traditional tree lighting at the Community Center, carolers, vendor booths, decorated storefronts, a silent disco on Avenida Del Mar and, at the Community Center, a sledding hill, crafts and visits with Santa. The same coverage notes free transportation from the SC Trolley and a shuttle from San Clemente High School." },
@@ -66,6 +67,7 @@ export const post: Post = {
       source: { label: "City of San Clemente: Trolley", href: "https://www.sanclemente.gov/198/San-Clemente-Trolley" },
     },
     { t: "p", text: "The City page also lists a live Trolley Tracker and says questions can go to 949-361-6119. The 15-minute event frequency is the City's 2025 event figure, which can differ from the regular schedule above. Bring a jacket, because the coast cools down fast after the sun sets." },
+    { t: "cta", text: "Love living near events like these? See which San Clemente neighborhoods put you close.", href: "/neighborhoods", label: "Compare neighborhoods" },
     { t: "h2", text: "Where can you see Christmas lights in San Clemente?" },
     { t: "img", src: "/images/blog/inline-palm-lights.jpg", alt: "Palm trees wrapped in red, white and green lights along a street at night", caption: "Palm trees wrapped in lights are a classic Southern California holiday look." },
     { t: "p", text: "San Clemente does not have one famous street the way some cities do. Most displays are on private streets and homes, and they change from year to year. The most useful list we found is an Orange County holiday roundup that was updated in **October 2026**. For San Clemente it names three places: two Talega neighborhoods and one home." },
@@ -164,6 +166,7 @@ export const post: Post = {
         ["Fri, Dec 25", "Christmas Day", "Check holiday hours for any venue"],
       ],
     },
+    { t: "cta", text: "Curious what your home could sell for? Get a free, no-pressure valuation.", href: "/home-value", label: "Get a valuation" },
     { t: "h2", text: "What are the best tips for a lights tour?" },
     { t: "ul", items: [
       "**Go on a weeknight.** Popular streets are busiest on weekends and the Saturday before Christmas.",
@@ -196,6 +199,7 @@ export const post: Post = {
       "They go to the downtown holiday night, watch the tree lighting, and ask a few locals which streets to drive. By the second week they have a short list of displays, a favorite coffee shop and two neighbors they recognise from the evening.",
       "The lesson: local events are the fastest way to turn a new address into a home.",
     ] },
+    { t: "ctaCard", text: "Thinking about a move to San Clemente? Alex can show you the neighborhoods and current listings that fit how you want to live." },
     { t: "h2", text: "Hosting for the holidays: a home checklist" },
     { t: "p", text: "If you plan to host guests who come to town for the lights, a home's layout matters in simple, practical ways. This checklist is for any buyer or owner, wherever you live, and it makes no claim about who should live where." },
     { t: "ul", items: [

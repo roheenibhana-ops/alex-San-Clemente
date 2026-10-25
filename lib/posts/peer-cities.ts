@@ -42,6 +42,7 @@ export const post: Post = {
     { t: "h3", text: "Ten-year value growth" },
     { t: "p", text: "Over a decade, all six cities posted strong gains, from about +92% in Laguna Beach to +133% in Newport Coast. San Clemente's +118% sits in the middle-to-upper range. Past growth doesn't guarantee future results, but it does show how durable coastal demand has been." },
     { t: "callout", title: "A fair warning on comparisons", text: "These are market-wide figures for homes under $5M. A city with many ultra-high-end listings can look slower simply because very expensive homes take longer to sell. Always compare like with like: similar price range, similar property type, similar area." },
+    { t: "cta", text: "Deciding between San Clemente and its neighbors? Compare San Clemente's neighborhoods first.", href: "/neighborhoods", label: "Compare neighborhoods" },
     { t: "h2", text: "What stands out about each city" },
     { t: "img", src: "/images/blog/peer-pier.jpg", alt: "Aerial view of the San Clemente Pier and beach" },
     { t: "p", text: "San Clemente stands out for the fastest expected time to sell (84 days) at about 100% of list, San Juan Capistrano is its closest match on pace and pricing behavior, and Dana Point is slower at 173 days with fewer price cuts." },

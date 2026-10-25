@@ -21,6 +21,7 @@ export const post: Post = {
     { t: "p", text: "If you've driven the coast near the northern edge of San Clemente and noticed rows of tile-roofed homes stepping toward the ocean, you've seen Sea Summit. It sits on what locals know as Marblehead Coastal, one of the last big coastal parcels in Orange County to be developed, and it was built as four distinct neighborhoods named Azure, Aqua, Sapphire and Indigo." },
     { t: "p", text: "From a distance they look alike: Spanish-style architecture, tile roofs, stucco, arches. Up close they differ in the things that matter most when you buy: how the homes sit relative to the preserve and park, how big they are, how they're clustered, and what you pay each month beyond the mortgage. This guide breaks down what public sources say about each tract, flags where those sources disagree, and gives you a checklist for verifying the details on any specific home." },
     { t: "p", text: "A quick honesty note before we start. Details on a community like this come from builder pages, brokerage guides and older forum posts, and they don't always agree. Home counts, square footage ranges and fee figures differ between sources, and some information dates from the original sales period. We've called out the conflicts instead of picking a number, and every figure here should be confirmed for the specific address with the seller's disclosures, the HOA and the title documents." },
+    { t: "cta", text: "Want help reading a listing in Sea Summit? Ask Alex.", href: "/#contact", label: "Talk to Alex" },
     { t: "h2", text: "What is Sea Summit in San Clemente?" },
     { t: "img", src: "/images/blog/summit-glance.jpg", alt: "Spanish-style homes with red tile roofs in Sea Summit with the ocean beyond" },
     { t: "p", text: "Sea Summit is a master-planned coastal community on the former Marblehead Coastal property, built as four neighborhoods: Azure, Aqua, Sapphire and Indigo." },
@@ -47,6 +48,7 @@ export const post: Post = {
     { t: "p", text: "Marblehead Coastal became Sea Summit when that parcel was developed as a single planned community of roughly 300 homes in four neighborhoods. The land Sea Summit sits on was known for years as Marblehead Coastal, described as one of the last large coastal parcels in Orange County. Developing it took a long time, and the result is a community of roughly 300 homes arranged into four neighborhoods, with open space preserved as part of the plan. That history explains why the community feels distinct from the rest of San Clemente: it was designed as one project, with consistent architecture, shared amenities and a deliberate relationship to the preserve and the ocean." },
     { t: "p", text: "It also explains why information about Sea Summit can be inconsistent. The community was sold in phases over a number of years, plans were adjusted along the way, and older articles and forum posts describe earlier releases. When two sources disagree, assume both may be right for different phases, and check the specific home's documents." },
 
+    { t: "cta", text: "Not sure which Sea Summit tract fits? Compare the neighborhoods side by side.", href: "/neighborhoods/sea-summit", label: "See Sea Summit" },
     { t: "h2", text: "What the four neighborhoods have in common" },
     { t: "p", text: "All four neighborhoods share the same master community, amenities, architectural character and type of fee structure. Every Sea Summit home sits inside the same master community with the same amenities, the same architectural character and the same type of fee structure. That consistency is part of the appeal: you're buying into a planned neighborhood where the look, landscaping and common areas are maintained to a standard." },
     { t: "ul", items: [
@@ -76,6 +78,7 @@ export const post: Post = {
       "Whether the view is protected or could change with future development or landscaping growth",
       "Lot size and usable yard, which can vary a lot across the tract",
     ] },
+    { t: "cta", text: "Own in Sea Summit and curious about value? Get a free valuation.", href: "/home-value", label: "Get a valuation" },
     { t: "h2", text: "Sapphire: next to the preserve and trails" },
     { t: "p", text: "Sapphire is the tract with homes that access the native preserve and trails directly. If a trail out the back gate and an open-space edge are what you want, this is where guides point you. An older blog post from the original sales period described Sapphire homes at roughly 3,460 to 3,923 square feet, which may reflect an early release, so treat it as a rough indicator." },
     { t: "h3", text: "What to verify in Sapphire" },
@@ -196,6 +199,7 @@ export const post: Post = {
     ] },
     { t: "p", text: "A good rule is to treat a newer home like any other major purchase: verify, inspect and compare. Our [buying guide](/blog/buying-a-single-family-home-in-san-clemente) walks through the full process, including a deeper inspection list for coastal and hillside properties." },
 
+    { t: "ctaCard", text: "Weighing Azure, Aqua, Sapphire and Indigo? Alex can compare current listings and HOA details for you." },
     { t: "h2", text: "Living here: trails, parks and the outdoors" },
     { t: "img", src: "/images/blog/summit-park.jpg", alt: "Neighborhood park with mature trees, a walking path and a playground" },
     { t: "p", text: "The outdoors is built into Sea Summit's design. The walking trails and native preserve give you somewhere to go without getting in the car, and beyond the community the Sea Summit Trail runs along the cliffs with trailheads near Pico Park and North El Camino Real. Some local guides suggest January to March for spotting migrating gray whales from elevated viewpoints. For the broader picture of trails, see our [parks and trails guide](/lifestyle/parks-trails), and for beaches nearby, our [beaches guide](/lifestyle/beaches)." },
