@@ -5,7 +5,6 @@ Twice a week (Monday and Thursday): ONE lifestyle post and ONE real estate post,
 Lifestyle = events, food, parks, beaches, local life. Real estate = neighborhoods, costs, buying, selling, HOA, market, commuting. Every lifestyle post should link to a neighborhood or buying page; every real estate post should link to a lifestyle guide.
 
 ## Lifestyle queue
-0. **PRIORITY: San Clemente and the 2028 Olympics: Lower Trestles surfing, what to expect.** Researched facts so far: IOC approved Lower Trestles as the LA28 surfing venue (beat Huntington Beach); ISA raised the quota to 3 athletes per gender per NOC (Feb 2026); city expects about 2,000 spectators at Lower Trestles vs 6,000 to 7,000 at past events (security restrictions); Mayor Rick Loeffler plans watch parties around town; Surfrider worries about protected dunes; State Parks involved; USA Surfing based at Lower Trestles; San Clemente turns 100 in 2028; athletes not chosen until early 2028. A July 2026 travel-site report (Travel And Tour World) claims a nine-day schedule, no direct vehicle access and no published shuttle map, which is UNVERIFIED: confirm competition dates, access and tickets from LA28.com, the City and State Parks before stating them. Sources: spectrumlocalnews.com/ca/california/sports/2026/02/18/la28-summer-olympics, nbcsandiego.com Lower Trestles story, Dana Point Times/San Clemente Times coverage, sanclemente.gov. Link to Beaches guide, Beach Trail guide, Downtown and Pier Bowl page. Competition: results are news and travel sites, no local agent post, so this is open.
 1. Veterans Day 2026 events and ways to honor veterans (verify with City calendar and local groups)
 2. Miramar Food Hall guide: vendors, hours, what to order (miramarfoodhall.com is readable)
 3. New restaurants in San Clemente 2026 (Zov's, Taqueria Luna, Jimmy B's, Parlor, Broken Yolk coming, Luna Grill status)
@@ -43,3 +42,4 @@ Lifestyle = events, food, parks, beaches, local life. Real estate = neighborhood
 ## Log (done)
 - 2026-10-21 Sea Summit tracts; Talega HOA and Mello-Roos; Shorecliffs beach club; Sea Pointe Estates
 - 2026-10-22 Halloween events; Christmas lights and holiday events; Forster Ranch tracts; Thanksgiving
+- 2026-10-25 LIFESTYLE: The 2028 Olympics at Lower Trestles (san-clemente-2028-olympics-lower-trestles-surfing). Stand-in hero (pier sign and surfers); swap for a real photo. Unconfirmed in post: contingency days, spectator cap, shuttles/parking, ticket status for surfing, STR relaxation, hotel completion. Next: real estate "What is being built in San Clemente" (priority 0).

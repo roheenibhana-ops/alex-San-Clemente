@@ -240,6 +240,7 @@ export const post: Post = {
     { t: "p", text: "Tradeoffs matter. Living close to the water can mean summer crowds, limited parking, and train noise near the tracks. Living farther away can mean more space and quiet, but a drive for beach days. See the full [neighborhood comparison](/neighborhoods) for details, and our [market update](/blog/san-clemente-housing-market-update-october-2026) for the latest prices." },
     { t: "cta", text: "Want to live near your favorite beach? Tell Alex which one it is and he'll point you to the right streets.", href: "/#contact", label: "Talk to Alex" },
     { t: "p", text: "For official information, visit the [City of San Clemente](https://www.sanclemente.gov/186/Beaches-Parks-Recreation), and for local news, read the [San Clemente Times](https://www.picketfencemedia.com/sanclementetimes/sc-living/local-beaches/article_9f2ae5cb-b5ab-5762-a13d-286e8c1bd58f.html) article on local beaches." },
+    { t: "p", text: "Heading to the surf break that will host the 2028 Olympics? Read [what to expect at Lower Trestles](/blog/san-clemente-2028-olympics-lower-trestles-surfing), including why you cannot drive there." },
   ],
   faqs: [
     { q: "Which San Clemente beach is best for beginners?", a: "Calafia Beach Park offers room, restrooms, and showers, which makes it easy for a relaxed day. For surf lessons, ask local schools which spots they use." },

@@ -137,6 +137,10 @@ export const images: Record<string, Img> = {
     src: "/images/neighborhoods/talega.jpg",
     alt: "Aerial view of a row of two-story homes in Talega, San Clemente, with a golf course and rolling hills behind",
   },
+  "post:san-clemente-2028-olympics-lower-trestles-surfing": {
+    src: "/images/blog/san-clemente-2028-olympics-lower-trestles-surfing.jpg",
+    alt: "San Clemente pier welcome sign beside a railing, looking out over blue ocean with surfers in the water and white wash rolling in",
+  },
 };
 
 // Extra photos shown in a strip on a neighborhood page, keyed by neighborhood slug.

@@ -202,6 +202,7 @@ export const post: Post = {
     { t: "h2", text: "How to get numbers for your exact street" },
     { t: "p", text: "You get numbers for your exact street by combining recent closed sales within a few blocks, active competing listings, and a local agent's read on condition, view, and lot. Citywide statistics are a starting point. To get an accurate picture for your home or the one you want to buy, you need three things: recent closed sales within a few blocks, a clear view of active competing listings, and an experienced read on condition, view, and lot. That combination is what a local agent adds, and it's why a custom valuation beats an automated estimate." },
     { t: "p", text: "If you're considering a move, reach out through the [contact form](/#contact) or request a [free home valuation](/home-value). There's no obligation, and you'll get a straight answer about where you stand." },
+    { t: "p", text: "Wondering whether the 2028 Olympics will change the market? Our [Lower Trestles Olympics guide](/blog/san-clemente-2028-olympics-lower-trestles-surfing) lays out what is confirmed and what is not, and why we would not trust a confident price prediction." },
   ],
   faqs: [
     { q: "What is the median home price in San Clemente?", a: "The single-family median sale price was $2,225,000 in September 2026, up from $2,085,000 a year earlier, per [a local market report](https://adamboehrer.com/san-clemente-housing-market/). Monthly figures vary, so look at multi-month trends." },
