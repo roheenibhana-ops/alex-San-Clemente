@@ -7,7 +7,7 @@ Alt text must describe what is visible. Do not name a place unless we are sure o
 
 | File | What it shows | Used on |
 | --- | --- | --- |
-| pier-and-beach-aerial.jpg | Aerial of San Clemente Pier, beach and shoreline | Downtown & Pier Bowl (card + hero) |
+| pier-and-beach-aerial.jpg | Aerial of San Clemente Pier, beach and shoreline | Downtown & Pier Bowl (card + hero); also hero of the "What is being built" post |
 | shorecliffs-stone-turret-estate-aerial.jpg | Stone-turreted home above the ocean | Shorecliffs (card + hero) |
 | shorecliffs-coastline-aerial.jpg | Coastal homes above the shoreline and beach | Shorecliffs photo strip |
 | shorecliffs-ocean-deck-pool.jpg | Deck with seating and pool over the ocean (looks stylised, confirm it is real) | Shorecliffs photo strip |

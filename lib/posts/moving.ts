@@ -233,6 +233,7 @@ export const post: Post = {
       "[San Clemente on Wikipedia](https://en.wikipedia.org/wiki/San_Clemente,_California): history, climate, and transportation background",
     ] },
     { t: "p", text: "Whatever you decide, give yourself time. A town this appealing deserves a thoughtful move. When you're ready to look at homes, we'll help you match your priorities to the right neighborhood and the right house." },
+    { t: "p", text: "Wondering about hotels, new housing and construction as you plan a move? See [what is being built in San Clemente](/blog/whats-being-built-in-san-clemente-hotels-housing-projects), based on the City's own reports." },
   ],
   faqs: [
     { q: "Is San Clemente a good place to live?", a: "Many residents love its beaches, walkable Downtown, and small-town feel. Tradeoffs include traffic on the 5, summer crowds, and a high cost of living." },

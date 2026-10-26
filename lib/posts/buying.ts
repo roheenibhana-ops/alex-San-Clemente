@@ -239,6 +239,7 @@ export const post: Post = {
     ] },
     { t: "cta", text: "Ready to start? Tell Alex what you're looking for and your timeline.", href: "/#contact", label: "Talk to Alex" },
     { t: "p", text: "Buying a home should feel exciting, not overwhelming. With a clear budget, the right neighborhood, and an agent who knows the market, you can move through each step with confidence." },
+    { t: "p", text: "Curious what is being built near a home you are considering? Our guide to [what is being built in San Clemente](/blog/whats-being-built-in-san-clemente-hotels-housing-projects) shows how to check the City's project map and zoning for any address." },
   ],
   faqs: [
     { q: "How much do I need for a down payment in San Clemente?", a: "It depends on the loan program and the price. With a median around $2M, even a modest percentage is significant, so talk to a lender early about options." },

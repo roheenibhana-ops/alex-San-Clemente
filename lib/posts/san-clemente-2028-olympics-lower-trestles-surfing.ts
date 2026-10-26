@@ -140,6 +140,7 @@ export const post: Post = {
     ] },
     { t: "ctaCard", text: "Thinking about buying or selling near the coast before 2028? Alex can walk you through the neighborhoods, the numbers and what to verify for your specific street." },
     { t: "p", text: "For more local planning, see our guides to [moving to San Clemente](/blog/moving-to-san-clemente-what-to-know), the [Pier Bowl versus Talega](/blog/pier-bowl-vs-talega) comparison, and our [neighborhoods overview](/neighborhoods)." },
+    { t: "p", text: "For the hotel projects behind the lodging question, see our guide to [what is being built in San Clemente](/blog/whats-being-built-in-san-clemente-hotels-housing-projects)." },
   ],
   faqs: [
     { q: "When is Olympic surfing in San Clemente?", a: "LA28's hospitality page lists surfing sessions at Trestles State Beach on July 15, 16, 17 and 18, 2028. The Games open on July 14. Surf Canada reports contingency days on July 19 and July 23, which we could not confirm on an LA28 page." },
