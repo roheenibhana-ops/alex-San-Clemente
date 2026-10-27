@@ -62,7 +62,7 @@ export default function Privacy() {
       <h2>Contact us</h2>
       <p>
         {agent.team}, {agent.brokerage}<br />
-        {agent.address}<br />
+        {agent.address && <>{agent.address}<br /></>}
         <a href={`mailto:${agent.email}`}>{agent.email}</a> &middot; <a href={agent.phoneHref}>{agent.phone}</a><br />
         California DRE #{agent.dre}
       </p>

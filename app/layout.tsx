@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   twitter: { card: "summary_large_image", images: ["/og.jpg"] },
   title: "San Clemente Homes for Sale | Single-Family | Alex Yu Team",
   description:
-    "Search single-family homes for sale in San Clemente, CA. Median price around $2M. Free home valuation and local expertise from Alex Yu, First Team Real Estate.",
+    "Search single-family homes for sale in San Clemente, CA. Median price around $2M. Free home valuation and local expertise from Alex Yu, SERHANT.",
   openGraph: {
     title: "San Clemente Homes for Sale | Alex Yu Team",
     description: "Single-family beach homes and neighborhood expertise in San Clemente, CA.",
@@ -41,14 +41,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               email: "alex@alexyuteam.com",
               image: "/san-clemente-beach-homes.jpg",
               areaServed: { "@type": "City", name: "San Clemente", addressRegion: "CA" },
-              address: {
-                "@type": "PostalAddress",
-                streetAddress: "4 Corporate Plaza, Suite 100",
-                addressLocality: "Newport Beach",
-                addressRegion: "CA",
-                postalCode: "92660",
-              },
-              parentOrganization: { "@type": "Organization", name: "First Team Real Estate" },
+              parentOrganization: { "@type": "Organization", name: "SERHANT" },
             }),
           }}
         />

@@ -76,6 +76,9 @@ Whenever a new post goes up:
 
 ## What we still need from Alex
 
+- SERHANT office address (and brokerage license number if required on the site), then set `agent.address` in `lib/content.ts` and rebuild the guide PDF.
+- Confirmation of how SERHANT wants First Team awards and the RealTrends ranking worded.
+
 - Sign-off on claims (Top 1%, Platinum programs, Barbara Corcoran, RealTrends) and the market numbers.
 - A monthly MLS export per neighborhood.
 - Real local photos (food places, events, neighborhoods).

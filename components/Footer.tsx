@@ -9,6 +9,8 @@ export default function Footer() {
       <p>
         {agent.team} · {agent.brokerage} · CA DRE #{agent.dre}
       </p>
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img className="footer-brokerage" src="/serhant-logo.png" alt="SERHANT." height={18} loading="lazy" />
       <p className="footer-links">
         <Link href="/neighborhoods">Neighborhoods</Link>
         <Link href="/lifestyle">Lifestyle</Link>

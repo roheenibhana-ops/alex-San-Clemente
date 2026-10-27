@@ -23,5 +23,5 @@ A Next.js static site for Alex Yu (Alex Yu Team, San Clemente real estate), depl
 - Fair housing: no school-quality claims, no "family-friendly", no "safe neighborhood", no saying who should or should not live somewhere.
 - Illustrative scenarios must be labeled as illustrative. Never invent testimonials, quotes, rankings, guarantees or results.
 - Never put API keys or secrets in the repo.
-- Do not publish SERHANT or any new brokerage details until Alex supplies them and the move date arrives (First Team Real Estate is current).
+- The brokerage is now **SERHANT** (Alex has approved the switch; logos in `public/serhant-logo.png` and `public/serhant-mark.png`, originals in `assets/brand/serhant/`). Brand it as "SERHANT" in text. Do not invent a SERHANT office address, brokerage license number or phone: `agent.address` in `lib/content.ts` is intentionally empty and every page omits it until Alex supplies one. First Team Real Estate only appears as the source of past awards, labeled as the previous brokerage.
 - Do not copy text from other sites. Alex's main site (besthomesorangecounty.com) covers broad Orange County; this site covers San Clemente in depth. Avoid duplicating its posts ("Living in SC" surf-town guide, Ladera Ranch vs Rancho Mission Viejo vs Talega).

@@ -1,8 +1,8 @@
 export const agent = {
   name: "Alex Yu",
   team: "Alex Yu Team",
-  brokerage: "First Team Real Estate",
-  address: "4 Corporate Plaza, Suite 100, Newport Beach, CA 92660",
+  brokerage: "SERHANT",
+  address: "", // SERHANT office address not supplied yet; leave empty and pages omit it
   dre: "01492674",
   phone: "(949) 749-2946",
   phoneHref: "tel:+19497492946",
@@ -22,7 +22,7 @@ export const stats = [
 // Taken from Alex's main site (findyourhomeorangecounty.com). Alex to confirm wording and any required disclosures before launch.
 export const recognition = [
   { title: "RealTrends Medium Teams", body: "Ranked among the nation's top-producing medium teams in the 2026 RealTrends Medium Teams ranking (RealTrends Verified).", img: "" },
-  { title: "Diamond Award", body: "Awarded to the Alex Yu Team for production, with four years in the First Team Hall of Fame.", img: "" },
+  { title: "Diamond Award", body: "Awarded to the Alex Yu Team for production, earned with First Team Real Estate, including four years in its Hall of Fame.", img: "" },
   { title: "Serhant PRO Coach", body: "PRO Coach with SERHANT. Sell It.", img: "/images/alex-ryan-serhant.jpg" },
 ];
 
@@ -56,7 +56,7 @@ export const howIWork = [
   { title: "Advice you can act on", body: "Once you're informed, I give a straight recommendation and a clear plan, from first conversation through closing." },
 ];
 
-export const credentials = ["Top 1% of producers nationwide", "4 years in the First Team Hall of Fame", "Endorsed by Barbara Corcoran"];
+export const credentials = ["Top 1% of producers nationwide", "4 years in the First Team Hall of Fame (previous brokerage)", "Endorsed by Barbara Corcoran"];
 
 export const market = [
   { value: "~$2M", label: "Median home price", note: "Where most San Clemente buyers are shopping" },

@@ -31,7 +31,8 @@ const table = (rows: string[][], head?: string[]) =>
     .join("")}</tbody></table>`;
 
 const logo = img("/alex-yu-team-logo.png");
-const footer = `<div class="foot"><img class="flogo" src="${logo}" />${esc(agent.name)} | ${esc(agent.team)} | ${esc(agent.brokerage)} | CA DRE #${esc(agent.dre)} | ${site}</div>`;
+const brokerLogo = img("/serhant-logo.png");
+const footer = `<div class="foot"><img class="flogo" src="${logo}" />${esc(agent.name)} | ${esc(agent.team)} | <img class="blogo" src="${brokerLogo}" /> | CA DRE #${esc(agent.dre)} | ${site}</div>`;
 
 const css = `
 @page { size: Letter; margin: 0; }
@@ -58,6 +59,7 @@ ul { margin: 4px 0 10px; padding-left: 18px; } li { margin-bottom: 3px; color: #
 .cover .sub { font-size: 13pt; color: #2a4152; margin-top: 12px; }
 .badge { display: inline-block; background: #f06a4d; color: #fff; font-weight: 700; font-size: 8.5pt; padding: 4px 10px; border-radius: 99px; letter-spacing: .06em; }
 .flogo { position: absolute; right: 0; bottom: 4px; height: 0.34in; }
+.blogo { height: 0.11in; vertical-align: middle; }
 .coverlogo { position: absolute; left: 0.75in; top: 0.55in; background: rgba(255,255,255,.92); border-radius: 12px; padding: 10px 16px; }
 .coverlogo img { height: 0.5in; display: block; }
 .foot { position: absolute; left: .75in; right: .75in; bottom: .35in; font-size: 7.5pt; color: #5b7080; border-top: 1px solid rgba(11,36,51,.15); padding-top: 6px; }
@@ -144,7 +146,7 @@ pages.push(`<div class="page"><p class="eyebrow">Next steps</p><h2>Let's narrow 
 <div class="cta"><h3>Talk to ${esc(agent.name)}</h3><p>${esc(agent.phone)} · ${esc(agent.email)}</p><p>${site}</p></div>
 <h3>More local guides</h3><ul><li>Neighborhood pages with sources: ${site}/neighborhoods</li><li>The San Clemente blog: ${site}/blog</li><li>Free home valuation: ${site}/home-value</li></ul>
 <div class="box small"><strong>Important.</strong> This guide is general information compiled from public sources and is not legal, tax or financial advice. Figures and descriptions change and are not guaranteed. Always verify details for the specific property, including HOA, Mello-Roos, permits and flood or hazard disclosures, before you rely on them. Equal Housing Opportunity.</div>
-<p class="small">${esc(agent.name)} · ${esc(agent.team)} · ${esc(agent.brokerage)} · CA DRE #${esc(agent.dre)} · ${esc(agent.address)}</p>${footer}</div>`);
+<p class="small">${esc(agent.name)} · ${esc(agent.team)} · ${esc(agent.brokerage)} · CA DRE #${esc(agent.dre)}${agent.address ? " · " + esc(agent.address) : ""}</p>${footer}</div>`);
 
 const html = `<!doctype html><html><head><meta charset="utf-8"><title>San Clemente Neighborhood Buyer's Guide</title><style>${css}</style></head><body>${pages.join("\n")}</body></html>`;
 writeFileSync(resolve(root, "assets/guides/san-clemente-neighborhood-buyers-guide.html"), html);

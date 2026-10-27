@@ -264,7 +264,7 @@ export default function Home() {
             <ul className="contact-list">
               <li><a href={agent.phoneHref}>{agent.phone}</a></li>
               <li><a href={`mailto:${agent.email}`}>{agent.email}</a></li>
-              <li>{agent.address}</li>
+              {agent.address && <li>{agent.address}</li>}
             </ul>
           </Reveal>
           <Reveal delay={120}>

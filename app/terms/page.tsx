@@ -56,7 +56,7 @@ export default function Terms() {
       <p>We may update these terms at any time. These terms are governed by the laws of the State of California.</p>
       <h2>Contact</h2>
       <p>
-        {agent.team}, {agent.brokerage}, {agent.address}. <a href={`mailto:${agent.email}`}>{agent.email}</a>. California DRE #{agent.dre}.
+        {agent.team}, {agent.brokerage}{agent.address ? `, ${agent.address}` : ""}. <a href={`mailto:${agent.email}`}>{agent.email}</a>. California DRE #{agent.dre}.
       </p>
     </LegalPage>
   );
