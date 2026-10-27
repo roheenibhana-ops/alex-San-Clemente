@@ -60,7 +60,7 @@ export default function NeighborhoodsHub() {
           </div>
         </section>
 
-        <section className="section narrow">
+        <section className="section narrow guide-band">
           <Reveal>
             <GuideForm />
           </Reveal>

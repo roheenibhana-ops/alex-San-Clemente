@@ -255,7 +255,7 @@ export default async function HoodPage({ params }: { params: Promise<{ slug: str
           </Reveal>
         </section>
 
-        <section className="section narrow">
+        <section className="section narrow guide-band">
           <Reveal>
             <GuideForm />
             <CtaCard text={`Want current ${h.name} listings, recent sales, and a cost comparison at your budget?`} />
