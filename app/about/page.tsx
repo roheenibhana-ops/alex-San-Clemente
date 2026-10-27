@@ -193,6 +193,22 @@ export default function About() {
         </section>
 
 
+        <section className="section narrow prose" aria-labelledby="serhant-h">
+          <Reveal>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img className="about-serhant" src="/serhant-logo.png" alt="SERHANT." loading="lazy" />
+            <h2 id="serhant-h">The Alex Yu Team is now with SERHANT.</h2>
+            <p>
+              Alex and the team now work with SERHANT. Alex was already a PRO Coach with SERHANT. Sell It, and the move brings
+              that coaching and the brokerage&apos;s tools under the same roof as the Alex Yu Team.
+            </p>
+            <p>
+              For you, the approach stays the same: honest neighborhood-level numbers, a straight recommendation and a clear
+              plan from first conversation through closing.
+            </p>
+          </Reveal>
+        </section>
+
         <section className="section narrow prose tint" aria-labelledby="give-h">
           <Reveal>
             <h2 id="give-h">Giving back</h2>

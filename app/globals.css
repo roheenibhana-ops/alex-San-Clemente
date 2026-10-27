@@ -554,3 +554,4 @@ a.card-link .link-arrow { display: inline-block; margin-top: .75rem; }
 .footer-lockup .footer-logo { margin: 0; }
 .footer-brokerage { height: 18px; width: auto; filter: brightness(0) invert(1); opacity: .9; }
 @media (max-width: 600px) { .header .brand img.brand-serhant, .header.scrolled .brand img.brand-serhant { height: 11px; } .brand-div { height: 22px; } .footer-brokerage { height: 14px; } }
+.about-serhant { height: 28px; width: auto; display: block; margin: 0 0 1rem; }
