@@ -52,3 +52,4 @@ Ideas for unused or reusable photos: Presidential Heights sign for a Rancho San 
 pier restaurant deck for the Seafood & Sunset roundup; train photo for a "commuting from San Clemente" post.
 | surfer-competition-wave-spray.jpg | Surfer in a yellow competition jersey on a wave (event and location unlabeled) | Olympics post (hero) |
 | surf-lines-dusk-beach-surfers-walking.jpg | Lines of surf at dusk with surfers on the sand (location unlabeled, low-res) | Inline in Olympics post |
+| seahorse-resort-hotel-exterior.jpg | White three-story hotel with balconies and blue awnings at dusk (source image labeled Seahorse Resort; the broker marketing banner was cropped off; low-res) | Inline in "What is being built" post |
