@@ -561,3 +561,7 @@ a.card-link .link-arrow { display: inline-block; margin-top: .75rem; }
 .awards-copy p { margin: 0 0 1rem; }
 .awards-copy .btn { margin-top: .5rem; }
 .prose ul.award-list { padding-left: 0; margin-left: 0; }
+.recog-split h2 { margin-bottom: 1rem; }
+.recog-split p { margin: 0 0 1rem; }
+.recog-split .link-arrow { display: inline-block; margin-bottom: .4rem; }
+.recog-split .btn { margin-top: .4rem; }

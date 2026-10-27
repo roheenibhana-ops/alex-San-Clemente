@@ -153,8 +153,8 @@ export default function About() {
               <h2 id="corcoran-h">{endorsement.heading}</h2>
               <p>{endorsement.body}</p>
               <p>{endorsement.quote}</p>
-              <p><a className="link-arrow" href={endorsement.profileHref} target="_blank" rel="noopener noreferrer">See Alex on Barbara Corcoran&apos;s Top Agents directory →</a></p>
-              <a className="btn" href="#contact">Talk to Alex</a>
+              <p><a className="link-arrow" href={endorsement.profileHref} target="_blank" rel="noopener noreferrer">See Alex on Barbara Corcoran&apos;s Top Agents directory&nbsp;→</a></p>
+              <Link className="btn" href="/#contact">Talk to Alex</Link>
             </div>
           </div>
         </section>
