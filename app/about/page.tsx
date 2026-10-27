@@ -197,15 +197,19 @@ export default function About() {
           <Reveal>
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img className="about-serhant" src="/serhant-logo.png" alt="SERHANT." loading="lazy" />
-            <h2 id="serhant-h">The Alex Yu Team is now with SERHANT.</h2>
+            <p className="eyebrow">A new chapter</p>
+            <h2 id="serhant-h">The Alex Yu Team and SERHANT.</h2>
             <p>
-              Alex and the team now work with SERHANT. Alex was already a PRO Coach with SERHANT. Sell It, and the move brings
-              that coaching and the brokerage&apos;s tools under the same roof as the Alex Yu Team.
+              The Alex Yu Team now works with SERHANT., one of the most recognized names in real estate. Alex has long been part
+              of the SERHANT. world as a PRO Coach with SERHANT. Sell It, so this move builds on a relationship that was already
+              there.
             </p>
             <p>
-              For you, the approach stays the same: honest neighborhood-level numbers, a straight recommendation and a clear
-              plan from first conversation through closing.
+              Your experience stays personal and local. Alex and the team still price homes with real numbers, explain what each
+              San Clemente neighborhood is actually like, and stay with you from first conversation to closing, now with the
+              SERHANT. brand behind the work.
             </p>
+            <Link className="btn" href="/#contact">Talk to Alex</Link>
           </Reveal>
         </section>
 
