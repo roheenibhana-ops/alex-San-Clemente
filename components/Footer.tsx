@@ -4,16 +4,14 @@ import { agent } from "@/lib/content";
 export default function Footer() {
   return (
     <footer className="footer">
-      {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img className="footer-logo" src="/alex-yu-team-logo.png" alt="Alex Yu Team" height={56} loading="lazy" />
-      <p className="footer-brand">
-        <span>{agent.team}</span>
-        <span aria-hidden>·</span>
+      <div className="footer-lockup">
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img className="footer-brokerage" src="/serhant-logo.png" alt={agent.brokerage} height={16} loading="lazy" />
-        <span aria-hidden>·</span>
-        <span>CA DRE #{agent.dre}</span>
-      </p>
+        <img className="footer-logo" src="/alex-yu-team-logo.png" alt="Alex Yu Team" height={56} loading="lazy" />
+        <span className="brand-div" aria-hidden />
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img className="footer-brokerage" src="/serhant-logo.png" alt={agent.brokerage} height={18} loading="lazy" />
+      </div>
+      <p>CA DRE #{agent.dre}</p>
       <p className="footer-links">
         <Link href="/neighborhoods">Neighborhoods</Link>
         <Link href="/lifestyle">Lifestyle</Link>

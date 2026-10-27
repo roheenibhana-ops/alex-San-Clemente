@@ -548,5 +548,9 @@ a.card-link .link-arrow { display: inline-block; margin-top: .75rem; }
 .keep-reading li a { font-weight: 700; color: var(--ocean); text-decoration: none; }
 .keep-reading li a:hover { text-decoration: underline; }
 .keep-reading li span { display: block; font-size: .92rem; color: var(--ink-2); line-height: 1.45; }
-.footer-brand { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: .4rem .7rem; }
-.footer-brokerage { height: 16px; width: auto; filter: brightness(0) invert(1); opacity: .9; }
+.brand-div { width: 1px; height: 30px; background: currentColor; opacity: .25; flex: none; }
+.brand img.brand-serhant { height: 16px; width: auto; flex: none; mix-blend-mode: normal; }
+.footer-lockup { display: flex; align-items: center; justify-content: center; gap: 1rem; margin-bottom: 1rem; }
+.footer-lockup .footer-logo { margin: 0; }
+.footer-brokerage { height: 18px; width: auto; filter: brightness(0) invert(1); opacity: .9; }
+@media (max-width: 600px) { .brand img.brand-serhant { height: 11px; } .brand-div { height: 22px; } .footer-brokerage { height: 14px; } }

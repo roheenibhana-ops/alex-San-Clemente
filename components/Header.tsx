@@ -28,6 +28,9 @@ export default function Header() {
       <Link href="/" className="brand" aria-label="Alex Yu Team, San Clemente home">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img src="/alex-yu-team-logo.png" alt="Alex Yu Team, Changing Lives for Good" height={46} />
+        <span className="brand-div" aria-hidden />
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img className="brand-serhant" src="/serhant-logo.png" alt="SERHANT." height={16} />
       </Link>
       <nav className={`nav ${open ? "open" : ""}`} aria-label="Primary">
         {links.map(([label, href]) => (
