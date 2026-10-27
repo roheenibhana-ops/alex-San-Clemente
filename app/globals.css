@@ -548,4 +548,5 @@ a.card-link .link-arrow { display: inline-block; margin-top: .75rem; }
 .keep-reading li a { font-weight: 700; color: var(--ocean); text-decoration: none; }
 .keep-reading li a:hover { text-decoration: underline; }
 .keep-reading li span { display: block; font-size: .92rem; color: var(--ink-2); line-height: 1.45; }
-.footer-brokerage { height: 18px; width: auto; margin: .2rem auto 0; filter: brightness(0) invert(1); opacity: .85; }
+.footer-brand { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: .4rem .7rem; }
+.footer-brokerage { height: 16px; width: auto; filter: brightness(0) invert(1); opacity: .9; }

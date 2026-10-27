@@ -6,11 +6,14 @@ export default function Footer() {
     <footer className="footer">
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img className="footer-logo" src="/alex-yu-team-logo.png" alt="Alex Yu Team" height={56} loading="lazy" />
-      <p>
-        {agent.team} · {agent.brokerage} · CA DRE #{agent.dre}
+      <p className="footer-brand">
+        <span>{agent.team}</span>
+        <span aria-hidden>·</span>
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img className="footer-brokerage" src="/serhant-logo.png" alt={agent.brokerage} height={16} loading="lazy" />
+        <span aria-hidden>·</span>
+        <span>CA DRE #{agent.dre}</span>
       </p>
-      {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img className="footer-brokerage" src="/serhant-logo.png" alt="SERHANT." height={18} loading="lazy" />
       <p className="footer-links">
         <Link href="/neighborhoods">Neighborhoods</Link>
         <Link href="/lifestyle">Lifestyle</Link>
