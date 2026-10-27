@@ -9,6 +9,7 @@ export const post: Post = {
     "San Clemente's single-family median hit $2.225M in September 2026. See prices, inventory, days to sell, and what it means for buyers and sellers.",
   date: "2026-10-21",
   category: "Market update",
+  tags: ["market", "buying", "neighborhood"],
   excerpt: "Single-family prices are up year over year, inventory is tighter, and homes are selling faster. Here's the full breakdown.",
   takeaways: [
     "The single-family median sale price reached **$2,225,000** in September 2026, up about 6.7% from $2,085,000 a year earlier.",
@@ -203,6 +204,7 @@ export const post: Post = {
     { t: "p", text: "You get numbers for your exact street by combining recent closed sales within a few blocks, active competing listings, and a local agent's read on condition, view, and lot. Citywide statistics are a starting point. To get an accurate picture for your home or the one you want to buy, you need three things: recent closed sales within a few blocks, a clear view of active competing listings, and an experienced read on condition, view, and lot. That combination is what a local agent adds, and it's why a custom valuation beats an automated estimate." },
     { t: "p", text: "If you're considering a move, reach out through the [contact form](/#contact) or request a [free home valuation](/home-value). There's no obligation, and you'll get a straight answer about where you stand." },
     { t: "p", text: "Wondering whether the 2028 Olympics will change the market? Our [Lower Trestles Olympics guide](/blog/san-clemente-2028-olympics-lower-trestles-surfing) lays out what is confirmed and what is not, and why we would not trust a confident price prediction." },
+    { t: "p", text: "For the neighborhood detail behind the numbers, see our guides to [Forster Ranch](/blog/forster-ranch-tracts-reserves-cantomar-naples-compared), [Sea Pointe Estates](/blog/sea-pointe-estates-gated-community-san-clemente) and [Shorecliffs](/blog/shorecliffs-beach-club-neighborhood-guide), and our comparison of [San Clemente with Dana Point and San Juan Capistrano](/blog/san-clemente-vs-dana-point-vs-san-juan-capistrano)." },
   ],
   faqs: [
     { q: "What is the median home price in San Clemente?", a: "The single-family median sale price was $2,225,000 in September 2026, up from $2,085,000 a year earlier, per [a local market report](https://adamboehrer.com/san-clemente-housing-market/). Monthly figures vary, so look at multi-month trends." },

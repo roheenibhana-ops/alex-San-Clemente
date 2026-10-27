@@ -541,3 +541,10 @@ a.card-link .link-arrow { display: inline-block; margin-top: .75rem; }
 .guide-done p { color: var(--ocean-d); }
 @media (max-width: 700px) { .guide-card { grid-template-columns: 1fr; } .guide-cover { max-width: 160px; } .guide-form .row { grid-template-columns: 1fr; } }
 .guide-form .fine { text-align: left; }
+
+.keep-reading { background: #f1f7fc; border: 1px solid rgba(10,108,140,.15); border-radius: 16px; padding: 1.2rem 1.4rem; margin: 2rem 0; }
+.keep-reading strong { display: block; color: var(--ocean-d); margin-bottom: .5rem; }
+.keep-reading ul { list-style: none; margin: 0; padding: 0; display: grid; gap: .8rem; }
+.keep-reading li a { font-weight: 700; color: var(--ocean); text-decoration: none; }
+.keep-reading li a:hover { text-decoration: underline; }
+.keep-reading li span { display: block; font-size: .92rem; color: var(--ink-2); line-height: 1.45; }

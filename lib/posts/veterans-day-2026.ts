@@ -8,6 +8,7 @@ export const post: Post = {
     "Veterans Day 2026 in San Clemente: the Park Semper Fi ceremony, what is confirmed and what is not, nearby ceremonies, closures, and local and state resources for veterans.",
   date: "2026-10-27",
   category: "Local events",
+  tags: ["events", "seasonal", "downtown", "beaches"],
   excerpt: "Where San Clemente honors veterans and Marines, which dates are unconfirmed, what is closed on November 11, and the resources that exist for veterans who live or want to live here.",
   takeaways: [
     "Veterans Day is **Wednesday, November 11, 2026**. The City's calendar lists **City offices closed** that day, and the **Marine Corps birthday is November 10**.",

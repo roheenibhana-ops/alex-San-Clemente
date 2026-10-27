@@ -8,6 +8,7 @@ export const post: Post = {
     "Forster Ranch is about twenty tracts, not one neighborhood. Here is what we can confirm about the Reserves, Cantomar, Naples and others, and what to verify before you buy.",
   date: "2026-10-22",
   category: "Neighborhood deep dive",
+  tags: ["forster-ranch", "neighborhood", "buying", "hoa"],
   excerpt: "Forster Ranch is a patchwork of tracts, including four gated Reserves. A guide to the names, what is known, and what to check.",
   takeaways: [
     "Forster Ranch sits **east of the 5, between Camino De Los Mares and Avenida Vista Hermosa**, and is one of San Clemente's largest areas.",
@@ -238,6 +239,7 @@ export const post: Post = {
     { t: "h2", text: "How does Forster Ranch compare with other San Clemente neighborhoods?" },
     { t: "p", text: "Forster Ranch is hillside, master-planned and car-dependent, with a Redfin Walk Score of about 11. If you want to walk to the pier, our guide to [Downtown and the Pier Bowl](/neighborhoods/downtown-pier-bowl) is a better fit. If you want a newer coastal community with an amenity club, see our [Sea Summit tract comparison](/blog/sea-summit-azure-aqua-sapphire-indigo-compared). If gates and large lots appeal, our [Sea Pointe Estates guide](/blog/sea-pointe-estates-gated-community-san-clemente) covers another option. For the layers of cost in a larger master-planned community, see our [Talega HOA guide](/blog/talega-hoa-dues-mello-roos-what-they-cover)." },
     { t: "p", text: "You can also compare all six areas in our [neighborhoods hub](/neighborhoods), and read what the [City of San Clemente](https://www.sanclemente.gov/) publishes on planning and parks." },
+    { t: "p", text: "Comparing Forster Ranch with other master-planned areas? See [Sea Pointe Estates](/blog/sea-pointe-estates-gated-community-san-clemente), [Talega's HOA and Mello-Roos](/blog/talega-hoa-dues-mello-roos-what-they-cover) and the [Shorecliffs beach club neighborhood](/blog/shorecliffs-beach-club-neighborhood-guide)." },
   ],
   faqs: [
     { q: "Is Forster Ranch one neighborhood?", a: "No. It is a large planned area made up of many smaller tracts, each with its own builder, home style and sometimes its own association." },

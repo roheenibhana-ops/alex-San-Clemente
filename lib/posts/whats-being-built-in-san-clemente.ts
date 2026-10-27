@@ -8,6 +8,7 @@ export const post: Post = {
     "Hotel Clemente, The Lodge, ADUs, state housing rules and public works, from the City's own reports. What is approved, what is actually built, and how to check any address before you buy.",
   date: "2026-10-26",
   category: "Local development",
+  tags: ["development", "market", "buying", "downtown", "olympics", "sea-summit"],
   excerpt: "Two hotels are approved but not confirmed under construction, new housing is mostly ADUs and single homes, and we found no large new apartment project. Here is what the City's records say.",
   takeaways: [
     "The City's June 2026 staff report lists **ten approved projects waiting to be built** and **twelve major projects built** from 2015 to 2025. Its hotel list is **Hotel Clemente (28 rooms), The Lodge (130 rooms), Hanson Hotel (61 rooms) and Sea Cliff (an 11-unit motel)**.",

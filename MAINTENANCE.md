@@ -48,6 +48,8 @@ Every post carries 5 or more calls to action spread through the body (short `cta
 
 ## Cross-linking rule
 
+Posts carry `tags`; the post page builds a "Keep reading" list and the bottom "More San Clemente Guides" cards from shared tags automatically. Body links both ways are still required, and the audit script's link graph flags any post that is under-linked.
+
 Whenever a new post goes up:
 - Link it from the blog index "start here" table (`components/BlogIndex.tsx`).
 - Link it from the matching neighborhood page (`relatedMap` in `app/neighborhoods/[slug]/page.tsx`).

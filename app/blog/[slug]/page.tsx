@@ -16,6 +16,7 @@ import AlertBanner from "@/components/AlertBanner";
 import AuthorCard from "@/components/AuthorCard";
 import { imageFor } from "@/lib/images";
 import { posts, getPost } from "@/lib/posts";
+import { relatedPosts } from "@/lib/posts/related";
 import type { Block } from "@/lib/posts/types";
 import { hoods } from "@/lib/neighborhoods";
 import { guides } from "@/lib/places";
@@ -90,7 +91,9 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
   const p = getPost(slug);
   if (!p) notFound();
   const mins = Math.max(2, Math.round((words(p.blocks) + p.faqs.length * 60) / 220));
-  const more = posts.filter((x) => x.slug !== p.slug).slice(0, 4);
+  const related = relatedPosts(p, 4);
+  const fill = posts.filter((x) => x.slug !== p.slug && !related.includes(x));
+  const more = [...related, ...fill].slice(0, 4);
   const h2s = p.blocks.filter((b): b is Extract<Block, { t: "h2" }> => b.t === "h2");
 
   return (
@@ -132,6 +135,17 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
             {p.blocks.map((b, i) => (
               <Render key={i} b={b} />
             ))}
+
+            {related.length > 0 && (
+              <aside className="keep-reading" aria-label="Related reading">
+                <strong>Keep reading</strong>
+                <ul>
+                  {related.map((r) => (
+                    <li key={r.slug}><Link href={`/blog/${r.slug}`}>{r.title}</Link><span>{r.excerpt}</span></li>
+                  ))}
+                </ul>
+              </aside>
+            )}
 
             <h2 id="faq">Frequently asked questions about this topic</h2>
             {p.faqs.map((f) => (

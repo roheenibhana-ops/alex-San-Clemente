@@ -8,6 +8,7 @@ export const post: Post = {
     "Shorecliffs is a 504-home San Clemente neighborhood with a private resident beach club, and it is not the golf club. Here's the history and what to ask before buying.",
   date: "2026-10-21",
   category: "Neighborhood deep dive",
+  tags: ["shorecliffs", "neighborhood", "beaches", "hoa"],
   excerpt: "A 504-home neighborhood from around 1960, a private beach club owned by its members, and a name that gets confused with a golf course.",
   takeaways: [
     "Shorecliffs is a **504-home neighborhood** developed by Pacesetter Homes starting around **1960**, with originally single-level houses on terraced, ocean-view lots.",

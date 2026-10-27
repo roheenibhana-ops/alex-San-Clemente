@@ -8,6 +8,7 @@ export const post: Post = {
     "Halloween events in San Clemente for 2026: the fun run, the Outlets Candy Crawl, trunk-or-treat, what's nearby, and local tips. Dates checked against official sources.",
   date: "2026-10-22",
   category: "Local events",
+  tags: ["events", "seasonal", "downtown"],
   excerpt: "What is actually on in San Clemente this Halloween week, which listings disagree, and how locals handle trick-or-treating.",
   takeaways: [
     "Halloween falls on a **Saturday** this year, **October 31, 2026**. The busiest event weekend is **October 23 and 24**.",

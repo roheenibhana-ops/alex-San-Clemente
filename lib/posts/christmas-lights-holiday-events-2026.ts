@@ -9,6 +9,7 @@ export const post: Post = {
   date: "2026-10-22",
   updated: "2026-10-24",
   category: "Local events",
+  tags: ["events", "seasonal", "downtown", "talega"],
   excerpt: "Where locals go for Christmas lights, the big downtown holiday night, and which dates are confirmed and which still need checking.",
   takeaways: [
     "San Clemente's big holiday night is **Puttin' on the Glitz at Santa's Village by the Sea** on Avenida Del Mar and at the Community Center. It was held on the **first Saturday of December** in 2024 and 2025. The Downtown Business Association's page now lists **Saturday, December 5, 2026, 4 to 9 p.m.**, but the City had **not posted its 2026 listing** when we checked on October 24.",

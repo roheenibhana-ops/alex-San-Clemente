@@ -9,6 +9,7 @@ export const post: Post = {
     "Compare San Clemente, Dana Point, San Juan Capistrano, Newport Beach, and Laguna Beach on time to sell, price cuts, and sale-to-list. October 2026 data.",
   date: "2026-10-21",
   category: "Compare",
+  tags: ["moving", "market", "neighborhood"],
   excerpt: "South Orange County coastal cities look alike from the freeway. The market data says otherwise.",
   takeaways: [
     "San Clemente's expected time to sell (**84 days**) is the shortest of the six coastal cities in the October 2026 snapshot.",
@@ -186,6 +187,7 @@ export const post: Post = {
     { t: "p", text: "None of that makes the data useless. It simply means you should treat it as context, then verify details for the specific home and street you're considering." },
     { t: "h2", text: "Next steps" },
     { t: "p", text: "If you're leaning toward San Clemente, start with the neighborhood that matches how you want to live: [Downtown & Pier Bowl](/neighborhoods/downtown-pier-bowl) for walkability, [Talega](/neighborhoods/talega) for planned amenities, or [Forster Ranch](/neighborhoods/forster-ranch) for a hillside setting. If you're still comparing cities, bring your list and your budget to a conversation and we'll put real recent sales side by side. You can reach out through the [contact form](/#contact)." },
+    { t: "p", text: "Once you have picked a city, our [moving guide](/blog/moving-to-san-clemente-what-to-know) and [buying guide](/blog/buying-a-single-family-home-in-san-clemente) cover the next steps in San Clemente, [what is being built](/blog/whats-being-built-in-san-clemente-hotels-housing-projects) shows what is changing, and our [Olympics guide](/blog/san-clemente-2028-olympics-lower-trestles-surfing) covers the 2028 surfing events nearby." },
   ],
   faqs: [
     { q: "Which coastal city sells the fastest?", a: "In the October 2026 snapshot, San Clemente had the shortest expected time to sell at 84 days, followed by San Juan Capistrano at 117 days." },

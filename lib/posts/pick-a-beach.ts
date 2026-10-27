@@ -8,6 +8,7 @@ export const post: Post = {
     "Which San Clemente beach fits your day? Compare North Beach, the Pier, T-Street, Calafia, State Beach, and Trestles on parking, access, and vibe.",
   date: "2026-10-21",
   category: "Lifestyle",
+  tags: ["beaches", "downtown", "moving"],
   excerpt: "Parking, stairs, tide pools, and surf. Here's how to match the beach to the day.",
   takeaways: [
     "San Clemente has **seven main beach areas**: North Beach, the Pier, T-Street, Lasuen (Lost Winds), Calafia, San Clemente State Beach, and Trestles.",

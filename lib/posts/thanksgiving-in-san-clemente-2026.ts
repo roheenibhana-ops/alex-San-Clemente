@@ -9,6 +9,7 @@ export const post: Post = {
   date: "2026-10-22",
   updated: "2026-10-24",
   category: "Local events",
+  tags: ["events", "seasonal", "downtown"],
   excerpt: "Thanksgiving falls on Thursday, November 26. What is confirmed, what to call about, and where to give back in San Clemente.",
   takeaways: [
     "Thanksgiving is **Thursday, November 26, 2026**.",

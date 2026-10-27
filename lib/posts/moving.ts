@@ -8,6 +8,7 @@ export const post: Post = {
     "Thinking of moving to San Clemente, CA? Honest notes on weather, commuting, beaches, costs, and neighborhoods, with sources and a local checklist.",
   date: "2026-10-21",
   category: "Relocation",
+  tags: ["moving", "buying", "neighborhood", "downtown"],
   excerpt: "The sunsets are real. So are the traffic on the 5 and the summer beach parking. An honest checklist before you move.",
   takeaways: [
     "San Clemente has about **64,293 residents** (2020 Census) and a Mediterranean climate with August highs around 79°F and December highs around 64°F.",
@@ -234,6 +235,7 @@ export const post: Post = {
     ] },
     { t: "p", text: "Whatever you decide, give yourself time. A town this appealing deserves a thoughtful move. When you're ready to look at homes, we'll help you match your priorities to the right neighborhood and the right house." },
     { t: "p", text: "Wondering about hotels, new housing and construction as you plan a move? See [what is being built in San Clemente](/blog/whats-being-built-in-san-clemente-hotels-housing-projects), based on the City's own reports." },
+    { t: "p", text: "For neighborhood deep dives, see [Forster Ranch tracts](/blog/forster-ranch-tracts-reserves-cantomar-naples-compared), [Sea Pointe Estates](/blog/sea-pointe-estates-gated-community-san-clemente) and [Shorecliffs and its beach club](/blog/shorecliffs-beach-club-neighborhood-guide). If you are weighing nearby towns, read [San Clemente vs. Dana Point vs. San Juan Capistrano](/blog/san-clemente-vs-dana-point-vs-san-juan-capistrano)." },
   ],
   faqs: [
     { q: "Is San Clemente a good place to live?", a: "Many residents love its beaches, walkable Downtown, and small-town feel. Tradeoffs include traffic on the 5, summer crowds, and a high cost of living." },

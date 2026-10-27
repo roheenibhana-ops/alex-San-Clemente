@@ -8,6 +8,7 @@ export const post: Post = {
     "Walk, run, or bike the San Clemente Beach Trail: length, hours, stops from North Beach to Calafia, and safety tips for the train crossings.",
   date: "2026-10-21",
   category: "Lifestyle",
+  tags: ["beaches", "downtown", "events"],
   excerpt: "A coastal trail that connects the beaches, the pier, and T-Street. Here's what to know before you go.",
   takeaways: [
     "The trail links **North Beach to Calafia**, passing the San Clemente Pier and T-Street, and runs about **2.3 to 2.6 miles** depending on the source.",

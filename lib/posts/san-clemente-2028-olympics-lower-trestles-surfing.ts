@@ -8,6 +8,7 @@ export const post: Post = {
     "Olympic surfing comes to Lower Trestles in July 2028. Dates, how to get there, tickets, crowds, short-term rental rules and what is still unconfirmed, checked against official sources.",
   date: "2026-10-25",
   category: "Local life",
+  tags: ["olympics", "beaches", "downtown", "events", "development"],
   excerpt: "Dates, access, tickets, crowds and rental rules for Olympic surfing at Lower Trestles, with a clear line between what is confirmed and what is not.",
   takeaways: [
     "Olympic surfing is scheduled for **July 15 to 18, 2028** at Trestles State Beach, just south of San Clemente, with the Games opening on **July 14**. LA28's hospitality page lists sessions on those four days.",

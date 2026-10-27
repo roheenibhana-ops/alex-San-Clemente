@@ -8,6 +8,7 @@ export const post: Post = {
     "Comparing the Pier Bowl and Talega in San Clemente: setting, walkability, home styles, and trade-offs, so you can choose the area that fits how you live.",
   date: "2026-10-21",
   category: "Compare",
+  tags: ["downtown", "talega", "neighborhood", "moving"],
   excerpt: "One is a walkable coastal village. The other is a big master-planned community. Here's how they differ.",
   takeaways: [
     "The **Pier Bowl and Downtown** are coastal and walkable, with vintage cottages and newer coastal builds.",
@@ -225,6 +226,7 @@ export const post: Post = {
     ] },
     { t: "cta", text: "Not sure which one fits? Tell Alex how you live and he'll point you to the streets worth touring.", href: "/#contact", label: "Talk to Alex" },
     { t: "p", text: "For official information about the city, visit [sanclemente.gov](https://www.sanclemente.gov/), and for background on Talega, see its [Wikipedia entry](https://en.wikipedia.org/wiki/Talega,_San_Clemente,_California)." },
+    { t: "p", text: "Keep exploring: [what Talega's HOA and Mello-Roos cover](/blog/talega-hoa-dues-mello-roos-what-they-cover), [what is being built in San Clemente](/blog/whats-being-built-in-san-clemente-hotels-housing-projects) and the [Beach Trail guide](/blog/san-clemente-beach-trail-guide). You can also see how [San Clemente compares with Dana Point and San Juan Capistrano](/blog/san-clemente-vs-dana-point-vs-san-juan-capistrano)." },
   ],
   faqs: [
     { q: "Is Talega close to the beach?", a: "Talega is about 3 miles from the coast and about 2 miles east of I-5, according to public descriptions, so beach trips involve a short drive." },

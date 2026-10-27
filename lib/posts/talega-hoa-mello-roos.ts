@@ -8,6 +8,7 @@ export const post: Post = {
     "What Talega's HOA dues and Mello-Roos pay for, how the layers stack up, and what to ask for before you buy a home in San Clemente's Talega.",
   date: "2026-10-21",
   category: "Neighborhood deep dive",
+  tags: ["talega", "neighborhood", "hoa", "buying"],
   excerpt: "Master association, neighborhood HOA, and a special tax. Here's how Talega's monthly costs are layered, and what each piece pays for.",
   takeaways: [
     "Talega's costs come in **layers**: a master association, sometimes a neighborhood or sub-association, and a separate **Mello-Roos** special tax.",

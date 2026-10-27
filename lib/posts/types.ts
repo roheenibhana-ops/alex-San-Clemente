@@ -19,6 +19,7 @@ export type Post = {
   date: string; // ISO
   updated?: string; // ISO, set when a post is refreshed
   category: string;
+  tags: string[]; // topic tags, used to pick related posts (neighborhood slugs and themes)
   excerpt: string;
   takeaways: string[];
   blocks: Block[];

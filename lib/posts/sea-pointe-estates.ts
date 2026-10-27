@@ -8,6 +8,7 @@ export const post: Post = {
     "Sea Pointe Estates is a guard-gated San Clemente community with a clubhouse, pool and tennis. Home sizes, HOA dues, and what to verify before you buy.",
   date: "2026-10-21",
   category: "Neighborhood deep dive",
+  tags: ["rancho-san-clemente", "neighborhood", "buying", "hoa"],
   excerpt: "A guard-gated community with a clubhouse, pool, spa and tennis courts. Here is what listings and public sources say, and what to confirm.",
   takeaways: [
     "Sea Pointe Estates is described in listings as a **24-hour, guard-gated community** in San Clemente.",

@@ -8,6 +8,7 @@ export const post: Post = {
     "Sea Summit's four neighborhoods compared: Azure, Aqua, Sapphire, and Indigo. Home sizes, HOA dues, amenities, and what to verify before you buy.",
   date: "2026-10-21",
   category: "Neighborhood deep dive",
+  tags: ["sea-summit", "neighborhood", "hoa", "buying"],
   excerpt: "Four tracts, one coastal community. Here's how Azure, Aqua, Sapphire and Indigo differ, and what to check before you make an offer.",
   takeaways: [
     "[Sea Summit](/neighborhoods/sea-summit) is a master-planned community on the former Marblehead Coastal property, built as four neighborhoods: **Azure, Aqua, Sapphire and Indigo**.",
