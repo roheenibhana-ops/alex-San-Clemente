@@ -79,7 +79,32 @@ export default function About() {
         </section>
 
 
-        <section className="section recog tint" aria-labelledby="recog-h">
+        <section className="section tint" aria-labelledby="serhant-h">
+          <div className="awards">
+            {serhantPhoto && (
+              // eslint-disable-next-line @next/next/no-img-element
+              <img className="awards-photo" src={serhantPhoto} alt="Alex Yu with Ryan Serhant at a rooftop event" loading="lazy" />
+            )}
+            <div className="awards-copy">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img className="about-serhant" src="/serhant-logo.png" alt="SERHANT." loading="lazy" />
+              <h2 id="serhant-h">The Alex Yu Team and SERHANT.</h2>
+              <p>
+                The Alex Yu Team now works with SERHANT, one of the most recognized names in real estate. Alex has long been part
+                of the SERHANT world as a PRO Coach with SERHANT. Sell It, so this move builds on a relationship that was already
+                there.
+              </p>
+              <p>
+                Your experience stays personal and local. Alex and the team still price homes with real numbers, explain what each
+                San Clemente neighborhood is actually like, and stay with you from first conversation to closing, now with the
+                SERHANT brand behind the work.
+              </p>
+              <Link className="btn" href="/#contact">Talk to Alex</Link>
+            </div>
+          </div>
+        </section>
+
+        <section className="section recog" aria-labelledby="recog-h">
           <Reveal>
             <p className="eyebrow">Recognized and endorsed</p>
             <h2 id="recog-h">Endorsed by those you trust</h2>
@@ -99,7 +124,7 @@ export default function About() {
           <img className="seen-on-img" src="/images/as-seen-on.png" alt={`As seen streaming on ${seenOn.join(", ")}`} width={1520} height={181} loading="lazy" />
         </section>
 
-        <section className="section" aria-labelledby="bg-h">
+        <section className="section tint" aria-labelledby="bg-h">
           <Reveal>
             <p className="eyebrow">Background</p>
             <h2 id="bg-h">Who is behind the Alex Yu Team?</h2>
@@ -114,7 +139,7 @@ export default function About() {
         </section>
 
 
-        <section className="section tint" aria-labelledby="corcoran-h">
+        <section className="section" aria-labelledby="corcoran-h">
           <div className="recog-split">
             {endorsement.photos.length > 0 && (
               <div className="recog-photos">
@@ -134,7 +159,7 @@ export default function About() {
           </div>
         </section>
 
-        <section className="section" aria-labelledby="prog-h">
+        <section className="section tint" aria-labelledby="prog-h">
           <Reveal>
             <p className="eyebrow">Programs built around you</p>
             <h2 id="prog-h">Signature programs for buyers and sellers</h2>
@@ -151,7 +176,7 @@ export default function About() {
         </section>
 
 
-        <section className="section tint" aria-labelledby="how-h">
+        <section className="section" aria-labelledby="how-h">
           <Reveal>
             <p className="eyebrow">How I work</p>
             <h2 id="how-h">How does Alex work with clients?</h2>
@@ -166,54 +191,28 @@ export default function About() {
         </section>
 
 
-        <section className="section" aria-labelledby="awards-h">
-          <div className="awards">
-            {serhantPhoto && (
-              // eslint-disable-next-line @next/next/no-img-element
-              <img className="awards-photo" src={serhantPhoto} alt="Alex Yu with Ryan Serhant" loading="lazy" />
-            )}
-            <div className="awards-copy">
-              <h2 id="awards-h">Recognized by the industry</h2>
-              <p>
-                Over 600 transactions and more than $550M in sales have earned the Alex Yu Team recognition from some of the biggest
-                names in real estate.
-              </p>
-              <ul>
-                {recognition.map((r) => (
-                  <li key={r.title}>
-                    <div>
-                      <strong>{r.title}</strong>
-                      <span>{r.body}</span>
-                    </div>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </div>
-        </section>
-
-
-        <section className="section narrow prose" aria-labelledby="serhant-h">
+        <section className="section narrow prose tint" aria-labelledby="awards-h">
           <Reveal>
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img className="about-serhant" src="/serhant-logo.png" alt="SERHANT." loading="lazy" />
-            <p className="eyebrow">A new chapter</p>
-            <h2 id="serhant-h">The Alex Yu Team and SERHANT.</h2>
+            <p className="eyebrow">The track record</p>
+            <h2 id="awards-h">Recognition earned along the way</h2>
             <p>
-              The Alex Yu Team now works with SERHANT., one of the most recognized names in real estate. Alex has long been part
-              of the SERHANT. world as a PRO Coach with SERHANT. Sell It, so this move builds on a relationship that was already
-              there.
+              Over 600 transactions and more than $550M in sales have earned the Alex Yu Team recognition from some of the biggest
+              names in real estate.
             </p>
-            <p>
-              Your experience stays personal and local. Alex and the team still price homes with real numbers, explain what each
-              San Clemente neighborhood is actually like, and stay with you from first conversation to closing, now with the
-              SERHANT. brand behind the work.
-            </p>
-            <Link className="btn" href="/#contact">Talk to Alex</Link>
+            <ul className="award-list">
+              {recognition.filter((r) => !r.title.startsWith("Serhant")).map((r) => (
+                <li key={r.title}>
+                  <strong>{r.title}</strong>
+                  <span>{r.body}</span>
+                </li>
+              ))}
+            </ul>
           </Reveal>
         </section>
 
-        <section className="section narrow prose tint" aria-labelledby="give-h">
+
+
+        <section className="section narrow prose" aria-labelledby="give-h">
           <Reveal>
             <h2 id="give-h">Giving back</h2>
             <p>
@@ -223,7 +222,7 @@ export default function About() {
           </Reveal>
         </section>
 
-        <section className="section" aria-labelledby="where-h">
+        <section className="section tint" aria-labelledby="where-h">
           <Reveal>
             <p className="eyebrow">Where I work</p>
             <h2 id="where-h">San Clemente neighborhoods Alex serves</h2>
