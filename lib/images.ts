@@ -137,6 +137,10 @@ export const images: Record<string, Img> = {
     src: "/images/neighborhoods/talega.jpg",
     alt: "Aerial view of a row of two-story homes in Talega, San Clemente, with a golf course and rolling hills behind",
   },
+  "post:san-clemente-veterans-day-2026-park-semper-fi-marine-corps-birthday": {
+    src: "/images/blog/san-clemente-veterans-day-2026-park-semper-fi-marine-corps-birthday.jpg",
+    alt: "Aerial view of the San Clemente pier stretching into blue ocean, with the beach and shoreline beside it",
+  },
   "post:whats-being-built-in-san-clemente-hotels-housing-projects": {
     src: "/images/blog/whats-being-built-in-san-clemente-hotels-housing-projects.jpg",
     alt: "Aerial view of the San Clemente pier extending into blue ocean, with the beach, palm trees and the railroad along the shore",

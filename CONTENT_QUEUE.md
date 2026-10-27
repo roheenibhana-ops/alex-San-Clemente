@@ -5,7 +5,6 @@ Twice a week (Monday and Thursday): ONE lifestyle post and ONE real estate post,
 Lifestyle = events, food, parks, beaches, local life. Real estate = neighborhoods, costs, buying, selling, HOA, market, commuting. Every lifestyle post should link to a neighborhood or buying page; every real estate post should link to a lifestyle guide.
 
 ## Lifestyle queue
-1. Veterans Day 2026 events and ways to honor veterans (verify with City calendar and local groups)
 2. Miramar Food Hall guide: vendors, hours, what to order (miramarfoodhall.com is readable)
 3. New restaurants in San Clemente 2026 (Zov's, Taqueria Luna, Jimmy B's, Parlor, Broken Yolk coming, Luna Grill status)
 4. Zov's San Clemente: what to know (Avenida Del Mar)
@@ -43,3 +42,4 @@ Lifestyle = events, food, parks, beaches, local life. Real estate = neighborhood
 - 2026-10-22 Halloween events; Christmas lights and holiday events; Forster Ranch tracts; Thanksgiving
 - 2026-10-25 LIFESTYLE: The 2028 Olympics at Lower Trestles (san-clemente-2028-olympics-lower-trestles-surfing). Photos from Roheeni placed (hero surfer on wave, inline dusk surf lines; locations unlabeled so alt text is neutral). Unconfirmed in post: contingency days, spectator cap, shuttles/parking, ticket status for surfing, STR relaxation, hotel completion. Next: real estate "What is being built in San Clemente" (priority 0).
 - 2026-10-26 REAL ESTATE: What is being built in San Clemente (whats-being-built-in-san-clemente-hotels-housing-projects). Built from the City's June 2026 hotel staff report, 2025 Annual Progress Report, Sept 2026 inclusionary and March 2026 SB 9 reports. Hero reuses the pier aerial (stand-in). Unconfirmed in post: Hotel Clemente construction start, Lodge operator and start, outcome of the Sept 2026 inclusionary vote and SB 9 ordinance, Hanson Hotel details. Next: lifestyle (queue item 1, Veterans Day 2026) on Tuesday.
+- 2026-10-27 LIFESTYLE: Veterans Day 2026 (san-clemente-veterans-day-2026-park-semper-fi-marine-corps-birthday). Hero is a stand-in pier aerial; swap for a real Park Semper Fi or ceremony photo. Unconfirmed: the Sunday Nov 8 1 p.m. ceremony (one roundup only), Heroes Hall Nov 14, OCTA service on Nov 11, CalVet loan details. Next: real estate on Wednesday (queue item 1, property taxes and insurance on a $2M home; Oct 28 is near month end, so consider the October market refresh).

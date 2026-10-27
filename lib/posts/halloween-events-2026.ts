@@ -206,6 +206,7 @@ export const post: Post = {
     ] },
     { t: "p", text: "San Clemente's holiday season ramps up quickly. See our [Thanksgiving guide](/blog/san-clemente-thanksgiving-2026-turkey-trots-dinner-giving-back) and our [Christmas lights and holiday events guide](/blog/san-clemente-christmas-lights-holiday-events-2026) for the best places to see holiday lights and the downtown holiday night. For year-round local fun, see our guides to [the beaches](/lifestyle/beaches), [parks and trails](/lifestyle/parks-trails), and [where to eat](/lifestyle/food-drink)." },
     { t: "p", text: "If you want a calendar of local events as they come up, the [City of San Clemente's events page](https://www.sanclemente.gov/calendar.aspx) is the official source, and the [Outlets at San Clemente events page](https://www.outletsatsanclemente.com/events) is the one to watch for shopping-center events." },
+    { t: "p", text: "Right after Halloween comes Veterans Day. See our guide to [Veterans Day in San Clemente](/blog/san-clemente-veterans-day-2026-park-semper-fi-marine-corps-birthday) for the Park Semper Fi ceremony and nearby events." },
   ],
   faqs: [
     { q: "When is Halloween in 2026?", a: "Halloween is on Saturday, October 31, 2026. Most San Clemente events happen the weekend before, October 23 and 24." },

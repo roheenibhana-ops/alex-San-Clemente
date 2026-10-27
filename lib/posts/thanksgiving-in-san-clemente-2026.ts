@@ -194,6 +194,7 @@ export const post: Post = {
     { t: "p", text: "Hosting Thanksgiving also shows you what a home is really like for a gathering: the kitchen flow, the table space, the yard and the parking. Our [buying guide](/blog/buying-a-single-family-home-in-san-clemente) covers the process, and you can see what is on the market from [Alex's San Clemente listing search](https://www.besthomesorangecounty.com/san-clemente/)." },
     { t: "ctaCard", text: "Want to find a home with space for the holidays? Alex can show you neighborhoods and current listings that fit." },
     { t: "p", text: "For more local events, see our guides to [Halloween in San Clemente](/blog/san-clemente-halloween-events-2026) and [Christmas lights and holiday events](/blog/san-clemente-christmas-lights-holiday-events-2026), and our guides to [where to eat](/lifestyle/food-drink) and [the beaches](/lifestyle/beaches). The [City's events calendar](https://www.sanclemente.gov/calendar.aspx) is the official source for local events as they are announced." },
+    { t: "p", text: "Earlier in November, [Veterans Day in San Clemente](/blog/san-clemente-veterans-day-2026-park-semper-fi-marine-corps-birthday) has its own ceremony at Park Semper Fi, with nearby events and resources for veterans." },
   ],
   faqs: [
     { q: "When is Thanksgiving 2026?", a: "Thursday, November 26, 2026." },

@@ -77,6 +77,7 @@ export default function BlogIndex({ page }: { page: number }) {
               caption="Start with the topic that fits you"
               head={["If you're...", "Start here", "What it covers"]}
               rows={[
+                ["Planning for Veterans Day", "[Veterans Day in San Clemente](/blog/san-clemente-veterans-day-2026-park-semper-fi-marine-corps-birthday)", "Park Semper Fi ceremony, nearby events, closures and veteran resources"],
                 ["Wondering what is being built nearby", "[What is being built in San Clemente](/blog/whats-being-built-in-san-clemente-hotels-housing-projects)", "Hotels, housing, ADUs, public works and how to check any address"],
                 ["Wondering about the 2028 Olympics", "[Olympic surfing at Lower Trestles](/blog/san-clemente-2028-olympics-lower-trestles-surfing)", "Dates, access, tickets, crowds and rental rules, with what is still unconfirmed"],
                 ["Hosting or giving back at Thanksgiving", "[Thanksgiving in San Clemente](/blog/san-clemente-thanksgiving-2026-turkey-trots-dinner-giving-back)", "Turkey trots, dinner leads and where to help"],
