@@ -565,3 +565,5 @@ a.card-link .link-arrow { display: inline-block; margin-top: .75rem; }
 .recog-split p { margin: 0 0 1rem; }
 .recog-split .link-arrow { display: inline-block; margin-bottom: .4rem; }
 .recog-split .btn { margin-top: .4rem; }
+.recog-split:has(> .recog-photos) { max-width: 1040px; grid-template-columns: 1fr 1fr; gap: 2rem; }
+.recog-split h2 { font-size: clamp(1.9rem, 3.4vw, 2.6rem); line-height: 1.12; }
