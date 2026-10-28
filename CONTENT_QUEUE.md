@@ -21,7 +21,6 @@ Lifestyle = events, food, parks, beaches, local life. Real estate = neighborhood
 15. Whale watching and winter ocean activities near San Clemente
 
 ## Real estate queue
-1. Property taxes and insurance on a $2M San Clemente home (OC Assessor, CA Dept of Insurance)
 2. Rancho San Clemente: living on the hillside (use `lib/hoodParks.ts` and public sources)
 3. Downtown and the Pier Bowl, street by street (only what can be sourced)
 4. Selling a house in San Clemente: pricing and timing (use `lib/market.ts`)
@@ -43,3 +42,4 @@ Lifestyle = events, food, parks, beaches, local life. Real estate = neighborhood
 - 2026-10-25 LIFESTYLE: The 2028 Olympics at Lower Trestles (san-clemente-2028-olympics-lower-trestles-surfing). Photos from Roheeni placed (hero surfer on wave, inline dusk surf lines; locations unlabeled so alt text is neutral). Unconfirmed in post: contingency days, spectator cap, shuttles/parking, ticket status for surfing, STR relaxation, hotel completion. Next: real estate "What is being built in San Clemente" (priority 0).
 - 2026-10-26 REAL ESTATE: What is being built in San Clemente (whats-being-built-in-san-clemente-hotels-housing-projects). Built from the City's June 2026 hotel staff report, 2025 Annual Progress Report, Sept 2026 inclusionary and March 2026 SB 9 reports. Hero reuses the pier aerial (stand-in). Unconfirmed in post: Hotel Clemente construction start, Lodge operator and start, outcome of the Sept 2026 inclusionary vote and SB 9 ordinance, Hanson Hotel details. Next: lifestyle (queue item 1, Veterans Day 2026) on Tuesday.
 - 2026-10-27 LIFESTYLE: Veterans Day 2026 (san-clemente-veterans-day-2026-park-semper-fi-marine-corps-birthday). Hero is a stand-in pier aerial; swap for a real Park Semper Fi or ceremony photo. Unconfirmed: the Sunday Nov 8 1 p.m. ceremony (one roundup only), Heroes Hall Nov 14, OCTA service on Nov 11, CalVet loan details. Next: real estate on Wednesday (queue item 1, property taxes and insurance on a $2M home; Oct 28 is near month end, so consider the October market refresh).
+- 2026-10-28 REAL ESTATE: Property taxes and insurance on a $2M San Clemente home (property-taxes-and-insurance-on-a-2-million-san-clemente-home). Sources: OC Assessor, OC Treasurer-Tax Collector, CA Dept of Insurance. Hero reuses a library aerial (stand-in). Unconfirmed: official San Clemente total tax rate (not quoted), timing differences between supplemental appeal windows, FAIR Plan rules may change. Next: lifestyle on Sunday/Monday (queue item 1: Miramar Food Hall guide).

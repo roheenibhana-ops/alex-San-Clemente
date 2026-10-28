@@ -205,6 +205,7 @@ export const post: Post = {
     { t: "p", text: "If you're considering a move, reach out through the [contact form](/#contact) or request a [free home valuation](/home-value). There's no obligation, and you'll get a straight answer about where you stand." },
     { t: "p", text: "Wondering whether the 2028 Olympics will change the market? Our [Lower Trestles Olympics guide](/blog/san-clemente-2028-olympics-lower-trestles-surfing) lays out what is confirmed and what is not, and why we would not trust a confident price prediction." },
     { t: "p", text: "For the neighborhood detail behind the numbers, see our guides to [Forster Ranch](/blog/forster-ranch-tracts-reserves-cantomar-naples-compared), [Sea Pointe Estates](/blog/sea-pointe-estates-gated-community-san-clemente) and [Shorecliffs](/blog/shorecliffs-beach-club-neighborhood-guide), and our comparison of [San Clemente with Dana Point and San Juan Capistrano](/blog/san-clemente-vs-dana-point-vs-san-juan-capistrano)." },
+    { t: "p", text: "Prices are only part of the cost. Our guide to [property taxes and insurance on a $2 million home](/blog/property-taxes-and-insurance-on-a-2-million-san-clemente-home) explains the tax bill, the supplemental bill and insurance gaps." },
   ],
   faqs: [
     { q: "What is the median home price in San Clemente?", a: "The single-family median sale price was $2,225,000 in September 2026, up from $2,085,000 a year earlier, per [a local market report](https://adamboehrer.com/san-clemente-housing-market/). Monthly figures vary, so look at multi-month trends." },

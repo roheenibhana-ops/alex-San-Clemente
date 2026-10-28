@@ -49,11 +49,11 @@ export default async function HoodPage({ params }: { params: Promise<{ slug: str
   const others = hoods.filter((x) => x.slug !== h.slug).slice(0, 3);
   const d = deep[h.slug];
   const relatedMap: Record<string, string[]> = {
-    "sea-summit": ["whats-being-built-in-san-clemente-hotels-housing-projects", "sea-summit-azure-aqua-sapphire-indigo-compared", "talega-hoa-dues-mello-roos-what-they-cover", "pier-bowl-vs-talega"],
-    talega: ["san-clemente-christmas-lights-holiday-events-2026", "talega-hoa-dues-mello-roos-what-they-cover", "sea-summit-azure-aqua-sapphire-indigo-compared", "pier-bowl-vs-talega"],
+    "sea-summit": ["property-taxes-and-insurance-on-a-2-million-san-clemente-home", "whats-being-built-in-san-clemente-hotels-housing-projects", "sea-summit-azure-aqua-sapphire-indigo-compared", "talega-hoa-dues-mello-roos-what-they-cover", "pier-bowl-vs-talega"],
+    talega: ["property-taxes-and-insurance-on-a-2-million-san-clemente-home", "san-clemente-christmas-lights-holiday-events-2026", "talega-hoa-dues-mello-roos-what-they-cover", "sea-summit-azure-aqua-sapphire-indigo-compared", "pier-bowl-vs-talega"],
     "downtown-pier-bowl": ["san-clemente-veterans-day-2026-park-semper-fi-marine-corps-birthday", "whats-being-built-in-san-clemente-hotels-housing-projects", "san-clemente-2028-olympics-lower-trestles-surfing", "san-clemente-thanksgiving-2026-turkey-trots-dinner-giving-back", "san-clemente-halloween-events-2026", "pier-bowl-vs-talega", "san-clemente-beach-trail-guide", "how-to-choose-a-san-clemente-beach"],
-    "forster-ranch": ["forster-ranch-tracts-reserves-cantomar-naples-compared", "moving-to-san-clemente-what-to-know", "pier-bowl-vs-talega", "buying-a-single-family-home-in-san-clemente"],
-    shorecliffs: ["san-clemente-2028-olympics-lower-trestles-surfing", "shorecliffs-beach-club-neighborhood-guide", "moving-to-san-clemente-what-to-know", "buying-a-single-family-home-in-san-clemente", "san-clemente-housing-market-update-october-2026"],
+    "forster-ranch": ["property-taxes-and-insurance-on-a-2-million-san-clemente-home", "forster-ranch-tracts-reserves-cantomar-naples-compared", "moving-to-san-clemente-what-to-know", "pier-bowl-vs-talega", "buying-a-single-family-home-in-san-clemente"],
+    shorecliffs: ["property-taxes-and-insurance-on-a-2-million-san-clemente-home", "san-clemente-2028-olympics-lower-trestles-surfing", "shorecliffs-beach-club-neighborhood-guide", "moving-to-san-clemente-what-to-know", "buying-a-single-family-home-in-san-clemente", "san-clemente-housing-market-update-october-2026"],
     "rancho-san-clemente": ["sea-pointe-estates-gated-community-san-clemente", "moving-to-san-clemente-what-to-know", "buying-a-single-family-home-in-san-clemente", "san-clemente-housing-market-update-october-2026"],
   };
   const related = (relatedMap[h.slug] ?? []).map((sl) => posts.find((p) => p.slug === sl)).filter(Boolean) as typeof posts;

@@ -242,6 +242,7 @@ export const post: Post = {
     { t: "p", text: "Buying a home should feel exciting, not overwhelming. With a clear budget, the right neighborhood, and an agent who knows the market, you can move through each step with confidence." },
     { t: "p", text: "Curious what is being built near a home you are considering? Our guide to [what is being built in San Clemente](/blog/whats-being-built-in-san-clemente-hotels-housing-projects) shows how to check the City's project map and zoning for any address." },
     { t: "p", text: "Comparing master-planned areas before you buy? Our guides to [Forster Ranch tracts](/blog/forster-ranch-tracts-reserves-cantomar-naples-compared), [Sea Pointe Estates](/blog/sea-pointe-estates-gated-community-san-clemente) and the [Shorecliffs beach club neighborhood](/blog/shorecliffs-beach-club-neighborhood-guide) go deep on one area each." },
+    { t: "p", text: "Budgeting for the bills after closing? See [property taxes and insurance on a $2 million San Clemente home](/blog/property-taxes-and-insurance-on-a-2-million-san-clemente-home), including the supplemental tax bill and what homeowners insurance leaves out." },
   ],
   faqs: [
     { q: "How much do I need for a down payment in San Clemente?", a: "It depends on the loan program and the price. With a median around $2M, even a modest percentage is significant, so talk to a lender early about options." },

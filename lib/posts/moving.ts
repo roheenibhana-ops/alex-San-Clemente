@@ -236,6 +236,7 @@ export const post: Post = {
     { t: "p", text: "Whatever you decide, give yourself time. A town this appealing deserves a thoughtful move. When you're ready to look at homes, we'll help you match your priorities to the right neighborhood and the right house." },
     { t: "p", text: "Wondering about hotels, new housing and construction as you plan a move? See [what is being built in San Clemente](/blog/whats-being-built-in-san-clemente-hotels-housing-projects), based on the City's own reports." },
     { t: "p", text: "For neighborhood deep dives, see [Forster Ranch tracts](/blog/forster-ranch-tracts-reserves-cantomar-naples-compared), [Sea Pointe Estates](/blog/sea-pointe-estates-gated-community-san-clemente) and [Shorecliffs and its beach club](/blog/shorecliffs-beach-club-neighborhood-guide). If you are weighing nearby towns, read [San Clemente vs. Dana Point vs. San Juan Capistrano](/blog/san-clemente-vs-dana-point-vs-san-juan-capistrano)." },
+    { t: "p", text: "Planning your budget? Read [property taxes and insurance on a $2 million San Clemente home](/blog/property-taxes-and-insurance-on-a-2-million-san-clemente-home) for the tax calendar, the supplemental bill and flood and earthquake coverage." },
   ],
   faqs: [
     { q: "Is San Clemente a good place to live?", a: "Many residents love its beaches, walkable Downtown, and small-town feel. Tradeoffs include traffic on the 5, summer crowds, and a high cost of living." },
