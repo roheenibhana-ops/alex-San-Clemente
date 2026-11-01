@@ -242,6 +242,7 @@ export const post: Post = {
     { t: "p", text: "For official information, visit the [City of San Clemente](https://www.sanclemente.gov/186/Beaches-Parks-Recreation), and for local news and event updates, follow the [San Clemente Times](https://www.sanclementetimes.com/). Enjoy the walk." },
     { t: "p", text: "Looking south of the trail? Olympic surfing will be held at Lower Trestles in July 2028, and our [Olympics at Lower Trestles guide](/blog/san-clemente-2028-olympics-lower-trestles-surfing) explains how to reach it and what is still unconfirmed." },
     { t: "p", text: "The Beach Trail ends near the Pier Bowl, where Park Semper Fi hosts the city's annual Veterans ceremony. See our [Veterans Day guide](/blog/san-clemente-veterans-day-2026-park-semper-fi-marine-corps-birthday)." },
+    { t: "p", text: "North Beach, where the trail starts, now has a food hall. See our guide to the [Miramar Food Hall](/blog/miramar-food-hall-san-clemente-vendors-hours-what-to-know) for vendors, hours and how to combine it with a trail walk." },
   ],
   faqs: [
     { q: "How long is the San Clemente Beach Trail?", a: "About 2.3 to 2.6 miles from North Beach to Calafia, depending on the source and whether you count the pier." },

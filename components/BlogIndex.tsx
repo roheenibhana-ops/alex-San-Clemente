@@ -77,6 +77,7 @@ export default function BlogIndex({ page }: { page: number }) {
               caption="Start with the topic that fits you"
               head={["If you're...", "Start here", "What it covers"]}
               rows={[
+                ["Deciding where to eat in North Beach", "[Miramar Food Hall guide](/blog/miramar-food-hall-san-clemente-vendors-hours-what-to-know)", "All 15 vendors, hours, the building's history and a visit plan"],
                 ["Budgeting beyond the price", "[Property taxes and insurance on a $2M home](/blog/property-taxes-and-insurance-on-a-2-million-san-clemente-home)", "Tax bills, the supplemental bill, the exemption, FAIR Plan, flood and earthquake"],
                 ["Planning for Veterans Day", "[Veterans Day in San Clemente](/blog/san-clemente-veterans-day-2026-park-semper-fi-marine-corps-birthday)", "Park Semper Fi ceremony, nearby events, closures and veteran resources"],
                 ["Wondering what is being built nearby", "[What is being built in San Clemente](/blog/whats-being-built-in-san-clemente-hotels-housing-projects)", "Hotels, housing, ADUs, public works and how to check any address"],
