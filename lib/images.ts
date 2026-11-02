@@ -137,6 +137,10 @@ export const images: Record<string, Img> = {
     src: "/images/neighborhoods/talega.jpg",
     alt: "Aerial view of a row of two-story homes in Talega, San Clemente, with a golf course and rolling hills behind",
   },
+  "post:buying-a-san-clemente-home-with-an-adu-city-rules-what-to-check": {
+    src: "/images/blog/buying-a-san-clemente-home-with-an-adu-city-rules-what-to-check.jpg",
+    alt: "Single-story tile-roof homes along a street corner at golden hour, with driveways, lawns and palm trees",
+  },
   "post:miramar-food-hall-san-clemente-vendors-hours-what-to-know": {
     src: "/images/blog/miramar-food-hall-san-clemente-vendors-hours-what-to-know.jpg",
     alt: "Overhead view of a breakfast spread with egg and avocado toast, waffles with berries, orange juice and coffee on a patterned tablecloth",

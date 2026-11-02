@@ -20,13 +20,12 @@ Lifestyle = events, food, parks, beaches, local life. Real estate = neighborhood
 15. Whale watching and winter ocean activities near San Clemente
 
 ## Real estate queue
-2. Rancho San Clemente: living on the hillside (use `lib/hoodParks.ts` and public sources)
+2. Rancho San Clemente: living on the hillside (use `lib/hoodParks.ts` and public sources). DEFERRED 2026-11-02: public sources are thin (no City page or history source found beyond broker pages), so research needs Alex or a source like the City planning area documents before writing
 3. Downtown and the Pier Bowl, street by street (only what can be sourced)
 4. Selling a house in San Clemente: pricing and timing (use `lib/market.ts`)
 5. HOA basics for first-time San Clemente buyers
 6. San Clemente vs. Laguna Niguel
 7. Commuting from San Clemente to Irvine, San Diego and LA (Metrolink, Amtrak, OCTA sources)
-8. Buying a home with an ADU in San Clemente (City planning sources, CA ADU law)
 9. Single-story vs two-story homes in San Clemente
 10. Coastal homes: flood, bluff and insurance questions (City, Coastal Commission, CA Dept of Insurance)
 11. Mello-Roos explained for San Clemente buyers (OC Treasurer sources)
@@ -43,3 +42,4 @@ Lifestyle = events, food, parks, beaches, local life. Real estate = neighborhood
 - 2026-10-27 LIFESTYLE: Veterans Day 2026 (san-clemente-veterans-day-2026-park-semper-fi-marine-corps-birthday). Hero is a stand-in pier aerial; swap for a real Park Semper Fi or ceremony photo. Unconfirmed: the Sunday Nov 8 1 p.m. ceremony (one roundup only), Heroes Hall Nov 14, OCTA service on Nov 11, CalVet loan details. Next: real estate on Wednesday (queue item 1, property taxes and insurance on a $2M home; Oct 28 is near month end, so consider the October market refresh).
 - 2026-10-28 REAL ESTATE: Property taxes and insurance on a $2M San Clemente home (property-taxes-and-insurance-on-a-2-million-san-clemente-home). Sources: OC Assessor, OC Treasurer-Tax Collector, CA Dept of Insurance. Hero reuses a library aerial (stand-in). Unconfirmed: official San Clemente total tax rate (not quoted), timing differences between supplemental appeal windows, FAIR Plan rules may change. Next: lifestyle on Sunday/Monday (queue item 1: Miramar Food Hall guide).
 - 2026-11-01 LIFESTYLE: Miramar Food Hall guide (miramar-food-hall-san-clemente-vendors-hours-what-to-know). Sources: miramarfoodhall.com, SC Times, OCBJ, Wikipedia, Wedgewood. Hero is a stock brunch photo; swap for a real food hall photo. Unconfirmed: hours (site vs SC Times differ), address (150 W Avenida Pico vs 1720 N El Camino Real), vendor count over time, theater event center opening date, parking, payment. Next: real estate on Monday (queue item 2: Rancho San Clemente).
+- 2026-11-02 REAL ESTATE: Buying a San Clemente home with an ADU (buying-a-san-clemente-home-with-an-adu-city-rules-what-to-check), written instead of Rancho San Clemente because that topic lacks verified sources. Sources: City ADU packet and ordinance text, HCD letter of Oct 14 2025, OC Assessor, City 2025 housing report. Hero reuses a library photo (stand-in). Unconfirmed: whether the City responded to or amended its ordinance after the HCD letter, which owner-occupancy/deed-restriction rule applies. Next: lifestyle on Tuesday (queue item 3: new restaurants 2026).

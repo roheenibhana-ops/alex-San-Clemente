@@ -182,6 +182,7 @@ export const post: Post = {
     { t: "p", text: "For the buying process itself, see our [buying guide](/blog/buying-a-single-family-home-in-san-clemente), and for the numbers behind pricing see the [October market update](/blog/san-clemente-housing-market-update-october-2026). Our [neighborhoods overview](/neighborhoods) helps you compare areas." },
     { t: "ctaCard", text: "Considering a home near Downtown, the Outlets or another area with projects nearby? Alex can pull current listings and help you check what is filed around any address." },
     { t: "p", text: "North Beach is also seeing new life at the former Miramar bowling center, now the [Miramar Food Hall](/blog/miramar-food-hall-san-clemente-vendors-hours-what-to-know)." },
+    { t: "p", text: "ADUs were most of the homes permitted in 2025. See our guide to [buying a home with an ADU](/blog/buying-a-san-clemente-home-with-an-adu-city-rules-what-to-check) for the City's rules and what to check." },
   ],
   faqs: [
     { q: "What is being built in San Clemente?", a: "According to the City's June 2026 report, ten approved projects are waiting to be built, including Hotel Clemente (28 rooms), The Lodge (130 rooms), Hanson Hotel (61 rooms) and Sea Cliff (an 11-unit motel), and twelve major projects were built from 2015 to 2025. The City's Development Project Map shows what is under review or construction." },
