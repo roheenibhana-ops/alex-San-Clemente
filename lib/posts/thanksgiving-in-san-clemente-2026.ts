@@ -7,7 +7,7 @@ export const post: Post = {
   description:
     "Thanksgiving 2026 in San Clemente: nearby turkey trots with start times, dinner and takeout leads, and how to help through the Hunger Walk and local food programs.",
   date: "2026-10-22",
-  updated: "2026-10-24",
+  updated: "2026-11-03",
   category: "Local events",
   tags: ["events", "seasonal", "downtown"],
   excerpt: "Thanksgiving falls on Thursday, November 26. What is confirmed, what to call about, and where to give back in San Clemente.",

@@ -11,8 +11,8 @@ export const marketSource: Source = {
 export const cityMarket = [
   { metric: "Median sale price", now: "$2,225,000", then: "$2,085,000", note: "Sept 2026 vs. Sept 2025 (+6.7%)" },
   { metric: "Single-family closings", now: "43", then: "n/a", note: "Sept 2026 (55 across all home types)" },
-  { metric: "Active single-family listings", now: "105", then: "130", note: "Sept 2026 vs. Sept 2025" },
-  { metric: "Months of supply", now: "2.9", then: "3.2", note: "Sept 2026 vs. Sept 2025" },
+  { metric: "Active single-family listings", now: "101", then: "130", note: "Sept 2026 vs. Sept 2025" },
+  { metric: "Months of supply", now: "2.7", then: "3.2", note: "Sept 2026 vs. Sept 2025" },
   { metric: "Expected time to sell", now: "84 days", then: "109 days", note: "As of Oct. 1, 2026 vs. Oct. 2025" },
   { metric: "Sale price vs. list price", now: "100.0%", then: "n/a", note: "All 55 closings in Sept 2026" },
   { metric: "Listings with a price cut", now: "43%", then: "n/a", note: "Oct. 2026 snapshot, all price points" },
