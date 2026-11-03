@@ -196,6 +196,7 @@ export const post: Post = {
     { t: "ctaCard", text: "Want to find a home with space for the holidays? Alex can show you neighborhoods and current listings that fit." },
     { t: "p", text: "For more local events, see our guides to [Halloween in San Clemente](/blog/san-clemente-halloween-events-2026) and [Christmas lights and holiday events](/blog/san-clemente-christmas-lights-holiday-events-2026), and our guides to [where to eat](/lifestyle/food-drink) and [the beaches](/lifestyle/beaches). The [City's events calendar](https://www.sanclemente.gov/calendar.aspx) is the official source for local events as they are announced." },
     { t: "p", text: "Earlier in November, [Veterans Day in San Clemente](/blog/san-clemente-veterans-day-2026-park-semper-fi-marine-corps-birthday) has its own ceremony at Park Semper Fi, with nearby events and resources for veterans." },
+    { t: "p", text: "For restaurants that opened this year, see our guide to [new restaurants in San Clemente](/blog/new-restaurants-in-san-clemente-2026-whats-open-and-whats-coming)." },
   ],
   faqs: [
     { q: "When is Thanksgiving 2026?", a: "Thursday, November 26, 2026." },

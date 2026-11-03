@@ -157,6 +157,7 @@ export const post: Post = {
     ] },
     { t: "ctaCard", text: "Thinking about a move near North Beach or the pier? Alex can walk you through the neighborhoods, current listings and what to check on a specific street." },
     { t: "p", text: "For more on living in the area, see our guide to [moving to San Clemente](/blog/moving-to-san-clemente-what-to-know) and our [buying guide](/blog/buying-a-single-family-home-in-san-clemente)." },
+    { t: "p", text: "North Beach is not the only part of town with new places to eat. See our guide to [new restaurants in San Clemente in 2026](/blog/new-restaurants-in-san-clemente-2026-whats-open-and-whats-coming) for what is open on Avenida Del Mar and El Camino Real." },
   ],
   faqs: [
     { q: "When did Miramar Food Hall open?", a: "June 18, 2026, according to the San Clemente Times. Earlier reports had targeted the end of 2025 and then May 2026." },

@@ -227,6 +227,7 @@ export const post: Post = {
     { t: "cta", text: "Not sure which one fits? Tell Alex how you live and he'll point you to the streets worth touring.", href: "/#contact", label: "Talk to Alex" },
     { t: "p", text: "For official information about the city, visit [sanclemente.gov](https://www.sanclemente.gov/), and for background on Talega, see its [Wikipedia entry](https://en.wikipedia.org/wiki/Talega,_San_Clemente,_California)." },
     { t: "p", text: "Keep exploring: [what Talega's HOA and Mello-Roos cover](/blog/talega-hoa-dues-mello-roos-what-they-cover), [what is being built in San Clemente](/blog/whats-being-built-in-san-clemente-hotels-housing-projects) and the [Beach Trail guide](/blog/san-clemente-beach-trail-guide). You can also see how [San Clemente compares with Dana Point and San Juan Capistrano](/blog/san-clemente-vs-dana-point-vs-san-juan-capistrano)." },
+    { t: "p", text: "If you are weighing downtown living, see which restaurants are new on Avenida Del Mar in our [2026 restaurant guide](/blog/new-restaurants-in-san-clemente-2026-whats-open-and-whats-coming)." },
   ],
   faqs: [
     { q: "Is Talega close to the beach?", a: "Talega is about 3 miles from the coast and about 2 miles east of I-5, according to public descriptions, so beach trips involve a short drive." },
