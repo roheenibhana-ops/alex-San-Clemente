@@ -155,7 +155,7 @@ export const images: Record<string, Img> = {
   },
   "post:san-clemente-veterans-day-2026-park-semper-fi-marine-corps-birthday": {
     src: "/images/blog/san-clemente-veterans-day-2026-park-semper-fi-marine-corps-birthday.jpg",
-    alt: "Aerial view of the San Clemente pier stretching into blue ocean, with the beach and shoreline beside it",
+    alt: "Four Marines in dress uniform stand at attention with rifles beside a stone memorial wall, next to a bronze statue of a saluting Marine on a granite base with the Marine Corps emblem",
   },
   "post:whats-being-built-in-san-clemente-hotels-housing-projects": {
     src: "/images/blog/whats-being-built-in-san-clemente-hotels-housing-projects.jpg",

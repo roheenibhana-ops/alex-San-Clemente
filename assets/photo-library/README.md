@@ -60,3 +60,5 @@ pier restaurant deck for the Seafood & Sunset roundup; train photo for a "commut
 | lobster-lab-rolls-overhead.jpg | Overhead of Lobster Lab lobster rolls, shrimp roll, grilled cheese and sandwiches on metal trays (supplied; vendor photo, source not stated) | Inline in the Miramar guide |
 | ocean-view-tile-roof-home-solar-aerial.jpg | Aerial of a single-story tile-roof home with solar panels, two-car garage and landscaped yard, ocean on the horizon (supplied as San Clemente; neighborhood unlabeled) | Hero of the ADU buying post |
 | fishermans-restaurant-pier-deck.jpg | Fisherman's Restaurant & Bar deck on the pier with blue umbrellas, diners, palms behind (supplied) | Inline in the Thanksgiving post |
+| marine-monument-color-guard.jpg | Marine color guard beside the Marine Monument statue and stone memorial wall (supplied, Veterans Day; date not stated) | Hero of the Veterans Day post |
+| marine-monument-flag-flowers.jpg | Bronze saluting Marine statue with flag and flowers at its base (supplied) | Inline in the Veterans Day post |
