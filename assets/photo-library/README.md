@@ -59,3 +59,4 @@ pier restaurant deck for the Seafood & Sunset roundup; train photo for a "commut
 | miramar-food-hall-exterior.jpg | Miramar Food Hall exterior: white stucco, red tile roof, blue awnings, "Food Hall" sign | Hero of the Miramar guide, inline in the New restaurants post |
 | lobster-lab-rolls-overhead.jpg | Overhead of Lobster Lab lobster rolls, shrimp roll, grilled cheese and sandwiches on metal trays (supplied; vendor photo, source not stated) | Inline in the Miramar guide |
 | ocean-view-tile-roof-home-solar-aerial.jpg | Aerial of a single-story tile-roof home with solar panels, two-car garage and landscaped yard, ocean on the horizon (supplied as San Clemente; neighborhood unlabeled) | Hero of the ADU buying post |
+| fishermans-restaurant-pier-deck.jpg | Fisherman's Restaurant & Bar deck on the pier with blue umbrellas, diners, palms behind (supplied) | Inline in the Thanksgiving post |

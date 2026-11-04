@@ -91,6 +91,7 @@ export const post: Post = {
     { t: "h2", text: "Where can you eat Thanksgiving dinner in San Clemente?" },
     { t: "img", src: "/images/blog/inline-thanksgiving-table.jpg", alt: "Overhead view of a shared dinner table with plates of food and people eating", caption: "A shared table is the heart of the day, whether you cook, book or pick up." },
     { t: "p", text: "Options are limited, and we want to be careful here, because restaurant hours and menus change. We could not find a confirmed list of San Clemente restaurants open on Thanksgiving 2026. These are leads to check by phone, not a recommendation list." },
+    { t: "img", src: "/images/blog/inline-fishermans-pier.jpg", alt: "Outdoor deck of a pier restaurant with blue umbrellas, white chairs and diners, above the surf with palm trees and hillside buildings behind", caption: "The Fisherman's Restaurant & Bar on the San Clemente Pier, one of the places to ask about Thanksgiving dinner." },
     {
       t: "table",
       caption: "Thanksgiving dinner leads in San Clemente (call to confirm)",
