@@ -143,7 +143,7 @@ export const images: Record<string, Img> = {
   },
   "post:buying-a-san-clemente-home-with-an-adu-city-rules-what-to-check": {
     src: "/images/blog/buying-a-san-clemente-home-with-an-adu-city-rules-what-to-check.jpg",
-    alt: "Single-story tile-roof homes along a street corner at golden hour, with driveways, lawns and palm trees",
+    alt: "Aerial view of a single-story home with a terracotta tile roof, solar panels, a two-car garage and a landscaped yard, with the ocean on the horizon",
   },
   "post:miramar-food-hall-san-clemente-vendors-hours-what-to-know": {
     src: "/images/blog/miramar-food-hall-san-clemente-vendors-hours-what-to-know.jpg",
