@@ -115,6 +115,7 @@ export const post: Post = {
     { t: "p", text: "Budget for more than the building. The City's packet notes utility connection fees for detached ADUs, and the Assessor will add the new construction's value to the property's assessed value. We did not find a sourced figure for typical construction costs in San Clemente, so get contractor bids rather than relying on a rule of thumb. If you are weighing a purchase with an ADU against a lot where you would build one, the difference is mostly time and risk." },
     { t: "p", text: "If you are comparing neighborhoods for a home with room for an ADU, our [neighborhood guides](/neighborhoods) explain what each area is like, and our [buying guide](/blog/buying-a-single-family-home-in-san-clemente) covers the process. If you are selling a home with an ADU, the permit and final inspection are the documents buyers will ask for first." },
     { t: "ctaCard", text: "Thinking about buying a home with an ADU, or adding one? Alex can help you ask the right questions and check the paperwork." },
+    { t: "p", text: "Selling a home with an ADU? Our [selling guide](/blog/selling-a-house-in-san-clemente-pricing-costs-taxes-disclosures) covers disclosures and the paperwork buyers ask for." },
   ],
   faqs: [
     { q: "What is an ADU?", a: "An accessory dwelling unit is a second, independent home on a lot with a main house. It can be attached, detached or converted from existing space. A junior ADU is a unit of no more than 500 square feet inside a single-family house." },

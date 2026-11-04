@@ -161,6 +161,7 @@ export const post: Post = {
     { t: "p", text: "For the buying process from start to finish, see our [buying guide](/blog/buying-a-single-family-home-in-san-clemente), and for the broader cost of moving here, see our guide to [moving to San Clemente](/blog/moving-to-san-clemente-what-to-know)." },
     { t: "ctaCard", text: "Want a real-world cost comparison for two or three San Clemente homes at your budget? Alex can pull current listings and help you ask the right questions about taxes and insurance." },
     { t: "p", text: "If the home has an accessory dwelling unit, see how it is taxed and what to check in [buying a San Clemente home with an ADU](/blog/buying-a-san-clemente-home-with-an-adu-city-rules-what-to-check)." },
+    { t: "p", text: "If you are on the other side of the sale, see our guide to [selling a house in San Clemente](/blog/selling-a-house-in-san-clemente-pricing-costs-taxes-disclosures) for costs, taxes and disclosures." },
   ],
   faqs: [
     { q: "How is property tax calculated on a home I buy in San Clemente?", a: "The Assessor reassesses a home when it changes ownership, and the new base value is generally its market value at the transfer. The constitution sets a 1% general levy, and a parcel's tax rate area can add voter-approved and other charges. After that, taxable value can rise by no more than 2% a year." },

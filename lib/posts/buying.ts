@@ -244,6 +244,7 @@ export const post: Post = {
     { t: "p", text: "Comparing master-planned areas before you buy? Our guides to [Forster Ranch tracts](/blog/forster-ranch-tracts-reserves-cantomar-naples-compared), [Sea Pointe Estates](/blog/sea-pointe-estates-gated-community-san-clemente) and the [Shorecliffs beach club neighborhood](/blog/shorecliffs-beach-club-neighborhood-guide) go deep on one area each." },
     { t: "p", text: "Budgeting for the bills after closing? See [property taxes and insurance on a $2 million San Clemente home](/blog/property-taxes-and-insurance-on-a-2-million-san-clemente-home), including the supplemental tax bill and what homeowners insurance leaves out." },
     { t: "p", text: "Thinking about a home with a backyard unit? Read our guide to [buying a San Clemente home with an ADU](/blog/buying-a-san-clemente-home-with-an-adu-city-rules-what-to-check) for the City's rules and a checklist." },
+    { t: "p", text: "If you are selling a home before you buy, see our guide to [selling a house in San Clemente](/blog/selling-a-house-in-san-clemente-pricing-costs-taxes-disclosures)." },
   ],
   faqs: [
     { q: "How much do I need for a down payment in San Clemente?", a: "It depends on the loan program and the price. With a median around $2M, even a modest percentage is significant, so talk to a lender early about options." },

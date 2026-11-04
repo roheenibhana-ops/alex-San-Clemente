@@ -77,6 +77,7 @@ export default function BlogIndex({ page }: { page: number }) {
               caption="Start with the topic that fits you"
               head={["If you're...", "Start here", "What it covers"]}
               rows={[
+                ["Thinking of selling your home", "[Selling a house in San Clemente](/blog/selling-a-house-in-san-clemente-pricing-costs-taxes-disclosures)", "Pricing and timing, what selling costs, taxes, disclosures and a checklist"],
                 ["Looking for somewhere new to eat", "[New restaurants in San Clemente, 2026](/blog/new-restaurants-in-san-clemente-2026-whats-open-and-whats-coming)", "What is open, what is coming and what we could not confirm"],
                 ["Buying or building with an ADU", "[Buying a home with an ADU](/blog/buying-a-san-clemente-home-with-an-adu-city-rules-what-to-check)", "City size and rental rules, the state letter, property tax and a checklist"],
                 ["Deciding where to eat in North Beach", "[Miramar Food Hall guide](/blog/miramar-food-hall-san-clemente-vendors-hours-what-to-know)", "All 15 vendors, hours, the building's history and a visit plan"],
