@@ -62,6 +62,7 @@ export const post: Post = {
     { t: "p", text: "Dishes named in the article include wood-fired tiger prawns with black lime butter, dry-aged king salmon in sauce vierge, lobster spaghetti, patata bravas, escargot and a mezze platter. Listings give the address as 1502 S. El Camino Real. Hours differ between listings, with OpenTable showing dinner from 4 p.m. and other listings showing different days, so call or check the restaurant's reservation page before you go." },
 
     { t: "h2", text: "What is happening at Miramar Food Hall?" },
+    { t: "img", src: "/images/blog/inline-miramar-food-hall.jpg", alt: "White Spanish-style building with a red tile roof, blue awnings and a Food Hall sign on a street corner", caption: "Miramar Food Hall in North Beach." },
     { t: "p", text: "Miramar Food Hall opened on June 18, 2026, in the former Miramar Bowling Center in North Beach. It has 15 food vendors and two bars, and it sits next to the historic Miramar Theatre. We cover the vendors, hours, building history and the details where sources disagree in our [Miramar Food Hall guide](/blog/miramar-food-hall-san-clemente-vendors-hours-what-to-know)." },
 
     { t: "h2", text: "How are the new restaurants connecting with the community?" },

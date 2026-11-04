@@ -147,7 +147,7 @@ export const images: Record<string, Img> = {
   },
   "post:miramar-food-hall-san-clemente-vendors-hours-what-to-know": {
     src: "/images/blog/miramar-food-hall-san-clemente-vendors-hours-what-to-know.jpg",
-    alt: "Overhead view of a breakfast spread with egg and avocado toast, waffles with berries, orange juice and coffee on a patterned tablecloth",
+    alt: "Miramar Food Hall: a white Spanish-style building with a red tile roof, blue awnings and a Food Hall sign on a sunny street corner",
   },
   "post:property-taxes-and-insurance-on-a-2-million-san-clemente-home": {
     src: "/images/blog/property-taxes-and-insurance-on-a-2-million-san-clemente-home.jpg",
