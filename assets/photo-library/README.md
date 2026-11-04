@@ -53,3 +53,5 @@ pier restaurant deck for the Seafood & Sunset roundup; train photo for a "commut
 | surfer-competition-wave-spray.jpg | Surfer in a yellow competition jersey on a wave (event and location unlabeled) | Olympics post (hero) |
 | surf-lines-dusk-beach-surfers-walking.jpg | Lines of surf at dusk with surfers on the sand (location unlabeled, low-res) | Inline in Olympics post |
 | seahorse-resort-hotel-exterior.jpg | White three-story hotel with balconies and blue awnings at dusk (source image labeled Seahorse Resort; the broker marketing banner was cropped off; low-res) | Inline in "What is being built" post |
+| taqueria-luna-hanging-sign.jpg | Hanging sign "Taqueria Luna San Clemente" with surfer, moon and palms (storefront not labeled) | Inline in "New restaurants 2026" post |
+| luna-grill-opening-crowd-stevenson-ranch-NOT-SC.jpg | Crowd outside a Luna Grill with address 24933-24943 next to "Dentists of Stevenson Ranch". This is NOT the San Clemente location | Not used. Do not use for San Clemente |
