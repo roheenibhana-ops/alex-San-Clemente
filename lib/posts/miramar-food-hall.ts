@@ -76,6 +76,7 @@ export const post: Post = {
       source: { label: "Miramar Food Hall: meet our vendors", href: "https://www.miramarfoodhall.com/" },
     },
     { t: "p", text: "A few of these have a San Clemente connection worth noting. The Pita is run by the owners of Rocket Fizz, the soda and candy shop in town. Most of the rest are known from nearby cities, mainly Carlsbad and San Diego, which fits Tiger Hospitality's pattern of bringing proven concepts together. Three vendors, Cosmos Burger, La Vida and Lobster Lab, were developed by Tiger Hospitality itself and first opened at The Windmill food hall in Carlsbad, according to the Business Journal." },
+    { t: "img", src: "/images/blog/inline-lobster-lab.jpg", alt: "Overhead view of metal trays on a wooden table holding lobster rolls, a shrimp roll, a grilled cheese and sandwiches, each with a lemon wedge", caption: "Lobster Lab, one of the 15 vendors at Miramar Food Hall, is known for lobster rolls and a lobster grilled cheese." },
     { t: "cta", text: "Love North Beach and want to live near the sand and the Beach Trail? Compare San Clemente's neighborhoods.", href: "/neighborhoods", label: "Compare neighborhoods" },
 
     { t: "h2", text: "How many vendors are really open?" },
