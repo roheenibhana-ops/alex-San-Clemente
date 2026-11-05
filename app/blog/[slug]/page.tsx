@@ -17,6 +17,7 @@ import AuthorCard from "@/components/AuthorCard";
 import { imageFor } from "@/lib/images";
 import { posts, getPost } from "@/lib/posts";
 import { relatedPosts } from "@/lib/posts/related";
+import { shareImage } from "@/lib/seo";
 import type { Block } from "@/lib/posts/types";
 import { hoods } from "@/lib/neighborhoods";
 import { guides } from "@/lib/places";
@@ -37,7 +38,8 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     title: p.metaTitle,
     description: p.description,
     alternates: { canonical: `/blog/${p.slug}` },
-    openGraph: { title: p.metaTitle, description: p.description, type: "article", publishedTime: p.date, images: ["/og.jpg"] },
+    openGraph: { title: p.metaTitle, description: p.description, type: "article", publishedTime: p.date, modifiedTime: p.updated, images: [shareImage(`post:${p.slug}`)] },
+    twitter: { card: "summary_large_image", title: p.metaTitle, description: p.description, images: [shareImage(`post:${p.slug}`).url] },
   };
 }
 
@@ -241,7 +243,7 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
           author: { "@type": "Person", name: agent.name },
           publisher: { "@type": "Organization", name: agent.team },
           mainEntityOfPage: `${SITE_URL}/blog/${p.slug}`,
-          image: `${SITE_URL}/og.jpg`,
+          image: shareImage(`post:${p.slug}`).url,
         }}
       />
     </>

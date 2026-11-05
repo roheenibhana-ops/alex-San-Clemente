@@ -1,3 +1,4 @@
+import { shareImage } from "@/lib/seo";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -38,7 +39,8 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     title: h.metaTitle,
     description: h.metaDescription,
     alternates: { canonical: `/neighborhoods/${h.slug}` },
-    openGraph: { title: h.metaTitle, description: h.metaDescription, type: "article", images: ["/og.jpg"] },
+    openGraph: { title: h.metaTitle, description: h.metaDescription, type: "article", images: [shareImage(`hood:${h.slug}`)] },
+    twitter: { card: "summary_large_image", title: h.metaTitle, description: h.metaDescription, images: [shareImage(`hood:${h.slug}`).url] },
   };
 }
 
