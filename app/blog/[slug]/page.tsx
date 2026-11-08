@@ -107,7 +107,7 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
             <Breadcrumbs trail={[{ label: "Blog", href: "/blog" }, { label: p.title, href: `/blog/${p.slug}` }]} />
             <p className="eyebrow">{p.category}</p>
             <h1>{p.title}</h1>
-            <p className="meta">By {agent.name} · {fmt(p.date)}{p.updated && p.updated !== p.date ? ` · Updated ${fmt(p.updated)}` : ""} · {mins} min read</p>
+            <p className="meta">By <Link href="/about" rel="author">{agent.name}</Link> (DRE #{agent.dre}, SERHANT) · {fmt(p.date)}{p.updated && p.updated !== p.date ? ` · Updated ${fmt(p.updated)}` : ""} · {mins} min read</p>
           </Reveal>
         </section>
         {imageFor(`post:${p.slug}`) && (
@@ -240,8 +240,8 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
           description: p.description,
           datePublished: p.date,
           dateModified: p.updated ?? p.date,
-          author: { "@type": "Person", name: agent.name },
-          publisher: { "@type": "Organization", name: agent.team },
+          author: { "@type": "Person", name: agent.name, url: `${SITE_URL}/about`, jobTitle: "Real estate agent", identifier: `California DRE #${agent.dre}` },
+          publisher: { "@type": "Organization", name: agent.team, url: SITE_URL },
           mainEntityOfPage: `${SITE_URL}/blog/${p.slug}`,
           image: shareImage(`post:${p.slug}`).url,
         }}

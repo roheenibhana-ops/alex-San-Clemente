@@ -7,7 +7,8 @@ import { guides } from "@/lib/places";
 import { foodCategories, featuredPlaces } from "@/lib/food";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const now = new Date();
+  // Static pages: fixed date (bump when the page content really changes) so lastmod stays honest.
+  const now = new Date("2026-11-03");
   return [
     { url: SITE_URL, lastModified: now, priority: 1 },
     { url: `${SITE_URL}/neighborhoods`, lastModified: now, priority: 0.9 },
@@ -22,6 +23,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE_URL}/home-value`, lastModified: now, priority: 0.8 },
     { url: `${SITE_URL}/blog`, lastModified: now, priority: 0.7 },
     ...Array.from({ length: totalPages - 1 }, (_, i) => ({ url: `${SITE_URL}/blog/page/${i + 2}`, lastModified: now, priority: 0.4 })),
-    ...posts.map((p) => ({ url: `${SITE_URL}/blog/${p.slug}`, lastModified: new Date(p.date), priority: 0.6 })),
+    ...posts.map((p) => ({ url: `${SITE_URL}/blog/${p.slug}`, lastModified: new Date(p.updated ?? p.date), priority: 0.6 })),
   ];
 }
