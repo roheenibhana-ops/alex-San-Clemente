@@ -153,6 +153,10 @@ export const images: Record<string, Img> = {
     src: "/images/blog/miramar-food-hall-san-clemente-vendors-hours-what-to-know.jpg",
     alt: "Miramar Food Hall: a white Spanish-style building with a red tile roof, blue awnings and a Food Hall sign on a sunny street corner",
   },
+  "post:buying-a-coastal-home-in-san-clemente-bluff-flood-tsunami-coastal-zone-checks": {
+    src: "/images/blog/buying-a-coastal-home-in-san-clemente-bluff-flood-tsunami-coastal-zone-checks.jpg",
+    alt: "Aerial view of large homes with terraced gardens and pools on a green, tree-covered bluff above a sandy beach, with a city skyline in the distance",
+  },
   "post:property-taxes-and-insurance-on-a-2-million-san-clemente-home": {
     src: "/images/blog/property-taxes-and-insurance-on-a-2-million-san-clemente-home.jpg",
     alt: "Aerial view at dusk of a winding residential street lined with tile-roof homes, pools and palm trees, with lit windows and brown hills behind",

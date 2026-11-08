@@ -173,7 +173,7 @@ export const post: Post = {
       "**Check the Housing Overlay map** to see whether nearby commercial sites could include homes.",
       "**Read the last three months of Planning Commission agendas** for the area, and ask the Planning Division about anything unclear.",
       "**Ask the seller about known neighbor projects**, ADUs, additions or lot splits, and look at any disclosures.",
-      "**For coastal and bluff-adjacent homes, ask about Coastal Commission requirements** that may apply to work on the property.",
+      "**For coastal and bluff-adjacent homes, ask about Coastal Commission requirements** that may apply to work on the property. See our [coastal home checks guide](/blog/buying-a-coastal-home-in-san-clemente-bluff-flood-tsunami-coastal-zone-checks).",
       "**Visit at different times.** Parking, rooftop noise and traffic show up on busy evenings and weekends, not at a Tuesday morning showing.",
     ] },
     { t: "story", title: "Illustrative scenario: a buyer near a planned hotel", paragraphs: [

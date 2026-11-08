@@ -125,7 +125,7 @@ export const post: Post = {
     { t: "p", text: "For the long term, weigh the home's flexibility, the rules and regulations that apply, its maintenance trajectory, how the neighborhood evolves, and your own plans. Most buyers think about how long they'll stay, even if they don't plan to sell for years. A few factors are worth weighing in both areas." },
     { t: "ul", items: [
       "**Flexibility of the home.** Can the layout adapt if your needs change? Some vintage homes have unusual floor plans; planned-community homes tend to follow more standard layouts.",
-      "**Rules and regulations.** Planned communities have architectural guidelines that can limit exterior changes. Coastal-zone properties may need additional permits for certain work, as the [California Coastal Commission](https://www.coastal.ca.gov/) explains.",
+      "**Rules and regulations.** Planned communities have architectural guidelines that can limit exterior changes. Coastal-zone properties may need additional permits for certain work, as the [California Coastal Commission](https://www.coastal.ca.gov/) explains. Our [coastal home checks guide](/blog/buying-a-coastal-home-in-san-clemente-bluff-flood-tsunami-coastal-zone-checks) covers who issues those permits in San Clemente.",
       "**Maintenance trajectory.** Older homes may need major systems replaced; newer ones may reach that stage later but still will.",
       "**Neighborhood evolution.** Areas change over time, with new businesses, infrastructure, and community projects. Follow local news through sources like the [San Clemente Times](https://www.sanclementetimes.com/).",
       "**Your own plans.** Remote work, a growing household, or a move to a different region can all shift what you need from a home.",
