@@ -42,6 +42,20 @@ On the 3rd of each month a scheduled run reviews the whole site against last mon
 - Keep the URL. Update the title and year, the `updated` date and the table of events.
 - Add official links (City, organizer, venue) for every event.
 
+## AEO / GEO checklist (every post)
+No one can guarantee a featured snippet or an AI citation; these steps make a page easy to quote and trust.
+1. The first paragraph or the "In short" callout answers the main question directly in about 40 to 60 words.
+2. At least 3 H2s are phrased as the questions a resident would ask, each followed by a short direct answer.
+3. At least one real table (caption plus source) for numbers, comparisons or dates.
+4. Every fact names its source in the text, with a link to a primary source (City, County, State, official site). Mark anything unconfirmed.
+5. Set `updated` to the latest check date.
+6. FAQ has 4 or more real questions that do not repeat the body word for word.
+7. Byline links to About and shows the DRE and SERHANT brand; no invented address or license.
+8. Event posts carry exact dates, times and venue in a table.
+9. 3 or more internal links out and 3 in, with descriptive anchor text.
+10. After publishing, confirm the sitemap lastmod and run the Rich Results Test.
+Team workflow for a post: research agent (official sources), search-intent agent, lead-conversion agent, then the writer, then an independent fact-check agent before pushing to main. If sources are thin, change the topic instead of padding.
+
 ## Calls to action
 
 Every post carries 5 or more calls to action spread through the body (short `cta` lines plus 1 or 2 `ctaCard`s), not only at the bottom. Place them at the end of a section, before an H2, relevant to what was just read, and soft in tone. Check the spread with a quick outline before publishing.
