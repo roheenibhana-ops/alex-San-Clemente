@@ -1,4 +1,5 @@
 import { NextResponse } from "next/server";
+import { pageTag } from "@/lib/lead-tag";
 
 type Lead = {
   name?: string;
@@ -18,6 +19,11 @@ const SOURCE = "San Clemente Microsite";
 function splitName(full: string) {
   const parts = full.trim().split(/\s+/);
   return { firstName: parts[0] ?? "", lastName: parts.slice(1).join(" ") };
+}
+
+function leadTags(l: Lead) {
+  const src = pageTag(l.page);
+  return ["San Clemente Microsite", ...(l.intent ? [l.intent] : []), ...(src ? [src] : [])];
 }
 
 function summary(l: Lead) {
@@ -55,7 +61,7 @@ async function sendToFub(l: Lead) {
         lastName,
         emails: [{ value: l.email }],
         ...(l.phone ? { phones: [{ value: l.phone }] } : {}),
-        tags: ["San Clemente Microsite", ...(l.intent ? [l.intent] : [])],
+        tags: leadTags(l),
       },
       ...(l.address ? { property: { street: l.address } } : {}),
     }),
@@ -72,7 +78,7 @@ async function sendToGhl(l: Lead) {
     email: l.email,
     phone: l.phone,
     source: SOURCE,
-    tags: ["San Clemente Microsite", ...(l.intent ? [l.intent] : [])],
+    tags: leadTags(l),
     address1: l.address,
   };
   const hook = process.env.GHL_WEBHOOK_URL;
