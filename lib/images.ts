@@ -157,6 +157,10 @@ export const images: Record<string, Img> = {
     src: "/images/blog/buying-a-coastal-home-in-san-clemente-bluff-flood-tsunami-coastal-zone-checks.jpg",
     alt: "Aerial view of large homes with terraced gardens and pools on a green, tree-covered bluff above a sandy beach, with a city skyline in the distance",
   },
+  "post:dog-friendly-san-clemente-dog-park-beach-rules-trails-moving-with-a-dog": {
+    src: "/images/blog/dog-friendly-san-clemente-dog-park-beach-rules-trails-moving-with-a-dog.jpg",
+    alt: "A City park with large shade trees, a walking path and a children's playground in the background",
+  },
   "post:property-taxes-and-insurance-on-a-2-million-san-clemente-home": {
     src: "/images/blog/property-taxes-and-insurance-on-a-2-million-san-clemente-home.jpg",
     alt: "Aerial view at dusk of a winding residential street lined with tile-roof homes, pools and palm trees, with lit windows and brown hills behind",

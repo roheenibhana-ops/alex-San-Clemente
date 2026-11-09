@@ -124,7 +124,7 @@ export const post: Post = {
       "**Planning a remodel?** Ask what approval is needed and how long it takes.",
       "**Want a specific exterior color or landscape?** Check the guidelines first.",
       "**Thinking about rentals?** Ask whether the CC&Rs limit leasing.",
-      "**Own pets or a boat or RV?** Ask about restrictions on parking and storage.",
+      "**Own pets or a boat or RV?** Ask about restrictions on parking and storage, and read the pet section of the rules (see our [dog-friendly guide](/blog/dog-friendly-san-clemente-dog-park-beach-rules-trails-moving-with-a-dog) for what California law says about HOA pet rules).",
     ] },
     { t: "story", title: "A buyer comparing two similar homes", paragraphs: [
       "Imagine a buyer touring two similar Talega homes at nearly the same list price. One is in a neighborhood with only the master association. The other sits in a gated sub-association with its own dues.",

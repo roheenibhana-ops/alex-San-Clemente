@@ -128,7 +128,7 @@ export const post: Post = {
     { t: "p", text: "Park at North Beach, T-Street, or Calafia Beach Park, depending on where you start, and arrive early on summer weekends. Parking depends on where you start. North Beach has metered parking shared with the train station area. T-Street has a small metered lot and nearby street parking. Calafia Beach Park has a larger metered lot and free street parking up the hill. Summer weekends fill all of them quickly, so arrive early or park a bit farther up the hill and walk down." },
     { t: "p", text: "Another option is to take the train. San Clemente is served by the Amtrak Pacific Surfliner and Metrolink, with stations in town, which can make a car-free trail day easy." },
     { t: "h2", text: "Trail etiquette" },
-    { t: "p", text: "Keep right and pass left, don't block the path, keep dogs leashed, and respect posted rules." },
+    { t: "p", text: "Keep right and pass left, don't block the path, keep dogs leashed, and respect posted rules. For the dog park, the license and the beach rules, see our [dog-friendly San Clemente guide](/blog/dog-friendly-san-clemente-dog-park-beach-rules-trails-moving-with-a-dog)." },
     {
       t: "table",
       caption: "Trail etiquette",
@@ -251,7 +251,7 @@ export const post: Post = {
     { q: "Is the trail safe?", a: "Yes, if you respect the railroad. Trains can reach about 50 mph, so cross only at marked crossings and overpasses." },
     { q: "Where should I park?", a: "North Beach, T-Street, and Calafia Beach Park all have metered parking. Summer weekends fill up, so arrive early or park up the hill." },
     { q: "Can I take the train to the trail?", a: "Yes. The Amtrak Pacific Surfliner and Metrolink serve San Clemente, with stations in town." },
-    { q: "Can I bring my dog?", a: "Rules vary by location, so check posted signs. Keep dogs on a leash and clean up after them." },
+    { q: "Can I bring my dog?", a: "Yes, on a leash. The City says dogs on trails must be leashed and owners must clean up, and State Parks allows leashed dogs on the Beach Trail. Dogs are not allowed on City beaches or the pier, and the City code text we read excludes July 4 and posted major beach events on the trail. See our [dog-friendly San Clemente guide](/blog/dog-friendly-san-clemente-dog-park-beach-rules-trails-moving-with-a-dog)." },
     { q: "Which neighborhoods are closest to the trail?", a: "The Pier Bowl and Downtown. See our [neighborhood guide](/neighborhoods/downtown-pier-bowl)." },
   ],
   links: [
