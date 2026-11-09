@@ -251,7 +251,7 @@ export const post: Post = {
     { q: "Is the trail safe?", a: "Yes, if you respect the railroad. Trains can reach about 50 mph, so cross only at marked crossings and overpasses." },
     { q: "Where should I park?", a: "North Beach, T-Street, and Calafia Beach Park all have metered parking. Summer weekends fill up, so arrive early or park up the hill." },
     { q: "Can I take the train to the trail?", a: "Yes. The Amtrak Pacific Surfliner and Metrolink serve San Clemente, with stations in town." },
-    { q: "Can I bring my dog?", a: "Yes, on a leash. The City says dogs on trails must be leashed and owners must clean up, and State Parks allows leashed dogs on the Beach Trail. Dogs are not allowed on City beaches or the pier, and the City code text we read excludes July 4 and posted major beach events on the trail. See our [dog-friendly San Clemente guide](/blog/dog-friendly-san-clemente-dog-park-beach-rules-trails-moving-with-a-dog)." },
+    { q: "Can I bring my dog?", a: "Yes, on a leash. The City says dogs on trails must be leashed and owners must clean up, and State Parks allows leashed dogs on the Beach Trail. Dogs are not allowed on City beaches or the pier, and the City code text we read (on a third-party copy) excludes July 4 and posted major beach events on the trail. See our [dog-friendly San Clemente guide](/blog/dog-friendly-san-clemente-dog-park-beach-rules-trails-moving-with-a-dog)." },
     { q: "Which neighborhoods are closest to the trail?", a: "The Pier Bowl and Downtown. See our [neighborhood guide](/neighborhoods/downtown-pier-bowl)." },
   ],
   links: [
