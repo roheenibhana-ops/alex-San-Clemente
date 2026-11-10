@@ -97,7 +97,7 @@ export const post: Post = {
       "Actual square footage and how it's measured, since public records and plans can differ",
       "How the larger footprint sits on the lot and how much usable outdoor space remains",
       "Utility and maintenance costs for a larger home",
-      "Whether any Mello-Roos obligation changes with the size or timing of the original purchase",
+      "Whether any Mello-Roos obligation changes with the size or timing of the original purchase (see our [Mello-Roos guide](/blog/mello-roos-in-san-clemente-explained-how-to-find-it-what-to-ask-before-you-buy) for how to read the district's documents)",
     ] },
     { t: "h2", text: "How do the four Sea Summit tracts compare?" },
     { t: "p", text: "The four tracts differ mainly in layout, setting and size: Aqua is described as the most intimate, Azure the most varied, Sapphire has direct access to the preserve and trails, and Indigo has the larger plans." },

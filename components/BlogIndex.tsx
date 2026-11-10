@@ -77,6 +77,7 @@ export default function BlogIndex({ page }: { page: number }) {
               caption="Start with the topic that fits you"
               head={["If you're...", "Start here", "What it covers"]}
               rows={[
+                ["Reading a Mello-Roos tax before you buy", "[Mello-Roos in San Clemente explained](/blog/mello-roos-in-san-clemente-explained-how-to-find-it-what-to-ask-before-you-buy)", "How it works, how to find it on the bill, Talega's district from the school district's reports, and what to ask"],
                 ["Moving with a dog or visiting with one", "[Dog-friendly San Clemente](/blog/dog-friendly-san-clemente-dog-park-beach-rules-trails-moving-with-a-dog)", "The dog park, beach and trail rules, licensing, heat and coyote notes, and HOA and rental pet questions"],
                 ["Looking at a coastal, bluff or canyon home", "[Buying a coastal home: what to check](/blog/buying-a-coastal-home-in-san-clemente-bluff-flood-tsunami-coastal-zone-checks)", "Flood, tsunami and seismic lookups, coastal permits, disclosures, permit history and insurance gaps"],
                 ["Thinking of selling your home", "[Selling a house in San Clemente](/blog/selling-a-house-in-san-clemente-pricing-costs-taxes-disclosures)", "Pricing and timing, what selling costs, taxes, disclosures and a checklist"],

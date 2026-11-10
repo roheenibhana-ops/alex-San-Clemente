@@ -16,7 +16,7 @@ export const post: Post = {
     "**The Reserves** are four gated communities: North, South, East and West. **Reserve South** is described as **144 single-family homes** built by Shea Homes, with HOA dues around **$250 a month** on one listing.",
     "**Cantomar** is described as about **70 single-family homes** built by Shea Homes in **2001 and 2002**.",
     "The City's own **Forster Ranch Specific Plan** covers **1,982 acres**, was adopted in 1998, and lists **938.4 acres of open space**. Its tract table gives planned home counts for many tracts.",
-    "Tract details come mostly from listing sites, so **confirm dues, Mello-Roos and rules** for each address.",
+    "Tract details come mostly from listing sites, so **confirm dues, Mello-Roos and rules** for each address (our [Mello-Roos guide](/blog/mello-roos-in-san-clemente-explained-how-to-find-it-what-to-ask-before-you-buy) shows how to look up a parcel's bill).",
   ],
   blocks: [
     { t: "callout", title: "In short", text: "Forster Ranch is about twenty single-family tracts, not one neighborhood. It includes four gated Reserves (Reserve South is described as 144 homes with HOA around $250 a month on one listing) and tracts such as Cantomar (about 70 homes, 2001 and 2002). Tract details come mostly from listing sites, so verify each one." },

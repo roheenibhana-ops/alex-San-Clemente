@@ -161,6 +161,10 @@ export const images: Record<string, Img> = {
     src: "/images/blog/dog-friendly-san-clemente-dog-park-beach-rules-trails-moving-with-a-dog.jpg",
     alt: "A City park with large shade trees, a walking path and a children's playground in the background",
   },
+  "post:mello-roos-in-san-clemente-explained-how-to-find-it-what-to-ask-before-you-buy": {
+    src: "/images/blog/mello-roos-in-san-clemente-explained-how-to-find-it-what-to-ask-before-you-buy.jpg",
+    alt: "Aerial view of rows of two-story homes with solar panels on the roofs, with open hillside behind",
+  },
   "post:property-taxes-and-insurance-on-a-2-million-san-clemente-home": {
     src: "/images/blog/property-taxes-and-insurance-on-a-2-million-san-clemente-home.jpg",
     alt: "Aerial view at dusk of a winding residential street lined with tile-roof homes, pools and palm trees, with lit windows and brown hills behind",
