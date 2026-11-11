@@ -164,7 +164,7 @@ export const post: Post = {
       "**Find your everyday spots.** Locate the nearest grocery store, a go-to coffee shop, and a place for a quick dinner. Our [food and drink guide](/lifestyle/food-drink) is a good start.",
       "**Learn the beach rules.** Parking, surf hours at certain spots, and train crossing safety are all worth knowing. See our [local tips](/lifestyle/local-tips).",
       "**Meet your neighbors.** Neighborhoods with an HOA often have community events and a management office that can answer questions.",
-      "**Explore one new trail or park a week.** There's a lot of open space, from the beach trail to neighborhood parks.",
+      "**Explore one new trail or park a week.** (Our [parks guide](/blog/san-clemente-parks-guide-every-city-park-amenities-rules-how-to-reserve) lists every City park with its amenities.) There's a lot of open space, from the beach trail to neighborhood parks.",
     ] },
     { t: "h2", text: "Mistakes relocating buyers make" },
     { t: "p", text: "Relocating buyers most often make one sunny visit, ignore total monthly cost, underestimate the commute, overlook condition, fall for one view, or skip neighborhood research. After seeing many moves, certain patterns come up again and again. Avoiding these puts you ahead of most people." },

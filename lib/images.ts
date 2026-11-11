@@ -165,6 +165,10 @@ export const images: Record<string, Img> = {
     src: "/images/blog/mello-roos-in-san-clemente-explained-how-to-find-it-what-to-ask-before-you-buy.jpg",
     alt: "Aerial view of rows of two-story homes with solar panels on the roofs, with open hillside behind",
   },
+  "post:san-clemente-parks-guide-every-city-park-amenities-rules-how-to-reserve": {
+    src: "/images/blog/san-clemente-parks-guide-every-city-park-amenities-rules-how-to-reserve.jpg",
+    alt: "Aerial view of a park with two playgrounds, picnic tables and a lawn",
+  },
   "post:property-taxes-and-insurance-on-a-2-million-san-clemente-home": {
     src: "/images/blog/property-taxes-and-insurance-on-a-2-million-san-clemente-home.jpg",
     alt: "Aerial view at dusk of a winding residential street lined with tile-roof homes, pools and palm trees, with lit windows and brown hills behind",

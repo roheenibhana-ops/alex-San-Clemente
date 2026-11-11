@@ -60,7 +60,7 @@ export const post: Post = {
         ["Clubhouse", "A clubhouse and meeting rooms"],
         ["Trails", "15 miles of trails per one guide; another source cites more than 19 miles"],
         ["Play areas", "Seven tot lots, per one guide"],
-        ["Parks", "City parks including Talega Park, Liberty Park and Tierra Grande Park, plus HOA-maintained parks in individual neighborhoods"],
+        ["Parks", "City parks including Talega Park, Liberty Park and Tierra Grande Park (see our [parks guide](/blog/san-clemente-parks-guide-every-city-park-amenities-rules-how-to-reserve)), plus HOA-maintained parks in individual neighborhoods"],
         ["Golf", "A championship golf club in the community; membership and fees are separate, so confirm"],
       ],
       source: { label: "San Clemente HOA living guide (The Forum Group)", href: "https://theforumgroupre.com/blog/what-to-know-about-san-clemente-hoa-and-amenity-living" },

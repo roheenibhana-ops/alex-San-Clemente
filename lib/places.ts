@@ -102,10 +102,10 @@ export const guides: Guide[] = [
           caption: "San Clemente parks",
           head: ["Park", "What's there"],
           rows: [
-            ["Vista Hermosa Sports Park", "Large sports park (about 77 acres per the city inventory) with ballfields, tennis courts, and a skate area"],
-            ["Bonito Canyon Park", "Tennis courts, a baseball field, half-court basketball, and its own parking lot off Calle Valle"],
+            ["Vista Hermosa Sports Park", "Large sports park with lighted baseball, soccer and football fields, the aquatics center and Courtney's Sandcastle playground (per the City's facility page)"],
+            ["Bonito Canyon Park", "An unlighted tennis court, a lighted baseball/softball field, lighted basketball courts and a play area (per the City's facility page)"],
             ["Canyon View Park", "A small playground with ocean views, near the Sea Summit Trail"],
-            ["Pico Park", "Full-court basketball with lights; also a starting point for the Sea Summit Trail"],
+            ["Pico Park", "A basketball court (the City page does not say whether it is lit); also a starting point for the Sea Summit Trail"],
             ["Talega Park, Liberty Park, Tierra Grande Park", "City parks in the Talega area"],
             ["Verde Park, Vista Bahia Park, Vista Del Sol Park, Linda Lane Park", "Neighborhood parks listed in the city's park inventory; see the city page for amenities"],
           ],
