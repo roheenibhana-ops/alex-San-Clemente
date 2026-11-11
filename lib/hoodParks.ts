@@ -24,7 +24,7 @@ export const hoodParks: Record<string, { intro: string; rows: string[][] }> = {
   "rancho-san-clemente": {
     intro: "The City's park for this area is Rancho San Clemente Park, open 6 a.m. to 10 p.m. daily according to its facility page.",
     rows: [
-      ["Rancho San Clemente Park", "150 Calle Aguila", "Play area, basketball and volleyball courts, BBQs, picnic and restrooms (per the City's main parks list; the park's own page was unavailable, so confirm other details)"],
+      ["Rancho San Clemente Park", "150 Calle Aguila", "Play area, basketball and volleyball courts, exercise course and walking loop, BBQs, picnic, restrooms, ocean and mountain views, dogs on leash"],
     ],
   },
   "sea-summit": {

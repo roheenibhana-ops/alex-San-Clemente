@@ -167,8 +167,8 @@ export const post: Post = {
       head: ["Park", "Address", "What the City lists"],
       rows: [
         ["Forster Ranch Community Park", "3207 Camino Vera Cruz", "Play area, tennis and volleyball courts, baseball/softball and soccer fields, BBQs, restrooms"],
-        ["Vista Hermosa Sports Park", "987 Avenida Vista Hermosa", "Play area, baseball/softball and soccer fields, synthetic turf, BBQs, restrooms"],
-        ["Jim Johnson Memorial Sports Park", "450 W. Avenida Vista Hermosa", "Play area, basketball court, soccer field, synthetic turf, BBQs, restrooms"],
+        ["Vista Hermosa Sports Park", "987 Avenida Vista Hermosa", "Lighted baseball, soccer and football fields (some synthetic), aquatics center, walking loop, picnic, restrooms"],
+        ["Jim Johnson Memorial Sports Park", "450 W. Avenida Vista Hermosa", "Lighted basketball court, BBQ and fire ring, play area, unlighted multipurpose and synthetic turf soccer fields, picnic tables, restrooms"],
         ["Courtney's Sandcastle Universally Accessible Playground", "987 Avenida Vista Hermosa", "Universally accessible play area, picnic area, restrooms"],
       ],
       source: { label: "City of San Clemente: Parks & Sport Fields", href: "https://www.sanclemente.gov/190/Parks-Sport-Fields" },

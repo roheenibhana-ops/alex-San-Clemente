@@ -71,7 +71,7 @@ export const deep: Record<string, Deep> = {
     doNearby: [
       ["Sea Summit Trail", "A cliffside route with ocean views"],
       ["Canyon View Park", "A small playground with ocean views near the trail"],
-      ["Pico Park", "Full-court basketball with lights; a starting point for the Sea Summit Trail"],
+      ["Pico Park", "A basketball court (the City page does not say whether it is lit); a starting point for the Sea Summit Trail"],
       ["Downtown and the pier", "A short drive for dining, shops, and the beach"],
     ],
     checks: [

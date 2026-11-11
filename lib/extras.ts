@@ -75,7 +75,7 @@ export const guideExtras: Record<string, Extra> = {
       {
         h: "Parks for sports and play",
         paras: [
-          "San Clemente's park system includes a large sports park, neighborhood parks, and school-adjacent fields. The city's park inventory lists Vista Hermosa Sports Park at about 77 acres, with ballfields, tennis courts, and a skate area, and smaller parks such as Bonito Canyon Park, Pico Park, Verde Park, Vista Bahia Park, Vista Del Sol Park, and Linda Lane Park. Talega has its own city parks, including Talega Park, Liberty Park, and Tierra Grande Park.",
+          "San Clemente's park system includes a large sports park, neighborhood parks, and school-adjacent fields. The city's park inventory lists Vista Hermosa Sports Park, with lighted baseball, soccer and football fields, an aquatics center and Courtney's Sandcastle playground, and smaller parks such as Bonito Canyon Park, Pico Park, Verde Park, Vista Bahia Park, Vista Del Sol Park, and Linda Lane Park. Talega has its own city parks, including Talega Park, Liberty Park, and Tierra Grande Park.",
           "For amenities, hours, and reservations, use the [City of San Clemente's parks page](https://www.sanclemente.gov/186/Beaches-Parks-Recreation). It's also where to look for classes and programs.",
         ],
       },
@@ -100,7 +100,7 @@ export const guideExtras: Record<string, Extra> = {
     faqs: [
       { q: "How long is the San Clemente Beach Trail?", a: "About 2.3 to 2.6 miles from North Beach to Calafia, depending on the source." },
       { q: "Are there good hiking trails in San Clemente?", a: "The Sea Summit Trail offers cliffside ocean views, and the Trestles trail leads down to San Onofre State Beach. Our trail table above compares them." },
-      { q: "Where are the sports fields?", a: "Vista Hermosa Sports Park is the city's large sports park, with ballfields, tennis courts, and a skate area. Check the city's parks page for current details." },
+      { q: "Where are the sports fields?", a: "Vista Hermosa Sports Park is the city's large sports park, with lighted baseball, soccer and football fields and an aquatics center. Check the city's parks page for current details." },
       { q: "Are dogs allowed on the trails?", a: "Rules vary by location. Check posted signs and the city's website, and keep dogs on a leash where required." },
     ],
   },
