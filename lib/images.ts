@@ -169,6 +169,10 @@ export const images: Record<string, Img> = {
     src: "/images/blog/san-clemente-parks-guide-every-city-park-amenities-rules-how-to-reserve.jpg",
     alt: "Aerial view of a park with two playgrounds, picnic tables and a lawn",
   },
+  "post:commuting-from-san-clemente-surfliner-metrolink-octa-i-5-how-to-test-your-commute": {
+    src: "/images/blog/commuting-from-san-clemente-surfliner-metrolink-octa-i-5-how-to-test-your-commute.jpg",
+    alt: "A passenger train approaches a weathered sign reading San Clemente beside the tracks, with tall palm trees and a fenced bike rack nearby",
+  },
   "post:property-taxes-and-insurance-on-a-2-million-san-clemente-home": {
     src: "/images/blog/property-taxes-and-insurance-on-a-2-million-san-clemente-home.jpg",
     alt: "Aerial view at dusk of a winding residential street lined with tile-roof homes, pools and palm trees, with lit windows and brown hills behind",

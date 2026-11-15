@@ -170,7 +170,7 @@ export const post: Post = {
       "**How much do you value walkability?** If errands on foot matter, the Pier Bowl and Downtown are hard to beat.",
       "**How important are newer systems and layouts?** Newer construction can mean fewer repairs, while vintage homes bring character and projects.",
       "**How do you feel about HOA rules and dues?** Planned communities have them; many buyers like the consistency, others prefer more freedom.",
-      "**What does your commute look like?** Test both areas at your real driving hours.",
+      "**What does your commute look like?** Test both areas at your real driving hours, and see our [commuting guide](/blog/commuting-from-san-clemente-surfliner-metrolink-octa-i-5-how-to-test-your-commute) for the train schedules and station parking.",
     ] },
     { t: "p", text: "Write down your answers. If three or more point the same direction, you have your starting area. Then tour both anyway, since seeing the two back to back is the fastest way to confirm your instincts." },
     { t: "h2", text: "A weekend tour plan to compare both" },

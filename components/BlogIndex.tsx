@@ -77,6 +77,7 @@ export default function BlogIndex({ page }: { page: number }) {
               caption="Start with the topic that fits you"
               head={["If you're...", "Start here", "What it covers"]}
               rows={[
+                ["Weighing a commute before you buy", "[Commuting from San Clemente](/blog/commuting-from-san-clemente-surfliner-metrolink-octa-i-5-how-to-test-your-commute)", "Surfliner and Metrolink schedules, station parking, OCTA buses, the I-5 plan and how to test your commute"],
                 ["Finding a park, court or field", "[San Clemente parks guide](/blog/san-clemente-parks-guide-every-city-park-amenities-rules-how-to-reserve)", "Every City park, court maintenance windows, rental fees, field rules and projects to watch"],
                 ["Reading a Mello-Roos tax before you buy", "[Mello-Roos in San Clemente explained](/blog/mello-roos-in-san-clemente-explained-how-to-find-it-what-to-ask-before-you-buy)", "How it works, how to find it on the bill, Talega's district from the school district's reports, and what to ask"],
                 ["Moving with a dog or visiting with one", "[Dog-friendly San Clemente](/blog/dog-friendly-san-clemente-dog-park-beach-rules-trails-moving-with-a-dog)", "The dog park, beach and trail rules, licensing, heat and coyote notes, and HOA and rental pet questions"],

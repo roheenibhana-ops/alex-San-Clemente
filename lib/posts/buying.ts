@@ -106,7 +106,7 @@ export const post: Post = {
         ["Water", "Stains, peeling paint, or musty smells"],
         ["The street", "Traffic, parking, and neighbors' upkeep"],
         ["What's included", "Appliances, window coverings, fixtures"],
-        ["Your routes", "Drive to the beach, grocery store, and commute"],
+        ["Your routes", "Drive to the beach, grocery store, and commute (our [commuting guide](/blog/commuting-from-san-clemente-surfliner-metrolink-octa-i-5-how-to-test-your-commute) has the train and I-5 facts and a test method)"],
       ],
     },
     { t: "p", text: "Ask your agent for recent comparable sales, the kind that closed within a few blocks in the last several months. With homes closing near list, comps are the best way to tell whether an asking price is realistic. Our latest [market update](/blog/san-clemente-housing-market-update-october-2026) covers the broader trends." },
