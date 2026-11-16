@@ -173,6 +173,10 @@ export const images: Record<string, Img> = {
     src: "/images/blog/commuting-from-san-clemente-surfliner-metrolink-octa-i-5-how-to-test-your-commute.jpg",
     alt: "A passenger train approaches a weathered sign reading San Clemente beside the tracks, with tall palm trees and a fenced bike rack nearby",
   },
+  "post:winter-at-the-beach-san-clemente-gray-whales-king-tides-water-safety": {
+    src: "/images/blog/winter-at-the-beach-san-clemente-gray-whales-king-tides-water-safety.jpg",
+    alt: "A San Clemente Pier welcome sign listing the pier rules, beside a railing with the ocean and surf and a few surfers in the water beyond",
+  },
   "post:property-taxes-and-insurance-on-a-2-million-san-clemente-home": {
     src: "/images/blog/property-taxes-and-insurance-on-a-2-million-san-clemente-home.jpg",
     alt: "Aerial view at dusk of a winding residential street lined with tile-roof homes, pools and palm trees, with lit windows and brown hills behind",

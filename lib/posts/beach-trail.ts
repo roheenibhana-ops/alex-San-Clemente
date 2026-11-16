@@ -180,7 +180,7 @@ export const post: Post = {
       caption: "The trail through the seasons",
       head: ["Season", "What to expect"],
       rows: [
-        ["Winter", "Cooler air and crisp light; some guides suggest January to March for gray whale spotting"],
+        ["Winter", "Cooler air and crisp light; see our [winter beach guide](/blog/winter-at-the-beach-san-clemente-gray-whales-king-tides-water-safety) for whale season, king tides and safety"],
         ["Spring", "Pleasant temperatures and fewer crowds; coastal mornings can be overcast"],
         ["Summer", "Warmest and busiest; the Ocean Festival is held at the pier each July; arrive early"],
         ["Fall", "Often calmer, with warm days and thinner crowds"],

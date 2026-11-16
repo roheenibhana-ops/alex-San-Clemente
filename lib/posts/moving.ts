@@ -150,7 +150,7 @@ export const post: Post = {
       caption: "A year in San Clemente",
       head: ["Season", "What it feels like", "Good to know"],
       rows: [
-        ["Winter (Dec to Feb)", "Coolest stretch; December highs near 64°F", "Some guides suggest Jan to Mar for whale spotting"],
+        ["Winter (Dec to Feb)", "Coolest stretch; December highs near 64°F", "Gray whales pass in winter and spring (see our [winter beach guide](/blog/winter-at-the-beach-san-clemente-gray-whales-king-tides-water-safety))"],
         ["Spring (Mar to May)", "Pleasant, fewer crowds", "Coastal mornings can be gray"],
         ["Summer (Jun to Aug)", "Warmest and busiest; August highs near 79°F", "Ocean Festival in July; parking tightens"],
         ["Fall (Sep to Nov)", "Often calm and warm", "Thinner crowds after summer"],
