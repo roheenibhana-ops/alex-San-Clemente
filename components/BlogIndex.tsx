@@ -77,7 +77,7 @@ export default function BlogIndex({ page }: { page: number }) {
               caption="Start with the topic that fits you"
               head={["If you're...", "Start here", "What it covers"]}
               rows={[
-                ["Selling a long-held home and moving (Prop 19)", "[Moving or downsizing at 55 and older](/blog/moving-or-downsizing-in-san-clemente-at-55-prop-19-capital-gains-hoa-age-rules-financing)", "Prop 19 base year transfer, the claim form, capital gains, 55+ HOA rules and financing basics"],
+                ["Selling a long-held home and moving (Prop 19)", "[Moving or downsizing at 55 and older](/blog/moving-from-a-san-clemente-home-at-55-prop-19-capital-gains-hoa-age-rules-financing)", "Prop 19 base year transfer, the claim form, capital gains, 55+ HOA rules and financing basics"],
                 ["Planning a winter beach day or a whale trip", "[Winter at the beach](/blog/winter-at-the-beach-san-clemente-gray-whales-king-tides-water-safety)", "Gray whale season, king tide dates, the 72-hour rain rule, lifeguard hours and water safety"],
                 ["Weighing a commute before you buy", "[Commuting from San Clemente](/blog/commuting-from-san-clemente-surfliner-metrolink-octa-i-5-how-to-test-your-commute)", "Surfliner and Metrolink schedules, station parking, OCTA buses, the I-5 plan and how to test your commute"],
                 ["Finding a park, court or field", "[San Clemente parks guide](/blog/san-clemente-parks-guide-every-city-park-amenities-rules-how-to-reserve)", "Every City park, court maintenance windows, rental fees, field rules and projects to watch"],

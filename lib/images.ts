@@ -177,8 +177,8 @@ export const images: Record<string, Img> = {
     src: "/images/blog/winter-at-the-beach-san-clemente-gray-whales-king-tides-water-safety.jpg",
     alt: "A San Clemente Pier welcome sign listing the pier rules, beside a railing with the ocean and surf and a few surfers in the water beyond",
   },
-  "post:moving-or-downsizing-in-san-clemente-at-55-prop-19-capital-gains-hoa-age-rules-financing": {
-    src: "/images/blog/moving-or-downsizing-in-san-clemente-at-55-prop-19-capital-gains-hoa-age-rules-financing.jpg",
+  "post:moving-from-a-san-clemente-home-at-55-prop-19-capital-gains-hoa-age-rules-financing": {
+    src: "/images/blog/moving-from-a-san-clemente-home-at-55-prop-19-capital-gains-hoa-age-rules-financing.jpg",
     alt: "Aerial view at golden hour of tile-roof homes along a curving residential street, with hills in the background",
   },
   "post:property-taxes-and-insurance-on-a-2-million-san-clemente-home": {
