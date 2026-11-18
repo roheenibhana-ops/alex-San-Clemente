@@ -181,6 +181,10 @@ export const images: Record<string, Img> = {
     src: "/images/blog/moving-from-a-san-clemente-home-at-55-prop-19-capital-gains-hoa-age-rules-financing.jpg",
     alt: "Aerial view at golden hour of tile-roof homes along a curving residential street, with hills in the background",
   },
+  "post:san-clemente-pier-guide-hours-fishing-license-lobster-season-parking-history": {
+    src: "/images/blog/san-clemente-pier-guide-hours-fishing-license-lobster-season-parking-history.jpg",
+    alt: "Aerial of the San Clemente Pier restaurants with blue umbrella decks over the sand and surf",
+  },
   "post:property-taxes-and-insurance-on-a-2-million-san-clemente-home": {
     src: "/images/blog/property-taxes-and-insurance-on-a-2-million-san-clemente-home.jpg",
     alt: "Aerial view at dusk of a winding residential street lined with tile-roof homes, pools and palm trees, with lit windows and brown hills behind",

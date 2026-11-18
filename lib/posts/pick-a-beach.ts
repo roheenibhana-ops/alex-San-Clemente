@@ -13,7 +13,7 @@ export const post: Post = {
   takeaways: [
     "San Clemente has **seven main beach areas**: North Beach, the Pier, T-Street, Lasuen (Lost Winds), Calafia, San Clemente State Beach, and Trestles.",
     "**Parking and access** are the biggest differences. Some beaches have large metered lots; others require stairs or a long walk.",
-    "T-Street has **summer surf-hour restrictions**; Trestles is a **mile-plus walk**; the pier is the best for sunset and dinner.",
+    "T-Street has **summer surf-hour restrictions**; Trestles is a **mile-plus walk**; the pier is the best for sunset and dinner (see our [pier guide](/blog/san-clemente-pier-guide-hours-fishing-license-lobster-season-parking-history) for the rules).",
     "Summer weekends fill every lot. **Arrive early** or park up the hill and walk down.",
     "Details change. Confirm with the City and State Parks before you go.",
   ],
@@ -21,7 +21,7 @@ export const post: Post = {
     { t: "p", text: "San Clemente's beaches each have their own personality. A few minutes of planning saves you from circling for parking, hauling gear down the wrong staircase, or showing up at a surf spot when surfing isn't allowed. This guide helps you match the beach to the day, whether you're after sunset and dinner, a quiet morning with a book, a family picnic, a surf session, or a pilgrimage to one of the most famous breaks in the world." },
     { t: "p", text: "Details come from the city, the state, and local sources, and we flag where numbers differ. We've also added illustrative scenarios (labeled as such, not real people) to show how different priorities lead to different choices, plus tips for living near the water if the beaches are what's drawing you here." },
     { t: "h2", text: "Which San Clemente beach should you pick?" },
-    { t: "p", text: "It depends on the plan: the pier for sunset and dinner, T-Street for surf close to town, Calafia for space and tide pools, Trestles for a world-famous surf break, and North Beach for a train-friendly start." },
+    { t: "p", text: "It depends on the plan: the pier for sunset and dinner, T-Street for surf close to town, Calafia for space and tide pools, Trestles for a world-famous surf break, and North Beach for a train-friendly start. For the pier's hours, fishing and lobster rules and history, see our [pier guide](/blog/san-clemente-pier-guide-hours-fishing-license-lobster-season-parking-history)." },
     {
       t: "table",
       caption: "Matching the beach to the plan",

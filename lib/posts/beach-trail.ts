@@ -11,14 +11,14 @@ export const post: Post = {
   tags: ["beaches", "downtown", "events"],
   excerpt: "A coastal trail that connects the beaches, the pier, and T-Street. Here's what to know before you go.",
   takeaways: [
-    "The trail links **North Beach to Calafia**, passing the San Clemente Pier and T-Street, and runs about **2.3 to 2.6 miles** depending on the source.",
+    "The trail links **North Beach to Calafia**, passing the San Clemente Pier and T-Street (our [pier guide](/blog/san-clemente-pier-guide-hours-fishing-license-lobster-season-parking-history) has the rules and history), and runs about **2.3 to 2.6 miles** depending on the source.",
     "Hours are about **4 a.m. to midnight**, with the T-Street to Calafia stretch about **6 a.m. to 10 p.m.**",
     "Trains run beside the trail, at speeds up to about 50 mph. **Cross only at marked crossings.**",
     "Start early for easier parking and cooler air, and bring water and a layer.",
     "Living near the trail usually means the Pier Bowl and Downtown. Read the neighborhood guide to see what that's like.",
   ],
   blocks: [
-    { t: "p", text: "The San Clemente Beach Trail is the town's front-yard sidewalk: a coastal route that links North Beach to Calafia, passing the pier and T-Street along the way. Locals use it for morning runs, sunset walks, dog outings, bike rides, and getting to the surf. Visitors use it to see why people fall for this town." },
+    { t: "p", text: "The San Clemente Beach Trail is the town's front-yard sidewalk: a coastal route that links North Beach to Calafia, passing the pier and T-Street along the way. Locals use it for morning runs, sunset walks, dog outings, bike rides, and getting to the surf. Visitors use it to see why people fall for this town. The pier along the way has its own rules and history, which our [pier guide](/blog/san-clemente-pier-guide-hours-fishing-license-lobster-season-parking-history) covers." },
     { t: "p", text: "This guide covers the practical details: how long it is, when it's open, where to start, what you'll pass, how to stay safe around the railroad, and how to turn a walk into a full day. We've pulled facts from public sources and flagged where figures differ. We've also included illustrative scenarios (clearly labeled, not real people) to show how different people use the trail." },
     { t: "h2", text: "What is the San Clemente Beach Trail?" },
     { t: "p", text: "The San Clemente Beach Trail is a coastal route linking North Beach to Calafia, passing the San Clemente Pier and T-Street, and it runs about 2.3 to 2.6 miles depending on the source." },
