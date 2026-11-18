@@ -44,7 +44,7 @@ export const post: Post = {
     { t: "h3", text: "North Beach" },
     { t: "p", text: "The northern end of the trail starts near North Beach, where there's ADA access, metered parking shared with the train station area, and restrooms. It's a convenient place to begin if you're arriving by train, since the station is nearby." },
     { t: "h3", text: "San Clemente Pier" },
-    { t: "p", text: "The pier opened in 1928 and is the heart of the trail. It's open roughly 4 a.m. to midnight and has restaurants on or near it. Walking out onto the pier gives you a different view of the coastline and the town. The area around the pier, the Pier Bowl, is also the gateway to Avenida Del Mar, with coffee, shops, and restaurants uphill." },
+    { t: "p", text: "The City's documents date the pier to 1928, with a replacement in 1940, and it is the heart of the trail. The City says it is open 4 a.m. to midnight, and it has restaurants on or near it. Walking out onto the pier gives you a different view of the coastline and the town. The area around the pier, the Pier Bowl, is also the gateway to Avenida Del Mar, with coffee, shops, and restaurants uphill." },
     { t: "h3", text: "T-Street" },
     { t: "p", text: "T-Street is a local-favorite surf spot reached by a pedestrian overpass across the train tracks. The city lists stairs, restrooms, fire rings, concessions, and metered parking, with about 30 metered spaces plus nearby street parking per a county draft. Surfing hours at T-Street are restricted in summer, so check the posted rules before you paddle out." },
     { t: "h3", text: "Calafia Beach Park" },
