@@ -12,7 +12,7 @@ export const post: Post = {
   excerpt: "Master association, neighborhood HOA, and a special tax. Here's how Talega's monthly costs are layered, and what each piece pays for.",
   takeaways: [
     "Talega's costs come in **layers**: a master association, sometimes a neighborhood or sub-association, and a separate **Mello-Roos** special tax.",
-    "One local guide lists the **master assessment at about $267 per month**, with added gate or sub-association charges pushing some totals into the **low-to-mid $300s**. Figures are undated, so always confirm.",
+    "Talega's own [Assessment Info page](https://talega.today/assessments/) lists the **master assessment at $267.00 per home per month** for fiscal year 2026-27, effective April 1, 2026, with added gate charges of $26 to $80 for some groups of homes, which pushes some totals into the **low-to-mid $300s**. Always confirm the figure for the exact home.",
     "Amenities cited by local sources include **four pools, a splash pad, lighted courts, a clubhouse, tot lots and 15 or more miles of trails**.",
     "Mello-Roos is **separate from HOA dues**, varies by neighborhood, and, in Talega's main district, funds school facilities. Ask for the annual amount and the remaining term.",
     "Rules are real: architectural guidelines apply, and unauthorized changes can lead to fines. Read the CC&Rs before you plan a remodel.",
@@ -181,7 +181,7 @@ export const post: Post = {
     { t: "p", text: "For how HOA dues and Mello-Roos sit alongside the regular tax bill and insurance, see [property taxes and insurance on a $2 million San Clemente home](/blog/property-taxes-and-insurance-on-a-2-million-san-clemente-home)." },
   ],
   faqs: [
-    { q: "How much are Talega HOA dues?", a: "One local guide lists the master assessment at about $267 per month, with some sections adding gate or sub-association charges that bring totals into the low-to-mid $300s. The figures are undated, so confirm with the association." },
+    { q: "How much are Talega HOA dues?", a: "Talega's own Assessment Info page lists the master assessment at $267.00 per home per month for fiscal year 2026-27, effective April 1, 2026, with some groups of homes adding gate charges of $26 to $80 that bring totals into the low-to-mid $300s. The figures are undated, so confirm with the association." },
     { q: "What do Talega HOA dues cover?", a: "Local sources describe common-area operations, reserves and amenities such as pools, a splash pad, lighted courts, a clubhouse, tot lots and trails. Ask for the association's budget to see exactly what's included." },
     { q: "Is Mello-Roos the same as HOA dues?", a: "No. Mello-Roos is a separate special tax billed with your property taxes. HOA dues are paid to the association." },
     { q: "Does every Talega home have Mello-Roos?", a: "Which district applies depends on the home. One guide notes three community facilities districts, and the school district's reports confirm two. Confirm the status for the specific home in the disclosures and title report." },
