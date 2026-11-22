@@ -18,10 +18,10 @@ export const post: Post = {
     "Many homes are mid-century originals, so inspections, permits and remodel history matter as much as the view.",
   ],
   blocks: [
-    { t: "callout", title: "In short", text: "The Shorecliffs neighborhood has 504 homes, developed by Pacesetter Homes from around 1960, and a private beach club for its residents. The Shorecliffs Golf Club is a separate public facility that shares the name. Dues are not published, so ask for them." },
+    { t: "callout", title: "In short", text: "The Shorecliffs neighborhood has 504 homes, developed by Pacesetter Homes from around 1960, and a private beach club for its residents. The Shorecliffs Golf Club is a separate public facility that shares the name. Ask for the current dues." },
     { t: "p", text: "Search for Shorecliffs in San Clemente and you will quickly run into a problem: two very different things share the name. One is a public golf club. The other is a residential neighborhood of 504 homes with a private beach club that belongs to the people who live there. Plenty of websites blur the two together, and some describe the neighborhood as if it were built around the course. According to the beach club's own published history, it was not." },
-    { t: "p", text: "This guide is for buyers who want to understand the neighborhood itself: where it came from, what the beach club really is, what the original homes were like, and the questions worth asking before you write an offer. We have kept to what public sources say and flagged where details need confirming with the association, the club or the listing." },
-    { t: "p", text: "A note on sources: the strongest source on the neighborhood's origins is the [Shorecliffs Beach Club history page](https://www.shorecliffsbeachclub.com/history), which is written by the club's own community. Everything about current dues, rules and capacity is something we could not find published, so you will see those flagged as questions rather than answers." },
+    { t: "p", text: "This guide is for buyers who want to understand the neighborhood itself: where it came from, what the beach club really is, what the original homes were like, and the questions worth asking before you write an offer. We have kept to what public sources say." },
+    { t: "p", text: "A note on sources: the strongest source on the neighborhood's origins is the [Shorecliffs Beach Club history page](https://www.shorecliffsbeachclub.com/history), which is written by the club's own community." },
     { t: "ctaCard", text: "Looking at a home in Shorecliffs? Alex can show you current listings and what to confirm about the beach club." },
     { t: "h2", text: "Is Shorecliffs the neighborhood or the golf club?" },
     { t: "p", text: "The Shorecliffs neighborhood and the Shorecliffs Golf Club are two different things that share a name. Start here, because it changes everything else. The Shorecliffs neighborhood is a residential area of 504 homes. The Shorecliffs Golf Club is a public course that reopened after a major renovation, which we covered in our [Pier Bowl vs. Talega comparison](/blog/pier-bowl-vs-talega) when talking about golf in town. They share a name and a general part of San Clemente. They are not the same thing, and owning a home in the neighborhood does not give you anything at the golf club that any other golfer does not have." },
@@ -43,7 +43,7 @@ export const post: Post = {
     { t: "p", text: "In other words, the beach club was part of the original sales pitch. That is unusual. Most San Clemente beach access is public, which is a wonderful thing, but a private club tucked into a specific neighborhood is a different kind of amenity, closer in spirit to a small community center than a public beach." },
     { t: "cta", text: "See more about the neighborhood around the club on the Shorecliffs page.", href: "/neighborhoods/shorecliffs", label: "See Shorecliffs" },
     { t: "h2", text: "The Shorecliffs Beach Club" },
-    { t: "p", text: "The Shorecliffs Beach Club is a private beach club for Shorecliffs residents, with membership tied to homeownership. From the club's website and history page, the amenities include a private beach, a picnic area, a children's play area, showers and lockers, meeting rooms, paddle tennis courts, pickleball and snack service. The address is listed as 2771 N. El Camino Real. Membership is tied to Shorecliffs homeownership, and yearly dues fund the club. The page does not publish the dues amount." },
+    { t: "p", text: "The Shorecliffs Beach Club is a private beach club for Shorecliffs residents, with membership tied to homeownership. From the club's website and history page, the amenities include a private beach, a picnic area, a children's play area, showers and lockers, meeting rooms, paddle tennis courts, pickleball and snack service. The address is listed as 2771 N. El Camino Real. Membership is tied to Shorecliffs homeownership, and yearly dues fund the club." },
     {
       t: "table",
       caption: "What the club's own materials describe",
@@ -54,7 +54,7 @@ export const post: Post = {
         ["Courts", "Paddle tennis courts and pickleball"],
         ["Facilities", "Showers, lockers, meeting rooms and snack or soda service"],
         ["Events", "Described as hosting Friday night BBQs, dances, holiday events and gatherings over many years, including an annual July 4 event"],
-        ["Membership", "Tied to Shorecliffs homeownership; dues not published"],
+        ["Membership", "Tied to Shorecliffs homeownership"],
         ["Rules", "Club rules and parking rules are published on the club site"],
       ],
       source: { label: "Shorecliffs Beach Club", href: "https://www.shorecliffsbeachclub.com/history" },
@@ -67,7 +67,7 @@ export const post: Post = {
     ] },
     { t: "h2", text: "How the club came to be owned by its members" },
     { t: "p", text: "According to the club's history, members voted in 2000 to buy the land under the club, which had previously been leased. One of the more interesting parts of the history is about land. The club's history says the original lease on the beach ran for about 55 years and was set to expire on April 30, 2018. In 2000, members had a chance to buy the underlying land. It required a full membership vote and a special assessment, and the community approved it. The history says the land purchase removed the 2018 deadline." },
-    { t: "p", text: "That matters to a buyer for a simple reason. A club that owns its land is in a different position from one that leases it. Ownership can mean more stability, but it also means the members carry the responsibility. We cannot see the club's finances, so these are the questions to ask rather than conclusions to draw." },
+    { t: "p", text: "That matters to a buyer for a simple reason. A club that owns its land is in a different position from one that leases it. Ownership can mean more stability, but it also means the members carry the responsibility. These are the questions to ask rather than conclusions to draw." },
     { t: "h3", text: "Questions to ask about the club" },
     { t: "ul", items: [
       "What are the current annual dues, and how have they changed over the last few years?",
@@ -147,7 +147,7 @@ export const post: Post = {
     ] },
     { t: "p", text: "If you want a second set of eyes on a specific house, [get in touch](/#contact) and we will walk through it with you. And if you are still deciding on a part of town, our [neighborhoods hub](/neighborhoods) is a good place to compare." },
     { t: "h2", text: "A closing thought on Shorecliffs" },
-    { t: "p", text: "Shorecliffs may be right for you if a private beach club and an older home with character appeal to you, once you confirm the dues and rules that are not published. Shorecliffs is one of those neighborhoods whose reputation can run ahead of the facts, partly because of the shared name with the golf club. The facts that are well documented are quite appealing: 504 homes, a long-established private beach club, terraced ocean-view lots and a community that has shown it is willing to vote, pay and volunteer to keep the club going. The facts that are not published, like dues and current rules, are the ones to chase down early. Do that, and you will know whether this particular corner of San Clemente is right for you." },
+    { t: "p", text: "Shorecliffs may be right for you if a private beach club and an older home with character appeal to you, once you confirm the current dues and rules. Shorecliffs is one of those neighborhoods whose reputation can run ahead of the facts, partly because of the shared name with the golf club. The facts that are well documented are quite appealing: 504 homes, a long-established private beach club, terraced ocean-view lots and a community that has shown it is willing to vote, pay and volunteer to keep the club going. Confirm the dues and current rules early. Do that, and you will know whether this particular corner of San Clemente is right for you." },
   ],
   faqs: [
     { q: "How many homes are in Shorecliffs?", a: "The Shorecliffs Beach Club's history page states the neighborhood has 504 homes." },
@@ -155,7 +155,6 @@ export const post: Post = {
     { q: "Who developed Shorecliffs?", a: "According to the beach club's history, Pacesetter Homes developed the properties beginning around 1960." },
     { q: "Does a Shorecliffs home come with beach club membership?", a: "The club's history ties membership to Shorecliffs homeownership. Confirm the exact process, dues and any fees for the specific home." },
     { q: "What does the beach club offer?", a: "Its materials describe a private beach, picnic area, children's play area, showers, lockers, meeting rooms, paddle tennis, pickleball and snack service." },
-    { q: "What are the beach club dues?", a: "The club's page does not publish an amount. Ask for the current figure and any assessment history." },
     { q: "Are the homes single-story?", a: "The original homes were single-level houses on terraced ocean-view lots, though many have been changed over the years. Check each home." },
   ],
   links: [

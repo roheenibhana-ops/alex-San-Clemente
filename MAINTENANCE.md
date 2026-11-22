@@ -38,7 +38,7 @@ On the 3rd of each month a scheduled run reviews the whole site against last mon
 ## Event posts
 
 - Check dates against the official source: the City calendar (sanclemente.gov/calendar.aspx), the venue or organizer, and the Downtown Business Association.
-- Label anything unconfirmed as unconfirmed. Do not copy a past year's date into a new year.
+- Leave out anything unconfirmed; never write a 'could not confirm' section or flag gaps in the text (Roheeni's rule). Do not copy a past year's date into a new year.
 - Keep the URL. Update the title and year, the `updated` date and the table of events.
 - Add official links (City, organizer, venue) for every event.
 
@@ -47,14 +47,14 @@ No one can guarantee a featured snippet or an AI citation; these steps make a pa
 1. The first paragraph or the "In short" callout answers the main question directly in about 40 to 60 words.
 2. At least 3 H2s are phrased as the questions a resident would ask, each followed by a short direct answer.
 3. At least one real table (caption plus source) for numbers, comparisons or dates.
-4. Every fact names its source in the text, with a link to a primary source (City, County, State, official site). Mark anything unconfirmed.
+4. Every fact names its source in the text, with a link to a primary source (City, County, State, official site). Leave out anything unconfirmed rather than marking it.
 5. Set `updated` to the latest check date.
 6. FAQ has 4 or more real questions that do not repeat the body word for word.
 7. Byline links to About and shows the DRE and SERHANT brand; no invented address or license.
 8. Event posts carry exact dates, times and venue in a table.
 9. 3 or more internal links out and 3 in, with descriptive anchor text.
 10. After publishing, confirm the sitemap lastmod and run the Rich Results Test.
-Team workflow for a post: research agent (official sources), search-intent agent, lead-conversion agent, then the writer, then an independent fact-check agent before pushing to main. If sources are thin, change the topic instead of padding.
+Team workflow for a post: research agent (official sources), search-intent agent, lead-conversion agent, then the writer, then an independent fact-check agent before pushing to main. If sources are thin, change the topic instead of padding. Unconfirmed items stay out of the published text; put them in CONTENT_QUEUE.md notes for follow-up instead.
 
 ## Calls to action
 

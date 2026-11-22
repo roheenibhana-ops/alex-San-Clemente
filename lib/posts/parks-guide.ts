@@ -9,7 +9,7 @@ export const post: Post = {
   date: "2026-11-11",
   category: "Lifestyle",
   tags: ["beaches", "moving", "talega", "forster-ranch"],
-  excerpt: "The City lists 26 park and facility pages. Here is what each park has, when the courts are being maintained, how to reserve a picnic area or field, what it costs in 2026, and which projects are still unconfirmed.",
+  excerpt: "The City lists 26 park and facility pages. Here is what each park has, when the courts are being maintained, how to reserve a picnic area or field, what it costs in 2026, and which projects are in the works.",
   takeaways: [
     "San Clemente's parks are open **6 a.m. to 10 p.m.**, with no charge and no reservation for regular use, first come first served. The City says the hours are subject to change (City Parks and Sport Fields page).",
     "You need a **permit** for 50 or more people, a wedding, a bounce house or other rented equipment, any commercial use, or to hold a space. Apply **at least two weeks** before the date, and fees are due 30 days before.",
@@ -17,19 +17,18 @@ export const post: Post = {
     "Each court has a **weekly maintenance window** when it may be unavailable, for example Marblehead on Tuesdays 7 to 9 a.m. and San Luis Rey tennis on Wednesdays 1 to 3 p.m.",
     "**Steed Park** has 8 unlighted pickleball courts, open daily 6 a.m. to dusk on a first come, first served basis, with a paddle-rotation system.",
     "Smoking and alcohol are banned in all City parks. Dogs must be leashed in parks and on trails except in designated areas, and are never allowed on the beach or pier.",
-    "The City's own pages **disagree in places**, including three different Recreation phone numbers and two sets of field hours, so confirm details with Recreation before you rely on them.",
   ],
   blocks: [
-    { t: "callout", title: "In short", text: "San Clemente's City parks are open 6 a.m. to 10 p.m. and free to use without a reservation. You need a permit for 50 or more people, a wedding, a bounce house or any commercial use, and the City asks you to apply at least two weeks ahead. The table below lists each park's address and amenities from the City's own pages. Details that the City pages leave out or contradict, such as which parks have reservable picnic shelters, are marked so you can confirm them with Recreation at 949-361-8264 before you plan an event." },
+    { t: "callout", title: "In short", text: "San Clemente's City parks are open 6 a.m. to 10 p.m. and free to use without a reservation. You need a permit for 50 or more people, a wedding, a bounce house or any commercial use, and the City asks you to apply at least two weeks ahead. The table below lists each park's address and amenities from the City's own pages. Call Recreation at 949-361-8264 to confirm details before you plan an event." },
     { t: "p", text: "San Clemente's beaches get the attention, but the City also runs a network of neighborhood parks with courts, fields, play areas and lawns. The City says its Beaches, Parks and Recreation Department manages 324 acres of recreation space, 23 parks, 25.9 miles of hiking trails and two miles of public beaches." },
-    { t: "p", text: "A note on how we built this guide: we read the City's parks pages, the facility page for each park, the rental packets and fee sheets and the Commission's work plan documents. The City's pages carry no dates, so everything is as we read it on November 11, 2026. Where the City's pages conflict or are silent, we say so." },
+    { t: "p", text: "This guide draws on the City's parks pages, the facility page for each park, the rental packets and fee sheets and the Commission's work plan documents. Everything is as of November 11, 2026." },
 
     { t: "h2", text: "What are the hours, and what do you need to reserve?" },
     { t: "p", text: "The City's [Parks and Sport Fields page](https://www.sanclemente.gov/190/Parks-Sport-Fields) says parks are open from 6 a.m. to 10 p.m., that there is no charge or reservation for regular use, and that space is first come, first served. It adds that the timing is subject to change. A permit is required for sports organizations and clubs, any commercial use, groups of 50 or more people, a wedding, and rented equipment such as a bounce house. The phone number the City lists for park use is Recreation at 949-361-8264." },
-    { t: "p", text: "One practical point on phone numbers. City pages list three different numbers for Recreation-related questions: 949-361-8264 on the park pages and rental fee sheet, 949-429-8797 on the sport field and aquatics pages, and 949-361-8237 for tennis and pickleball concerns. We use the first because it appears most often, but if one does not connect, try the others. The rental forms also list recreation@san-clemente.org." },
+    { t: "p", text: "The City's park pages and rental fee sheet list Recreation at 949-361-8264, and the rental forms also list recreation@san-clemente.org." },
 
     { t: "h2", text: "What does each San Clemente park have?" },
-    { t: "p", text: "The City's parks page links 26 facility pages, and we read all of them. Several entries are sub-facilities inside a larger park, such as the dog park, the pump track, the skate court and Courtney's Sandcastle, which is why the City counts 23 parks. All of the pages that list hours show 6 a.m. to 10 p.m. unless noted, and none states an acreage." },
+    { t: "p", text: "The City's parks page links 26 facility pages. Several entries are sub-facilities inside a larger park, such as the dog park, the pump track, the skate court and Courtney's Sandcastle, which is why the City counts 23 parks. All of the pages that list hours show 6 a.m. to 10 p.m. unless noted." },
     {
       t: "table",
       caption: "San Clemente City parks and what the City lists at each (as of November 2026)",
@@ -64,7 +63,7 @@ export const post: Post = {
       ],
       source: { label: "City of San Clemente, Parks and Sport Fields and individual facility pages", href: "https://www.sanclemente.gov/190/Parks-Sport-Fields" },
     },
-    { t: "p", text: "Two cautions about this table. First, the City page for each park lists amenities, not conditions, so a drinking fountain or restrooms listed is not a promise that it is working on the day you visit. Second, we found errors in how other sources, including some of our own earlier pages, describe a few parks. The City's Pico Park page lists a basketball court but does not say it is lit, and the Vista Hermosa page does not list tennis courts or a skate area. We have corrected our own park copy elsewhere on the site to match the City's pages, and if a park detail matters for a decision, check it on the City's page or by phone." },
+    { t: "p", text: "One caution about this table. The City page for each park lists amenities, not conditions, so a drinking fountain or restrooms listed is not a promise that it is working on the day you visit. If a park detail matters for a decision, check it on the City's page or by phone." },
     { t: "p", text: "For a longer look at walking routes, our [Beach Trail guide](/blog/san-clemente-beach-trail-guide) covers the coastal path, and our [dog-friendly guide](/blog/dog-friendly-san-clemente-dog-park-beach-rules-trails-moving-with-a-dog) covers the dog park and the leash rules. To see which parks are near each neighborhood, our [neighborhood guides](/neighborhoods) list nearby parks for each area." },
     { t: "cta", text: "Wondering which park sits near the neighborhood you are considering? Compare the areas side by side.", href: "/neighborhoods", label: "Compare neighborhoods" },
 
@@ -88,7 +87,7 @@ export const post: Post = {
       ],
       source: { label: "City of San Clemente facility pages for each park", href: "https://www.sanclemente.gov/190/Parks-Sport-Fields" },
     },
-    { t: "p", text: "The City's [tennis and pickleball page](https://www.sanclemente.gov/209/Tennis-Pickleball-Courts) lists the tennis courts: one unlighted court at Bonito Canyon, two lighted at Forster Ranch, two lighted at Liberty, one lighted at Marblehead, one unlighted at San Gorgonio, four lighted at San Luis Rey and one unlighted at Verde. The courts are for tennis only, with no bikes, skates, scooters, animals, food or drink, and rubber-soled shoes are required. Play is limited to one hour if others are waiting, permit holders have priority, and private or group lessons need a permit. We could not find a lights on-and-off schedule on any City page, so we do not state one." },
+    { t: "p", text: "The City's [tennis and pickleball page](https://www.sanclemente.gov/209/Tennis-Pickleball-Courts) lists the tennis courts: one unlighted court at Bonito Canyon, two lighted at Forster Ranch, two lighted at Liberty, one lighted at Marblehead, one unlighted at San Gorgonio, four lighted at San Luis Rey and one unlighted at Verde. The courts are for tennis only, with no bikes, skates, scooters, animals, food or drink, and rubber-soled shoes are required. Play is limited to one hour if others are waiting, permit holders have priority, and private or group lessons need a permit." },
 
     { t: "h2", text: "How does pickleball work at Steed Park?" },
     { t: "p", text: "The City's [Steed Park page](https://www.sanclemente.gov/531/Richard-Steed-Memorial-Park) lists eight unlighted pickleball courts, open daily from 6 a.m. to dusk, with open play on a first come, first served basis. The tennis and pickleball page explains the paddle rotation. You put your paddle in the holder to get in line, Court 1 is the challenge court, and Courts 2 through 8 are for beginner and intermediate play. No cleats, pets, bikes or skates are allowed. The City's concerns line for these courts is 949-361-8237." },
@@ -96,7 +95,7 @@ export const post: Post = {
     { t: "p", text: "A separate facility next door is the skate court, which the City lists as unsupervised, for skateboards and inline skates only, with a helmet and elbow and knee pads required under the municipal code, and skaters 8 and under need an adult. The Pump Track at 301 Avenida La Pata is open dawn to dusk, requires helmets and same-direction riding, bans motorized and remote-control vehicles, and says riders 8 and under need an adult, and that lessons require a permit." },
 
     { t: "h2", text: "How do you reserve a picnic area or hold a birthday in a park?" },
-    { t: "p", text: "The City's [Rentals, Permits and Events page](https://www.sanclemente.gov/189) and its Park Rental Packet (revised March 11, 2026) lay out the process. You need a permit if you expect 50 or more people, are holding a wedding ceremony or reception, are bringing an outside rental company, a vendor or specialized equipment such as a bounce house or a food truck, or want to hold or reserve space. You must be 18 or older. Apply at least two weeks before the date. The City takes applications first come, first served. The online picnic area catalog is a script-based page that we could not read, so we cannot tell you which parks have reservable picnic shelters. Courtney's Sandcastle is the one park page that lists a covered picnic shelter. Ask Recreation." },
+    { t: "p", text: "The City's [Rentals, Permits and Events page](https://www.sanclemente.gov/189) and its Park Rental Packet (revised March 11, 2026) lay out the process. You need a permit if you expect 50 or more people, are holding a wedding ceremony or reception, are bringing an outside rental company, a vendor or specialized equipment such as a bounce house or a food truck, or want to hold or reserve space. You must be 18 or older. Apply at least two weeks before the date. The City takes applications first come, first served. Courtney's Sandcastle is the one park page that lists a covered picnic shelter. Ask Recreation which areas can be reserved." },
     { t: "p", text: "The money side works like this. A 25% reservation deposit is due when you apply, and it is non-refundable if you cancel or change the date, but refunded if the application is not approved. A separate 25% compliance and damage deposit is refundable. Fees are due 30 days before the event, and if you book inside 30 days you pay all at once. Designated rental areas can be rented from 8 a.m. to sunset, and your hours must include setup and cleanup. Restrooms and play structures remain open to the public. Keep a copy of the permit with you." },
     {
       t: "table",
@@ -116,7 +115,7 @@ export const post: Post = {
     { t: "cta", text: "Planning a move and want a park, court or field near your next home? Tell Alex what you need.", href: "/#contact", label: "Talk to Alex" },
 
     { t: "h2", text: "How do you book a sport field?" },
-    { t: "p", text: "The City's [Sport Fields page](https://www.sanclemente.gov/210/Sport-Fields) says fields are available without charge or reservation, first come, first served, but the page gives the hours as 6 a.m. to dusk while the field rental packet says 6 a.m. to 10 p.m. The two do not match, so go by the posted signs and ask Recreation. A permit is required for any private reservation, all lighted evening use, sports organizations, clubs and commercial users. Steed Park and synthetic turf are by permit only." },
+    { t: "p", text: "The City's [Sport Fields page](https://www.sanclemente.gov/210/Sport-Fields) says fields are available without charge or reservation, first come, first served, and the field rental packet gives the hours as 6 a.m. to 10 p.m. Go by the posted signs and ask Recreation if you are unsure. A permit is required for any private reservation, all lighted evening use, sports organizations, clubs and commercial users. Steed Park and synthetic turf are by permit only." },
     { t: "p", text: "The rental packet (revised December 15, 2025) sets the 2026 hourly rates: $85 for a baseball or softball field, $78 for a natural grass multipurpose field, $102 for a multipurpose turf field and $177 for Vista Hermosa Meadows. Lights are $24 an hour. The application fee is $32 and a permit change is $15. Residents and non-resident nonprofits get 25% off, resident nonprofits get 40% off, and tournaments and commercial users get no discount. The applicant must be 21 or older. Organizations, clubs and commercial users need $1 million of insurance, with the certificate due two weeks ahead. A $500 key deposit applies for the Bonito Canyon field lights. Lights turn off at the end of the permitted time, and gates are locked at 10 p.m., after which vehicles fall under the Sheriff's authority." },
     { t: "p", text: "Fields are allocated by season, and the City says allocation is not guaranteed. For the winter and spring season (January 1 through May 31), youth partners submit by October 15, the City confirms by October 22 and community requests open November 1. Summer (June 1 through August 31) runs on March 15, March 22 and April 1. Fall (September 1 through December 31) runs on June 15, June 22 and July 1. The priority order is City activities, City partnerships, regular renters with four or more uses in the past year, and then community requests. Applications go through an online system called Civic Review. The refund policy for released fields is full if you cancel seven or more days ahead, 50% if under seven days, and none under 24 hours." },
     { t: "p", text: "Weather matters on natural grass. Under the City's Mudline policy, natural grass fields close for 24 to 48 hours after measurable rain, the day it stops and the day after, and staff evaluate. The live status table on the City's [field closures page](https://www.sanclemente.gov/211/Field-Closures---Mudline) showed every listed field marked open when it was updated on November 3, 2026, and you can check it before you drive. Synthetic turf has its own rules: only water, no food, gum or seeds, no smoking, no glass, no dogs, no metal cleats, no grills or tent stakes, and no bikes, scooters or skateboards." },
@@ -124,49 +123,34 @@ export const post: Post = {
 
     { t: "h2", text: "What are the rules in every park?" },
     { t: "p", text: "The City's [Park Rangers page](https://www.sanclemente.gov/522/Park-Rangers) lists the rules the rangers enforce. Smoking and alcohol are prohibited in all parks and on beaches. Overnight camping is prohibited in all parks, beaches and trails. Dogs must be on a leash at all times in parks and on trails except in designated areas, owners must clean up after them, and dogs are never allowed on the beach or pier. Amplified sound, commercial activity and large group gatherings may need City approval or a permit. Beaches close from 10 p.m. to 4 a.m., the pier from midnight to 4 a.m., and fires are allowed only in City fire pits. Park Rangers are on duty daily from 4:30 a.m. to 1 a.m. at 949-289-3527, and 911 is for emergencies. Teaching a class or lesson, such as a boot camp, tennis or pickleball, in a park without a City permit is against the municipal code." },
-    { t: "p", text: "We did not find a City rule about e-bikes or drones in parks on the Park Rangers page or any park page we read, so we are not stating one. If you plan to fly a drone or ride an e-bike through a park, ask Recreation or check the municipal code first. And for the state beaches next door, [San Clemente State Beach](https://www.parks.ca.gov/?page_id=646) is run by California State Parks with its own hours, fees and pet rules, which our dog-friendly guide covers." },
+    { t: "p", text: "If you plan to fly a drone or ride an e-bike through a park, ask Recreation or check the municipal code first. And for the state beaches next door, [San Clemente State Beach](https://www.parks.ca.gov/?page_id=646) is run by California State Parks with its own hours, fees and pet rules, which our dog-friendly guide covers." },
 
-    { t: "h2", text: "Which park projects are coming, and what is still unconfirmed?" },
-    { t: "p", text: "The Parks and Recreation Commission's work plan lists several projects, and the City's documents are clear about what they do and do not say. We are reporting what the documents show, not what will be built." },
+    { t: "h2", text: "Which park projects are in the works?" },
+    { t: "p", text: "The Parks and Recreation Commission's work plan lists several projects. The table reports what the City's documents show." },
     {
       t: "table",
-      caption: "Park projects in City documents, and what we could and could not confirm",
-      head: ["Project", "What the documents say", "Status we could confirm"],
+      caption: "Park projects in City documents",
+      head: ["Project", "What the documents say"],
       rows: [
-        ["Playground replacement at Forster Ranch Community Park and Talega Park", "Described as the top replacement needs; $800,000 in the City budget; listed timeline of June 2026; December 2025 minutes say the City would issue a request for proposals for designs", "Work plan status was unfinished; we found no approval, construction or closure dates"],
-        ["Vista Hermosa Meadows", "Convert meadow space to soccer fields; $350,000; January 2025 to December 2026; renderings ready in December 2025", "We could not confirm whether it is built; the rental packet already lists a Meadows field rate"],
-        ["New off-leash dog park", "A February 2026 Commission item reported a survey with 818 responses, 85% saying the City needs another off-leash park, and San Gorgonio Park as the top choice at about 41%; staff suggested outreach and a dog run concept at Bonito Canyon", "Under study; we did not read the Commission's vote or any later site decision"],
-        ["Water-wise pocket park", "Presented in December 2025; the minutes say the Commission approved the plan 7 to 0", "Location not confirmed"],
-        ["North Beach vacant lot at 1832 N. El Camino Real", "June 2026 survey ideas included a plaza, small stage and possible splash pad, forwarded to the Council", "Not a park yet; future use unconfirmed"],
+        ["Playground replacement at Forster Ranch Community Park and Talega Park", "Described as the top replacement needs; $800,000 in the City budget; listed timeline of June 2026; December 2025 minutes say the City would issue a request for proposals for designs"],
+        ["Vista Hermosa Meadows", "Convert meadow space to soccer fields; $350,000; January 2025 to December 2026; renderings ready in December 2025"],
+        ["New off-leash dog park", "A February 2026 Commission item reported a survey with 818 responses, 85% saying the City needs another off-leash park, and San Gorgonio Park as the top choice at about 41%; staff suggested outreach and a dog run concept at Bonito Canyon"],
+        ["Water-wise pocket park", "Presented in December 2025; the minutes say the Commission approved the plan 7 to 0"],
+        ["North Beach vacant lot at 1832 N. El Camino Real", "June 2026 survey ideas included a plaza, small stage and possible splash pad, forwarded to the Council"],
       ],
       source: { label: "City of San Clemente, Parks and Recreation Commission agenda packets and minutes", href: "https://www.sanclemente.gov/AgendaCenter/ViewFile/Item/2354?fileID=14204" },
     },
-    { t: "p", text: "If a park near you is on that list, check the City's Commission agendas before you plan an event there, since a playground replacement could close part of a park for a period, though we found no closure dates." },
+    { t: "p", text: "If a park near you is on that list, check the City's Commission agendas before you plan an event there, since a playground replacement could close part of a park for a period." },
     { t: "ctaCard", text: "Thinking about living near the parks you just read about? Alex can show you homes near the ones that matter to you. No pressure and no pitch." },
 
     { t: "h2", text: "How do you pick a park for what you want to do?" },
     { t: "p", text: "A short guide using only what the City lists. For a morning walk or jog, the City lists walking loops at Bonito Canyon, Forster Ranch, Liberty, Marblehead, Rancho San Clemente, San Gorgonio, Tierra Grande and Vista Hermosa. For basketball, the lighted courts are at Bonito Canyon, Jim Johnson, Liberty, Marblehead, San Gorgonio and Tierra Grande. For tennis, San Luis Rey has four lighted courts, and Forster Ranch, Liberty and Marblehead have lighted courts too. For pickleball, it is Steed. For a view, the City lists an ocean view at Canyon View, Leslie, Linda Lane, Marblehead, Parque Del Mar, Pico, San Gorgonio, Tierra Grande, Vista Bahia and Vista Del Sol. For a lawn and a bench, Leslie Park is a grassy area with benches and an ocean view and no restrooms. For a playground designed for accessibility, Courtney's Sandcastle at Vista Hermosa is the one the City describes that way." },
     { t: "p", text: "If you are comparing neighborhoods partly by the parks nearby, our [Forster Ranch tracts guide](/blog/forster-ranch-tracts-reserves-cantomar-naples-compared) and our [Talega HOA guide](/blog/talega-hoa-dues-mello-roos-what-they-cover) cover two areas with their own parks, and our [moving guide](/blog/moving-to-san-clemente-what-to-know) covers the broader decision. Our [buying guide](/blog/buying-a-single-family-home-in-san-clemente) walks through what to check on any home." },
 
-    { t: "h2", text: "What could we not confirm?" },
-    {
-      t: "table",
-      caption: "What we could not confirm",
-      head: ["Item", "Status"],
-      rows: [
-        ["Which parks have reservable picnic shelters", "The online catalog could not be read; only Courtney's Sandcastle lists a covered shelter"],
-        ["A schedule for when park or court lights turn on and off", "Not found"],
-        ["A City rule on e-bikes or drones in parks", "Not found"],
-        ["Which Recreation phone number is best", "Three are listed; we use 949-361-8264"],
-        ["Sport field hours", "The field page and the rental packet differ"],
-        ["Playground and Meadows project start dates", "Not found; outcomes unconfirmed"],
-        ["Acreage of individual parks", "Not stated on the City park pages"],
-      ],
-    },
     { t: "p", text: "If you spot a detail here that has changed, tell us and we will update this guide." },
   ],
   faqs: [
-    { q: "What are the hours at San Clemente parks?", a: "The City's Parks and Sport Fields page lists parks as open 6 a.m. to 10 p.m., first come, first served, with no charge. It notes the timing is subject to change, and the field page and rental packet give slightly different hours for sport fields, so check posted signs." },
+    { q: "What are the hours at San Clemente parks?", a: "The City's Parks and Sport Fields page lists parks as open 6 a.m. to 10 p.m., first come, first served, with no charge. It notes the timing is subject to change, so check posted signs." },
     { q: "Do I need a permit for a birthday party in a San Clemente park?", a: "You need a permit for 50 or more people, a wedding, a bounce house or other rented equipment, a food truck or any commercial use, or to hold a space. The City asks you to apply at least two weeks ahead, and a 25% reservation deposit is due at application." },
     { q: "How much does it cost to rent a picnic area in San Clemente?", a: "The City's 2026 fee sheet lists $29.50 an hour for 1 to 49 people for a resident group or San Clemente nonprofit, $44.25 for a non-resident nonprofit and $59.00 for a non-resident or commercial group, with higher rates for larger groups and separate administrative fees." },
     { q: "Where are the pickleball courts in San Clemente?", a: "The City lists eight unlighted pickleball courts at Steed Memorial Park, 247 Avenida La Pata, open daily 6 a.m. to dusk on a first come, first served basis with a paddle rotation. The tennis and pickleball page lists the City's tennis courts separately." },

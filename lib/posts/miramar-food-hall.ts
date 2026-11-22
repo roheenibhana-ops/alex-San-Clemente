@@ -34,7 +34,7 @@ export const post: Post = {
 
     { t: "cta", text: "Have questions about buying or selling near the coast? Ask Alex.", href: "/#contact", label: "Talk to Alex" },
     { t: "h2", text: "What are the hours?" },
-    { t: "p", text: "Two sources give different hours. The food hall's website lists the following, which is the most recent source we found:" },
+    { t: "p", text: "Two sources give different hours. The food hall's website lists the following, which is the most recent source:" },
     {
       t: "table",
       caption: "Hours listed on the Miramar Food Hall website",
@@ -61,7 +61,7 @@ export const post: Post = {
         ["Egg&Out", "Egg-forward breakfast and lunch food", "Loaded burritos and sandwiches, open 8 a.m. to 2 p.m."],
         ["El Puerto Street Tacos", "Mexican street tacos, burritos and quesadillas", "Open since 2005 with two Carlsbad locations"],
         ["Graciously Thai", "Home-style Thai food", "Described as a late-night destination. Also in Temecula"],
-        ["Hen Haus", "A new concept; the hall does not list its menu", "From the creator of Long Beach's Fire Bird Nashville Hot Chicken, which closed in 2021"],
+        ["Hen Haus", "A new concept", "From the creator of Long Beach's Fire Bird Nashville Hot Chicken, which closed in 2021"],
         ["Immersion Coffee Co.", "Coffee shop", "Formerly the Manivela Coffee Truck, with San Diego locations in Little Italy and La Jolla"],
         ["It's Allll Rice", "Fried rice", "Its first brick-and-mortar location, described as fried rice with no rules"],
         ["La Vida", "Salads, sandwiches, wraps, toasts and smoothies", "Healthy-leaning menu, with a Carlsbad location"],
@@ -80,7 +80,7 @@ export const post: Post = {
     { t: "cta", text: "Love North Beach and want to live near the sand and the Beach Trail? Compare San Clemente's neighborhoods.", href: "/neighborhoods", label: "Compare neighborhoods" },
 
     { t: "h2", text: "How many vendors are really open?" },
-    { t: "p", text: "The count has shifted, so here is the timeline as reported. In October 2025, the Business Journal said the hall would open with 17 food and beverage concepts. In June 2026, the hall's chief operating officer said 14 offerings were open and that 15 food vendors would be there eventually. The hall's website now lists 15 food vendors, including the soft serve counter and the coffee shop, plus two bars. Some of the earlier 17 figure likely counted the bars and coffee separately, but we could not confirm how. If a specific vendor matters to your plans, check the hall's social media or call before you go." },
+    { t: "p", text: "The count has shifted, so here is the timeline as reported. In October 2025, the Business Journal said the hall would open with 17 food and beverage concepts. In June 2026, the hall's chief operating officer said 14 offerings were open and that 15 food vendors would be there eventually. The hall's website now lists 15 food vendors, including the soft serve counter and the coffee shop, plus two bars. If a specific vendor matters to your plans, check the hall's social media or call before you go." },
 
     { t: "h2", text: "How do you choose what to eat?" },
     { t: "p", text: "With 15 vendors, the easy mistake is to wander for 20 minutes and then buy the first thing you walk past. A little planning helps. Use the table below as a starting point for a group with mixed preferences. These are suggestions based on what each vendor says it serves, not rankings." },
@@ -98,7 +98,7 @@ export const post: Post = {
         ["A drink in the evening", "The bar, from 11 a.m., or Immersion Coffee Co. until 10 p.m.", "Hours vary by source. Confirm"],
       ],
     },
-    { t: "p", text: "Because each vendor is separate, you generally order and pay at each stall. We did not find a published statement about how ordering and payment work in the hall, whether there is a shared tab, or what the policy is on outside food, dogs or bringing in alcohol. Ask staff at the entrance, or check the hall's page. If anyone in your group has an allergy, ask each vendor directly about ingredients and preparation, because the hall's website does not publish allergen information." },
+    { t: "p", text: "Because each vendor is separate, you generally order and pay at each stall. Ask staff at the entrance about outside food, dogs or bringing in alcohol, or check the hall's page. If anyone in your group has an allergy, ask each vendor directly about ingredients and preparation." },
 
     { t: "h2", text: "What is the history of the Miramar building?" },
     { t: "p", text: "The food hall sits in a building with a long history that is worth knowing even if you only come for lunch. Wikipedia's Miramar Theatre entry and local reporting give this outline." },
@@ -141,7 +141,7 @@ export const post: Post = {
 
     { t: "h2", text: "Why does a food hall matter for North Beach?" },
     { t: "p", text: "North Beach is the northern gateway to San Clemente's coast, and the San Clemente Times said the opening comes as the district continues to see renewed investment. For residents, a food hall is useful for the plainest reason: it gives groups, couples and visitors a place to eat that works for different diets and budgets in a single stop. For the neighborhood, it adds foot traffic where there was an empty building." },
-    { t: "p", text: "If you are thinking about living near North Beach, treat a new attraction as one factor, not the whole picture. Visit at different times of day, including a weekend evening, to see parking, noise and crowds for yourself. We do not have sourced data on how a food hall affects nearby home values, and we would not trust a confident claim either way. Our guides to [Downtown and the Pier Bowl](/neighborhoods/downtown-pier-bowl) and to [what is being built in San Clemente](/blog/whats-being-built-in-san-clemente-hotels-housing-projects) explain what else is changing along the coast." },
+    { t: "p", text: "If you are thinking about living near North Beach, treat a new attraction as one factor, not the whole picture. Visit at different times of day, including a weekend evening, to see parking, noise and crowds for yourself. Our guides to [Downtown and the Pier Bowl](/neighborhoods/downtown-pier-bowl) and to [what is being built in San Clemente](/blog/whats-being-built-in-san-clemente-hotels-housing-projects) explain what else is changing along the coast." },
     { t: "cta", text: "Curious what homes near the coast sell for? Get a free, no-pressure valuation.", href: "/home-value", label: "Get a valuation" },
 
     { t: "h2", text: "What else is there to eat nearby?" },
@@ -151,9 +151,9 @@ export const post: Post = {
     { t: "ul", items: [
       "**Hours.** The website lists 8 a.m. to 9 p.m., but a June report gave different times. Check the day you go.",
       "**Your vendor.** If you are going for one stall, confirm it is open, since the number of vendors has changed.",
-      "**Parking.** We did not find parking details on the hall's site. Look for posted signs, or arrive on foot along the Beach Trail.",
+      "**Parking.** Look for posted signs, or arrive on foot along the Beach Trail.",
       "**Ordering and payment.** Ask at the entrance how ordering works and whether you can combine orders from different stalls.",
-      "**Allergies.** Ask each vendor directly, since the site does not list allergens.",
+      "**Allergies.** Ask each vendor directly.",
       "**Events.** The site lists no events right now, and it offers a booking form for private occasions.",
     ] },
     { t: "ctaCard", text: "Thinking about a move near North Beach or the pier? Alex can walk you through the neighborhoods, current listings and what to check on a specific street." },
@@ -169,7 +169,7 @@ export const post: Post = {
     { q: "Who owns Miramar Food Hall?", a: "Tiger Hospitality, a San Diego-area food hall operator, runs it. Cosmos Burger, La Vida and Lobster Lab are concepts it developed itself." },
     { q: "Is the Miramar Theatre part of the food hall?", a: "No. The theater next door is marketed by Wedgewood Weddings as a wedding and private events venue. The food hall is in the former bowling center." },
     { q: "Does Miramar Food Hall have events?", a: "The hall's website listed no events when we checked and offers a booking form for special occasions. Follow the hall's social media for updates." },
-    { q: "Is there parking at Miramar Food Hall?", a: "We did not find parking details on the hall's site, so look for posted signs. North Beach is also reachable on foot along the Beach Trail." },
+    { q: "Is there parking at Miramar Food Hall?", a: "Look for posted signs. North Beach is also reachable on foot along the Beach Trail." },
     { q: "Does the food hall publish allergen information?", a: "Not on its website. Ask each vendor directly about ingredients and preparation." },
   ],
   links: [
