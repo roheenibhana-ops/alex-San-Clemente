@@ -77,6 +77,7 @@ export default function BlogIndex({ page }: { page: number }) {
               caption="Start with the topic that fits you"
               head={["If you're...", "Start here", "What it covers"]}
               rows={[
+                ["Buying into an HOA", "[San Clemente HOA guide](/blog/san-clemente-hoa-guide-documents-reserves-assessments-lender-review)", "The resale package, reserves and percent funded, assessment limits, fines and how lenders review an association"],
                 ["Visiting or fishing the pier", "[San Clemente Pier guide](/blog/san-clemente-pier-guide-hours-fishing-license-lobster-season-parking-history)", "Hours, the posted rules, fishing without a license, lobster season, parking and the pier's history"],
                 ["Selling a long-held home and moving (Prop 19)", "[Moving or downsizing at 55 and older](/blog/moving-from-a-san-clemente-home-at-55-prop-19-capital-gains-hoa-age-rules-financing)", "Prop 19 base year transfer, the claim form, capital gains, 55+ HOA rules and financing basics"],
                 ["Planning a winter beach day or a whale trip", "[Winter at the beach](/blog/winter-at-the-beach-san-clemente-gray-whales-king-tides-water-safety)", "Gray whale season, king tide dates, the 72-hour rain rule, lifeguard hours and water safety"],

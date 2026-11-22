@@ -51,7 +51,7 @@ export const post: Post = {
         ["Mortgage principal and interest", "Your lender can show scenarios at different rates and down payments"],
         ["Property taxes", "Generally start from the purchase price; some areas add local assessments"],
         ["Homeowners insurance", "Get quotes early, especially for hillside or coastal homes"],
-        ["HOA dues", "Common in master-planned communities; ask what they cover"],
+        ["HOA dues", "Common in master-planned communities; ask what they cover (see our [HOA guide](/blog/san-clemente-hoa-guide-documents-reserves-assessments-lender-review) for the documents, reserves and lender review)"],
         ["Maintenance and repairs", "Set aside a reserve; coastal air and older systems add up"],
         ["Closing costs", "Lender, title, escrow, and recording fees, among others"],
       ],

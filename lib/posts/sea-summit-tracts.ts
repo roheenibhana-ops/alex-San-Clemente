@@ -13,7 +13,7 @@ export const post: Post = {
   takeaways: [
     "[Sea Summit](/neighborhoods/sea-summit) is a master-planned community on the former Marblehead Coastal property, built as four neighborhoods: **Azure, Aqua, Sapphire and Indigo**.",
     "Sources put the community at roughly **309 to 320 homes**, with residences ranging from about **2,212 to 4,710 square feet**. Indigo's plans are described as larger.",
-    "Recent listings have shown **HOA dues around $330 to $340 per month**, and the community also carries a **Mello-Roos** special tax. Always confirm the current figures for the exact home.",
+    "Recent listings have shown **HOA dues around $330 to $340 per month**, and the community also carries a **Mello-Roos** special tax. Always confirm the current figures for the exact home, and see our [HOA guide](/blog/san-clemente-hoa-guide-documents-reserves-assessments-lender-review) for what the association's documents must show.",
     "Shared amenities include a clubhouse, resort-style pool, spa and fitness center, about **four miles of walking trails**, a native preserve and Ocean View Park.",
     "Views vary lot by lot, so the right tract depends on the exact home, not the name on the map.",
   ],

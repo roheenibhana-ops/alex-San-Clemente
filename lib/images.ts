@@ -185,6 +185,10 @@ export const images: Record<string, Img> = {
     src: "/images/blog/san-clemente-pier-guide-hours-fishing-license-lobster-season-parking-history.jpg",
     alt: "Aerial of the San Clemente Pier restaurants with blue umbrella decks over the sand and surf",
   },
+  "post:san-clemente-hoa-guide-documents-reserves-assessments-lender-review": {
+    src: "/images/blog/san-clemente-hoa-guide-documents-reserves-assessments-lender-review.jpg",
+    alt: "Aerial view of a community clubhouse, lap pool and two tennis courts among hillside homes",
+  },
   "post:property-taxes-and-insurance-on-a-2-million-san-clemente-home": {
     src: "/images/blog/property-taxes-and-insurance-on-a-2-million-san-clemente-home.jpg",
     alt: "Aerial view at dusk of a winding residential street lined with tile-roof homes, pools and palm trees, with lit windows and brown hills behind",
