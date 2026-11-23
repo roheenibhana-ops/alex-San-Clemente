@@ -108,7 +108,7 @@ export const post: Post = {
 
     { t: "h2", text: "What is on the pier, and what events are there?" },
     { t: "p", text: "The City lists its beach concessions as privately contracted, and tells readers to contact each directly for hours. On the pier it lists Fisherman's Bar and Restaurant and The Crab Pot Restaurant and Beach Eatery, both with the same phone number, 949-498-6390, and at T-Street it lists West Toast Cafe at 949-779-5237. Our [new restaurants guide](/blog/new-restaurants-in-san-clemente-2026-whats-open-and-whats-coming) and [Miramar Food Hall guide](/blog/miramar-food-hall-san-clemente-vendors-hours-what-to-know) cover other places to eat nearby." },
-    { t: "p", text: "The Pier Bowl is also the setting for the town's biggest summer event, the Ocean Festival, which listings place in the pier area. Check the City's calendar for dates. Our [Beach Trail guide](/blog/san-clemente-beach-trail-guide) covers the walk along the coast from the pier." },
+    { t: "p", text: "The Pier Bowl is also the setting for the town's biggest summer event, the Ocean Festival, which listings place in the pier area. Check the City's calendar for dates. Our [Beach Trail guide](/blog/san-clemente-beach-trail-guide) covers the walk along the coast from the pier. Above the pier, Casa Romantica is open to visitors; see our [Casa Romantica guide](/blog/casa-romantica-cultural-center-and-gardens-guide-hours-admission-history)." },
     { t: "ctaCard", text: "Thinking about living near the pier? Alex can show you what the Pier Bowl is like and what to check before you buy. No pressure and no pitch." },
 
     { t: "h2", text: "What should you know about safety and closures?" },

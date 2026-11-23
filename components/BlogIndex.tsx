@@ -77,6 +77,7 @@ export default function BlogIndex({ page }: { page: number }) {
               caption="Start with the topic that fits you"
               head={["If you're...", "Start here", "What it covers"]}
               rows={[
+                ["Visiting Casa Romantica", "[Casa Romantica guide](/blog/casa-romantica-cultural-center-and-gardens-guide-hours-admission-history)", "Hours, admission, the house's history, gardens, programs, rentals and the slope repair"],
                 ["Buying into an HOA", "[San Clemente HOA guide](/blog/san-clemente-hoa-guide-documents-reserves-assessments-lender-review)", "The resale package, reserves and percent funded, assessment limits, fines and how lenders review an association"],
                 ["Visiting or fishing the pier", "[San Clemente Pier guide](/blog/san-clemente-pier-guide-hours-fishing-license-lobster-season-parking-history)", "Hours, the posted rules, fishing without a license, lobster season, parking and the pier's history"],
                 ["Selling a long-held home and moving (Prop 19)", "[Moving or downsizing at 55 and older](/blog/moving-from-a-san-clemente-home-at-55-prop-19-capital-gains-hoa-age-rules-financing)", "Prop 19 base year transfer, the claim form, capital gains, 55+ HOA rules and financing basics"],

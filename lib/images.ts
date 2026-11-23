@@ -189,6 +189,10 @@ export const images: Record<string, Img> = {
     src: "/images/blog/san-clemente-hoa-guide-documents-reserves-assessments-lender-review.jpg",
     alt: "Aerial view of a community clubhouse, lap pool and two tennis courts among hillside homes",
   },
+  "post:casa-romantica-cultural-center-and-gardens-guide-hours-admission-history": {
+    src: "/images/blog/casa-romantica-cultural-center-and-gardens-guide-hours-admission-history.jpg",
+    alt: "Aerial of the San Clemente Pier, beach and shoreline",
+  },
   "post:property-taxes-and-insurance-on-a-2-million-san-clemente-home": {
     src: "/images/blog/property-taxes-and-insurance-on-a-2-million-san-clemente-home.jpg",
     alt: "Aerial view at dusk of a winding residential street lined with tile-roof homes, pools and palm trees, with lit windows and brown hills behind",

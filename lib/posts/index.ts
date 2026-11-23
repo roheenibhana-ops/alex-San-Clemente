@@ -1,3 +1,4 @@
+import { post as casaGuide } from "./casa-romantica-guide";
 import { post as hoaGuide } from "./hoa-guide";
 import { post as pierGuide } from "./pier-guide";
 import { post as prop19 } from "./prop-19-55-plus";
@@ -35,7 +36,7 @@ import type { Post } from "./types";
 export type { Post, Block } from "./types";
 
 // Newest first. Posts share dates, so array order breaks ties: add new posts at the front.
-export const posts: Post[] = [hoaGuide, pierGuide, prop19, winterBeach, commutingGuide, parksGuide, melloRoos, dogFriendly, coastalChecks, selling, newRestaurants, adu, miramar, propertyTaxes, veterans, whatsBuilt, olympics, thanksgiving, christmas, forsterTracts, halloween, seaPointe, shorecliffsClub, talegaHoa, seaSummitTracts, marketUpdate, peerCities, moving, buying, pierBowlVsTalega, beachTrail, pickABeach];
+export const posts: Post[] = [casaGuide, hoaGuide, pierGuide, prop19, winterBeach, commutingGuide, parksGuide, melloRoos, dogFriendly, coastalChecks, selling, newRestaurants, adu, miramar, propertyTaxes, veterans, whatsBuilt, olympics, thanksgiving, christmas, forsterTracts, halloween, seaPointe, shorecliffsClub, talegaHoa, seaSummitTracts, marketUpdate, peerCities, moving, buying, pierBowlVsTalega, beachTrail, pickABeach];
 
 export function getPost(slug: string) {
   return posts.find((p) => p.slug === slug);
