@@ -116,6 +116,7 @@ export const post: Post = {
     },
     { t: "p", text: "Mello-Roos sits on top of those figures, and because it's billed with the property tax bill, it's easy to miss when you're only reading the listing. The cleanest approach is to ask the seller or your agent for the most recent property tax bill and read every line. The [Orange County Treasurer-Tax Collector](https://www.octreasurer.gov/) can help you understand how bills are structured." },
 
+    { t: "p", text: "Many Talega roofs carry solar, and the billing, lease, lender and association rules for those homes are in our [solar panels buying and selling guide](/blog/buying-or-selling-a-san-clemente-home-with-solar-panels-net-billing-lease-ppa-property-tax-hoa)." },
     { t: "ctaCard", text: "Looking at a Talega home? Alex can pull the exact HOA and Mello-Roos figures for a specific address." },
     { t: "h2", text: "The rules that come with the amenities" },
     { t: "p", text: "Talega's amenities come with rules: architectural guidelines apply to patio covers, decks, landscaping and exterior color changes, and unauthorized changes can be ordered corrected or removed and may lead to fines, according to a local guide. A planned community gives you shared amenities and a consistent look, and in exchange there are rules." },

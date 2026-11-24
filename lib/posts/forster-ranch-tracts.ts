@@ -230,6 +230,7 @@ export const post: Post = {
       "One is in a gated Reserve with a monthly HOA, and the other is in an older tract with no gate and lower dues. On paper they look the same. After the buyer adds up the HOA, the commute and what each street feels like in the evening, the choice becomes clear.",
       "The lesson: in Forster Ranch the tract matters as much as the house.",
     ] },
+    { t: "p", text: "If a Forster Ranch home has panels on the roof, see our [solar panels guide](/blog/buying-or-selling-a-san-clemente-home-with-solar-panels-net-billing-lease-ppa-property-tax-hoa) for the ownership, lender and HOA questions." },
     { t: "ctaCard", text: "Not sure which Forster Ranch tract fits? Alex can compare two or three for you, with current dues and recent sales." },
     { t: "h2", text: "How does Forster Ranch compare with other San Clemente neighborhoods?" },
     { t: "p", text: "Forster Ranch is hillside, master-planned and car-dependent, with a Redfin Walk Score of about 11. If you want to walk to the pier, our guide to [Downtown and the Pier Bowl](/neighborhoods/downtown-pier-bowl) is a better fit. If you want a newer coastal community with an amenity club, see our [Sea Summit tract comparison](/blog/sea-summit-azure-aqua-sapphire-indigo-compared). If gates and large lots appeal, our [Sea Pointe Estates guide](/blog/sea-pointe-estates-gated-community-san-clemente) covers another option. For the layers of cost in a larger master-planned community, see our [Talega HOA guide](/blog/talega-hoa-dues-mello-roos-what-they-cover)." },

@@ -107,6 +107,7 @@ export const post: Post = {
 
     { t: "h2", text: "Is a Mello-Roos tax tax-deductible?" },
     { t: "p", text: "Ask a tax professional. IRS Topic 503 says a real estate tax is deductible if it is assessed uniformly at a like rate on all real property throughout the community for general community purposes, and it lists taxes for local benefits as not deductible, unless they are for maintenance, repair or interest charges related to those benefits. IRS Publication 530 says similar things about assessments for local benefits. The Orange County Treasurer-Tax Collector's own [deduction guide](https://www.octreasurer.gov/sites/ttc/files/2021-01/Understanding_the_Real_Estate_Tax_Deduction.pdf) says special assessments, Mello-Roos and direct levies may not be deductible, and points readers to a tax preparer. Because part of a district's tax can fund maintenance or interest, the answer for your bill may be mixed. This is general information, not tax advice." },
+    { t: "p", text: "Homes with panels add other paperwork on top of the tax bill, covered in our [solar panels guide](/blog/buying-or-selling-a-san-clemente-home-with-solar-panels-net-billing-lease-ppa-property-tax-hoa)." },
     { t: "ctaCard", text: "Comparing a home with a special tax against one without? Alex can help you line up the all-in monthly numbers. No pressure and no pitch." },
 
     { t: "h2", text: "What should you ask before you buy?" },

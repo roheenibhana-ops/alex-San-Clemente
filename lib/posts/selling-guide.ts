@@ -124,6 +124,7 @@ export const post: Post = {
       "This is an illustration, not a real client. Two similar homes list on the same street in the same month. One lists at a price in line with recent nearby sales and has disclosures and permits ready, and it receives offers quickly. The other lists several percent higher, hoping for room to negotiate, sits for weeks, and takes two price cuts. The second seller may still sell, but the listing history and the lost weeks are costs of their own. The difference is not luck. It is the starting price, the preparation and the paperwork.",
     ] },
     { t: "p", text: "If you are also thinking about where to live next, our [neighborhoods overview](/neighborhoods) and [beaches guide](/lifestyle/beaches) can help you compare areas." },
+    { t: "p", text: "If your home has solar, gather the contract, permit sign-off and utility bills before listing; our [solar panels guide](/blog/buying-or-selling-a-san-clemente-home-with-solar-panels-net-billing-lease-ppa-property-tax-hoa) lists what buyers and lenders ask for." },
     { t: "ctaCard", text: "Thinking about selling a San Clemente home? Alex can walk you through the numbers, the paperwork and a pricing strategy for your street." },
   ],
   faqs: [
