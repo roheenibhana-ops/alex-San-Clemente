@@ -96,6 +96,7 @@ export const post: Post = {
       "After a few weeks, they know where the crossings are, which water fountains and restrooms they can rely on, and which stretches get busiest. They develop a routine of running early on weekdays and walking on weekends.",
       "For them, the trail turned into the anchor of their week. It's also what shaped their housing search: they started looking at neighborhoods closer to the Pier Bowl so they could start their run from the front door.",
     ] },
+    { t: "p", text: "For a winter day plan that includes camping and Trestles access, see our [December 2026 guide](/blog/san-clemente-in-december-2026-events-yellow-line-trolley-trestles-state-beach-winter-days)." },
     { t: "ctaCard", text: "Want to live within walking distance of the sand? Alex knows the streets." },
     { t: "h2", text: "What to bring" },
     { t: "p", text: "Bring water, a light layer, sunscreen and a hat, comfortable shoes, and a phone or camera." },

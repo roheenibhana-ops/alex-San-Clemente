@@ -78,6 +78,7 @@ export default function BlogIndex({ page }: { page: number }) {
               head={["If you're...", "Start here", "What it covers"]}
               rows={[
                 ["Visiting Casa Romantica", "[Casa Romantica guide](/blog/casa-romantica-cultural-center-and-gardens-guide-hours-admission-history)", "Hours, admission, the house's history, gardens, programs, rentals and the slope repair"],
+                ["Planning December events and winter beach days", "[San Clemente in December 2026](/blog/san-clemente-in-december-2026-events-yellow-line-trolley-trestles-state-beach-winter-days)", "Dated Casa Romantica and Pier events, the new Yellow Line trolley, street sweeping, Trestles access and State Beach camping"],
                 ["Buying or selling a home with solar panels", "[Solar panels guide](/blog/buying-or-selling-a-san-clemente-home-with-solar-panels-net-billing-lease-ppa-property-tax-hoa)", "SDG&E net billing and NEM transfer, owned vs leased vs PPA, lender rules, the property tax exclusion, HOA law and City permits"],
                 ["Buying into an HOA", "[San Clemente HOA guide](/blog/san-clemente-hoa-guide-documents-reserves-assessments-lender-review)", "The resale package, reserves and percent funded, assessment limits, fines and how lenders review an association"],
                 ["Visiting or fishing the pier", "[San Clemente Pier guide](/blog/san-clemente-pier-guide-hours-fishing-license-lobster-season-parking-history)", "Hours, the posted rules, fishing without a license, lobster season, parking and the pier's history"],

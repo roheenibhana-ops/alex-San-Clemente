@@ -111,6 +111,7 @@ export const post: Post = {
       source: { label: "Casa Romantica, Memberships", href: "https://www.casaromantica.org/donate/memberships/" },
     },
     { t: "p", text: "The Casa's membership page lists free daily admission, free weekly wellness classes from October to May, 10 percent off in the gift shop, up to 50 percent off professional photo sessions and free admission to roughly 300 gardens through the American Horticultural Society reciprocal admission program." },
+    { t: "p", text: "The December dates for the Nutcracker, Teddy Bear Tea and Christmas Nights are in our [December 2026 guide](/blog/san-clemente-in-december-2026-events-yellow-line-trolley-trestles-state-beach-winter-days)." },
     { t: "ctaCard", text: "Love the Pier Bowl's history and views? Alex can show you what is for sale near the Casa and the pier. No pressure and no pitch." },
 
     { t: "h2", text: "Can you hold an event at the Casa?" },

@@ -131,6 +131,7 @@ export const post: Post = {
       ],
     },
     { t: "p", text: "A note on sand. The City's 2021 Coastal Resiliency Plan describes an annual Winter Storm Berm Program, in which sand is pushed up the beach at very low tide, typically built in late November and kept until about early March, from roughly Linda Lane to south T-Street. Our [coastal home checks guide](/blog/buying-a-coastal-home-in-san-clemente-bluff-flood-tsunami-coastal-zone-checks) covers the City's coastal resiliency work and what it means for buyers. For storm beach closures, call Marine Safety or watch for posted notices." },
+    { t: "p", text: "For dated December events and a planning guide for Trestles, Surf Beach and State Beach camping, see our [December 2026 guide](/blog/san-clemente-in-december-2026-events-yellow-line-trolley-trestles-state-beach-winter-days)." },
     { t: "ctaCard", text: "Love the idea of a winter beach walk after work? Alex can show you homes near the coast and the Beach Trail. No pressure and no pitch." },
 
     { t: "h2", text: "How do you plan a winter beach day?" },

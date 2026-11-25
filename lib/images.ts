@@ -185,6 +185,10 @@ export const images: Record<string, Img> = {
     src: "/images/blog/san-clemente-pier-guide-hours-fishing-license-lobster-season-parking-history.jpg",
     alt: "Aerial of the San Clemente Pier restaurants with blue umbrella decks over the sand and surf",
   },
+  "post:san-clemente-in-december-2026-events-yellow-line-trolley-trestles-state-beach-winter-days": {
+    src: "/images/blog/san-clemente-in-december-2026-events-yellow-line-trolley-trestles-state-beach-winter-days.jpg",
+    alt: "Sunset over the ocean beside oceanfront buildings with red tile roofs",
+  },
   "post:buying-or-selling-a-san-clemente-home-with-solar-panels-net-billing-lease-ppa-property-tax-hoa": {
     src: "/images/blog/buying-or-selling-a-san-clemente-home-with-solar-panels-net-billing-lease-ppa-property-tax-hoa.jpg",
     alt: "Aerial view of rows of two-story homes with solar panels on the roofs, with open hillside behind",

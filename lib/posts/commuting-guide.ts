@@ -133,6 +133,7 @@ export const post: Post = {
       ],
     },
     { t: "p", text: "Our [buying guide](/blog/buying-a-single-family-home-in-san-clemente) says to time your commute at real hours, and this checklist is the longer version. If you are comparing areas, our [market update](/blog/san-clemente-housing-market-update-october-2026) shows where prices and inventory stand." },
+    { t: "p", text: "The City's new free Inland Yellow Line trolley is covered in our [December 2026 guide](/blog/san-clemente-in-december-2026-events-yellow-line-trolley-trestles-state-beach-winter-days)." },
     { t: "ctaCard", text: "Not sure how a commute fits the home you are looking at? Alex can help you plan a test drive and compare homes on the same measure. No pressure and no pitch." },
 
     { t: "p", text: "If a schedule or fee here has changed, tell us and we will update this guide." },
